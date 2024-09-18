@@ -124,13 +124,13 @@ footer {
 
 .rating label {
     font-size: 2rem;
-    color: #ccc;
+    color: #d4eb0d;
     cursor: pointer;
     transition: color 0.3s ease;
 }
 
 .rating input:checked ~ label {
-    color: #ffca28;
+    color: #c0c0c0;
 }
 
 @keyframes fadeIn {
