@@ -3,59 +3,129 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grill Timer App</title>
+    <meta name="description" content="Bewerte meine Apps und gib dein Feedback ab">
+    <title>App-Bewertungen</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            color: #333;
-            text-align: center;
-            padding: 50px;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
         }
-        h1 {
-            color: #d35400;
-        }
+
         .container {
             background-color: #fff;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            max-width: 600px;
-            margin: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 2rem;
+            max-width: 400px;
+            text-align: center;
         }
-        .app-description {
-            margin-top: 20px;
-            font-size: 18px;
+
+        h1 {
+            color: #333;
         }
-        .download-button {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 10px 20px;
-            background-color: #27ae60;
+
+        .app-select {
+            margin: 1rem 0;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: bold;
+        }
+
+        select, textarea, input[type="submit"] {
+            width: 100%;
+            padding: 0.5rem;
+            margin: 0.5rem 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .rating {
+            display: flex;
+            justify-content: space-between;
+            margin: 1rem 0;
+        }
+
+        .rating input {
+            display: none;
+        }
+
+        .rating label {
+            font-size: 2rem;
+            color: #ccc;
+            cursor: pointer;
+        }
+
+        .rating input:checked ~ label {
+            color: #ffca28;
+        }
+
+        input[type="submit"] {
+            background-color: #007bff;
             color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            font-size: 16px;
+            border: none;
+            cursor: pointer;
         }
-        .download-button:hover {
-            background-color: #2ecc71;
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
         }
+
         footer {
-            margin-top: 40px;
-            font-size: 14px;
+            margin-top: 1rem;
+            font-size: 0.8rem;
             color: #777;
         }
     </style>
 </head>
 <body>
+
     <div class="container">
-        <h1>Grill Timer App</h1>
-        <img src="https://via.placeholder.com/150" alt="Grill Timer Logo">
-        <p class="app-description">Die ultimative App, um deine Grillzeiten zu perfektionieren! Mit der Grill Timer App kannst du sicherstellen, dass dein Grillgut immer perfekt gegart wird.</p>
-        <a href="https://apps.apple.com/de/app/my-grill-timer-sorglos/id6670444680" class="download-button">Jetzt herunterladen</a>
+        <h1>Bewerte meine Apps</h1>
+
+        <form action="#" method="POST">
+            <div class="app-select">
+                <label for="app">Wähle eine App</label>
+                <select id="app" name="app">
+                    <option value="Grill Timer">Grill Timer</option>
+                    <option value="Babytracker">Babytracker</option>
+                    <option value="Wachstumstracker">Wachstumstracker</option>
+                </select>
+            </div>
+
+            <div class="rating">
+                <label for="star5" title="5 Sterne">★</label>
+                <input type="radio" id="star5" name="rating" value="5">
+                <label for="star4" title="4 Sterne">★</label>
+                <input type="radio" id="star4" name="rating" value="4">
+                <label for="star3" title="3 Sterne">★</label>
+                <input type="radio" id="star3" name="rating" value="3">
+                <label for="star2" title="2 Sterne">★</label>
+                <input type="radio" id="star2" name="rating" value="2">
+                <label for="star1" title="1 Stern">★</label>
+                <input type="radio" id="star1" name="rating" value="1">
+            </div>
+
+            <div>
+                <label for="feedback">Dein Feedback</label>
+                <textarea id="feedback" name="feedback" rows="4" placeholder="Deine Meinung zur App..."></textarea>
+            </div>
+
+            <input type="submit" value="Bewertung absenden">
+        </form>
+        
+        <footer>
+            <p>Danke für dein Feedback!</p>
+        </footer>
     </div>
-    <footer>
-        &copy; 2024 Sorglos Lack. Alle Rechte vorbehalten.
-    </footer>
+
 </body>
 </html>
