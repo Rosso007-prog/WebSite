@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Grill Timer App – Perfekt gegrilltes Fleisch dank des Timers">
+    <title>Grill Timer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            background-color: #007bff;
+            padding: 1rem;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 1rem;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 2rem;
+            max-width: 600px;
+            margin: 2rem auto;
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        .timer {
+            font-size: 2rem;
+            margin: 1.5rem 0;
+            padding: 1rem;
+            background-color: #f8f9fa;
+            border: 2px solid #007bff;
+            border-radius: 8px;
+        }
+
+        .controls {
+            display: flex;
+            justify-content: space-around;
+            margin: 2rem 0;
+        }
+
+        button {
+            background-color: #007bff;
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        footer {
+            margin-top: 2rem;
+            font-size: 0.8rem;
+            color: #777;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigationsleiste -->
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/MyGrillTimer/index.html">Grill Timer</a></li>
+            <li><a href="/Babytracker/index.html">Babytracker</a></li>
+            <li><a href="/Wachstumstracker/index.html">Wachstumstracker</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>Grill Timer</h1>
+        <p>Perfekt gegrilltes Fleisch dank unseres Timers.</p>
+
+        <div class="timer" id="timerDisplay">00:00</div>
+
+        <div class="controls">
+            <button onclick="startTimer()">Start</button>
+            <button onclick="stopTimer()">Stopp</button>
+            <button onclick="resetTimer()">Zurücksetzen</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>Genieße das perfekte Grillen mit dem Grill Timer!</p>
+    </footer>
+
+    <script>
+        let timer;
+        let seconds = 0;
+        let isRunning = false;
+
+        function updateTimerDisplay() {
+            const minutes = Math.floor(seconds / 60);
+            const displaySeconds = seconds % 60;
+            document.getElementById("timerDisplay").innerText =
+                String(minutes).padStart(2, '0') + ':' + String(displaySeconds).padStart(2, '0');
+        }
+
+        function startTimer() {
+            if (!isRunning) {
+                isRunning = true;
+                timer = setInterval(function() {
+                    seconds++;
+                    updateTimerDisplay();
+                }, 1000);
+            }
+        }
+
+        function stopTimer() {
+            clearInterval(timer);
+            isRunning = false;
+        }
+
+        function resetTimer() {
+            clearInterval(timer);
+            seconds = 0;
+            updateTimerDisplay();
+            isRunning = false;
+        }
+    </script>
+
+</body>
+</html>
