@@ -11,10 +11,33 @@
             background-color: #f4f4f9;
             margin: 0;
             padding: 0;
+        }
+
+        nav {
+            background-color: #007bff;
+            padding: 1rem;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
             display: flex;
             justify-content: center;
-            align-items: center;
-            height: 100vh;
+        }
+
+        nav ul li {
+            margin: 0 1rem;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
         }
 
         .container {
@@ -23,6 +46,7 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             padding: 2rem;
             max-width: 400px;
+            margin: 2rem auto;
             text-align: center;
         }
 
@@ -83,10 +107,21 @@
             margin-top: 1rem;
             font-size: 0.8rem;
             color: #777;
+            text-align: center;
         }
     </style>
 </head>
 <body>
+
+    <!-- Navigationsleiste -->
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/MyGrillTimer/index.html">Grill Timer</a></li>
+            <li><a href="/Babytracker/index.html">Babytracker</a></li>
+            <li><a href="/Wachstumstracker/index.html">Wachstumstracker</a></li>
+        </ul>
+    </nav>
 
     <div class="container">
         <h1>Bewerte meine Apps</h1>
