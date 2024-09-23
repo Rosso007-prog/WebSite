@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+     <!-- Menü wird über JavaScript aus dem Root-Verzeichnis geladen -->
+    <div id="menu"></div>
+
     <h1>Datenschutzerklärung</h1>
     <p>Diese Datenschutzerklärung informiert Sie über die Art, den Umfang und den Zweck der Erhebung und Verwendung personenbezogener Daten in unserer App "SteakGrillTimerApp".</p>
 
@@ -42,5 +45,12 @@
     <p>Wir behalten uns vor, diese Datenschutzerklärung bei Bedarf anzupassen, um Änderungen in der App oder den rechtlichen Vorgaben zu entsprechen.</p>
 
     <p>Stand der Datenschutzerklärung: 20.09.2024</p>
+
+      <!-- Menü aus dem Root-Verzeichnis über JavaScript laden -->
+    <script>
+        fetch('menu.html')
+            .then(response => response.text())
+            .then(data => document.getElementById('menu').innerHTML = data);
+    </script>
 </body>
 </html>
