@@ -15,15 +15,24 @@
     <div class="container">
         <h1>Support kontaktieren</h1>
 
-        <form action="#" method="POST">
+        <form id="supportForm" action="mailto:support@yourdomain.com" method="POST" enctype="text/plain">
             <div class="contact-info">
                 <label for="name">Dein Name</label>
                 <input type="text" id="name" name="name" placeholder="Dein Name" required>
             </div>
 
             <div class="contact-info">
-                <label for="email">sorgloslack@gmail.com</label>
-                <input type="email" id="email" name="email" placeholder="sorgloslack@gmail.com" required>
+                <label for="email">Deine E-Mail-Adresse</label>
+                <input type="email" id="email" name="email" placeholder="Deine E-Mail-Adresse" required>
+            </div>
+
+            <div class="app-select">
+                <label for="app">Wähle eine App</label>
+                <select id="app" name="app" required>
+                    <option value="Eieruhr Pro - Sorglos">Eieruhr Pro - Sorglos</option>
+                    <option value="My Grill Timer">My Grill Timer</option>
+                    <option value="Mein Malbuch - Sorglos">Mein Malbuch - Sorglos</option>
+                </select>
             </div>
 
             <div>
@@ -39,8 +48,14 @@
         </footer>
     </div>
 
-    <!-- JavaScript zum Laden des Menüs -->
+    <!-- JavaScript zum Laden des Menüs und Setzen des Betreffs -->
     <script>
+        document.getElementById('supportForm').addEventListener('submit', function(event) {
+            var app = document.getElementById('app').value;
+            var emailLink = 'mailto:support@yourdomain.com?subject=Support Anfrage für ' + encodeURIComponent(app);
+            this.setAttribute('action', emailLink);
+        });
+
         fetch('menu.html')
             .then(response => response.text())
             .then(data => document.getElementById('menu').innerHTML = data);
