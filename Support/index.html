@@ -15,7 +15,8 @@
     <div class="container">
         <h1>Support kontaktieren</h1>
 
-        <form id="supportForm" action="mailto:sorgloslack@gmail.com" method="POST" enctype="text/plain">
+        <!-- Dein Formspree-Link wurde hier eingefügt -->
+        <form id="supportForm" action="https://formspree.io/f/xovaogkr" method="POST">
             <div class="contact-info">
                 <label for="name">Dein Name</label>
                 <input type="text" id="name" name="name" placeholder="Dein Name" required>
@@ -48,14 +49,8 @@
         </footer>
     </div>
 
-    <!-- JavaScript zum Laden des Menüs und Setzen des Betreffs -->
+    <!-- JavaScript zum Laden des Menüs -->
     <script>
-        document.getElementById('supportForm').addEventListener('submit', function(event) {
-            var app = document.getElementById('app').value;
-            var emailLink = 'mailto:sorgloslack@gmail.com?subject=Support Anfrage für ' + encodeURIComponent(app);
-            this.setAttribute('action', emailLink);
-        });
-
         fetch('menu.html')
             .then(response => response.text())
             .then(data => document.getElementById('menu').innerHTML = data);
