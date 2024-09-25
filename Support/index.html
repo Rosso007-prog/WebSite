@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kontaktiere den Support für Hilfe oder Fragen">
+    <title>Support-Seite</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Menü wird über JavaScript geladen -->
+    <div id="menu"></div>
+
+    <div class="container">
+        <h1>Support kontaktieren</h1>
+
+        <!-- Dein Formspree-Link wurde hier eingefügt -->
+        <form id="supportForm" action="https://formspree.io/f/xovaogkr" method="POST">
+            <div class="contact-info">
+                <label for="name">Dein Name</label>
+                <input type="text" id="name" name="name" placeholder="Dein Name" required>
+            </div>
+
+            <div class="contact-info">
+                <label for="email">Deine E-Mail-Adresse</label>
+                <input type="email" id="email" name="email" placeholder="Deine E-Mail-Adresse" required>
+            </div>
+
+            <div class="app-select">
+                <label for="app">Wähle eine App</label>
+                <select id="app" name="app" required>
+                    <option value="Mein Malbuch - Sorglos">Mein Malbuch - Sorglos</option>
+                    <option value="Eieruhr Pro - Sorglos">Eieruhr Pro - Sorglos</option>
+                    <option value="My Grill Timer">My Grill Timer</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="message">Deine Nachricht</label>
+                <textarea id="message" name="message" rows="4" placeholder="Wie können wir dir helfen?" required></textarea>
+            </div>
+
+            <input type="submit" value="Nachricht senden">
+        </form>
+        
+        <footer>
+            <p>Wir freuen uns, dir helfen zu können!</p>
+        </footer>
+    </div>
+
+    <!-- JavaScript zum Laden des Menüs -->
+    <script>
+        fetch('menu.html')
+            .then(response => response.text())
+            .then(data => document.getElementById('menu').innerHTML = data);
+    </script>
+</body>
+</html>
