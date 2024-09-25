@@ -1,1 +1,66 @@
 
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bewerte meine Apps und gib dein Feedback ab">
+    <title>App-Bewertungen</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Menü wird über JavaScript geladen -->
+    <div id="menu"></div>
+
+    <div class="container">
+        <h1>Bewerte meine Apps</h1>
+
+        <form action="#" method="POST">
+            <div class="app-select">
+                <label for="app">Wähle eine App</label>
+                <select id="app" name="app">
+                    <option value="Grill Timer">Grill Timer</option>
+                    <option value="Eieruhr Pro-Sorglos">Eieruhr Pro-Sorglos</option>
+                    <option value="Wachstumstracker">Wachstumstracker</option>
+                </select>
+            </div>
+
+            <div class="rating">
+                <label for="star1" title="1 Stern">★</label>
+                <input type="radio" id="star1" name="rating" value="1">
+               
+                <label for="star2" title="2 Sterne">★</label>
+                <input type="radio" id="star2" name="rating" value="2">
+               
+                <label for="star3" title="3 Sterne">★</label>
+                <input type="radio" id="star3" name="rating" value="3">
+               
+                <label for="star4" title="4 Sterne">★</label>
+                <input type="radio" id="star4" name="rating" value="4">
+               
+                <label for="star5" title="5 Sterne">★</label>
+                <input type="radio" id="star5" name="rating" value="5">
+            </div>
+
+            <div>
+                <label for="feedback">Dein Feedback</label>
+                <textarea id="feedback" name="feedback" rows="4" placeholder="Deine Meinung zur App..."></textarea>
+            </div>
+
+            <input type="submit" value="Bewertung absenden">
+        </form>
+        
+        <footer>
+            <p>Danke für dein Feedback!</p>
+        </footer>
+    </div>
+
+    <!-- JavaScript zum Laden des Menüs -->
+    <script>
+        fetch('menu.html')
+            .then(response => response.text())
+            .then(data => document.getElementById('menu').innerHTML = data);
+    </script>
+</body>
+</html>
