@@ -15,7 +15,7 @@
     <div class="container">
         <h1>Support kontaktieren</h1>
 
-        <form id="supportForm" action="mailto:support@yourdomain.com" method="POST" enctype="text/plain">
+        <form id="supportForm" action="mailto:sorgloslack@gmail.com" method="POST" enctype="text/plain">
             <div class="contact-info">
                 <label for="name">Dein Name</label>
                 <input type="text" id="name" name="name" placeholder="Dein Name" required>
@@ -52,7 +52,7 @@
     <script>
         document.getElementById('supportForm').addEventListener('submit', function(event) {
             var app = document.getElementById('app').value;
-            var emailLink = 'mailto:support@yourdomain.com?subject=Support Anfrage für ' + encodeURIComponent(app);
+            var emailLink = 'mailto:sorgloslack@gmail.com?subject=Support Anfrage für ' + encodeURIComponent(app);
             this.setAttribute('action', emailLink);
         });
 
