@@ -36,7 +36,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #ffcc80; /* Heller Orange-Ton für Hover-Effekt */
+    color: #ffcc80; /* Heller Orange-Ton fÃ¼r Hover-Effekt */
 }
 
 .container {
@@ -79,7 +79,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #e67e22; /* Dunklerer Orange-Ton für Hover-Effekt */
+    background-color: #e67e22; /* Dunklerer Orange-Ton fÃ¼r Hover-Effekt */
 }
 
 .download-button {
@@ -96,17 +96,17 @@ input[type="submit"]:hover {
 }
 
 .download-button:hover {
-    background-color: #e67e22; /* Dunklerer Orange-Ton für Hover-Effekt */
-    transform: scale(1.05); /* Leichtes Vergrößern beim Hover */
+    background-color: #e67e22; /* Dunklerer Orange-Ton fÃ¼r Hover-Effekt */
+    transform: scale(1.05); /* Leichtes VergrÃ¶ÃŸern beim Hover */
 }
 
-/* Stil für das Bild */
+/* Stil fÃ¼r das Bild */
 img {
-    border-radius: 15px; /* Abgerundete Ecken für das Bild */
-    width: 100%; /* Sorgt dafür, dass das Bild in den Container passt */
+    border-radius: 15px; /* Abgerundete Ecken fÃ¼r das Bild */
+    width: 100%; /* Sorgt dafÃ¼r, dass das Bild in den Container passt */
     max-width: 150px; /* Maximale Breite des Bildes */
-    height: auto; /* Automatische Anpassung der Höhe */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Schatten für das Bild */
+    height: auto; /* Automatische Anpassung der HÃ¶he */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Schatten fÃ¼r das Bild */
 }
 
 footer {
