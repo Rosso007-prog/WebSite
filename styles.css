@@ -9,7 +9,7 @@ body {
 }
 
 nav {
-    background-color: #007bff;
+    background-color: #ff9800; /* Orange */
     padding: 1rem;
     width: 100%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -36,7 +36,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #ffca28;
+    color: #ffcc80; /* Heller Orange-Ton für Hover-Effekt */
 }
 
 .container {
@@ -72,21 +72,21 @@ select, textarea, input[type="submit"] {
 }
 
 input[type="submit"] {
-    background-color: #007bff;
+    background-color: #ff9800; /* Orange */
     color: white;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
 input[type="submit"]:hover {
-    background-color: #0056b3;
+    background-color: #e67e22; /* Dunklerer Orange-Ton für Hover-Effekt */
 }
 
 .download-button {
     display: inline-block;
     margin-top: 20px;
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #ff9800; /* Orange */
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -96,7 +96,7 @@ input[type="submit"]:hover {
 }
 
 .download-button:hover {
-    background-color: #0056b3;
+    background-color: #e67e22; /* Dunklerer Orange-Ton für Hover-Effekt */
     transform: scale(1.05); /* Leichtes Vergrößern beim Hover */
 }
 
@@ -124,7 +124,7 @@ footer {
 
 .rating label {
     font-size: 2rem;
-    color: #c7a923;
+    color: #ff9800; /* Orange */
     cursor: pointer;
     transition: color 0.3s ease;
 }
