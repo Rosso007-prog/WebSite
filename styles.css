@@ -9,7 +9,7 @@ body {
 }
 
 nav {
-    background-color: #007bff;
+    background-color: #ff9800; /* Orange */
     padding: 1rem;
     width: 100%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -86,7 +86,7 @@ input[type="submit"]:hover {
     display: inline-block;
     margin-top: 20px;
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #ff9800; /* Orange */
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -96,7 +96,7 @@ input[type="submit"]:hover {
 }
 
 .download-button:hover {
-    background-color: #0056b3;
+    background-color: #ff9800; /* Orange */
     transform: scale(1.05); /* Leichtes Vergrößern beim Hover */
 }
 
