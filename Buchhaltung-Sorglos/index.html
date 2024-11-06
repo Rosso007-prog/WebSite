@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorglos - App</title>
+
+    <!-- Einbindung von styles.css aus dem Root-Verzeichnis -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Menü wird über JavaScript aus dem Root-Verzeichnis geladen -->
+    <div id="menu"></div>
+
+    <div class="container">
+        <h1>Sorglos App</h1>
+        <img src="https://rosso007-prog.github.io/WebSite/Sorglos/AppIcon150x150.png" alt="Sorglos - App">
+        <h1>Sorglos - Deine persönliche Aufgaben- und Zeitmanagement-App</h1>
+        <p>Die Sorglos-App wurde entwickelt, um dir die Verwaltung deiner täglichen Aufgaben und Arbeitszeiten zu erleichtern. Egal ob du Hausmeister, Gärtner, Bauarbeiter oder im Reinigungsdienst tätig bist &ndash; Sorglos bietet dir die Werkzeuge, die du brauchst, um organisiert und produktiv zu bleiben.</p>
+        <h2>Features und Funktionen:</h2>
+        <ul>
+            <li><strong>Aufgabenmanagement:</strong> Organisiere all deine Aufgaben an einem Ort. Erstelle To-Do-Listen, verwalte Prioritäten und behalte immer den Überblick über deine täglichen Arbeiten.</li>
+           <li></li> <li><strong>Arbeitszeiterfassung:</strong> Zeichne deine Arbeitszeiten auf, inklusive Pausenverwaltung, um eine genaue Übersicht deiner Arbeitsstunden zu erhalten. Perfekt geeignet, um deine Zeit effizient zu managen und produktiv zu arbeiten.</li>
+           <li></li> <li><strong>Termine und Erinnerungen:</strong> Plane Termine, richte Erinnerungen ein und vermeide so, dass wichtige Aufgaben oder Besprechungen in Vergessenheit geraten.</li>
+           <li></li> <li><strong>Notizen und Zusatzinformationen:</strong> Füge Notizen zu deinen Aufgaben hinzu, um wichtige Details zu speichern. Das macht die Aufgabenverwaltung einfach und effizient.</li>
+           <li></li> <li><strong>Tägliche und wöchentliche Berichte:</strong> Analysiere deine Produktivität durch übersichtliche tägliche und wöchentliche Berichte, um immer auf dem Laufenden zu bleiben und Optimierungspotenziale zu erkennen.</li>
+           <li></li> <li><strong>Einfache Bedienung:</strong> Ein benutzerfreundliches Design sorgt dafür, dass alle Funktionen leicht zugänglich sind und schnell bedient werden können.</li>
+        </ul>
+        <p>Die Sorglos-App hilft dir, Stress zu reduzieren und deine täglichen Aufgaben bestmöglich zu organisieren. So kannst du dich auf das Wesentliche konzentrieren und mit einem klaren Kopf arbeiten.</p>
+        
+        <a href="https://apps.apple.com/de/app/mein-malbuch-sorglos/id6670444680" class="download-button">Jetzt herunterladen</a>
+        <p><a href="Datenschutz/Datenschutz.html">Datenschutzerklärung</a></p>
+    </div>
+
+    <footer>
+        &copy; 2024 Sorglos Lack. Alle Rechte vorbehalten.
+    </footer>
+
+    <!-- Menü aus dem Root-Verzeichnis über JavaScript laden -->
+    <script>
+        fetch('menu.html')
+            .then(response => response.text())
+            .then(data => document.getElementById('menu').innerHTML = data);
+    </script>
+
+</body>
+</html>
