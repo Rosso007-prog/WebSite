@@ -13,6 +13,9 @@ nav {
     padding: 1rem;
     width: 100%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 nav ul {
@@ -32,11 +35,13 @@ nav ul li a {
     text-decoration: none;
     font-weight: bold;
     padding: 0.5rem;
-    transition: color 0.3s ease;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    border-radius: 5px;
 }
 
 nav ul li a:hover {
-    color: #ffcc80; /* Heller Orange-Ton für Hover-Effekt */
+    color: #ffcc80; /* Heller Orange-Ton */
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 .container {
@@ -52,7 +57,7 @@ nav ul li a:hover {
 
 h1 {
     color: #333;
-    font-size: 2rem;
+    font-size: clamp(1.5rem, 3vw, 2rem); /* Responsiv */
     margin-bottom: 1rem;
 }
 
@@ -75,11 +80,12 @@ input[type="submit"] {
     background-color: #ff9800; /* Orange */
     color: white;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 input[type="submit"]:hover {
-    background-color: #e67e22; /* Dunklerer Orange-Ton für Hover-Effekt */
+    background-color: #e67e22; /* Dunklerer Orange-Ton */
+    transform: translateY(-2px);
 }
 
 .download-button {
@@ -90,28 +96,28 @@ input[type="submit"]:hover {
     color: white;
     text-decoration: none;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: clamp(1rem, 2vw, 1.2rem); /* Responsiv */
     transition: background-color 0.3s ease, transform 0.3s ease;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .download-button:hover {
-    background-color: #e67e22; /* Dunklerer Orange-Ton für Hover-Effekt */
-    transform: scale(1.05); /* Leichtes Vergrößern beim Hover */
+    background-color: #e67e22;
+    transform: scale(1.05); /* Leichtes Vergrößern */
 }
 
 /* Stil für das Bild */
 img {
-    border-radius: 15px; /* Abgerundete Ecken für das Bild */
-    width: 100%; /* Sorgt dafür, dass das Bild in den Container passt */
-    max-width: 150px; /* Maximale Breite des Bildes */
-    height: auto; /* Automatische Anpassung der Höhe */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Schatten für das Bild */
+    border-radius: 15px;
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 footer {
     margin-top: 1rem;
-    font-size: 0.8rem;
+    font-size: clamp(0.8rem, 1.5vw, 1rem); /* Responsiv */
     color: #777;
     text-align: center;
 }
@@ -126,7 +132,11 @@ footer {
     font-size: 2rem;
     color: #ff9800; /* Orange */
     cursor: pointer;
-    transition: color 0.3s ease;
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.rating label:hover {
+    transform: scale(1.2);
 }
 
 .rating input:checked ~ label {
@@ -139,5 +149,20 @@ footer {
     }
     to {
         opacity: 1;
+    }
+}
+
+/* Media Queries für Responsivität */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 0.5rem 0;
+    }
+
+    .container {
+        padding: 1.5rem;
     }
 }
