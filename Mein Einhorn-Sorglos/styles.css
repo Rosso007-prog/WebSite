@@ -1,0 +1,168 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav {
+    background-color: #ff9800; /* Orange */
+    padding: 1rem;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    color: #ffcc80; /* Heller Orange-Ton */
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    max-width: 600px;
+    margin: 2rem auto;
+    text-align: center;
+    animation: fadeIn 0.5s ease-in;
+}
+
+h1 {
+    color: #333;
+    font-size: clamp(1.5rem, 3vw, 2rem); /* Responsiv */
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+select, textarea, input[type="submit"] {
+    width: 100%;
+    padding: 0.75rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+input[type="submit"] {
+    background-color: #ff9800; /* Orange */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #e67e22; /* Dunklerer Orange-Ton */
+    transform: translateY(-2px);
+}
+
+.download-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff9800; /* Orange */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: clamp(1rem, 2vw, 1.2rem); /* Responsiv */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.download-button:hover {
+    background-color: #e67e22;
+    transform: scale(1.05); /* Leichtes Vergrößern */
+}
+
+/* Stil für das Bild */
+img {
+    border-radius: 15px;
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    margin-top: 1rem;
+    font-size: clamp(0.8rem, 1.5vw, 1rem); /* Responsiv */
+    color: #777;
+    text-align: center;
+}
+
+.rating {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+
+.rating label {
+    font-size: 2rem;
+    color: #ff9800; /* Orange */
+    cursor: pointer;
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.rating label:hover {
+    transform: scale(1.2);
+}
+
+.rating input:checked ~ label {
+    color: #c0c0c0;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Media Queries für Responsivität */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 0.5rem 0;
+    }
+
+    .container {
+        padding: 1.5rem;
+    }
+}
