@@ -1,0 +1,112 @@
+[
+  {
+    "level": 1,
+    "question": "Welches chemische Symbol hat Sauerstoff?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "S", "isCorrect": false },
+      { "text": "O", "isCorrect": true },
+      { "text": "Ox", "isCorrect": false },
+      { "text": "C", "isCorrect": false }
+    ]
+  },
+  {
+    "level": 1,
+    "question": "Wie nennt man den Prozess, bei dem grüne Pflanzen Licht in Energie umwandeln?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Photolyse", "isCorrect": false },
+      { "text": "Atmung", "isCorrect": false },
+      { "text": "Photosynthese", "isCorrect": true },
+      { "text": "Gärung", "isCorrect": false }
+    ]
+  },
+  {
+    "level": 2,
+    "question": "Welcher Planet wird aufgrund seiner dichten Wolkendecke auch als 'Schwesterplanet' der Erde bezeichnet?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Venus", "isCorrect": true },
+      { "text": "Mars", "isCorrect": false },
+      { "text": "Merkur", "isCorrect": false },
+      { "text": "Saturn", "isCorrect": false }
+    ]
+  },
+  {
+    "level": 2,
+    "question": "Wie viele Herzen besitzt ein Regenwurm?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "5 Paar (also 10)", "isCorrect": true },
+      { "text": "1", "isCorrect": false },
+      { "text": "3", "isCorrect": false },
+      { "text": "Keines", "isCorrect": false }
+    ]
+  },
+  {
+    "level": 3,
+    "question": "Was versteht man unter der 'chromosomalen' Geschlechtsbestimmung bei Säugetieren (z.B. beim Menschen)?",
+    "difficulty": "mittel",
+    "answers": [
+      { "text": "XX und XY", "isCorrect": true },
+      { "text": "X0 und ZW", "isCorrect": false },
+      { "text": "ZZ und ZW", "isCorrect": false },
+      { "text": "XX und YY", "isCorrect": false }
+    ]
+  },
+  {
+    "level": 3,
+    "question": "Wie nennt man die Wissenschaft, die sich mit der Erforschung des Weltalls beschäftigt?",
+    "difficulty": "mittel",
+    "answers": [
+      { "text": "Astronomie", "isCorrect": true },
+      { "text": "Physiologie", "isCorrect": false },
+      { "text": "Geologie", "isCorrect": false },
+      { "text": "Chemie", "isCorrect": false }
+    ]
+  },
+  {
+    "level": 4,
+    "question": "Welches Gas ist am häufigsten in der Erdatmosphäre vertreten?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Sauerstoff", "isCorrect": false },
+      { "text": "Kohlendioxid", "isCorrect": false },
+      { "text": "Wasserstoff", "isCorrect": false },
+      { "text": "Stickstoff", "isCorrect": true }
+    ]
+  },
+  {
+    "level": 4,
+    "question": "Wie nennt man den Übergang eines Stoffes vom festen direkt in den gasförmigen Zustand?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Sublimation", "isCorrect": true },
+      { "text": "Kondensation", "isCorrect": false },
+      { "text": "Verdampfung", "isCorrect": false },
+      { "text": "Erstarren", "isCorrect": false }
+    ]
+  },
+  {
+    "level": 5,
+    "question": "Wer entdeckte 1928 das Penicillin?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Alexander Fleming", "isCorrect": true },
+      { "text": "Louis Pasteur", "isCorrect": false },
+      { "text": "Robert Koch", "isCorrect": false },
+      { "text": "Jonas Salk", "isCorrect": false }
+    ]
+  },
+  {
+    "level": 5,
+    "question": "Welche Physikerin entdeckte gemeinsam mit ihrem Mann das Element Radium?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Marie Curie", "isCorrect": true },
+      { "text": "Lise Meitner", "isCorrect": false },
+      { "text": "Rosalind Franklin", "isCorrect": false },
+      { "text": "Ada Lovelace", "isCorrect": false }
+    ]
+  }
+]

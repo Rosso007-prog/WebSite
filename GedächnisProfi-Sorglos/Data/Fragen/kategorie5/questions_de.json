@@ -1,0 +1,112 @@
+[
+  {
+    "level": 1,
+    "question": "Wer schrieb den Roman '1984'?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "George Orwell", "isCorrect": true },
+      { "text": "Aldous Huxley", "isCorrect": false },
+      { "text": "Ernest Hemingway", "isCorrect": false },
+      { "text": "Ray Bradbury", "isCorrect": false }
+    ]
+  },
+  {
+    "level": 1,
+    "question": "Welcher Künstler ist bekannt für seine Seerosen-Gemälde?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Claude Monet", "isCorrect": true },
+      { "text": "Vincent van Gogh", "isCorrect": false },
+      { "text": "Pablo Picasso", "isCorrect": false },
+      { "text": "Salvador Dalí", "isCorrect": false }
+    ]
+  },
+  {
+    "level": 2,
+    "question": "Wer verfasste das Theaterstück 'Faust'?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Gotthold Ephraim Lessing", "isCorrect": false },
+      { "text": "Friedrich Schiller", "isCorrect": false },
+      { "text": "Heinrich Heine", "isCorrect": false },
+      { "text": "Johann Wolfgang von Goethe", "isCorrect": true }
+    ]
+  },
+  {
+    "level": 2,
+    "question": "Welche Kunstbewegung wird mit Salvador Dalí in Verbindung gebracht?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Surrealismus", "isCorrect": true },
+      { "text": "Kubismus", "isCorrect": false },
+      { "text": "Impressionismus", "isCorrect": false },
+      { "text": "Expressionismus", "isCorrect": false }
+    ]
+  },
+  {
+    "level": 3,
+    "question": "Welche Romanfigur wurde von Sir Arthur Conan Doyle geschaffen?",
+    "difficulty": "mittel",
+    "answers": [
+      { "text": "Sherlock Holmes", "isCorrect": true },
+      { "text": "James Bond", "isCorrect": false },
+      { "text": "Hercule Poirot", "isCorrect": false },
+      { "text": "Dracula", "isCorrect": false }
+    ]
+  },
+  {
+    "level": 3,
+    "question": "Welcher Dichter schrieb 'Die Leiden des jungen Werthers'?",
+    "difficulty": "mittel",
+    "answers": [
+      { "text": "Johann Wolfgang von Goethe", "isCorrect": true },
+      { "text": "Friedrich Schiller", "isCorrect": false },
+      { "text": "Heinrich Heine", "isCorrect": false },
+      { "text": "E.T.A. Hoffmann", "isCorrect": false }
+    ]
+  },
+  {
+    "level": 4,
+    "question": "Welcher Maler ist für das Gemälde 'Guernica' bekannt?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Marc Chagall", "isCorrect": false },
+      { "text": "Pablo Picasso", "isCorrect": true },
+      { "text": "Joan Miró", "isCorrect": false },
+      { "text": "Edvard Munch", "isCorrect": false }
+    ]
+  },
+  {
+    "level": 4,
+    "question": "Wer schrieb den Roman 'Krieg und Frieden'?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Fjodor Dostojewski", "isCorrect": false },
+      { "text": "Anton Tschechow", "isCorrect": false },
+      { "text": "Ivan Turgenev", "isCorrect": false },
+      { "text": "Leo Tolstoi", "isCorrect": true }
+    ]
+  },
+  {
+    "level": 5,
+    "question": "Welcher norwegische Maler schuf das Gemälde 'Der Schrei'?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Edvard Munch", "isCorrect": true },
+      { "text": "Gustav Klimt", "isCorrect": false },
+      { "text": "Max Ernst", "isCorrect": false },
+      { "text": "Paul Gauguin", "isCorrect": false }
+    ]
+  },
+  {
+    "level": 5,
+    "question": "Welcher deutsche Schriftsteller erhielt 1929 den Nobelpreis für 'Buddenbrooks'?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Thomas Mann", "isCorrect": true },
+      { "text": "Hermann Hesse", "isCorrect": false },
+      { "text": "Heinrich Böll", "isCorrect": false },
+      { "text": "Günter Grass", "isCorrect": false }
+    ]
+  }
+]

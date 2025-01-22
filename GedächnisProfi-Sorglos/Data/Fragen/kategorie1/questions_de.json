@@ -1,0 +1,132 @@
+[
+  {
+    "level": 1,
+    "category": "kategorie1",
+    "question": "Welche Stadt ist die Hauptstadt von Frankreich?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Paris", "isCorrect": true },
+      { "text": "Lyon", "isCorrect": false },
+      { "text": "Marseille", "isCorrect": false },
+      { "text": "Bordeaux", "isCorrect": false }
+    ],
+    "explanation": "Paris ist die Hauptstadt von Frankreich, eine der bekanntesten Städte der Welt."
+  },
+  {
+    "level": 1,
+    "category": "kategorie1",
+    "question": "Wie heißt der längste Fluss in Afrika?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Kongo", "isCorrect": false },
+      { "text": "Nil", "isCorrect": true },
+      { "text": "Niger", "isCorrect": false },
+      { "text": "Sambesi", "isCorrect": false }
+    ],
+    "explanation": "Der Nil ist mit etwa 6.650 Kilometern der längste Fluss in Afrika."
+  },
+  {
+    "level": 1,
+    "category": "kategorie1",
+    "question": "In welchem Land liegt die Stadt Venedig?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Spanien", "isCorrect": false },
+      { "text": "Frankreich", "isCorrect": false },
+      { "text": "Italien", "isCorrect": true },
+      { "text": "Portugal", "isCorrect": false }
+    ],
+    "explanation": "Venedig liegt in Italien und ist berühmt für seine Kanäle und Architektur."
+  },
+  {
+    "level": 1,
+    "category": "kategorie1",
+    "question": "Wie viele Kontinente gibt es auf der Erde (konventionelle Zählweise)?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "7", "isCorrect": true },
+      { "text": "6", "isCorrect": false },
+      { "text": "5", "isCorrect": false },
+      { "text": "8", "isCorrect": false }
+    ],
+    "explanation": "Es gibt sieben Kontinente: Asien, Afrika, Nordamerika, Südamerika, Antarktika, Europa und Australien."
+  },
+  {
+    "level": 1,
+    "category": "kategorie1",
+    "question": "Welcher Ozean ist der flächenmäßig größte der Erde?",
+    "difficulty": "mittel",
+    "answers": [
+      { "text": "Indischer Ozean", "isCorrect": false },
+      { "text": "Atlantischer Ozean", "isCorrect": false },
+      { "text": "Pazifischer Ozean", "isCorrect": true },
+      { "text": "Arktischer Ozean", "isCorrect": false }
+    ],
+    "explanation": "Der Pazifische Ozean ist mit einer Fläche von etwa 168 Millionen Quadratkilometern der größte Ozean der Erde."
+  },
+  {
+    "level": 3,
+    "category": "kategorie1",
+    "question": "Wie heißt das höchste Gebirge der Erde (nach Durchschnittshöhe)?",
+    "difficulty": "mittel",
+    "answers": [
+      { "text": "Alpen", "isCorrect": false },
+      { "text": "Anden", "isCorrect": false },
+      { "text": "Himalaya", "isCorrect": true },
+      { "text": "Rocky Mountains", "isCorrect": false }
+    ],
+    "explanation": "Das Himalaya-Gebirge ist das höchste Gebirge der Erde, mit dem Mount Everest als höchstem Gipfel."
+  },
+  {
+    "level": 4,
+    "category": "kategorie1",
+    "question": "In welcher italienischen Stadt steht der schiefe Turm, der ein beliebtes Wahrzeichen ist?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Pisa", "isCorrect": true },
+      { "text": "Florenz", "isCorrect": false },
+      { "text": "Neapel", "isCorrect": false },
+      { "text": "Palermo", "isCorrect": false }
+    ],
+    "explanation": "Der Schiefe Turm von Pisa befindet sich in der Stadt Pisa in Italien."
+  },
+  {
+    "level": 4,
+    "category": "kategorie1",
+    "question": "Was ist die Hauptstadt von Australien?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Sydney", "isCorrect": false },
+      { "text": "Canberra", "isCorrect": true },
+      { "text": "Melbourne", "isCorrect": false },
+      { "text": "Brisbane", "isCorrect": false }
+    ],
+    "explanation": "Canberra ist die Hauptstadt von Australien, nicht Sydney oder Melbourne."
+  },
+  {
+    "level": 5,
+    "category": "kategorie1",
+    "question": "Welche Währung wird in Polen verwendet?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Forint", "isCorrect": false },
+      { "text": "Złoty", "isCorrect": true },
+      { "text": "Euro", "isCorrect": false },
+      { "text": "Tschechische Krone", "isCorrect": false }
+    ],
+    "explanation": "In Polen wird der Złoty verwendet, nicht der Euro oder der Forint."
+  },
+  {
+    "level": 5,
+    "category": "kategorie1",
+    "question": "In welchem westafrikanischen Land liegt die historische Stadt Timbuktu?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Mali", "isCorrect": true },
+      { "text": "Senegal", "isCorrect": false },
+      { "text": "Niger", "isCorrect": false },
+      { "text": "Burkina Faso", "isCorrect": false }
+    ],
+    "explanation": "Timbuktu liegt in Mali und ist bekannt für seine historische Bedeutung im transsaharischen Handel."
+  }
+]

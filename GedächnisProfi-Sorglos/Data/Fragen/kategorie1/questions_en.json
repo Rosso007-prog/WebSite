@@ -1,0 +1,22 @@
+{
+  "level": 0,
+  "question": "Welche Stadt ist die Hauptstadt von Frankreich?",
+  "difficulty": "leicht",
+  "answers": [
+    { "text": "Paris", "isCorrect": true },
+    { "text": "Lyon", "isCorrect": false },
+    { "text": "Marseille", "isCorrect": false },
+    { "text": "Bordeaux", "isCorrect": false }
+  ]
+},
+{
+"level": 0,
+"question": "Welche Stadt ist die Hauptstadt von Frankreich?",
+"difficulty": "leicht",
+"answers": [
+{ "text": "Paris", "isCorrect": true },
+{ "text": "Lyon", "isCorrect": false },
+{ "text": "Marseille", "isCorrect": false },
+{ "text": "Bordeaux", "isCorrect": false }
+]
+},

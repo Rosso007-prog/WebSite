@@ -1,0 +1,22 @@
+[
+  {
+    "level": 1,
+    "question": "What is the capital of Germany?",
+    "answers": [
+      { "text": "Berlin", "isCorrect": true },
+      { "text": "Munich", "isCorrect": false },
+      { "text": "Hamburg", "isCorrect": false },
+      { "text": "Frankfurt", "isCorrect": false }
+    ]
+  },
+  {
+    "level": 2,
+    "question": "Which planet is the largest in the solar system?",
+    "answers": [
+      { "text": "Jupiter", "isCorrect": true },
+      { "text": "Mars", "isCorrect": false },
+      { "text": "Earth", "isCorrect": false },
+      { "text": "Saturn", "isCorrect": false }
+    ]
+  }
+]

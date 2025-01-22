@@ -1,0 +1,112 @@
+[
+  {
+    "level": 1,
+    "question": "Wer war der erste Bundeskanzler der Bundesrepublik Deutschland?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Konrad Adenauer", "isCorrect": true },
+      { "text": "Helmut Kohl", "isCorrect": false },
+      { "text": "Willy Brandt", "isCorrect": false },
+      { "text": "Angela Merkel", "isCorrect": false }
+    ]
+  },
+  {
+    "level": 1,
+    "question": "Wann endete der Zweite Weltkrieg in Europa?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "1945", "isCorrect": true },
+      { "text": "1944", "isCorrect": false },
+      { "text": "1946", "isCorrect": false },
+      { "text": "1950", "isCorrect": false }
+    ]
+  },
+  {
+    "level": 2,
+    "question": "Wer war der erste Präsident der Vereinigten Staaten von Amerika?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "George Washington", "isCorrect": true },
+      { "text": "Abraham Lincoln", "isCorrect": false },
+      { "text": "John Adams", "isCorrect": false },
+      { "text": "Thomas Jefferson", "isCorrect": false }
+    ]
+  },
+  {
+    "level": 2,
+    "question": "In welchem Jahr begann der Bau der Berliner Mauer?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "1961", "isCorrect": true },
+      { "text": "1953", "isCorrect": false },
+      { "text": "1971", "isCorrect": false },
+      { "text": "1989", "isCorrect": false }
+    ]
+  },
+  {
+    "level": 3,
+    "question": "Wie hieß der ägyptische Pharao, dessen Grab Howard Carter 1922 entdeckte?",
+    "difficulty": "mittel",
+    "answers": [
+      { "text": "Tutanchamun", "isCorrect": true },
+      { "text": "Ramses II.", "isCorrect": false },
+      { "text": "Echnaton", "isCorrect": false },
+      { "text": "Thutmosis III.", "isCorrect": false }
+    ]
+  },
+  {
+    "level": 3,
+    "question": "Welcher makedonische König schuf ein Reich von Griechenland bis Indien?",
+    "difficulty": "mittel",
+    "answers": [
+      { "text": "Alexander der Große", "isCorrect": true },
+      { "text": "Julius Caesar", "isCorrect": false },
+      { "text": "Darius I.", "isCorrect": false },
+      { "text": "Xerxes I.", "isCorrect": false }
+    ]
+  },
+  {
+    "level": 4,
+    "question": "Welches Ereignis begann 1517 mit dem Thesenanschlag Martin Luthers?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Die Reformation", "isCorrect": true },
+      { "text": "Die Renaissance", "isCorrect": false },
+      { "text": "Der Dreißigjährige Krieg", "isCorrect": false },
+      { "text": "Die Französische Revolution", "isCorrect": false }
+    ]
+  },
+  {
+    "level": 4,
+    "question": "Welcher deutsche Kaiser dankte 1918 am Ende des Ersten Weltkrieges ab?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Wilhelm II.", "isCorrect": true },
+      { "text": "Friedrich III.", "isCorrect": false },
+      { "text": "Wilhelm I.", "isCorrect": false },
+      { "text": "Otto von Bismarck", "isCorrect": false }
+    ]
+  },
+  {
+    "level": 5,
+    "question": "Wie hieß die Dynastie, die China zur Zeit von Marco Polos Besuch regierte?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Yuan-Dynastie", "isCorrect": true },
+      { "text": "Ming-Dynastie", "isCorrect": false },
+      { "text": "Tang-Dynastie", "isCorrect": false },
+      { "text": "Qing-Dynastie", "isCorrect": false }
+    ]
+  },
+  {
+    "level": 5,
+    "question": "Wie hieß die Hauptstadt des Oströmischen Reiches (Byzanz)?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Konstantinopel", "isCorrect": true },
+      { "text": "Rom", "isCorrect": false },
+      { "text": "Alexandria", "isCorrect": false },
+      { "text": "Damaskus", "isCorrect": false }
+    ]
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "level": 1,
+    "question": "德國的首都是什麼？",
+    "answers": [
+      { "text": "柏林", "isCorrect": true },
+      { "text": "慕尼黑", "isCorrect": false },
+      { "text": "漢堡", "isCorrect": false },
+      { "text": "法蘭克福", "isCorrect": false }
+    ]
+  },
+  {
+    "level": 2,
+    "question": "太陽系中最大的行星是什麼？",
+    "answers": [
+      { "text": "木星", "isCorrect": true },
+      { "text": "火星", "isCorrect": false },
+      { "text": "地球", "isCorrect": false },
+      { "text": "土星", "isCorrect": false }
+    ]
+  }
+]

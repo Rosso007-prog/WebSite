@@ -1,0 +1,112 @@
+[
+  {
+    "level": 1,
+    "question": "In welcher Sportart ist Lionel Messi ein bekannter Spieler?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Fußball", "isCorrect": true },
+      { "text": "Basketball", "isCorrect": false },
+      { "text": "Tennis", "isCorrect": false },
+      { "text": "Baseball", "isCorrect": false }
+    ]
+  },
+  {
+    "level": 1,
+    "question": "Welches Land hat die meisten Fußball-Weltmeisterschaften gewonnen?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Brasilien", "isCorrect": true },
+      { "text": "Deutschland", "isCorrect": false },
+      { "text": "Italien", "isCorrect": false },
+      { "text": "Argentinien", "isCorrect": false }
+    ]
+  },
+  {
+    "level": 2,
+    "question": "In welcher Sportart ist Michael Jordan eine Legende?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Basketball", "isCorrect": true },
+      { "text": "American Football", "isCorrect": false },
+      { "text": "Baseball", "isCorrect": false },
+      { "text": "Eishockey", "isCorrect": false }
+    ]
+  },
+  {
+    "level": 2,
+    "question": "Welche Nation richtete die Olympischen Spiele 2016 aus?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Brasilien (Rio de Janeiro)", "isCorrect": true },
+      { "text": "China (Peking)", "isCorrect": false },
+      { "text": "Großbritannien (London)", "isCorrect": false },
+      { "text": "Japan (Tokio)", "isCorrect": false }
+    ]
+  },
+  {
+    "level": 3,
+    "question": "Welche Rennserie gilt als die Königsklasse des Motorsports?",
+    "difficulty": "mittel",
+    "answers": [
+      { "text": "IndyCar", "isCorrect": false },
+      { "text": "NASCAR", "isCorrect": false },
+      { "text": "MotoGP", "isCorrect": false },
+      { "text": "Formel 1", "isCorrect": true }
+    ]
+  },
+  {
+    "level": 3,
+    "question": "Welcher Boxer trug den Spitznamen 'The Greatest'?",
+    "difficulty": "mittel",
+    "answers": [
+      { "text": "Muhammad Ali", "isCorrect": true },
+      { "text": "Mike Tyson", "isCorrect": false },
+      { "text": "Floyd Mayweather Jr.", "isCorrect": false },
+      { "text": "Rocky Marciano", "isCorrect": false }
+    ]
+  },
+  {
+    "level": 4,
+    "question": "Wann fanden die ersten modernen Olympischen Spiele statt?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "1896", "isCorrect": true },
+      { "text": "1900", "isCorrect": false },
+      { "text": "1884", "isCorrect": false },
+      { "text": "1920", "isCorrect": false }
+    ]
+  },
+  {
+    "level": 4,
+    "question": "Welcher Tennisspieler hat als einziger alle 9 Masters-1000-Turniere mindestens zweimal gewonnen?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Novak Djokovic", "isCorrect": true },
+      { "text": "Rafael Nadal", "isCorrect": false },
+      { "text": "Roger Federer", "isCorrect": false },
+      { "text": "Andy Murray", "isCorrect": false }
+    ]
+  },
+  {
+    "level": 5,
+    "question": "Wie oft hat Michael Schumacher die Formel-1-Weltmeisterschaft gewonnen?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "7 Mal", "isCorrect": true },
+      { "text": "5 Mal", "isCorrect": false },
+      { "text": "6 Mal", "isCorrect": false },
+      { "text": "8 Mal", "isCorrect": false }
+    ]
+  },
+  {
+    "level": 5,
+    "question": "Wer hält (Stand 2023) den Rekord für die meisten Grand-Slam-Titel im Herren-Einzel (Tennis)?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Rafael Nadal", "isCorrect": false },
+      { "text": "Novak Djokovic", "isCorrect": true },
+      { "text": "Roger Federer", "isCorrect": false },
+      { "text": "Pete Sampras", "isCorrect": false }
+    ]
+  }
+]
