@@ -1,112 +1,660 @@
 [
   {
     "level": 1,
-    "question": "In welcher Sportart ist Lionel Messi ein bekannter Spieler?",
+    "category": "kategorie4",
+    "question": "Wie viele Spieler hat eine Fußballmannschaft auf dem Spielfeld (pro Team)?",
     "difficulty": "leicht",
     "answers": [
-      { "text": "Fußball", "isCorrect": true },
-      { "text": "Basketball", "isCorrect": false },
-      { "text": "Tennis", "isCorrect": false },
-      { "text": "Baseball", "isCorrect": false }
-    ]
+      { "text": "9", "isCorrect": false },
+      { "text": "11", "isCorrect": true },
+      { "text": "10", "isCorrect": false },
+      { "text": "12", "isCorrect": false }
+    ],
+    "explanation": "Im Fußball stehen in jedem Team 11 Spieler gleichzeitig auf dem Feld."
   },
   {
     "level": 1,
-    "question": "Welches Land hat die meisten Fußball-Weltmeisterschaften gewonnen?",
+    "category": "kategorie4",
+    "question": "Wie heißt das berühmte Tennisturnier, das jährlich in England stattfindet?",
     "difficulty": "leicht",
     "answers": [
-      { "text": "Brasilien", "isCorrect": true },
-      { "text": "Deutschland", "isCorrect": false },
-      { "text": "Italien", "isCorrect": false },
-      { "text": "Argentinien", "isCorrect": false }
-    ]
+      { "text": "French Open", "isCorrect": false },
+      { "text": "Wimbledon", "isCorrect": true },
+      { "text": "US Open", "isCorrect": false },
+      { "text": "Australian Open", "isCorrect": false }
+    ],
+    "explanation": "Wimbledon ist das älteste Tennisturnier der Welt und findet jedes Jahr in London statt."
   },
   {
-    "level": 2,
-    "question": "In welcher Sportart ist Michael Jordan eine Legende?",
+    "level": 1,
+    "category": "kategorie4",
+    "question": "Welche Sportart wird typischerweise auf Eis mit einem Puck gespielt?",
     "difficulty": "leicht",
     "answers": [
+      { "text": "Eishockey", "isCorrect": true },
+      { "text": "Curling", "isCorrect": false },
+      { "text": "Eiskunstlauf", "isCorrect": false },
+      { "text": "Shorttrack", "isCorrect": false }
+    ],
+    "explanation": "Eishockey wird mit einem harten Gummipuck auf dem Eis gespielt."
+  },
+  {
+    "level": 1,
+    "category": "kategorie4",
+    "question": "Wie nennt man den wichtigsten Vereinswettbewerb im europäischen Fußball?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "UEFA Champions League", "isCorrect": true },
+      { "text": "UEFA Europa League", "isCorrect": false },
+      { "text": "FA Cup", "isCorrect": false },
+      { "text": "Bundesliga", "isCorrect": false }
+    ],
+    "explanation": "Die UEFA Champions League ist der prestigeträchtigste Vereinswettbewerb für europäische Fußballvereine."
+  },
+  {
+    "level": 1,
+    "category": "kategorie4",
+    "question": "Welcher deutsche Rennfahrer wurde siebenmal Formel-1-Weltmeister?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Nico Rosberg", "isCorrect": false },
+      { "text": "Sebastian Vettel", "isCorrect": false },
+      { "text": "Michael Schumacher", "isCorrect": true },
+      { "text": "Ralf Schumacher", "isCorrect": false }
+    ],
+    "explanation": "Michael Schumacher gewann insgesamt 7 Weltmeistertitel in der Formel 1."
+  },
+  {
+    "level": 1,
+    "category": "kategorie4",
+    "question": "In welcher Sportart ist Lionel Messi eine weltbekannte Persönlichkeit?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Basketball", "isCorrect": false },
+      { "text": "Fußball", "isCorrect": true },
+      { "text": "Tennis", "isCorrect": false },
+      { "text": "Rugby", "isCorrect": false }
+    ],
+    "explanation": "Lionel Messi ist ein herausragender argentinischer Fußballspieler."
+  },
+  {
+    "level": 1,
+    "category": "kategorie4",
+    "question": "Welchen Sport betreiben LeBron James und Dirk Nowitzki professionell?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Handball", "isCorrect": false },
       { "text": "Basketball", "isCorrect": true },
-      { "text": "American Football", "isCorrect": false },
       { "text": "Baseball", "isCorrect": false },
       { "text": "Eishockey", "isCorrect": false }
-    ]
+    ],
+    "explanation": "LeBron James (USA) und Dirk Nowitzki (Deutschland) sind/waren berühmte NBA-Basketballspieler."
+  },
+  {
+    "level": 1,
+    "category": "kategorie4",
+    "question": "In welcher Sportart verwendet man Schläger und Handschuhe, um einen Ball über ein Netz zu befördern?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Volleyball", "isCorrect": false },
+      { "text": "Tennis", "isCorrect": true },
+      { "text": "Badminton", "isCorrect": false },
+      { "text": "Cricket", "isCorrect": false }
+    ],
+    "explanation": "Im Tennis trägt man oft Griffbänder, benutzt Tennisschläger und schlägt den Ball über ein Netz."
+  },
+  {
+    "level": 1,
+    "category": "kategorie4",
+    "question": "Aus welchem Land stammt der Fußballverein FC Barcelona?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Portugal", "isCorrect": false },
+      { "text": "Spanien", "isCorrect": true },
+      { "text": "Italien", "isCorrect": false },
+      { "text": "Brasilien", "isCorrect": false }
+    ],
+    "explanation": "Der FC Barcelona ist einer der bekanntesten spanischen Fußballclubs und hat seinen Sitz in Barcelona."
+  },
+  {
+    "level": 1,
+    "category": "kategorie4",
+    "question": "Wie lange dauert ein reguläres Fußballspiel (ohne Nachspielzeit)?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "70 Minuten", "isCorrect": false },
+      { "text": "80 Minuten", "isCorrect": false },
+      { "text": "120 Minuten", "isCorrect": false },
+      { "text": "90 Minuten", "isCorrect": true }
+    ],
+    "explanation": "Ein Fußballspiel dauert regulär 2 × 45 Minuten, also insgesamt 90 Minuten."
+  },
+
+
+  {
+    "level": 2,
+    "category": "kategorie4",
+    "question": "Aus wie vielen Grand-Slam-Turnieren besteht der Tenniskalender pro Jahr?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "2", "isCorrect": false },
+      { "text": "3", "isCorrect": false },
+      { "text": "4", "isCorrect": true },
+      { "text": "5", "isCorrect": false }
+    ],
+    "explanation": "Die vier Grand-Slam-Turniere sind Australian Open, French Open, Wimbledon und US Open."
   },
   {
     "level": 2,
-    "question": "Welche Nation richtete die Olympischen Spiele 2016 aus?",
+    "category": "kategorie4",
+    "question": "Welche Mannschaft gilt als Rekordmeister in der deutschen Fußball-Bundesliga?",
     "difficulty": "leicht",
     "answers": [
-      { "text": "Brasilien (Rio de Janeiro)", "isCorrect": true },
-      { "text": "China (Peking)", "isCorrect": false },
-      { "text": "Großbritannien (London)", "isCorrect": false },
-      { "text": "Japan (Tokio)", "isCorrect": false }
-    ]
+      { "text": "Borussia Dortmund", "isCorrect": false },
+      { "text": "FC Schalke 04", "isCorrect": false },
+      { "text": "FC Bayern München", "isCorrect": true },
+      { "text": "Werder Bremen", "isCorrect": false }
+    ],
+    "explanation": "Der FC Bayern München hat die meisten Meistertitel in der Geschichte der Bundesliga gewonnen."
+  },
+  {
+    "level": 2,
+    "category": "kategorie4",
+    "question": "Welche Sportart ist für den Begriff 'Hole-in-One' bekannt?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Tennis", "isCorrect": false },
+      { "text": "Golf", "isCorrect": true },
+      { "text": "Cricket", "isCorrect": false },
+      { "text": "Baseball", "isCorrect": false }
+    ],
+    "explanation": "Beim Golf spricht man von einem 'Hole-in-One', wenn der Ball direkt vom Abschlag ins Loch befördert wird."
+  },
+  {
+    "level": 2,
+    "category": "kategorie4",
+    "question": "Welcher Sport wird in den USA als 'America’s Pastime' bezeichnet?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Basketball", "isCorrect": false },
+      { "text": "American Football", "isCorrect": false },
+      { "text": "Baseball", "isCorrect": true },
+      { "text": "Eishockey", "isCorrect": false }
+    ],
+    "explanation": "Baseball gilt als traditioneller Volkssport und wird oft als 'America’s Pastime' bezeichnet."
+  },
+  {
+    "level": 2,
+    "category": "kategorie4",
+    "question": "Wer gewann als Tennisspielerin 22 Grand-Slam-Einzeltitel (Amateur- und Open-Ära) und hält damit einen Rekord?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Maria Sharapova", "isCorrect": false },
+      { "text": "Steffi Graf", "isCorrect": true },
+      { "text": "Martina Navratilova", "isCorrect": false },
+      { "text": "Serena Williams", "isCorrect": false }
+    ],
+    "explanation": "Steffi Graf gewann 22 Einzeltitel, davon 4 Grand Slams in einem Kalenderjahr (1988)."
+  },
+  {
+    "level": 2,
+    "category": "kategorie4",
+    "question": "Welche Laufdisziplin wird mit einer Streckenlänge von 42,195 km ausgetragen?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Halbmarathon", "isCorrect": false },
+      { "text": "Marathon", "isCorrect": true },
+      { "text": "Ultramarathon", "isCorrect": false },
+      { "text": "10.000-Meter-Lauf", "isCorrect": false }
+    ],
+    "explanation": "Der Marathonlauf hat eine offizielle Länge von 42,195 Kilometern."
+  },
+  {
+    "level": 2,
+    "category": "kategorie4",
+    "question": "Wie oft finden die Olympischen Sommerspiele statt (im Normalfall)?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Alle 2 Jahre", "isCorrect": false },
+      { "text": "Alle 4 Jahre", "isCorrect": true },
+      { "text": "Alle 6 Jahre", "isCorrect": false },
+      { "text": "Jedes Jahr", "isCorrect": false }
+    ],
+    "explanation": "Die Olympischen Sommerspiele werden grundsätzlich alle 4 Jahre ausgetragen."
+  },
+  {
+    "level": 2,
+    "category": "kategorie4",
+    "question": "In welcher Sportart wird ein Schläger namens 'Schläger' und ein kleiner Federball verwendet?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Squash", "isCorrect": false },
+      { "text": "Badminton", "isCorrect": true },
+      { "text": "Softball", "isCorrect": false },
+      { "text": "Tennis", "isCorrect": false }
+    ],
+    "explanation": "Beim Badminton spielt man den Ball (Shuttlecock oder Federball) über ein Netz mit speziellen Schlägern."
+  },
+  {
+    "level": 2,
+    "category": "kategorie4",
+    "question": "Welcher deutsche Basketballspieler war der erste Europäer, der zum MVP der NBA ernannt wurde?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Dennis Schröder", "isCorrect": false },
+      { "text": "Detlef Schrempf", "isCorrect": false },
+      { "text": "Dirk Nowitzki", "isCorrect": true },
+      { "text": "Christian Welp", "isCorrect": false }
+    ],
+    "explanation": "Dirk Nowitzki wurde 2007 als erster Europäer zum Most Valuable Player (MVP) der NBA gewählt."
+  },
+  {
+    "level": 2,
+    "category": "kategorie4",
+    "question": "Für welche Sportart ist Handballprofi Nikola Karabatic bekannt?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Handball", "isCorrect": true },
+      { "text": "Fußball", "isCorrect": false },
+      { "text": "Basketball", "isCorrect": false },
+      { "text": "Rugby", "isCorrect": false }
+    ],
+    "explanation": "Nikola Karabatic ist ein weltbekannter französischer Handballspieler mit zahlreichen internationalen Erfolgen."
+  },
+
+
+  {
+    "level": 3,
+    "category": "kategorie4",
+    "question": "Wie viele Durchgänge (Innings) hat ein reguläres Baseballspiel in der Major League (MLB)?",
+    "difficulty": "mittel",
+    "answers": [
+      { "text": "9 Innings", "isCorrect": true },
+      { "text": "7 Innings", "isCorrect": false },
+      { "text": "12 Innings", "isCorrect": false },
+      { "text": "4 Innings", "isCorrect": false }
+    ],
+    "explanation": "Ein Baseballspiel in der MLB wird über 9 Innings gespielt, wobei jede Mannschaft pro Inning einmal schlägt."
   },
   {
     "level": 3,
-    "question": "Welche Rennserie gilt als die Königsklasse des Motorsports?",
+    "category": "kategorie4",
+    "question": "Welche Nation gewann 2014 die FIFA-Weltmeisterschaft im Fußball?",
     "difficulty": "mittel",
     "answers": [
-      { "text": "IndyCar", "isCorrect": false },
-      { "text": "NASCAR", "isCorrect": false },
-      { "text": "MotoGP", "isCorrect": false },
-      { "text": "Formel 1", "isCorrect": true }
-    ]
+      { "text": "Brasilien", "isCorrect": false },
+      { "text": "Deutschland", "isCorrect": true },
+      { "text": "Argentinien", "isCorrect": false },
+      { "text": "Spanien", "isCorrect": false }
+    ],
+    "explanation": "Deutschland besiegte im Finale Argentinien mit 1:0 in der Verlängerung und wurde 2014 Weltmeister."
   },
   {
     "level": 3,
-    "question": "Welcher Boxer trug den Spitznamen 'The Greatest'?",
+    "category": "kategorie4",
+    "question": "Auf welchem Untergrund wird traditionell das Tennisturnier der French Open gespielt?",
     "difficulty": "mittel",
     "answers": [
-      { "text": "Muhammad Ali", "isCorrect": true },
-      { "text": "Mike Tyson", "isCorrect": false },
-      { "text": "Floyd Mayweather Jr.", "isCorrect": false },
-      { "text": "Rocky Marciano", "isCorrect": false }
-    ]
+      { "text": "Rasen", "isCorrect": false },
+      { "text": "Hartplatz", "isCorrect": false },
+      { "text": "Sandplatz", "isCorrect": true },
+      { "text": "Teppichboden", "isCorrect": false }
+    ],
+    "explanation": "Die French Open (Roland Garros) sind das bekannteste Sandplatzturnier der Welt."
+  },
+  {
+    "level": 3,
+    "category": "kategorie4",
+    "question": "Wie viele Punkte erhält im Volleyball ein Team gewöhnlich pro gewonnenem Satz (außer evtl. Tie-Break)?",
+    "difficulty": "mittel",
+    "answers": [
+      { "text": "21 Punkte", "isCorrect": false },
+      { "text": "15 Punkte", "isCorrect": false },
+      { "text": "25 Punkte", "isCorrect": true },
+      { "text": "10 Punkte", "isCorrect": false }
+    ],
+    "explanation": "Im Volleyball geht ein Satz (außer der Entscheidungssatz) bis mindestens 25 Punkte mit zwei Punkten Vorsprung."
+  },
+  {
+    "level": 3,
+    "category": "kategorie4",
+    "question": "Wer ist der Rekordtorschütze der deutschen Fußballnationalmannschaft (Stand 2023)?",
+    "difficulty": "mittel",
+    "answers": [
+      { "text": "Lukas Podolski", "isCorrect": false },
+      { "text": "Gerd Müller", "isCorrect": false },
+      { "text": "Miroslav Klose", "isCorrect": true },
+      { "text": "Jürgen Klinsmann", "isCorrect": false }
+    ],
+    "explanation": "Miroslav Klose erzielte insgesamt 71 Tore für die deutsche Nationalmannschaft."
+  },
+  {
+    "level": 3,
+    "category": "kategorie4",
+    "question": "Welcher Sportler galt als 'schnellster Mann der Welt' und hält den 100-Meter-Weltrekord (Stand 2023)?",
+    "difficulty": "mittel",
+    "answers": [
+      { "text": "Carl Lewis", "isCorrect": false },
+      { "text": "Usain Bolt", "isCorrect": true },
+      { "text": "Justin Gatlin", "isCorrect": false },
+      { "text": "Maurice Greene", "isCorrect": false }
+    ],
+    "explanation": "Usain Bolt hält mit 9,58 Sekunden den aktuellen Weltrekord (Stand 2023) über 100 Meter."
+  },
+  {
+    "level": 3,
+    "category": "kategorie4",
+    "question": "Aus wie vielen Disziplinen besteht ein Triathlon klassischerweise?",
+    "difficulty": "mittel",
+    "answers": [
+      { "text": "Zwei Disziplinen", "isCorrect": false },
+      { "text": "Vier Disziplinen", "isCorrect": false },
+      { "text": "Drei Disziplinen", "isCorrect": true },
+      { "text": "Fünf Disziplinen", "isCorrect": false }
+    ],
+    "explanation": "Ein Triathlon besteht aus Schwimmen, Radfahren und Laufen."
+  },
+  {
+    "level": 3,
+    "category": "kategorie4",
+    "question": "Wie viele Ringe hat das Logo der Olympischen Spiele?",
+    "difficulty": "mittel",
+    "answers": [
+      { "text": "4", "isCorrect": false },
+      { "text": "5", "isCorrect": true },
+      { "text": "6", "isCorrect": false },
+      { "text": "3", "isCorrect": false }
+    ],
+    "explanation": "Das olympische Symbol besteht aus fünf ineinander verschlungenen Ringen."
+  },
+  {
+    "level": 3,
+    "category": "kategorie4",
+    "question": "Welcher Boxkampf wird auch als 'Rumble in the Jungle' bezeichnet?",
+    "difficulty": "mittel",
+    "answers": [
+      { "text": "Muhammad Ali vs. Joe Frazier (Thrilla in Manila)", "isCorrect": false },
+      { "text": "George Foreman vs. Joe Frazier", "isCorrect": false },
+      { "text": "Muhammad Ali vs. George Foreman (Kinshasa 1974)", "isCorrect": true },
+      { "text": "Floyd Mayweather vs. Manny Pacquiao", "isCorrect": false }
+    ],
+    "explanation": "Der 'Rumble in the Jungle' fand 1974 in Kinshasa (heute DR Kongo) zwischen Muhammad Ali und George Foreman statt."
+  },
+  {
+    "level": 3,
+    "category": "kategorie4",
+    "question": "Welcher Rugby-Typ ist international weiter verbreitet: Rugby Union oder Rugby League?",
+    "difficulty": "mittel",
+    "answers": [
+      { "text": "Rugby Sevens", "isCorrect": false },
+      { "text": "Rugby League", "isCorrect": false },
+      { "text": "Rugby Union", "isCorrect": true },
+      { "text": "Touch Rugby", "isCorrect": false }
+    ],
+    "explanation": "Rugby Union ist die weltweit verbreitetste Variante des Rugbysports, mit 15 Spielern pro Mannschaft."
+  },
+
+
+  {
+    "level": 4,
+    "category": "kategorie4",
+    "question": "Wie oft gewann Roger Federer das Grand-Slam-Turnier in Wimbledon im Einzel?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "8 Mal", "isCorrect": true },
+      { "text": "9 Mal", "isCorrect": false },
+      { "text": "7 Mal", "isCorrect": false },
+      { "text": "10 Mal", "isCorrect": false }
+    ],
+    "explanation": "Roger Federer hat Wimbledon im Einzel achtmal gewonnen, ein Rekord bei den Herren (Stand 2023)."
   },
   {
     "level": 4,
-    "question": "Wann fanden die ersten modernen Olympischen Spiele statt?",
+    "category": "kategorie4",
+    "question": "Welche deutsche Leichtathletin stellte 1988 den bis heute gültigen 100-Meter-Weltrekord der Frauen auf?",
     "difficulty": "schwer",
     "answers": [
-      { "text": "1896", "isCorrect": true },
-      { "text": "1900", "isCorrect": false },
-      { "text": "1884", "isCorrect": false },
-      { "text": "1920", "isCorrect": false }
-    ]
+      { "text": "Heike Drechsler", "isCorrect": false },
+      { "text": "Katrin Krabbe", "isCorrect": false },
+      { "text": "Marlies Göhr", "isCorrect": false },
+      { "text": "Florence Griffith-Joyner (USA) hält den Rekord, keine Deutsche", "isCorrect": true }
+    ],
+    "explanation": "Der Frauen-Weltrekord von 10,49 Sek. (1988) gehört Florence Griffith-Joyner (USA). Keine Deutsche hält diesen Rekord."
   },
   {
     "level": 4,
-    "question": "Welcher Tennisspieler hat als einziger alle 9 Masters-1000-Turniere mindestens zweimal gewonnen?",
+    "category": "kategorie4",
+    "question": "In welchem Jahr fand der erste Super Bowl (Endspiel der NFL) statt?",
     "difficulty": "schwer",
     "answers": [
-      { "text": "Novak Djokovic", "isCorrect": true },
-      { "text": "Rafael Nadal", "isCorrect": false },
-      { "text": "Roger Federer", "isCorrect": false },
-      { "text": "Andy Murray", "isCorrect": false }
-    ]
+      { "text": "1957", "isCorrect": false },
+      { "text": "1967", "isCorrect": true },
+      { "text": "1970", "isCorrect": false },
+      { "text": "1961", "isCorrect": false }
+    ],
+    "explanation": "Der erste Super Bowl wurde am 15. Januar 1967 zwischen den Green Bay Packers und den Kansas City Chiefs ausgetragen."
+  },
+  {
+    "level": 4,
+    "category": "kategorie4",
+    "question": "Wer ist der Rekordtorschütze in der Geschichte des FC Bayern München (Stand 2023)?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Gerd Müller", "isCorrect": true },
+      { "text": "Robert Lewandowski", "isCorrect": false },
+      { "text": "Karl-Heinz Rummenigge", "isCorrect": false },
+      { "text": "Thomas Müller", "isCorrect": false }
+    ],
+    "explanation": "Gerd Müller erzielte in seinen Jahren beim FC Bayern München die meisten Tore für den Verein."
+  },
+  {
+    "level": 4,
+    "category": "kategorie4",
+    "question": "Welche Frau gilt als erfolgreichste alpine Skirennläuferin mit 82 Weltcupsiegen (Stand Ende 2022)?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Lindsey Vonn (USA)", "isCorrect": true },
+      { "text": "Mikaela Shiffrin (USA)", "isCorrect": false },
+      { "text": "Annemarie Moser-Pröll (AUT)", "isCorrect": false },
+      { "text": "Vreni Schneider (SUI)", "isCorrect": false }
+    ],
+    "explanation": "Lindsey Vonn gewann 82 Weltcuprennen und beendete ihre Karriere 2019. (Mikaela Shiffrin überholte sie 2023.)"
+  },
+  {
+    "level": 4,
+    "category": "kategorie4",
+    "question": "Wie viele Punkte gibt es maximal in einem klassischen 501-Dart-Leg mit einem 9-Darter?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "501 Punkte", "isCorrect": false },
+      { "text": "Nach 9 Würfen 501 Punkte abgebaut, also 501 = 0 Rest", "isCorrect": true },
+      { "text": "441 Punkte", "isCorrect": false },
+      { "text": "Keine feste Punktzahl, da Out-Shot variieren kann", "isCorrect": false }
+    ],
+    "explanation": "Ein 9-Darter ist das perfekte Spiel beim 501-Darts, bei dem genau 501 Punkte in 9 Pfeilen abgebaut werden."
+  },
+  {
+    "level": 4,
+    "category": "kategorie4",
+    "question": "Wer war der erste Boxer, der in fünf verschiedenen Gewichtsklassen Weltmeistertitel gewann?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Muhammad Ali", "isCorrect": false },
+      { "text": "Floyd Mayweather Jr.", "isCorrect": true },
+      { "text": "Manny Pacquiao", "isCorrect": false },
+      { "text": "Oscar De La Hoya", "isCorrect": false }
+    ],
+    "explanation": "Floyd Mayweather Jr. errang Weltmeistertitel in fünf verschiedenen Gewichtsklassen."
+  },
+  {
+    "level": 4,
+    "category": "kategorie4",
+    "question": "Welche Sportart umfasst die Disziplinen Säbel, Florett und Degen?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Leichtathletik", "isCorrect": false },
+      { "text": "Fechten", "isCorrect": true },
+      { "text": "Moderner Fünfkampf", "isCorrect": false },
+      { "text": "Ringen", "isCorrect": false }
+    ],
+    "explanation": "Fechten teilt sich in die drei Waffengattungen Säbel, Florett und Degen."
+  },
+  {
+    "level": 4,
+    "category": "kategorie4",
+    "question": "Welcher US-amerikanische Schwimmer gewann insgesamt 23 olympische Goldmedaillen?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Mark Spitz", "isCorrect": false },
+      { "text": "Ryan Lochte", "isCorrect": false },
+      { "text": "Ian Thorpe", "isCorrect": false },
+      { "text": "Michael Phelps", "isCorrect": true }
+    ],
+    "explanation": "Michael Phelps ist der erfolgreichste Olympionike aller Zeiten mit 23 gewonnenen Goldmedaillen."
+  },
+  {
+    "level": 4,
+    "category": "kategorie4",
+    "question": "Welcher deutsche Tennisspieler gewann 1985 als jüngster Sieger das Turnier von Wimbledon?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Tommy Haas", "isCorrect": false },
+      { "text": "Michael Stich", "isCorrect": false },
+      { "text": "Boris Becker", "isCorrect": true },
+      { "text": "Alexander Zverev", "isCorrect": false }
+    ],
+    "explanation": "Boris Becker siegte 1985 in Wimbledon im Alter von 17 Jahren und 227 Tagen und schrieb damit Tennisgeschichte."
+  },
+
+
+  {
+    "level": 5,
+    "category": "kategorie4",
+    "question": "Wer hält den Rekord für die meisten erzielten Tore in der Geschichte des Eishockey (NHL)?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Mario Lemieux", "isCorrect": false },
+      { "text": "Bobby Hull", "isCorrect": false },
+      { "text": "Wayne Gretzky", "isCorrect": true },
+      { "text": "Gordie Howe", "isCorrect": false }
+    ],
+    "explanation": "Wayne Gretzky erzielte in seiner NHL-Karriere 894 Tore und hält damit den Rekord für die meisten Tore."
   },
   {
     "level": 5,
-    "question": "Wie oft hat Michael Schumacher die Formel-1-Weltmeisterschaft gewonnen?",
+    "category": "kategorie4",
+    "question": "Aus welcher Stadt stammt der Basketballverein Panathinaikos, mehrfacher EuroLeague-Gewinner?",
     "difficulty": "schwer",
     "answers": [
-      { "text": "7 Mal", "isCorrect": true },
-      { "text": "5 Mal", "isCorrect": false },
-      { "text": "6 Mal", "isCorrect": false },
-      { "text": "8 Mal", "isCorrect": false }
-    ]
+      { "text": "Istanbul", "isCorrect": false },
+      { "text": "Tel Aviv", "isCorrect": false },
+      { "text": "Athen", "isCorrect": true },
+      { "text": "Barcelona", "isCorrect": false }
+    ],
+    "explanation": "Panathinaikos Athen ist ein griechischer Basketballverein und einer der erfolgreichsten Klubs Europas."
   },
   {
     "level": 5,
-    "question": "Wer hält (Stand 2023) den Rekord für die meisten Grand-Slam-Titel im Herren-Einzel (Tennis)?",
+    "category": "kategorie4",
+    "question": "Wie oft hat der brasilianische Fußballclub FC Santos (u. a. Heimatverein von Pelé) die Copa Libertadores gewonnen?",
     "difficulty": "schwer",
     "answers": [
-      { "text": "Rafael Nadal", "isCorrect": false },
-      { "text": "Novak Djokovic", "isCorrect": true },
-      { "text": "Roger Federer", "isCorrect": false },
-      { "text": "Pete Sampras", "isCorrect": false }
-    ]
+      { "text": "Nie", "isCorrect": false },
+      { "text": "Zweimal", "isCorrect": false },
+      { "text": "Dreimal", "isCorrect": true },
+      { "text": "Fünfmal", "isCorrect": false }
+    ],
+    "explanation": "Der FC Santos gewann die Copa Libertadores dreimal (1962, 1963, 2011)."
+  },
+  {
+    "level": 5,
+    "category": "kategorie4",
+    "question": "Wie viele Sätze muss man normalerweise beim Tischtennis gewinnen, um ein Einzelmatch zu entscheiden (aktuelles Wettkampfsystem)?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Best of 3", "isCorrect": false },
+      { "text": "Best of 9", "isCorrect": false },
+      { "text": "Best of 5 (3 Gewinnsätze)", "isCorrect": true },
+      { "text": "Best of 7 (4 Gewinnsätze)", "isCorrect": false }
+    ],
+    "explanation": "Im offiziellen Tischtenniswettkampf wird meist auf drei Gewinnsätze (Best-of-5) gespielt."
+  },
+  {
+    "level": 5,
+    "category": "kategorie4",
+    "question": "Welche Nation gewann den allerersten FIFA World Cup im Jahr 1930?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Italien", "isCorrect": false },
+      { "text": "Argentinien", "isCorrect": false },
+      { "text": "Uruguay", "isCorrect": true },
+      { "text": "Brasilien", "isCorrect": false }
+    ],
+    "explanation": "Uruguay richtete 1930 als Gastgeber die erste WM aus und gewann das Endspiel gegen Argentinien."
+  },
+  {
+    "level": 5,
+    "category": "kategorie4",
+    "question": "Wie viele Siege erzielte Valentino Rossi in der MotoGP-Königsklasse (500 ccm bzw. MotoGP)?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Keinen, er war nur in der 250-ccm-Klasse erfolgreich", "isCorrect": false },
+      { "text": "Die exakte Zahl liegt bei über 80 Siegen", "isCorrect": true },
+      { "text": "Rund 50 Siege", "isCorrect": false },
+      { "text": "Über 120 Siege in der MotoGP", "isCorrect": false }
+    ],
+    "explanation": "Valentino Rossi gewann in der Königsklasse (500 ccm/MotoGP) über 80 Rennen und wurde mehrfach Weltmeister."
+  },
+  {
+    "level": 5,
+    "category": "kategorie4",
+    "question": "Wie nennt man das jährliche Basketballturnier in den USA, an dem Colleges teilnehmen?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "NCAA March Madness", "isCorrect": true },
+      { "text": "NBA Playoffs", "isCorrect": false },
+      { "text": "NIT (National Invitation Tournament)", "isCorrect": false },
+      { "text": "USA Cup", "isCorrect": false }
+    ],
+    "explanation": "Das NCAA-Turnier (genannt 'March Madness') ist eines der bekanntesten College-Basketball-Events in den USA."
+  },
+  {
+    "level": 5,
+    "category": "kategorie4",
+    "question": "Wie nennt sich im alpinen Skirennsport der Wettbewerb, der aus Abfahrt und Slalom kombiniert wird?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Super-G", "isCorrect": false },
+      { "text": "Kombination", "isCorrect": true },
+      { "text": "Parallel-Rennen", "isCorrect": false },
+      { "text": "Super-Kombination (wenn nur ein Slalomlauf)", "isCorrect": false }
+    ],
+    "explanation": "In der 'Kombination' oder 'Super-Kombination' werden Abfahrt und Slalom zusammengewertet."
+  },
+  {
+    "level": 5,
+    "category": "kategorie4",
+    "question": "Welche Eishockeynationalmannschaft ist mit den meisten WM-Titeln Rekordweltmeister (Stand 2023)?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Kanada", "isCorrect": true },
+      { "text": "Russland (ehem. UdSSR)", "isCorrect": false },
+      { "text": "Tschechien", "isCorrect": false },
+      { "text": "Schweden", "isCorrect": false }
+    ],
+    "explanation": "Kanada ist der Rekordweltmeister bei den Eishockey-Weltmeisterschaften, gefolgt von Russland (inkl. UdSSR)."
+  },
+  {
+    "level": 5,
+    "category": "kategorie4",
+    "question": "Welcher Golfspieler gilt mit 18 Major-Siegen als erfolgreichster Major-Gewinner?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Tiger Woods", "isCorrect": false },
+      { "text": "Jack Nicklaus", "isCorrect": true },
+      { "text": "Arnold Palmer", "isCorrect": false },
+      { "text": "Gary Player", "isCorrect": false }
+    ],
+    "explanation": "Jack Nicklaus hält mit 18 Major-Titeln den Rekord, Tiger Woods folgt mit 15 Majors."
   }
 ]

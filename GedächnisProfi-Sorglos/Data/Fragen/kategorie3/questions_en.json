@@ -1,22 +1,647 @@
 [
   {
     "level": 1,
-    "question": "What is the capital of Germany?",
+    "category": "kategorie3",
+    "question": "When did World War II end in Europe?",
+    "difficulty": "easy",
     "answers": [
-      { "text": "Berlin", "isCorrect": true },
-      { "text": "Munich", "isCorrect": false },
-      { "text": "Hamburg", "isCorrect": false },
-      { "text": "Frankfurt", "isCorrect": false }
-    ]
+      { "text": "1945", "isCorrect": true },
+      { "text": "1944", "isCorrect": false },
+      { "text": "1939", "isCorrect": false },
+      { "text": "1918", "isCorrect": false }
+    ],
+    "explanation": "World War II in Europe officially ended on May 8, 1945, with Germany’s unconditional surrender."
+  },
+  {
+    "level": 1,
+    "category": "kategorie3",
+    "question": "Who was the first Chancellor of the Federal Republic of Germany?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "Willy Brandt", "isCorrect": false },
+      { "text": "Konrad Adenauer", "isCorrect": true },
+      { "text": "Helmut Schmidt", "isCorrect": false },
+      { "text": "Ludwig Erhard", "isCorrect": false }
+    ],
+    "explanation": "Konrad Adenauer served as the first Chancellor of the Federal Republic of Germany from 1949 to 1963."
+  },
+  {
+    "level": 1,
+    "category": "kategorie3",
+    "question": "Which ancient civilization built the Pyramids of Giza?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "The Romans", "isCorrect": false },
+      { "text": "The Maya", "isCorrect": false },
+      { "text": "The ancient Egyptians", "isCorrect": true },
+      { "text": "The Inca", "isCorrect": false }
+    ],
+    "explanation": "The Pyramids of Giza were constructed by the ancient Egyptians and are among the Seven Wonders of the Ancient World."
+  },
+  {
+    "level": 1,
+    "category": "kategorie3",
+    "question": "When did the Berlin Wall fall?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "1987", "isCorrect": false },
+      { "text": "1983", "isCorrect": false },
+      { "text": "1990", "isCorrect": false },
+      { "text": "1989", "isCorrect": true }
+    ],
+    "explanation": "The Berlin Wall fell on November 9, 1989, paving the way for German reunification."
+  },
+  {
+    "level": 1,
+    "category": "kategorie3",
+    "question": "Who was the legendary founder of Rome?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "Remus", "isCorrect": false },
+      { "text": "Romulus", "isCorrect": true },
+      { "text": "Julius Caesar", "isCorrect": false },
+      { "text": "Augustus", "isCorrect": false }
+    ],
+    "explanation": "According to Roman legend, Rome was founded by Romulus in 753 BC."
+  },
+  {
+    "level": 1,
+    "category": "kategorie3",
+    "question": "Who was the first President of the United States of America?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "Abraham Lincoln", "isCorrect": false },
+      { "text": "John Adams", "isCorrect": false },
+      { "text": "George Washington", "isCorrect": true },
+      { "text": "Thomas Jefferson", "isCorrect": false }
+    ],
+    "explanation": "George Washington served as the first U.S. President from 1789 to 1797."
+  },
+  {
+    "level": 1,
+    "category": "kategorie3",
+    "question": "Which Macedonian ruler conquered an empire stretching to India?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "Attila the Hun", "isCorrect": false },
+      { "text": "Gaius Julius Caesar", "isCorrect": false },
+      { "text": "Genghis Khan", "isCorrect": false },
+      { "text": "Alexander the Great", "isCorrect": true }
+    ],
+    "explanation": "Alexander the Great (356–323 BC) expanded the Macedonian Empire across Western Asia and into Northwest India."
+  },
+  {
+    "level": 1,
+    "category": "kategorie3",
+    "question": "Which empire fell in AD 476?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "The Holy Roman Empire", "isCorrect": false },
+      { "text": "The Western Roman Empire", "isCorrect": true },
+      { "text": "The Byzantine Empire", "isCorrect": false },
+      { "text": "Alexander’s Empire", "isCorrect": false }
+    ],
+    "explanation": "AD 476 traditionally marks the end of the Western Roman Empire, when the last emperor, Romulus Augustulus, was deposed."
+  },
+  {
+    "level": 1,
+    "category": "kategorie3",
+    "question": "Which Carthaginian general crossed the Alps with elephants?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "Scipio Africanus", "isCorrect": false },
+      { "text": "Hasdrubal", "isCorrect": false },
+      { "text": "Hannibal", "isCorrect": true },
+      { "text": "Agathocles", "isCorrect": false }
+    ],
+    "explanation": "Hannibal Barca led his forces, including war elephants, across the Alps during the Second Punic War (218–201 BC)."
+  },
+  {
+    "level": 1,
+    "category": "kategorie3",
+    "question": "Which region did Christopher Columbus officially reach in 1492?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "Asia", "isCorrect": false },
+      { "text": "America", "isCorrect": true },
+      { "text": "Africa", "isCorrect": false },
+      { "text": "Australia", "isCorrect": false }
+    ],
+    "explanation": "Although Columbus believed he had found a new route to Asia, he landed on an island in the Bahamas, in what is now known as the Americas."
+  },
+
+
+  {
+    "level": 2,
+    "category": "kategorie3",
+    "question": "When did World War I begin?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "1912", "isCorrect": false },
+      { "text": "1914", "isCorrect": true },
+      { "text": "1923", "isCorrect": false },
+      { "text": "1918", "isCorrect": false }
+    ],
+    "explanation": "World War I started on July 28, 1914, when Austria-Hungary declared war on Serbia."
   },
   {
     "level": 2,
-    "question": "Which planet is the largest in the solar system?",
+    "category": "kategorie3",
+    "question": "In which year did Martin Luther publish his 95 Theses?",
+    "difficulty": "easy",
     "answers": [
-      { "text": "Jupiter", "isCorrect": true },
-      { "text": "Mars", "isCorrect": false },
-      { "text": "Earth", "isCorrect": false },
-      { "text": "Saturn", "isCorrect": false }
-    ]
+      { "text": "1517", "isCorrect": true },
+      { "text": "1453", "isCorrect": false },
+      { "text": "1545", "isCorrect": false },
+      { "text": "1618", "isCorrect": false }
+    ],
+    "explanation": "On October 31, 1517, Martin Luther is said to have posted his 95 Theses on the door of the Castle Church in Wittenberg."
+  },
+  {
+    "level": 2,
+    "category": "kategorie3",
+    "question": "When was Germany officially reunified?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "October 3, 1989", "isCorrect": false },
+      { "text": "January 1, 1991", "isCorrect": false },
+      { "text": "October 3, 1990", "isCorrect": true },
+      { "text": "November 9, 1989", "isCorrect": false }
+    ],
+    "explanation": "Germany was officially reunified on October 3, 1990, when the German Democratic Republic (East Germany) joined the Federal Republic of Germany."
+  },
+  {
+    "level": 2,
+    "category": "kategorie3",
+    "question": "Which continent was extensively colonized by European powers in the 19th century?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "Asia", "isCorrect": false },
+      { "text": "Africa", "isCorrect": true },
+      { "text": "South America", "isCorrect": false },
+      { "text": "Australia", "isCorrect": false }
+    ],
+    "explanation": "The 19th century saw the ‘Scramble for Africa,’ during which many European states established colonies."
+  },
+  {
+    "level": 2,
+    "category": "kategorie3",
+    "question": "Which English king had a total of six wives?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "Edward VI", "isCorrect": false },
+      { "text": "Henry VII", "isCorrect": false },
+      { "text": "Henry VIII", "isCorrect": true },
+      { "text": "Charles I", "isCorrect": false }
+    ],
+    "explanation": "Henry VIII (1491–1547) also initiated England’s break from the Roman Catholic Church."
+  },
+  {
+    "level": 2,
+    "category": "kategorie3",
+    "question": "Who was both Holy Roman Emperor and King of Spain?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "Maximilian I", "isCorrect": false },
+      { "text": "Ferdinand II", "isCorrect": false },
+      { "text": "Charles V", "isCorrect": true },
+      { "text": "Henry V", "isCorrect": false }
+    ],
+    "explanation": "Charles V (1500–1558) ruled over an empire on which ‘the sun never set,’ due to Spain’s colonies in the New World."
+  },
+  {
+    "level": 2,
+    "category": "kategorie3",
+    "question": "To which people did Charlemagne (Karl der Große) belong?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "The Lombards", "isCorrect": false },
+      { "text": "The Goths", "isCorrect": false },
+      { "text": "The Burgundians", "isCorrect": false },
+      { "text": "The Franks", "isCorrect": true }
+    ],
+    "explanation": "Charlemagne (747–814) was King of the Franks and later became Emperor of the Romans (800–814)."
+  },
+  {
+    "level": 2,
+    "category": "kategorie3",
+    "question": "Which explorer led the first circumnavigation of the world (1519–1522)?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "Christopher Columbus", "isCorrect": false },
+      { "text": "Bartolomeu Dias", "isCorrect": false },
+      { "text": "Ferdinand Magellan", "isCorrect": true },
+      { "text": "James Cook", "isCorrect": false }
+    ],
+    "explanation": "Magellan launched the expedition in 1519; after his death, Juan Sebastián Elcano completed the circumnavigation."
+  },
+  {
+    "level": 2,
+    "category": "kategorie3",
+    "question": "Which Paris fortress was stormed on July 14, 1789, marking the beginning of the French Revolution?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "Tuileries Palace", "isCorrect": false },
+      { "text": "Palais Royal", "isCorrect": false },
+      { "text": "Louvre", "isCorrect": false },
+      { "text": "Bastille", "isCorrect": true }
+    ],
+    "explanation": "The storming of the Bastille on July 14, 1789, is considered a symbolic start to the French Revolution."
+  },
+  {
+    "level": 2,
+    "category": "kategorie3",
+    "question": "Which Ottoman Sultan, known as 'the Magnificent,' elevated the empire to its peak of power?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "Osman I", "isCorrect": false },
+      { "text": "Selim II", "isCorrect": false },
+      { "text": "Suleiman I", "isCorrect": true },
+      { "text": "Mehmed II", "isCorrect": false }
+    ],
+    "explanation": "Suleiman the Magnificent (1494–1566) expanded the Ottoman Empire and oversaw its golden age."
+  },
+
+
+  {
+    "level": 3,
+    "category": "kategorie3",
+    "question": "What was Germany called between 1871 and 1918?",
+    "difficulty": "medium",
+    "answers": [
+      { "text": "Weimar Republic", "isCorrect": false },
+      { "text": "Holy Roman Empire", "isCorrect": false },
+      { "text": "North German Confederation", "isCorrect": false },
+      { "text": "German Empire (Deutsches Kaiserreich)", "isCorrect": true }
+    ],
+    "explanation": "After its founding in 1871, it was known as the German Empire until Emperor Wilhelm II abdicated in 1918."
+  },
+  {
+    "level": 3,
+    "category": "kategorie3",
+    "question": "Which Viking is believed to have reached parts of North America around AD 1000?",
+    "difficulty": "medium",
+    "answers": [
+      { "text": "Erik the Red", "isCorrect": false },
+      { "text": "Ragnar Lothbrok", "isCorrect": false },
+      { "text": "Harald Bluetooth", "isCorrect": false },
+      { "text": "Leif Erikson", "isCorrect": true }
+    ],
+    "explanation": "Leif Erikson is said to have landed in regions of modern-day Newfoundland (Canada) around the year 1000."
+  },
+  {
+    "level": 3,
+    "category": "kategorie3",
+    "question": "Which dynasty ruled Russia from 1613 to 1917?",
+    "difficulty": "medium",
+    "answers": [
+      { "text": "Rurikids", "isCorrect": false },
+      { "text": "Romanov", "isCorrect": true },
+      { "text": "Habsburg", "isCorrect": false },
+      { "text": "Bourbon", "isCorrect": false }
+    ],
+    "explanation": "The Romanovs were the last imperial dynasty of Russia, ending with the abdication of Tsar Nicholas II in 1917."
+  },
+  {
+    "level": 3,
+    "category": "kategorie3",
+    "question": "Who is considered the father of the Indian independence movement, known for nonviolent resistance?",
+    "difficulty": "medium",
+    "answers": [
+      { "text": "Jawaharlal Nehru", "isCorrect": false },
+      { "text": "Subhas Chandra Bose", "isCorrect": false },
+      { "text": "Mahatma Gandhi", "isCorrect": true },
+      { "text": "Bhagat Singh", "isCorrect": false }
+    ],
+    "explanation": "Mohandas Karamchand Gandhi (called Mahatma) led India to independence (1947) through nonviolent civil disobedience."
+  },
+  {
+    "level": 3,
+    "category": "kategorie3",
+    "question": "Which 1215 document limited the powers of the English king?",
+    "difficulty": "medium",
+    "answers": [
+      { "text": "Bill of Rights", "isCorrect": false },
+      { "text": "Magna Carta", "isCorrect": true },
+      { "text": "Act of Supremacy", "isCorrect": false },
+      { "text": "Habeas Corpus Act", "isCorrect": false }
+    ],
+    "explanation": "Magna Carta, recognized by King John in 1215, is a key early legal document restricting royal authority."
+  },
+  {
+    "level": 3,
+    "category": "kategorie3",
+    "question": "Which German ruler, nicknamed 'the Great,' founded the Ottonian Empire?",
+    "difficulty": "medium",
+    "answers": [
+      { "text": "Frederick I Barbarossa", "isCorrect": false },
+      { "text": "Henry IV", "isCorrect": false },
+      { "text": "Otto I", "isCorrect": true },
+      { "text": "Charles the Bald", "isCorrect": false }
+    ],
+    "explanation": "Otto I (912–973) was the first Holy Roman Emperor of the Ottonian dynasty."
+  },
+  {
+    "level": 3,
+    "category": "kategorie3",
+    "question": "Who was the first German Emperor of the so-called Second Reich?",
+    "difficulty": "medium",
+    "answers": [
+      { "text": "Wilhelm I", "isCorrect": true },
+      { "text": "Wilhelm II", "isCorrect": false },
+      { "text": "Friedrich III", "isCorrect": false },
+      { "text": "Otto von Bismarck", "isCorrect": false }
+    ],
+    "explanation": "Wilhelm I (1797–1888) was proclaimed German Emperor in 1871 and reigned until 1888."
+  },
+  {
+    "level": 3,
+    "category": "kategorie3",
+    "question": "In about which century did the Industrial Revolution begin in Great Britain?",
+    "difficulty": "medium",
+    "answers": [
+      { "text": "15th century", "isCorrect": false },
+      { "text": "17th century", "isCorrect": false },
+      { "text": "20th century", "isCorrect": false },
+      { "text": "18th century (around 1760)", "isCorrect": true }
+    ],
+    "explanation": "The Industrial Revolution started in England around 1760 and spread across Europe in the 19th century."
+  },
+  {
+    "level": 3,
+    "category": "kategorie3",
+    "question": "Who reached India by sailing around the Cape of Good Hope in 1498?",
+    "difficulty": "medium",
+    "answers": [
+      { "text": "Bartolomeu Dias", "isCorrect": false },
+      { "text": "Vasco da Gama", "isCorrect": true },
+      { "text": "Ferdinand Magellan", "isCorrect": false },
+      { "text": "James Cook", "isCorrect": false }
+    ],
+    "explanation": "In 1498, Vasco da Gama arrived in Calicut (Kozhikode), opening a sea route to Asia for Portugal."
+  },
+
+
+  {
+    "level": 4,
+    "category": "kategorie3",
+    "question": "Which peace treaty ended the Thirty Years’ War in 1648?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Peace of Augsburg", "isCorrect": false },
+      { "text": "Treaty of Westphalia", "isCorrect": true },
+      { "text": "Congress of Vienna", "isCorrect": false },
+      { "text": "Peace of Pressburg", "isCorrect": false }
+    ],
+    "explanation": "The Peace of Westphalia of 1648 ended the Thirty Years’ War, reshaping the European state system."
+  },
+  {
+    "level": 4,
+    "category": "kategorie3",
+    "question": "Who was the founder of the Mongol Empire?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Kublai Khan", "isCorrect": false },
+      { "text": "Ögedei Khan", "isCorrect": false },
+      { "text": "Genghis Khan", "isCorrect": true },
+      { "text": "Timur (Tamerlane)", "isCorrect": false }
+    ],
+    "explanation": "Genghis Khan (1162–1227) united the Mongol tribes and created the largest contiguous empire in history."
+  },
+  {
+    "level": 4,
+    "category": "kategorie3",
+    "question": "Which Chinese dynasty reigned during Marco Polo’s visit around 1300?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Tang Dynasty", "isCorrect": false },
+      { "text": "Ming Dynasty", "isCorrect": false },
+      { "text": "Han Dynasty", "isCorrect": false },
+      { "text": "Yuan Dynasty", "isCorrect": true }
+    ],
+    "explanation": "The Yuan Dynasty (1279–1368), established by the Mongols, was in power when Marco Polo traveled in China."
+  },
+  {
+    "level": 4,
+    "category": "kategorie3",
+    "question": "Which pharaoh became famous when his nearly intact tomb was discovered in 1922?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Ramesses II", "isCorrect": false },
+      { "text": "Tutankhamun", "isCorrect": true },
+      { "text": "Akhenaten", "isCorrect": false },
+      { "text": "Khufu (Cheops)", "isCorrect": false }
+    ],
+    "explanation": "Tutankhamun’s tomb was found in 1922 by Howard Carter in the Valley of the Kings."
+  },
+  {
+    "level": 4,
+    "category": "kategorie3",
+    "question": "Which Byzantine emperor created the 'Codex' (a collection of laws) in the 6th century AD?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Constantine the Great", "isCorrect": false },
+      { "text": "Theodosius I", "isCorrect": false },
+      { "text": "Justinian I", "isCorrect": true },
+      { "text": "Heraclius", "isCorrect": false }
+    ],
+    "explanation": "Emperor Justinian I (482–565) compiled the 'Codex Justinianus,' preserving Roman legal traditions."
+  },
+  {
+    "level": 4,
+    "category": "kategorie3",
+    "question": "Which naval battle took place in 202 BC and sealed Rome’s victory over Carthage?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Battle of Cannae", "isCorrect": false },
+      { "text": "Battle of Actium", "isCorrect": false },
+      { "text": "Battle of Mylae", "isCorrect": false },
+      { "text": "Battle of Zama", "isCorrect": true }
+    ],
+    "explanation": "The Battle of Zama (202 BC) resulted in a decisive Roman victory over Hannibal and Carthage."
+  },
+  {
+    "level": 4,
+    "category": "kategorie3",
+    "question": "Who was the first Roman Emperor?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Tiberius", "isCorrect": false },
+      { "text": "Augustus", "isCorrect": true },
+      { "text": "Nero", "isCorrect": false },
+      { "text": "Julius Caesar", "isCorrect": false }
+    ],
+    "explanation": "Augustus (31 BC–AD 14) established the Principate and is considered the first Roman Emperor."
+  },
+  {
+    "level": 4,
+    "category": "kategorie3",
+    "question": "Which Polish scholar laid the groundwork for the heliocentric model in the early modern period?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Johannes Kepler", "isCorrect": false },
+      { "text": "Nicolaus Copernicus", "isCorrect": true },
+      { "text": "Galileo Galilei", "isCorrect": false },
+      { "text": "Giordano Bruno", "isCorrect": false }
+    ],
+    "explanation": "Nicolaus Copernicus (1473–1543) argued in his work that the Earth orbits the Sun."
+  },
+  {
+    "level": 4,
+    "category": "kategorie3",
+    "question": "When did the Meiji Restoration, which modernized Japan, begin?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "1868", "isCorrect": true },
+      { "text": "1603", "isCorrect": false },
+      { "text": "1854", "isCorrect": false },
+      { "text": "1912", "isCorrect": false }
+    ],
+    "explanation": "The Meiji Restoration began in 1868 and initiated a rapid modernization and industrialization of Japan."
+  },
+  {
+    "level": 4,
+    "category": "kategorie3",
+    "question": "Which Emperor of Ethiopia addressed the League of Nations in 1936 to protest the Italian invasion?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Menelik II", "isCorrect": false },
+      { "text": "Yohannes IV", "isCorrect": false },
+      { "text": "Haile Selassie", "isCorrect": true },
+      { "text": "Tekle Giyorgis II", "isCorrect": false }
+    ],
+    "explanation": "Haile Selassie I appealed to the League of Nations in 1936 against Italy’s invasion of Ethiopia."
+  },
+
+
+  {
+    "level": 5,
+    "category": "kategorie3",
+    "question": "What is the name of the conflict between Emperor and Pope (1075–1122) over the right to appoint bishops?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Avignon Papacy", "isCorrect": false },
+      { "text": "Walk to Canossa", "isCorrect": false },
+      { "text": "Eastern–Western Schism", "isCorrect": false },
+      { "text": "Investiture Controversy", "isCorrect": true }
+    ],
+    "explanation": "The Investiture Controversy ended in 1122 with the Concordat of Worms, clarifying the appointment of clerical offices."
+  },
+  {
+    "level": 5,
+    "category": "kategorie3",
+    "question": "Who is considered the founder of the Ottoman Empire around 1300?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Suleiman I", "isCorrect": false },
+      { "text": "Mehmed II", "isCorrect": false },
+      { "text": "Orhan", "isCorrect": false },
+      { "text": "Osman I", "isCorrect": true }
+    ],
+    "explanation": "Osman I (1258–1326) is regarded as the namesake and founder of the Ottoman dynasty."
+  },
+  {
+    "level": 5,
+    "category": "kategorie3",
+    "question": "Who wrote the political treatise 'The Prince' (Il Principe) around 1513?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Thomas More", "isCorrect": false },
+      { "text": "Niccolò Machiavelli", "isCorrect": true },
+      { "text": "Girolamo Savonarola", "isCorrect": false },
+      { "text": "Francesco Petrarca", "isCorrect": false }
+    ],
+    "explanation": "Machiavelli’s 'Il Principe' is one of the most influential works of Renaissance political philosophy."
+  },
+  {
+    "level": 5,
+    "category": "kategorie3",
+    "question": "Which Aztec ruler encountered the Spanish conquistadors under Hernán Cortés in 1519?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Ahuitzotl", "isCorrect": false },
+      { "text": "Cuauhtémoc", "isCorrect": false },
+      { "text": "Moctezuma II", "isCorrect": true },
+      { "text": "Itzcoatl", "isCorrect": false }
+    ],
+    "explanation": "Moctezuma II (1466–1520) was captured by the Spanish and died during the siege of Tenochtitlán."
+  },
+  {
+    "level": 5,
+    "category": "kategorie3",
+    "question": "When did the Great Plague (Black Death) spread across Europe?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "1347–1351", "isCorrect": true },
+      { "text": "1453–1456", "isCorrect": false },
+      { "text": "1200–1203", "isCorrect": false },
+      { "text": "1492–1495", "isCorrect": false }
+    ],
+    "explanation": "Between 1347 and 1351, the Black Death killed roughly one-third of Europe’s population."
+  },
+  {
+    "level": 5,
+    "category": "kategorie3",
+    "question": "Who founded the Jesuit Order in the 16th century?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Thomas Aquinas", "isCorrect": false },
+      { "text": "Ignatius of Loyola", "isCorrect": true },
+      { "text": "Francis Xavier", "isCorrect": false },
+      { "text": "Henry VIII", "isCorrect": false }
+    ],
+    "explanation": "Ignatius of Loyola (1491–1556) established the Society of Jesus (Jesuits) in 1534."
+  },
+  {
+    "level": 5,
+    "category": "kategorie3",
+    "question": "In which battle did William the Conqueror seize England in 1066?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Battle of Agincourt", "isCorrect": false },
+      { "text": "Battle of Stamford Bridge", "isCorrect": false },
+      { "text": "Battle of Crécy", "isCorrect": false },
+      { "text": "Battle of Hastings", "isCorrect": true }
+    ],
+    "explanation": "William the Conqueror defeated the Anglo-Saxons at the Battle of Hastings, becoming King of England."
+  },
+  {
+    "level": 5,
+    "category": "kategorie3",
+    "question": "Which agreement was signed in 1494 to divide the New World between Spain and Portugal?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Peace of Westphalia", "isCorrect": false },
+      { "text": "Treaty of Verdun", "isCorrect": false },
+      { "text": "Treaty of Tordesillas", "isCorrect": true },
+      { "text": "Treaty of Zaragoza", "isCorrect": false }
+    ],
+    "explanation": "Under the Treaty of Tordesillas (1494), Spain and Portugal split the non-European world between them."
+  },
+  {
+    "level": 5,
+    "category": "kategorie3",
+    "question": "Which Persian king began building the ceremonial capital Persepolis around 518 BC?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Cambyses II", "isCorrect": false },
+      { "text": "Xerxes I", "isCorrect": false },
+      { "text": "Darius I", "isCorrect": true },
+      { "text": "Cyrus the Great (Kyros II)", "isCorrect": false }
+    ],
+    "explanation": "Darius I started construction on Persepolis, later expanded under Xerxes I."
+  },
+  {
+    "level": 5,
+    "category": "kategorie3",
+    "question": "Which Mesopotamian civilization invented cuneiform, one of the oldest known writing systems?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Babylonians", "isCorrect": false },
+      { "text": "Assyrians", "isCorrect": false },
+      { "text": "Akkadians", "isCorrect": false },
+      { "text": "Sumerians", "isCorrect": true }
+    ],
+    "explanation": "The Sumerians developed cuneiform in the 4th millennium BC, later adopted by other Mesopotamian peoples."
   }
 ]

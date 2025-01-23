@@ -1,112 +1,647 @@
 [
   {
     "level": 1,
-    "question": "Wer war der erste Bundeskanzler der Bundesrepublik Deutschland?",
-    "difficulty": "leicht",
-    "answers": [
-      { "text": "Konrad Adenauer", "isCorrect": true },
-      { "text": "Helmut Kohl", "isCorrect": false },
-      { "text": "Willy Brandt", "isCorrect": false },
-      { "text": "Angela Merkel", "isCorrect": false }
-    ]
-  },
-  {
-    "level": 1,
+    "category": "kategorie3",
     "question": "Wann endete der Zweite Weltkrieg in Europa?",
     "difficulty": "leicht",
     "answers": [
-      { "text": "1945", "isCorrect": true },
       { "text": "1944", "isCorrect": false },
-      { "text": "1946", "isCorrect": false },
-      { "text": "1950", "isCorrect": false }
-    ]
+      { "text": "1939", "isCorrect": false },
+      { "text": "1945", "isCorrect": true },
+      { "text": "1918", "isCorrect": false }
+    ],
+    "explanation": "Der Zweite Weltkrieg endete in Europa offiziell am 8. Mai 1945 mit der bedingungslosen Kapitulation der Wehrmacht."
   },
   {
-    "level": 2,
+    "level": 1,
+    "category": "kategorie3",
+    "question": "Wer war der erste Bundeskanzler der Bundesrepublik Deutschland?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Helmut Schmidt", "isCorrect": false },
+      { "text": "Willy Brandt", "isCorrect": false },
+      { "text": "Konrad Adenauer", "isCorrect": true },
+      { "text": "Ludwig Erhard", "isCorrect": false }
+    ],
+    "explanation": "Konrad Adenauer war von 1949 bis 1963 der erste Bundeskanzler der Bundesrepublik Deutschland."
+  },
+  {
+    "level": 1,
+    "category": "kategorie3",
+    "question": "Welche alte Zivilisation errichtete die Pyramiden von Gizeh?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Die Römer", "isCorrect": false },
+      { "text": "Die Maya", "isCorrect": false },
+      { "text": "Die Inka", "isCorrect": false },
+      { "text": "Die alten Ägypter", "isCorrect": true }
+    ],
+    "explanation": "Die Pyramiden von Gizeh wurden von den alten Ägyptern errichtet und gehören zu den sieben Weltwundern der Antike."
+  },
+  {
+    "level": 1,
+    "category": "kategorie3",
+    "question": "Wann fiel die Berliner Mauer?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "1989", "isCorrect": true },
+      { "text": "1990", "isCorrect": false },
+      { "text": "1987", "isCorrect": false },
+      { "text": "1983", "isCorrect": false }
+    ],
+    "explanation": "Am 9. November 1989 fiel die Berliner Mauer, was den Weg zur deutschen Wiedervereinigung ebnete."
+  },
+  {
+    "level": 1,
+    "category": "kategorie3",
+    "question": "Wie hieß der legendäre Gründer Roms?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Augustus", "isCorrect": false },
+      { "text": "Remus", "isCorrect": false },
+      { "text": "Romulus", "isCorrect": true },
+      { "text": "Julius Caesar", "isCorrect": false }
+    ],
+    "explanation": "Nach römischer Legende wurde Rom 753 v. Chr. von Romulus gegründet."
+  },
+  {
+    "level": 1,
+    "category": "kategorie3",
     "question": "Wer war der erste Präsident der Vereinigten Staaten von Amerika?",
     "difficulty": "leicht",
     "answers": [
-      { "text": "George Washington", "isCorrect": true },
       { "text": "Abraham Lincoln", "isCorrect": false },
-      { "text": "John Adams", "isCorrect": false },
-      { "text": "Thomas Jefferson", "isCorrect": false }
-    ]
+      { "text": "Thomas Jefferson", "isCorrect": false },
+      { "text": "George Washington", "isCorrect": true },
+      { "text": "John Adams", "isCorrect": false }
+    ],
+    "explanation": "George Washington war von 1789 bis 1797 der erste Präsident der USA."
+  },
+  {
+    "level": 1,
+    "category": "kategorie3",
+    "question": "Welcher makedonische Herrscher eroberte ein Reich bis nach Indien?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Attila", "isCorrect": false },
+      { "text": "Dschingis Khan", "isCorrect": false },
+      { "text": "Alexander der Große", "isCorrect": true },
+      { "text": "Gaius Julius Caesar", "isCorrect": false }
+    ],
+    "explanation": "Alexander der Große (356–323 v. Chr.) erweiterte das makedonische Reich bis nach Vorderasien und Nordwestindien."
+  },
+  {
+    "level": 1,
+    "category": "kategorie3",
+    "question": "Welches Reich ging 476 n. Chr. unter?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Das Heilige Römische Reich", "isCorrect": false },
+      { "text": "Das Byzantinische Reich", "isCorrect": false },
+      { "text": "Das Weströmische Reich", "isCorrect": true },
+      { "text": "Das Alexanderreich", "isCorrect": false }
+    ],
+    "explanation": "476 n. Chr. gilt traditionell als das Ende des Weströmischen Reiches, als der letzte Kaiser Romulus Augustulus abgesetzt wurde."
+  },
+  {
+    "level": 1,
+    "category": "kategorie3",
+    "question": "Welcher karthagische Feldherr überquerte mit Elefanten die Alpen?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Scipio Africanus", "isCorrect": false },
+      { "text": "Hannibal", "isCorrect": true },
+      { "text": "Hasdrubal", "isCorrect": false },
+      { "text": "Agathokles", "isCorrect": false }
+    ],
+    "explanation": "Hannibal Barkas wagte während des Zweiten Punischen Krieges (218–201 v. Chr.) den Zug über die Alpen."
+  },
+  {
+    "level": 1,
+    "category": "kategorie3",
+    "question": "Welches Gebiet erreichte Christoph Kolumbus 1492 offiziell?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Australien", "isCorrect": false },
+      { "text": "Asien", "isCorrect": false },
+      { "text": "Amerika", "isCorrect": true },
+      { "text": "Afrika", "isCorrect": false }
+    ],
+    "explanation": "Obwohl Kolumbus glaubte, den Seeweg nach Asien gefunden zu haben, landete er 1492 auf einer Insel der Bahamas in Amerika."
+  },
+
+
+  {
+    "level": 2,
+    "category": "kategorie3",
+    "question": "Wann begann der Erste Weltkrieg?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "1914", "isCorrect": true },
+      { "text": "1912", "isCorrect": false },
+      { "text": "1918", "isCorrect": false },
+      { "text": "1923", "isCorrect": false }
+    ],
+    "explanation": "Der Erste Weltkrieg begann am 28. Juli 1914 mit der Kriegserklärung Österreich-Ungarns an Serbien."
   },
   {
     "level": 2,
-    "question": "In welchem Jahr begann der Bau der Berliner Mauer?",
+    "category": "kategorie3",
+    "question": "In welchem Jahr veröffentlichte Martin Luther seine 95 Thesen?",
     "difficulty": "leicht",
     "answers": [
-      { "text": "1961", "isCorrect": true },
-      { "text": "1953", "isCorrect": false },
-      { "text": "1971", "isCorrect": false },
-      { "text": "1989", "isCorrect": false }
-    ]
+      { "text": "1517", "isCorrect": true },
+      { "text": "1545", "isCorrect": false },
+      { "text": "1453", "isCorrect": false },
+      { "text": "1618", "isCorrect": false }
+    ],
+    "explanation": "Martin Luther schlug seine 95 Thesen am 31. Oktober 1517 an die Schlosskirche zu Wittenberg."
+  },
+  {
+    "level": 2,
+    "category": "kategorie3",
+    "question": "Wann wurde Deutschland offiziell wiedervereinigt?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "3. Oktober 1990", "isCorrect": true },
+      { "text": "9. November 1989", "isCorrect": false },
+      { "text": "3. Oktober 1989", "isCorrect": false },
+      { "text": "1. Januar 1991", "isCorrect": false }
+    ],
+    "explanation": "Am 3. Oktober 1990 wurde die Deutsche Wiedervereinigung vollzogen und die DDR trat der BRD bei."
+  },
+  {
+    "level": 2,
+    "category": "kategorie3",
+    "question": "Welcher Kontinent wurde vor allem im 19. Jahrhundert umfassend von europäischen Mächten kolonisiert?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Asien", "isCorrect": false },
+      { "text": "Afrika", "isCorrect": true },
+      { "text": "Südamerika", "isCorrect": false },
+      { "text": "Australien", "isCorrect": false }
+    ],
+    "explanation": "Im 19. Jahrhundert fand ein intensiver 'Wettlauf um Afrika' statt, bei dem europäische Staaten Kolonien gründeten."
+  },
+  {
+    "level": 2,
+    "category": "kategorie3",
+    "question": "Welcher englische König hatte insgesamt sechs Ehefrauen?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Heinrich VII.", "isCorrect": false },
+      { "text": "Heinrich VIII.", "isCorrect": true },
+      { "text": "Karl I.", "isCorrect": false },
+      { "text": "Eduard VI.", "isCorrect": false }
+    ],
+    "explanation": "Heinrich VIII. (1491–1547) löste außerdem die Trennung Englands von der katholischen Kirche Roms aus."
+  },
+  {
+    "level": 2,
+    "category": "kategorie3",
+    "question": "Wer war Kaiser des Heiligen Römischen Reiches und gleichzeitig König von Spanien?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Karl V.", "isCorrect": true },
+      { "text": "Maximilian I.", "isCorrect": false },
+      { "text": "Ferdinand II.", "isCorrect": false },
+      { "text": "Heinrich V.", "isCorrect": false }
+    ],
+    "explanation": "Karl V. (1500–1558) herrschte über ein 'Reich, in dem die Sonne nie unterging', da Spanien Kolonien in der Neuen Welt besaß."
+  },
+  {
+    "level": 2,
+    "category": "kategorie3",
+    "question": "Zu welchem Volk gehörte Karl der Große?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Burgunder", "isCorrect": false },
+      { "text": "Langobarden", "isCorrect": false },
+      { "text": "Franken", "isCorrect": true },
+      { "text": "Goten", "isCorrect": false }
+    ],
+    "explanation": "Karl der Große (747–814) war König der Franken und später römischer Kaiser (800–814)."
+  },
+  {
+    "level": 2,
+    "category": "kategorie3",
+    "question": "Welcher Seefahrer leitete die erste Weltumsegelung (1519–1522)?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Ferdinand Magellan", "isCorrect": true },
+      { "text": "James Cook", "isCorrect": false },
+      { "text": "Vasco da Gama", "isCorrect": false },
+      { "text": "Christoph Kolumbus", "isCorrect": false }
+    ],
+    "explanation": "Magellan startete die Expedition 1519; die Umrundung wurde nach seinem Tod von Juan Sebastián Elcano vollendet."
+  },
+  {
+    "level": 2,
+    "category": "kategorie3",
+    "question": "Welche Pariser Festung wurde am 14. Juli 1789 gestürmt und markierte den Beginn der Französischen Revolution?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Louvre", "isCorrect": false },
+      { "text": "Tuilerien", "isCorrect": false },
+      { "text": "Bastille", "isCorrect": true },
+      { "text": "Palais Royal", "isCorrect": false }
+    ],
+    "explanation": "Der Sturm auf die Bastille am 14. Juli 1789 gilt als symbolischer Beginn der Französischen Revolution."
+  },
+  {
+    "level": 2,
+    "category": "kategorie3",
+    "question": "Wie hieß der osmanische Sultan, der wegen seiner Prachtentfaltung auch „der Prächtige“ genannt wurde?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Osman I.", "isCorrect": false },
+      { "text": "Selim II.", "isCorrect": false },
+      { "text": "Suleiman I.", "isCorrect": true },
+      { "text": "Mehmed II.", "isCorrect": false }
+    ],
+    "explanation": "Suleiman der Prächtige (1494–1566) führte das Osmanische Reich auf den Höhepunkt seiner Macht."
+  },
+
+
+  {
+    "level": 3,
+    "category": "kategorie3",
+    "question": "Wie nannte man das Deutsche Reich zwischen 1871 und 1918?",
+    "difficulty": "mittel",
+    "answers": [
+      { "text": "Weimarer Republik", "isCorrect": false },
+      { "text": "Deutsches Kaiserreich", "isCorrect": true },
+      { "text": "Heiliges Römisches Reich", "isCorrect": false },
+      { "text": "Norddeutscher Bund", "isCorrect": false }
+    ],
+    "explanation": "Nach der Gründung 1871 wurde es als Deutsches Kaiserreich bezeichnet, bis zur Abdankung Wilhelms II. 1918."
   },
   {
     "level": 3,
-    "question": "Wie hieß der ägyptische Pharao, dessen Grab Howard Carter 1922 entdeckte?",
+    "category": "kategorie3",
+    "question": "Wie hieß der Wikinger, der um 1000 n. Chr. Teile Nordamerikas erreichte?",
     "difficulty": "mittel",
     "answers": [
-      { "text": "Tutanchamun", "isCorrect": true },
-      { "text": "Ramses II.", "isCorrect": false },
-      { "text": "Echnaton", "isCorrect": false },
-      { "text": "Thutmosis III.", "isCorrect": false }
-    ]
+      { "text": "Erik der Rote", "isCorrect": false },
+      { "text": "Leif Eriksson", "isCorrect": true },
+      { "text": "Harald Blauzahn", "isCorrect": false },
+      { "text": "Ragnar Lodbrok", "isCorrect": false }
+    ],
+    "explanation": "Leif Eriksson soll um das Jahr 1000 Gebiete im heutigen Neufundland (Kanada) betreten haben."
   },
   {
     "level": 3,
-    "question": "Welcher makedonische König schuf ein Reich von Griechenland bis Indien?",
+    "category": "kategorie3",
+    "question": "Welche Dynastie regierte Russland von 1613 bis 1917?",
     "difficulty": "mittel",
     "answers": [
-      { "text": "Alexander der Große", "isCorrect": true },
-      { "text": "Julius Caesar", "isCorrect": false },
-      { "text": "Darius I.", "isCorrect": false },
-      { "text": "Xerxes I.", "isCorrect": false }
-    ]
+      { "text": "Romanow", "isCorrect": true },
+      { "text": "Rurikiden", "isCorrect": false },
+      { "text": "Bourbonen", "isCorrect": false },
+      { "text": "Habsburger", "isCorrect": false }
+    ],
+    "explanation": "Die Romanows waren die letzte Zarendynastie Russlands und endeten mit dem Sturz von Zar Nikolaus II."
   },
   {
-    "level": 4,
-    "question": "Welches Ereignis begann 1517 mit dem Thesenanschlag Martin Luthers?",
-    "difficulty": "schwer",
+    "level": 3,
+    "category": "kategorie3",
+    "question": "Wer gilt als Vater der indischen Unabhängigkeitsbewegung und setzte auf gewaltfreien Widerstand?",
+    "difficulty": "mittel",
     "answers": [
-      { "text": "Die Reformation", "isCorrect": true },
-      { "text": "Die Renaissance", "isCorrect": false },
-      { "text": "Der Dreißigjährige Krieg", "isCorrect": false },
-      { "text": "Die Französische Revolution", "isCorrect": false }
-    ]
+      { "text": "Mahatma Gandhi", "isCorrect": true },
+      { "text": "Jawaharlal Nehru", "isCorrect": false },
+      { "text": "Subhash Chandra Bose", "isCorrect": false },
+      { "text": "Bhagat Singh", "isCorrect": false }
+    ],
+    "explanation": "Mohandas Karamchand Gandhi (genannt Mahatma) führte Indien durch gewaltlosen Widerstand zur Unabhängigkeit (1947)."
   },
   {
-    "level": 4,
-    "question": "Welcher deutsche Kaiser dankte 1918 am Ende des Ersten Weltkrieges ab?",
-    "difficulty": "schwer",
+    "level": 3,
+    "category": "kategorie3",
+    "question": "Welche Freiheitsurkunde von 1215 schränkte die Macht des englischen Königs ein?",
+    "difficulty": "mittel",
     "answers": [
-      { "text": "Wilhelm II.", "isCorrect": true },
+      { "text": "Habeas Corpus Act", "isCorrect": false },
+      { "text": "Bill of Rights", "isCorrect": false },
+      { "text": "Act of Supremacy", "isCorrect": false },
+      { "text": "Magna Carta", "isCorrect": true }
+    ],
+    "explanation": "Die Magna Carta wurde 1215 von König Johann Ohneland anerkannt und gilt als wichtiges frühes Rechtsdokument."
+  },
+  {
+    "level": 3,
+    "category": "kategorie3",
+    "question": "Welcher deutsche Herrscher wurde auch 'der Große' genannt und begründete das Ottonische Reich?",
+    "difficulty": "mittel",
+    "answers": [
+      { "text": "Otto I.", "isCorrect": true },
+      { "text": "Friedrich I. Barbarossa", "isCorrect": false },
+      { "text": "Heinrich IV.", "isCorrect": false },
+      { "text": "Karl der Kahle", "isCorrect": false }
+    ],
+    "explanation": "Otto I. (912–973) war der erste römisch-deutsche Kaiser aus dem Adelsgeschlecht der Ottonen."
+  },
+  {
+    "level": 3,
+    "category": "kategorie3",
+    "question": "Wie hieß der erste deutsche Kaiser des 2. Reiches?",
+    "difficulty": "mittel",
+    "answers": [
+      { "text": "Wilhelm II.", "isCorrect": false },
+      { "text": "Wilhelm I.", "isCorrect": true },
       { "text": "Friedrich III.", "isCorrect": false },
-      { "text": "Wilhelm I.", "isCorrect": false },
       { "text": "Otto von Bismarck", "isCorrect": false }
-    ]
+    ],
+    "explanation": "Wilhelm I. (1797–1888) wurde 1871 zum Deutschen Kaiser proklamiert und regierte bis 1888."
   },
   {
-    "level": 5,
-    "question": "Wie hieß die Dynastie, die China zur Zeit von Marco Polos Besuch regierte?",
+    "level": 3,
+    "category": "kategorie3",
+    "question": "Um welches Jahrhundert begann die Industrielle Revolution in Großbritannien ungefähr?",
+    "difficulty": "mittel",
+    "answers": [
+      { "text": "Im 15. Jahrhundert", "isCorrect": false },
+      { "text": "Im 18. Jahrhundert (ca. 1760)", "isCorrect": true },
+      { "text": "Erst im 20. Jahrhundert", "isCorrect": false },
+      { "text": "Im 17. Jahrhundert", "isCorrect": false }
+    ],
+    "explanation": "Die Industrielle Revolution setzte in England etwa um 1760 ein und verbreitete sich im 19. Jahrhundert in Europa."
+  },
+  {
+    "level": 3,
+    "category": "kategorie3",
+    "question": "Wer fand 1498 den Seeweg nach Indien um das Kap der Guten Hoffnung?",
+    "difficulty": "mittel",
+    "answers": [
+      { "text": "Bartolomeu Dias", "isCorrect": false },
+      { "text": "Ferdinand Magellan", "isCorrect": false },
+      { "text": "Vasco da Gama", "isCorrect": true },
+      { "text": "James Cook", "isCorrect": false }
+    ],
+    "explanation": "Vasco da Gama erreichte 1498 die indische Hafenstadt Kalikut und eröffnete so den Seeweg nach Asien für Portugal."
+  },
+
+
+  {
+    "level": 4,
+    "category": "kategorie3",
+    "question": "Welcher Friedensvertrag beendete 1648 den Dreißigjährigen Krieg?",
     "difficulty": "schwer",
     "answers": [
+      { "text": "Der Friede von Augsburg", "isCorrect": false },
+      { "text": "Der Westfälische Friede", "isCorrect": true },
+      { "text": "Der Wiener Kongress", "isCorrect": false },
+      { "text": "Der Friede von Pressburg", "isCorrect": false }
+    ],
+    "explanation": "Der Westfälische Friede von 1648 beendete den Dreißigjährigen Krieg und veränderte das europäische Staatensystem nachhaltig."
+  },
+  {
+    "level": 4,
+    "category": "kategorie3",
+    "question": "Wer war der Gründer des Mongolischen Weltreichs?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Kublai Khan", "isCorrect": false },
+      { "text": "Ögedei Khan", "isCorrect": false },
+      { "text": "Dschingis Khan", "isCorrect": true },
+      { "text": "Timur Lenk", "isCorrect": false }
+    ],
+    "explanation": "Dschingis Khan (1162–1227) vereinte die Mongolenstämme und schuf das größte zusammenhängende Reich der Geschichte."
+  },
+  {
+    "level": 4,
+    "category": "kategorie3",
+    "question": "Welche chinesische Dynastie regierte zur Zeit Marco Polos um 1300?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Tang-Dynastie", "isCorrect": false },
       { "text": "Yuan-Dynastie", "isCorrect": true },
       { "text": "Ming-Dynastie", "isCorrect": false },
-      { "text": "Tang-Dynastie", "isCorrect": false },
-      { "text": "Qing-Dynastie", "isCorrect": false }
-    ]
+      { "text": "Han-Dynastie", "isCorrect": false }
+    ],
+    "explanation": "Die Yuan-Dynastie (1279–1368) wurde von den Mongolen gegründet und war zur Zeit Marco Polos in China an der Macht."
+  },
+  {
+    "level": 4,
+    "category": "kategorie3",
+    "question": "Welcher Pharao wurde berühmt, als sein fast unversehrtes Grab 1922 entdeckt wurde?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Ramses II.", "isCorrect": false },
+      { "text": "Tutanchamun", "isCorrect": true },
+      { "text": "Echnaton", "isCorrect": false },
+      { "text": "Chufu (Cheops)", "isCorrect": false }
+    ],
+    "explanation": "Das Grab des Tutanchamun wurde 1922 von Howard Carter im Tal der Könige entdeckt."
+  },
+  {
+    "level": 4,
+    "category": "kategorie3",
+    "question": "Welcher byzantinische Kaiser ließ im 6. Jh. n. Chr. den sogenannten 'Codex' (eine Gesetzessammlung) erstellen?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Theodosius I.", "isCorrect": false },
+      { "text": "Konstantin der Große", "isCorrect": false },
+      { "text": "Justinian I.", "isCorrect": true },
+      { "text": "Herakleios", "isCorrect": false }
+    ],
+    "explanation": "Kaiser Justinian I. (482–565) ließ den 'Codex Iustinianus' erstellen, welcher die römische Rechtstradition festhielt."
+  },
+  {
+    "level": 4,
+    "category": "kategorie3",
+    "question": "Welche Seeschlacht zwischen Rom und Karthago fand 202 v. Chr. statt und besiegelte Roms Sieg?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Schlacht von Cannae", "isCorrect": false },
+      { "text": "Schlacht von Actium", "isCorrect": false },
+      { "text": "Schlacht von Zama", "isCorrect": true },
+      { "text": "Schlacht von Mylae", "isCorrect": false }
+    ],
+    "explanation": "Die Schlacht von Zama (202 v. Chr.) endete mit einem entscheidenden römischen Sieg über Hannibal und Karthago."
+  },
+  {
+    "level": 4,
+    "category": "kategorie3",
+    "question": "Wer war der erste römische Kaiser?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Nero", "isCorrect": false },
+      { "text": "Augustus", "isCorrect": true },
+      { "text": "Tiberius", "isCorrect": false },
+      { "text": "Gaius Julius Caesar", "isCorrect": false }
+    ],
+    "explanation": "Augustus (31 v. Chr.–14 n. Chr.) begründete das Prinzipat und gilt als erster römischer Kaiser."
+  },
+  {
+    "level": 4,
+    "category": "kategorie3",
+    "question": "Welcher polnische Gelehrte begründete das heliozentrische Weltbild in der Frühen Neuzeit?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Nikolaus Kopernikus", "isCorrect": true },
+      { "text": "Johannes Kepler", "isCorrect": false },
+      { "text": "Galileo Galilei", "isCorrect": false },
+      { "text": "Giordano Bruno", "isCorrect": false }
+    ],
+    "explanation": "Nikolaus Kopernikus (1473–1543) vertrat in seinem Werk das Weltbild, dass die Erde um die Sonne kreist."
+  },
+  {
+    "level": 4,
+    "category": "kategorie3",
+    "question": "Wann begann die Meiji-Restauration in Japan, die das Land modernisierte?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "1603", "isCorrect": false },
+      { "text": "1868", "isCorrect": true },
+      { "text": "1912", "isCorrect": false },
+      { "text": "1854", "isCorrect": false }
+    ],
+    "explanation": "Die Meiji-Restauration begann 1868 und leitete eine rasche Modernisierung und Industrialisierung Japans ein."
+  },
+  {
+    "level": 4,
+    "category": "kategorie3",
+    "question": "Welcher Kaiser von Äthiopien sprach 1936 vor dem Völkerbund gegen den italienischen Überfall?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Haile Selassie", "isCorrect": true },
+      { "text": "Menelik II.", "isCorrect": false },
+      { "text": "Yohannes IV.", "isCorrect": false },
+      { "text": "Tekle Giyorgis II.", "isCorrect": false }
+    ],
+    "explanation": "Haile Selassie I. wandte sich 1936 an den Völkerbund, um gegen die italienische Invasion Äthiopiens zu protestieren."
+  },
+
+
+  {
+    "level": 5,
+    "category": "kategorie3",
+    "question": "Wie wird der Konflikt zwischen Kaiser und Papst um das Einsetzungsrecht der Bischöfe (1075–1122) genannt?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Gang nach Canossa", "isCorrect": false },
+      { "text": "Avignonesisches Papsttum", "isCorrect": false },
+      { "text": "Investiturstreit", "isCorrect": true },
+      { "text": "Ost-West-Schisma", "isCorrect": false }
+    ],
+    "explanation": "Der Investiturstreit endete 1122 mit dem Wormser Konkordat und regelte die Einsetzung (Investitur) geistlicher Würdenträger."
   },
   {
     "level": 5,
-    "question": "Wie hieß die Hauptstadt des Oströmischen Reiches (Byzanz)?",
+    "category": "kategorie3",
+    "question": "Wer gilt als Begründer des Osmanischen Reiches (um 1300)?",
     "difficulty": "schwer",
     "answers": [
-      { "text": "Konstantinopel", "isCorrect": true },
-      { "text": "Rom", "isCorrect": false },
-      { "text": "Alexandria", "isCorrect": false },
-      { "text": "Damaskus", "isCorrect": false }
-    ]
+      { "text": "Osman I.", "isCorrect": true },
+      { "text": "Suleiman I.", "isCorrect": false },
+      { "text": "Orhan", "isCorrect": false },
+      { "text": "Mehmed II.", "isCorrect": false }
+    ],
+    "explanation": "Osman I. (1258–1326) gilt als Namensgeber und Gründer der osmanischen Dynastie."
+  },
+  {
+    "level": 5,
+    "category": "kategorie3",
+    "question": "Wer schrieb um 1513 das Werk „Der Fürst“ (Il Principe)?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Thomas Morus", "isCorrect": false },
+      { "text": "Niccolò Machiavelli", "isCorrect": true },
+      { "text": "Girolamo Savonarola", "isCorrect": false },
+      { "text": "Francesco Petrarca", "isCorrect": false }
+    ],
+    "explanation": "Machiavellis Schrift „Il Principe“ ist eines der einflussreichsten Werke der politischen Philosophie der Renaissance."
+  },
+  {
+    "level": 5,
+    "category": "kategorie3",
+    "question": "Welcher aztekische Herrscher begegnete 1519 den spanischen Konquistadoren unter Hernán Cortés?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Ahuitzotl", "isCorrect": false },
+      { "text": "Montezuma II.", "isCorrect": true },
+      { "text": "Cuauhtémoc", "isCorrect": false },
+      { "text": "Itzcoatl", "isCorrect": false }
+    ],
+    "explanation": "Montezuma II. (1466–1520) wurde von den spanischen Eroberern gefangen genommen und starb während der Belagerung Tenochtitláns."
+  },
+  {
+    "level": 5,
+    "category": "kategorie3",
+    "question": "Wann breitete sich die Große Pest (Schwarzer Tod) in Europa aus?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "1347–1351", "isCorrect": true },
+      { "text": "1200–1203", "isCorrect": false },
+      { "text": "1453–1456", "isCorrect": false },
+      { "text": "1492–1495", "isCorrect": false }
+    ],
+    "explanation": "Zwischen 1347 und 1351 tötete die Pest rund ein Drittel der europäischen Bevölkerung."
+  },
+  {
+    "level": 5,
+    "category": "kategorie3",
+    "question": "Wer gründete im 16. Jahrhundert den Jesuitenorden?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Thomas von Aquin", "isCorrect": false },
+      { "text": "Ignatius von Loyola", "isCorrect": true },
+      { "text": "Franz Xaver", "isCorrect": false },
+      { "text": "Heinrich VIII.", "isCorrect": false }
+    ],
+    "explanation": "Ignatius von Loyola (1491–1556) gründete 1534 die 'Gesellschaft Jesu' (Jesuiten)."
+  },
+  {
+    "level": 5,
+    "category": "kategorie3",
+    "question": "In welcher Schlacht eroberte Wilhelm der Eroberer 1066 England?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Schlacht von Stamford Bridge", "isCorrect": false },
+      { "text": "Schlacht von Hastings", "isCorrect": true },
+      { "text": "Schlacht von Agincourt", "isCorrect": false },
+      { "text": "Schlacht von Crécy", "isCorrect": false }
+    ],
+    "explanation": "Wilhelm der Eroberer schlug die Angelsachsen in der Schlacht von Hastings und wurde zum König von England gekrönt."
+  },
+  {
+    "level": 5,
+    "category": "kategorie3",
+    "question": "Welches Abkommen wurde 1494 geschlossen, um Spanien und Portugal die Neue Welt aufzuteilen?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Vertrag von Verdun", "isCorrect": false },
+      { "text": "Vertrag von Tordesillas", "isCorrect": true },
+      { "text": "Westfälischer Friede", "isCorrect": false },
+      { "text": "Vertrag von Saragossa", "isCorrect": false }
+    ],
+    "explanation": "Im Vertrag von Tordesillas (1494) teilten Spanien und Portugal die außereuropäischen Gebiete der Erde unter sich auf."
+  },
+  {
+    "level": 5,
+    "category": "kategorie3",
+    "question": "Welcher persische König ließ um 518 v. Chr. die Residenzstadt Persepolis errichten?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Kambyses II.", "isCorrect": false },
+      { "text": "Xerxes I.", "isCorrect": false },
+      { "text": "Dareios I.", "isCorrect": true },
+      { "text": "Kyros II. (Kyrus der Große)", "isCorrect": false }
+    ],
+    "explanation": "Dareios I. begann den Bau von Persepolis, das später unter Xerxes I. erweitert wurde."
+  },
+  {
+    "level": 5,
+    "category": "kategorie3",
+    "question": "Welche Zivilisation in Mesopotamien erfand die Keilschrift, eine der ältesten bekannten Schriften?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Assyrer", "isCorrect": false },
+      { "text": "Babylonier", "isCorrect": false },
+      { "text": "Akkader", "isCorrect": false },
+      { "text": "Sumerer", "isCorrect": true }
+    ],
+    "explanation": "Die Sumerer entwickelten im 4. Jahrtausend v. Chr. die Keilschrift, die später von anderen mesopotamischen Völkern übernommen wurde."
   }
 ]

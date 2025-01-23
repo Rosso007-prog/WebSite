@@ -1,112 +1,660 @@
 [
   {
     "level": 1,
-    "question": "Wer schrieb den Roman '1984'?",
+    "category": "kategorie5",
+    "question": "Wer komponierte die berühmte 'Kleine Nachtmusik'?",
     "difficulty": "leicht",
     "answers": [
-      { "text": "George Orwell", "isCorrect": true },
-      { "text": "Aldous Huxley", "isCorrect": false },
-      { "text": "Ernest Hemingway", "isCorrect": false },
-      { "text": "Ray Bradbury", "isCorrect": false }
-    ]
+      { "text": "Joseph Haydn", "isCorrect": false },
+      { "text": "Ludwig van Beethoven", "isCorrect": false },
+      { "text": "Wolfgang Amadeus Mozart", "isCorrect": true },
+      { "text": "Johann Sebastian Bach", "isCorrect": false }
+    ],
+    "explanation": "Wolfgang Amadeus Mozart komponierte die 'Kleine Nachtmusik' (Serenade Nr. 13 in G-Dur)."
   },
   {
     "level": 1,
-    "question": "Welcher Künstler ist bekannt für seine Seerosen-Gemälde?",
+    "category": "kategorie5",
+    "question": "In welchem Roman kommt der Zauberer Gandalf vor?",
     "difficulty": "leicht",
     "answers": [
-      { "text": "Claude Monet", "isCorrect": true },
+      { "text": "Der Name der Rose", "isCorrect": false },
+      { "text": "Die unendliche Geschichte", "isCorrect": false },
+      { "text": "Harry Potter und der Stein der Weisen", "isCorrect": false },
+      { "text": "Der Herr der Ringe", "isCorrect": true }
+    ],
+    "explanation": "Gandalf ist eine Hauptfigur in J.R.R. Tolkiens 'Der Herr der Ringe'."
+  },
+  {
+    "level": 1,
+    "category": "kategorie5",
+    "question": "Welches Land gilt als Ursprungsland des Tango?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Brasilien", "isCorrect": false },
+      { "text": "Spanien", "isCorrect": false },
+      { "text": "Argentinien", "isCorrect": true },
+      { "text": "Portugal", "isCorrect": false }
+    ],
+    "explanation": "Der Tango hat seine Wurzeln vor allem in Argentinien, besonders in Buenos Aires."
+  },
+  {
+    "level": 1,
+    "category": "kategorie5",
+    "question": "Wer malte die 'Mona Lisa'?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Michelangelo", "isCorrect": false },
       { "text": "Vincent van Gogh", "isCorrect": false },
-      { "text": "Pablo Picasso", "isCorrect": false },
-      { "text": "Salvador Dalí", "isCorrect": false }
-    ]
+      { "text": "Claude Monet", "isCorrect": false },
+      { "text": "Leonardo da Vinci", "isCorrect": true }
+    ],
+    "explanation": "Das berühmteste Gemälde der Welt, die 'Mona Lisa', schuf Leonardo da Vinci."
   },
   {
-    "level": 2,
-    "question": "Wer verfasste das Theaterstück 'Faust'?",
+    "level": 1,
+    "category": "kategorie5",
+    "question": "Wie heißt das weltbekannte Museum in Paris, in dem die 'Mona Lisa' hängt?",
     "difficulty": "leicht",
     "answers": [
+      { "text": "Musée d'Orsay", "isCorrect": false },
+      { "text": "Centre Pompidou", "isCorrect": false },
+      { "text": "Louvre", "isCorrect": true },
+      { "text": "Musée Rodin", "isCorrect": false }
+    ],
+    "explanation": "Die 'Mona Lisa' wird im Louvre in Paris ausgestellt."
+  },
+  {
+    "level": 1,
+    "category": "kategorie5",
+    "question": "Welche Musikrichtung prägten Elvis Presley und Chuck Berry maßgeblich?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Jazz", "isCorrect": false },
+      { "text": "Rock 'n' Roll", "isCorrect": true },
+      { "text": "Soul", "isCorrect": false },
+      { "text": "Reggae", "isCorrect": false }
+    ],
+    "explanation": "Elvis Presley und Chuck Berry gelten als Ikonen des Rock 'n' Roll."
+  },
+  {
+    "level": 1,
+    "category": "kategorie5",
+    "question": "Welcher deutsche Dichter verfasste das Drama 'Faust'?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Friedrich Schiller", "isCorrect": false },
       { "text": "Gotthold Ephraim Lessing", "isCorrect": false },
-      { "text": "Friedrich Schiller", "isCorrect": false },
-      { "text": "Heinrich Heine", "isCorrect": false },
-      { "text": "Johann Wolfgang von Goethe", "isCorrect": true }
-    ]
+      { "text": "Johann Wolfgang von Goethe", "isCorrect": true },
+      { "text": "Heinrich Heine", "isCorrect": false }
+    ],
+    "explanation": "Goethes 'Faust' ist eines der bekanntesten Werke der deutschen Literatur."
+  },
+  {
+    "level": 1,
+    "category": "kategorie5",
+    "question": "In welcher Stadt steht das Opernhaus mit den segelförmigen Dächern, das als Wahrzeichen gilt?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Sydney", "isCorrect": true },
+      { "text": "Wien", "isCorrect": false },
+      { "text": "New York", "isCorrect": false },
+      { "text": "Mailand", "isCorrect": false }
+    ],
+    "explanation": "Das Opernhaus von Sydney (Sydney Opera House) ist ein berühmtes Wahrzeichen Australiens."
+  },
+  {
+    "level": 1,
+    "category": "kategorie5",
+    "question": "Welches Land ist für die Musikrichtung 'Fado' bekannt?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Griechenland", "isCorrect": false },
+      { "text": "Portugal", "isCorrect": true },
+      { "text": "Brasilien", "isCorrect": false },
+      { "text": "Irland", "isCorrect": false }
+    ],
+    "explanation": "Der Fado ist ein melancholischer Musikstil aus Portugal, insbesondere aus Lissabon."
+  },
+  {
+    "level": 1,
+    "category": "kategorie5",
+    "question": "Wer schrieb das berühmte Theaterstück 'Romeo und Julia'?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Charles Dickens", "isCorrect": false },
+      { "text": "Johann Wolfgang von Goethe", "isCorrect": false },
+      { "text": "William Shakespeare", "isCorrect": true },
+      { "text": "Molière", "isCorrect": false }
+    ],
+    "explanation": "'Romeo und Julia' ist das bekannteste Liebestragödien-Werk von William Shakespeare."
+  },
+
+
+  {
+    "level": 2,
+    "category": "kategorie5",
+    "question": "Welche Sprache wird in Brasilien offiziell gesprochen?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Spanisch", "isCorrect": false },
+      { "text": "Portugiesisch", "isCorrect": true },
+      { "text": "Italienisch", "isCorrect": false },
+      { "text": "Französisch", "isCorrect": false }
+    ],
+    "explanation": "Brasilien wurde durch Portugal kolonisiert und hat deshalb Portugiesisch als Amtssprache."
   },
   {
     "level": 2,
-    "question": "Welche Kunstbewegung wird mit Salvador Dalí in Verbindung gebracht?",
+    "category": "kategorie5",
+    "question": "Wie heißt der Schöpfer des 'Star Wars'-Universums?",
     "difficulty": "leicht",
     "answers": [
-      { "text": "Surrealismus", "isCorrect": true },
-      { "text": "Kubismus", "isCorrect": false },
-      { "text": "Impressionismus", "isCorrect": false },
-      { "text": "Expressionismus", "isCorrect": false }
-    ]
+      { "text": "Steven Spielberg", "isCorrect": false },
+      { "text": "George Lucas", "isCorrect": true },
+      { "text": "Stan Lee", "isCorrect": false },
+      { "text": "James Cameron", "isCorrect": false }
+    ],
+    "explanation": "George Lucas erschuf das 'Star Wars'-Franchise und gründete Lucasfilm."
+  },
+  {
+    "level": 2,
+    "category": "kategorie5",
+    "question": "Wer komponierte die Oper 'Die Zauberflöte'?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Ludwig van Beethoven", "isCorrect": false },
+      { "text": "Wolfgang Amadeus Mozart", "isCorrect": true },
+      { "text": "Giuseppe Verdi", "isCorrect": false },
+      { "text": "Franz Schubert", "isCorrect": false }
+    ],
+    "explanation": "Wolfgang Amadeus Mozarts 'Die Zauberflöte' ist eine der bekanntesten Opern der Wiener Klassik."
+  },
+  {
+    "level": 2,
+    "category": "kategorie5",
+    "question": "Welches Ereignis wird als größtes Volksfest der Welt bezeichnet?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Karneval in Venedig", "isCorrect": false },
+      { "text": "Oktoberfest in München", "isCorrect": true },
+      { "text": "Silvesterfeier am Times Square", "isCorrect": false },
+      { "text": "Karneval in Rio de Janeiro", "isCorrect": false }
+    ],
+    "explanation": "Das Münchner Oktoberfest zieht jährlich Millionen Besucher an und gilt als größtes Volksfest der Welt."
+  },
+  {
+    "level": 2,
+    "category": "kategorie5",
+    "question": "Welche amerikanische Sängerin wurde durch Hits wie 'Like a Prayer' und 'Material Girl' weltbekannt?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Madonna", "isCorrect": true },
+      { "text": "Britney Spears", "isCorrect": false },
+      { "text": "Cher", "isCorrect": false },
+      { "text": "Whitney Houston", "isCorrect": false }
+    ],
+    "explanation": "Madonna ist eine der erfolgreichsten Pop-Sängerinnen aller Zeiten."
+  },
+  {
+    "level": 2,
+    "category": "kategorie5",
+    "question": "Welcher Autor schrieb die Romane über den Zauberschüler Harry Potter?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "C. S. Lewis", "isCorrect": false },
+      { "text": "J. R. R. Tolkien", "isCorrect": false },
+      { "text": "J. K. Rowling", "isCorrect": true },
+      { "text": "Philip Pullman", "isCorrect": false }
+    ],
+    "explanation": "J. K. Rowling ist die Schöpferin der 'Harry Potter'-Reihe."
+  },
+  {
+    "level": 2,
+    "category": "kategorie5",
+    "question": "Welcher spanische Maler ist für das Gemälde 'Guernica' bekannt?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Salvador Dalí", "isCorrect": false },
+      { "text": "Francisco de Goya", "isCorrect": false },
+      { "text": "Diego Velázquez", "isCorrect": false },
+      { "text": "Pablo Picasso", "isCorrect": true }
+    ],
+    "explanation": "Picasso schuf 'Guernica' 1937 als Reaktion auf die Bombardierung der Stadt Guernica im Spanischen Bürgerkrieg."
+  },
+  {
+    "level": 2,
+    "category": "kategorie5",
+    "question": "In welchem Filmklassiker (1939) erklingt das Lied 'Over the Rainbow'?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Vom Winde verweht", "isCorrect": false },
+      { "text": "Der Zauberer von Oz", "isCorrect": true },
+      { "text": "Casablanca", "isCorrect": false },
+      { "text": "King Kong und die weiße Frau", "isCorrect": false }
+    ],
+    "explanation": "Judy Garland singt 'Over the Rainbow' in 'Der Zauberer von Oz'."
+  },
+  {
+    "level": 2,
+    "category": "kategorie5",
+    "question": "Welches Land ist das Ursprungsland des traditionellen Kabuki-Theaters?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Japan", "isCorrect": true },
+      { "text": "China", "isCorrect": false },
+      { "text": "Südkorea", "isCorrect": false },
+      { "text": "Thailand", "isCorrect": false }
+    ],
+    "explanation": "Kabuki ist eine traditionelle Form des japanischen Theaters mit aufwändiger Schminke und Kostümen."
+  },
+  {
+    "level": 2,
+    "category": "kategorie5",
+    "question": "Wer wird oft als 'King of Pop' bezeichnet?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Michael Jackson", "isCorrect": true },
+      { "text": "Prince", "isCorrect": false },
+      { "text": "Elvis Presley", "isCorrect": false },
+      { "text": "Freddie Mercury", "isCorrect": false }
+    ],
+    "explanation": "Michael Jackson erhielt den Beinamen 'King of Pop' aufgrund seines enormen musikalischen Erfolgs."
+  },
+
+
+  {
+    "level": 3,
+    "category": "kategorie5",
+    "question": "In welchem Land entstand der Musikstil 'Reggae'?",
+    "difficulty": "mittel",
+    "answers": [
+      { "text": "Costa Rica", "isCorrect": false },
+      { "text": "Kuba", "isCorrect": false },
+      { "text": "Trinidad und Tobago", "isCorrect": false },
+      { "text": "Jamaika", "isCorrect": true }
+    ],
+    "explanation": "Reggae entstand in Jamaika in den 1960er-Jahren und wurde durch Künstler wie Bob Marley weltbekannt."
   },
   {
     "level": 3,
-    "question": "Welche Romanfigur wurde von Sir Arthur Conan Doyle geschaffen?",
+    "category": "kategorie5",
+    "question": "Welche brasilianische Tanz- und Musikrichtung ist untrennbar mit dem Karneval in Rio verbunden?",
     "difficulty": "mittel",
     "answers": [
-      { "text": "Sherlock Holmes", "isCorrect": true },
-      { "text": "James Bond", "isCorrect": false },
-      { "text": "Hercule Poirot", "isCorrect": false },
-      { "text": "Dracula", "isCorrect": false }
-    ]
+      { "text": "Flamenco", "isCorrect": false },
+      { "text": "Samba", "isCorrect": true },
+      { "text": "Bossa Nova", "isCorrect": false },
+      { "text": "Tango", "isCorrect": false }
+    ],
+    "explanation": "Samba ist eine populäre Musik- und Tanzrichtung in Brasilien und prägt den Karneval in Rio de Janeiro."
   },
   {
     "level": 3,
-    "question": "Welcher Dichter schrieb 'Die Leiden des jungen Werthers'?",
+    "category": "kategorie5",
+    "question": "Welcher französische Schriftsteller verfasste den Roman 'Die Elenden' (Les Misérables)?",
     "difficulty": "mittel",
     "answers": [
-      { "text": "Johann Wolfgang von Goethe", "isCorrect": true },
-      { "text": "Friedrich Schiller", "isCorrect": false },
-      { "text": "Heinrich Heine", "isCorrect": false },
-      { "text": "E.T.A. Hoffmann", "isCorrect": false }
-    ]
+      { "text": "Gustave Flaubert", "isCorrect": false },
+      { "text": "Émile Zola", "isCorrect": false },
+      { "text": "Victor Hugo", "isCorrect": true },
+      { "text": "Alexandre Dumas", "isCorrect": false }
+    ],
+    "explanation": "Victor Hugos 'Les Misérables' ist ein zentrales Werk der französischen Literatur des 19. Jahrhunderts."
   },
   {
-    "level": 4,
-    "question": "Welcher Maler ist für das Gemälde 'Guernica' bekannt?",
-    "difficulty": "schwer",
+    "level": 3,
+    "category": "kategorie5",
+    "question": "Wer komponierte das berühmte Orchesterwerk 'Boléro'?",
+    "difficulty": "mittel",
     "answers": [
-      { "text": "Marc Chagall", "isCorrect": false },
-      { "text": "Pablo Picasso", "isCorrect": true },
-      { "text": "Joan Miró", "isCorrect": false },
-      { "text": "Edvard Munch", "isCorrect": false }
-    ]
+      { "text": "Maurice Ravel", "isCorrect": true },
+      { "text": "Camille Saint-Saëns", "isCorrect": false },
+      { "text": "Claude Debussy", "isCorrect": false },
+      { "text": "Hector Berlioz", "isCorrect": false }
+    ],
+    "explanation": "Maurice Ravels 'Boléro' aus dem Jahr 1928 ist ein weltweit bekanntes Orchesterwerk."
   },
   {
+    "level": 3,
+    "category": "kategorie5",
+    "question": "Wie heißt der wichtigste Filmpreis Deutschlands, der auch ‚Lola‘ genannt wird?",
+    "difficulty": "mittel",
+    "answers": [
+      { "text": "Der Goldene Bär", "isCorrect": false },
+      { "text": "Der Deutsche Filmpreis", "isCorrect": true },
+      { "text": "Die Goldene Kamera", "isCorrect": false },
+      { "text": "Der Grimme-Preis", "isCorrect": false }
+    ],
+    "explanation": "Der Deutsche Filmpreis (umgangssprachlich Lola) ist die renommierteste Auszeichnung des deutschen Films."
+  },
+  {
+    "level": 3,
+    "category": "kategorie5",
+    "question": "Welcher Regisseur inszenierte Filme wie 'Psycho' und 'Vertigo'?",
+    "difficulty": "mittel",
+    "answers": [
+      { "text": "Stanley Kubrick", "isCorrect": false },
+      { "text": "Orson Welles", "isCorrect": false },
+      { "text": "Alfred Hitchcock", "isCorrect": true },
+      { "text": "Billy Wilder", "isCorrect": false }
+    ],
+    "explanation": "Alfred Hitchcock, oft als 'Master of Suspense' bezeichnet, drehte zahlreiche Filmklassiker."
+  },
+  {
+    "level": 3,
+    "category": "kategorie5",
+    "question": "Wo befinden sich die berühmten Felsentempel von Abu Simbel?",
+    "difficulty": "mittel",
+    "answers": [
+      { "text": "Jordanien", "isCorrect": false },
+      { "text": "Marokko", "isCorrect": false },
+      { "text": "Ägypten", "isCorrect": true },
+      { "text": "Syrien", "isCorrect": false }
+    ],
+    "explanation": "Die Tempel von Abu Simbel wurden im 13. Jh. v. Chr. unter Pharao Ramses II. in Ägypten erbaut."
+  },
+  {
+    "level": 3,
+    "category": "kategorie5",
+    "question": "Welcher niederländische Maler schuf Werke wie 'Sternennacht'?",
+    "difficulty": "mittel",
+    "answers": [
+      { "text": "Jan Vermeer", "isCorrect": false },
+      { "text": "Vincent van Gogh", "isCorrect": true },
+      { "text": "Piet Mondrian", "isCorrect": false },
+      { "text": "Hieronymus Bosch", "isCorrect": false }
+    ],
+    "explanation": "Vincent van Gogh malte 'Sternennacht' (La nuit étoilée) 1889."
+  },
+  {
+    "level": 3,
+    "category": "kategorie5",
+    "question": "Welches Volk errichtete die berühmte Ruinenstadt Chichén Itzá in Mexiko?",
+    "difficulty": "mittel",
+    "answers": [
+      { "text": "Azteken", "isCorrect": false },
+      { "text": "Inka", "isCorrect": false },
+      { "text": "Maya", "isCorrect": true },
+      { "text": "Olmeken", "isCorrect": false }
+    ],
+    "explanation": "Die Maya bauten Chichén Itzá, ein bedeutendes zeremonielles Zentrum auf der Halbinsel Yucatán."
+  },
+  {
+    "level": 3,
+    "category": "kategorie5",
+    "question": "Wie heißt Verdis Oper, in der der Hofnarr Rigoletto die Hauptfigur ist?",
+    "difficulty": "mittel",
+    "answers": [
+      { "text": "Nabucco", "isCorrect": false },
+      { "text": "La Traviata", "isCorrect": false },
+      { "text": "Rigoletto", "isCorrect": true },
+      { "text": "Aida", "isCorrect": false }
+    ],
+    "explanation": "'Rigoletto' (1851) ist eine Oper von Giuseppe Verdi, in der ein Hofnarr tragisch in Intrigen verwickelt wird."
+  },
+
+
+  {
     "level": 4,
-    "question": "Wer schrieb den Roman 'Krieg und Frieden'?",
+    "category": "kategorie5",
+    "question": "Welcher russische Schriftsteller verfasste den Roman 'Krieg und Frieden'?",
     "difficulty": "schwer",
     "answers": [
       { "text": "Fjodor Dostojewski", "isCorrect": false },
       { "text": "Anton Tschechow", "isCorrect": false },
-      { "text": "Ivan Turgenev", "isCorrect": false },
-      { "text": "Leo Tolstoi", "isCorrect": true }
-    ]
+      { "text": "Lew Tolstoi", "isCorrect": true },
+      { "text": "Nikolai Gogol", "isCorrect": false }
+    ],
+    "explanation": "Lew (Leo) Tolstoi schrieb 'Krieg und Frieden' und gilt als einer der größten Autoren der Weltliteratur."
   },
   {
-    "level": 5,
-    "question": "Welcher norwegische Maler schuf das Gemälde 'Der Schrei'?",
+    "level": 4,
+    "category": "kategorie5",
+    "question": "In welchem Museum in Florenz steht die berühmte Statue 'David' von Michelangelo?",
     "difficulty": "schwer",
     "answers": [
-      { "text": "Edvard Munch", "isCorrect": true },
-      { "text": "Gustav Klimt", "isCorrect": false },
-      { "text": "Max Ernst", "isCorrect": false },
-      { "text": "Paul Gauguin", "isCorrect": false }
-    ]
+      { "text": "Uffizien", "isCorrect": false },
+      { "text": "Galleria dell'Accademia", "isCorrect": true },
+      { "text": "Palazzo Pitti", "isCorrect": false },
+      { "text": "Museo Bardini", "isCorrect": false }
+    ],
+    "explanation": "Michelangelos 'David' (1504) befindet sich in der Galleria dell'Accademia in Florenz."
   },
   {
-    "level": 5,
-    "question": "Welcher deutsche Schriftsteller erhielt 1929 den Nobelpreis für 'Buddenbrooks'?",
+    "level": 4,
+    "category": "kategorie5",
+    "question": "Welche italienische Stadt ist für das berühmte Opernhaus 'La Scala' bekannt?",
     "difficulty": "schwer",
     "answers": [
-      { "text": "Thomas Mann", "isCorrect": true },
+      { "text": "Rom", "isCorrect": false },
+      { "text": "Venedig", "isCorrect": false },
+      { "text": "Mailand", "isCorrect": true },
+      { "text": "Neapel", "isCorrect": false }
+    ],
+    "explanation": "Das Opernhaus 'Teatro alla Scala' (kurz La Scala) steht im Zentrum Mailands."
+  },
+  {
+    "level": 4,
+    "category": "kategorie5",
+    "question": "Welcher Komponist und Pianist verlor früh sein Gehör, komponierte jedoch weiter?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Frédéric Chopin", "isCorrect": false },
+      { "text": "Ludwig van Beethoven", "isCorrect": true },
+      { "text": "Franz Liszt", "isCorrect": false },
+      { "text": "Johannes Brahms", "isCorrect": false }
+    ],
+    "explanation": "Beethoven begann im Alter von etwa 28 Jahren sein Gehör zu verlieren, komponierte aber weiterhin große Werke."
+  },
+  {
+    "level": 4,
+    "category": "kategorie5",
+    "question": "Wer schrieb die Erzählung 'Die Verwandlung' mit der Figur Gregor Samsa?",
+    "difficulty": "schwer",
+    "answers": [
       { "text": "Hermann Hesse", "isCorrect": false },
-      { "text": "Heinrich Böll", "isCorrect": false },
-      { "text": "Günter Grass", "isCorrect": false }
-    ]
+      { "text": "Thomas Mann", "isCorrect": false },
+      { "text": "Franz Kafka", "isCorrect": true },
+      { "text": "Heinrich Böll", "isCorrect": false }
+    ],
+    "explanation": "Franz Kafka verfasste 'Die Verwandlung' (1912), in der Gregor Samsa sich in ein 'Ungeziefer' verwandelt."
+  },
+  {
+    "level": 4,
+    "category": "kategorie5",
+    "question": "Welcher spanische Architekt war für den Bau der Sagrada Família in Barcelona verantwortlich?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Santiago Calatrava", "isCorrect": false },
+      { "text": "Antoni Gaudí", "isCorrect": true },
+      { "text": "Ricardo Bofill", "isCorrect": false },
+      { "text": "Rafael Moneo", "isCorrect": false }
+    ],
+    "explanation": "Antoni Gaudí leitete den Bau der Sagrada Família und prägte den Modernisme-Stil Kataloniens."
+  },
+  {
+    "level": 4,
+    "category": "kategorie5",
+    "question": "Welcher russische Komponist schrieb die Ballettmusik zu 'Schwanensee'?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Sergei Rachmaninow", "isCorrect": false },
+      { "text": "Igor Strawinsky", "isCorrect": false },
+      { "text": "Modest Mussorgski", "isCorrect": false },
+      { "text": "Pjotr Iljitsch Tschaikowski", "isCorrect": true }
+    ],
+    "explanation": "'Schwanensee' ist eines der berühmtesten Ballette Tschaikowskis, uraufgeführt 1877 in Moskau."
+  },
+  {
+    "level": 4,
+    "category": "kategorie5",
+    "question": "Welche österreichische Kaiserin wird häufig 'Sisi' genannt?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Kaiserin Zita", "isCorrect": false },
+      { "text": "Kaiserin Elisabeth", "isCorrect": true },
+      { "text": "Kaiserin Maria Theresia", "isCorrect": false },
+      { "text": "Kaiserin Karoline Auguste", "isCorrect": false }
+    ],
+    "explanation": "Kaiserin Elisabeth von Österreich-Ungarn (1837–1898) wird oft 'Sisi' genannt."
+  },
+  {
+    "level": 4,
+    "category": "kategorie5",
+    "question": "Welcher deutsche Dramatiker schrieb das Stück 'Woyzeck' (unvollendet)?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Friedrich Schiller", "isCorrect": false },
+      { "text": "Heinrich von Kleist", "isCorrect": false },
+      { "text": "Gotthold Ephraim Lessing", "isCorrect": false },
+      { "text": "Georg Büchner", "isCorrect": true }
+    ],
+    "explanation": "'Woyzeck' blieb unvollendet, da Georg Büchner 1837 früh verstarb. Das Stück erschien postum."
+  },
+  {
+    "level": 4,
+    "category": "kategorie5",
+    "question": "Welcher französische Maler schuf die Gemäldeserie 'Seerosen' (Nymphéas)?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Edgar Degas", "isCorrect": false },
+      { "text": "Paul Cézanne", "isCorrect": false },
+      { "text": "Claude Monet", "isCorrect": true },
+      { "text": "Édouard Manet", "isCorrect": false }
+    ],
+    "explanation": "Claude Monet malte zahlreiche 'Seerosen'-Bilder in seinem Garten in Giverny."
+  },
+
+
+  {
+    "level": 5,
+    "category": "kategorie5",
+    "question": "Wer verfasste das siebenteilige Werk 'Auf der Suche nach der verlorenen Zeit'?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "André Gide", "isCorrect": false },
+      { "text": "Marcel Proust", "isCorrect": true },
+      { "text": "Albert Camus", "isCorrect": false },
+      { "text": "Jean-Paul Sartre", "isCorrect": false }
+    ],
+    "explanation": "Marcel Proust schrieb 'À la recherche du temps perdu' (1913–1927) und gilt als Meilenstein der Literatur."
+  },
+  {
+    "level": 5,
+    "category": "kategorie5",
+    "question": "Welcher Komponist schrieb den Opernzyklus 'Der Ring des Nibelungen'?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Richard Wagner", "isCorrect": true },
+      { "text": "Gioachino Rossini", "isCorrect": false },
+      { "text": "Richard Strauss", "isCorrect": false },
+      { "text": "Gustav Mahler", "isCorrect": false }
+    ],
+    "explanation": "Richard Wagner komponierte den vierteiligen Zyklus: 'Das Rheingold', 'Die Walküre', 'Siegfried' und 'Götterdämmerung'."
+  },
+  {
+    "level": 5,
+    "category": "kategorie5",
+    "question": "Welcher barocke Maler schuf das monumentale Gemälde 'Die Nachtwache'?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Caravaggio", "isCorrect": false },
+      { "text": "Rembrandt", "isCorrect": true },
+      { "text": "Peter Paul Rubens", "isCorrect": false },
+      { "text": "Diego Velázquez", "isCorrect": false }
+    ],
+    "explanation": "Rembrandts Gemälde 'Die Nachtwache' (1642) ist eines der bedeutendsten Werke des Goldenen Zeitalters der Niederlande."
+  },
+  {
+    "level": 5,
+    "category": "kategorie5",
+    "question": "Welche mexikanische Malerin ist für ihre zahlreichen Selbstporträts bekannt?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Leonora Carrington", "isCorrect": false },
+      { "text": "María Izquierdo", "isCorrect": false },
+      { "text": "Remedios Varo", "isCorrect": false },
+      { "text": "Frida Kahlo", "isCorrect": true }
+    ],
+    "explanation": "Frida Kahlo (1907–1954) fertigte viele autobiografische Gemälde, in denen sie ihre Schmerzen thematisierte."
+  },
+  {
+    "level": 5,
+    "category": "kategorie5",
+    "question": "Welcher italienische Renaissance-Dichter schrieb das Epos 'Die Göttliche Komödie'?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Giovanni Boccaccio", "isCorrect": false },
+      { "text": "Dante Alighieri", "isCorrect": true },
+      { "text": "Francesco Petrarca", "isCorrect": false },
+      { "text": "Ludovico Ariosto", "isCorrect": false }
+    ],
+    "explanation": "Dante Alighieri (1265–1321) verfasste die 'Divina Commedia', eines der bedeutendsten Werke der Weltliteratur."
+  },
+  {
+    "level": 5,
+    "category": "kategorie5",
+    "question": "Wie heißt das berühmte Ballett von Igor Strawinsky, das 1913 bei der Uraufführung für einen Skandal sorgte?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Der Feuervogel", "isCorrect": false },
+      { "text": "Le sacre du printemps (Das Frühlingsopfer)", "isCorrect": true },
+      { "text": "Petruschka", "isCorrect": false },
+      { "text": "Apollon musagète", "isCorrect": false }
+    ],
+    "explanation": "'Le sacre du printemps' führte 1913 in Paris zu tumultartigen Reaktionen des Publikums."
+  },
+  {
+    "level": 5,
+    "category": "kategorie5",
+    "question": "Wer schrieb das Theaterstück 'Das Leben des Galilei'?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Max Frisch", "isCorrect": false },
+      { "text": "Friedrich Dürrenmatt", "isCorrect": false },
+      { "text": "Bertolt Brecht", "isCorrect": true },
+      { "text": "Georg Kaiser", "isCorrect": false }
+    ],
+    "explanation": "Bertolt Brecht verfasste 'Leben des Galilei' (1938/39) über den Konflikt zwischen Wissenschaft und Kirche."
+  },
+  {
+    "level": 5,
+    "category": "kategorie5",
+    "question": "Welches moderne Bauwerk entwarf Ludwig Mies van der Rohe 1929 für eine Weltausstellung in Spanien?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Das Bauhaus-Gebäude in Dessau", "isCorrect": false },
+      { "text": "Die Neue Nationalgalerie in Berlin", "isCorrect": false },
+      { "text": "Den Barcelona-Pavillon", "isCorrect": true },
+      { "text": "Die Weißenhofsiedlung in Stuttgart", "isCorrect": false }
+    ],
+    "explanation": "Der Barcelona-Pavillon (1929) ist ein ikonisches Beispiel für moderne Architektur."
+  },
+  {
+    "level": 5,
+    "category": "kategorie5",
+    "question": "Welche antike Tragödien-Trilogie umfasst 'Agamemnon', 'Die Grabspenderinnen' und 'Die Eumeniden'?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Die Orestie von Aischylos", "isCorrect": true },
+      { "text": "Die Thebanische Trilogie von Sophokles", "isCorrect": false },
+      { "text": "Die Medea-Trilogie von Euripides", "isCorrect": false },
+      { "text": "Die Trojaner-Trilogie von Homer", "isCorrect": false }
+    ],
+    "explanation": "Aischylos verfasste die 'Orestie' (5. Jh. v. Chr.), bestehend aus den drei Tragödien über das Haus der Atriden."
+  },
+  {
+    "level": 5,
+    "category": "kategorie5",
+    "question": "Welcher Komponist schuf die Oper 'La Traviata'?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Giacomo Puccini", "isCorrect": false },
+      { "text": "Giuseppe Verdi", "isCorrect": true },
+      { "text": "Gioachino Rossini", "isCorrect": false },
+      { "text": "Gaetano Donizetti", "isCorrect": false }
+    ],
+    "explanation": "'La Traviata' (1853) von Giuseppe Verdi ist eine der weltweit meistaufgeführten Opern."
   }
 ]

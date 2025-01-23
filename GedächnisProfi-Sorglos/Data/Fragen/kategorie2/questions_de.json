@@ -1,112 +1,660 @@
 [
   {
     "level": 1,
-    "question": "Welches chemische Symbol hat Sauerstoff?",
+    "category": "kategorie2",
+    "question": "Wie lautet die chemische Formel von Wasser?",
     "difficulty": "leicht",
     "answers": [
-      { "text": "S", "isCorrect": false },
-      { "text": "O", "isCorrect": true },
-      { "text": "Ox", "isCorrect": false },
-      { "text": "C", "isCorrect": false }
-    ]
+      { "text": "H2O", "isCorrect": true },
+      { "text": "CO2", "isCorrect": false },
+      { "text": "O2", "isCorrect": false },
+      { "text": "H2", "isCorrect": false }
+    ],
+    "explanation": "Wasser besteht aus zwei Wasserstoff- und einem Sauerstoffatom (H2O)."
   },
   {
     "level": 1,
-    "question": "Wie nennt man den Prozess, bei dem grüne Pflanzen Licht in Energie umwandeln?",
+    "category": "kategorie2",
+    "question": "Welches Gas ist für die menschliche Atmung unerlässlich?",
     "difficulty": "leicht",
     "answers": [
-      { "text": "Photolyse", "isCorrect": false },
+      { "text": "Stickstoff", "isCorrect": false },
+      { "text": "Sauerstoff", "isCorrect": true },
+      { "text": "Kohlenstoffdioxid", "isCorrect": false },
+      { "text": "Edelgase", "isCorrect": false }
+    ],
+    "explanation": "Obwohl die Luft hauptsächlich aus Stickstoff besteht, ist Sauerstoff für die Zellatmung lebensnotwendig."
+  },
+  {
+    "level": 1,
+    "category": "kategorie2",
+    "question": "Wie viele Planeten hat unser Sonnensystem (nach heutigem kategorie2lichen Konsens)?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "9", "isCorrect": false },
+      { "text": "10", "isCorrect": false },
+      { "text": "8", "isCorrect": true },
+      { "text": "7", "isCorrect": false }
+    ],
+    "explanation": "Nach der Neueinstufung des Pluto als Zwergplanet zählen 8 Planeten zum Sonnensystem."
+  },
+  {
+    "level": 1,
+    "category": "kategorie2",
+    "question": "Wie nennt man die Kraft, die auf der Erde Körper nach unten zieht?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Fliehkraft", "isCorrect": false },
+      { "text": "Reibungskraft", "isCorrect": false },
+      { "text": "Magnetismus", "isCorrect": false },
+      { "text": "Gravitation", "isCorrect": true }
+    ],
+    "explanation": "Die Gravitation oder Schwerkraft ist verantwortlich dafür, dass alles auf der Erde nach unten gezogen wird."
+  },
+  {
+    "level": 1,
+    "category": "kategorie2",
+    "question": "Welche Teilchen findet man im Atomkern?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Protonen und Neutronen", "isCorrect": true },
+      { "text": "Elektronen und Protonen", "isCorrect": false },
+      { "text": "Nur Elektronen", "isCorrect": false },
+      { "text": "Neutronen und Elektronen", "isCorrect": false }
+    ],
+    "explanation": "Der Atomkern besteht aus positiv geladenen Protonen und neutralen Neutronen."
+  },
+  {
+    "level": 1,
+    "category": "kategorie2",
+    "question": "Wie bezeichnet man den Prozess, bei dem Pflanzen mithilfe von Sonnenlicht Zucker und Sauerstoff produzieren?",
+    "difficulty": "leicht",
+    "answers": [
       { "text": "Atmung", "isCorrect": false },
       { "text": "Photosynthese", "isCorrect": true },
-      { "text": "Gärung", "isCorrect": false }
-    ]
+      { "text": "Fermentation", "isCorrect": false },
+      { "text": "Verdunstung", "isCorrect": false }
+    ],
+    "explanation": "Bei der Photosynthese wandeln Pflanzen Wasser und Kohlendioxid in Glukose und Sauerstoff um."
   },
   {
-    "level": 2,
-    "question": "Welcher Planet wird aufgrund seiner dichten Wolkendecke auch als 'Schwesterplanet' der Erde bezeichnet?",
+    "level": 1,
+    "category": "kategorie2",
+    "question": "Welcher Planet wird als \"roter Planet\" bezeichnet?",
     "difficulty": "leicht",
     "answers": [
-      { "text": "Venus", "isCorrect": true },
-      { "text": "Mars", "isCorrect": false },
-      { "text": "Merkur", "isCorrect": false },
+      { "text": "Venus", "isCorrect": false },
+      { "text": "Jupiter", "isCorrect": false },
+      { "text": "Mars", "isCorrect": true },
       { "text": "Saturn", "isCorrect": false }
-    ]
+    ],
+    "explanation": "Mars wird wegen seines eisenoxidreichen Bodens als roter Planet bezeichnet."
+  },
+  {
+    "level": 1,
+    "category": "kategorie2",
+    "question": "Wie nennt man die kleinste Einheit, die alle Eigenschaften des Lebens aufweist?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Atom", "isCorrect": false },
+      { "text": "Molekül", "isCorrect": false },
+      { "text": "Organ", "isCorrect": false },
+      { "text": "Zelle", "isCorrect": true }
+    ],
+    "explanation": "Die Zelle ist die kleinste lebende Einheit, aus der Organismen aufgebaut sind."
+  },
+  {
+    "level": 1,
+    "category": "kategorie2",
+    "question": "Welcher Wissenschaftler ist für die Relativitätstheorie bekannt?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Albert Einstein", "isCorrect": true },
+      { "text": "Isaac Newton", "isCorrect": false },
+      { "text": "Galileo Galilei", "isCorrect": false },
+      { "text": "Marie Curie", "isCorrect": false }
+    ],
+    "explanation": "Albert Einstein veröffentlichte 1905 und 1915 seine spezielle bzw. allgemeine Relativitätstheorie."
+  },
+  {
+    "level": 1,
+    "category": "kategorie2",
+    "question": "Wie heißt das größte Säugetier der Erde?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Elefant", "isCorrect": false },
+      { "text": "Blauwal", "isCorrect": true },
+      { "text": "Walhai", "isCorrect": false },
+      { "text": "Giraffe", "isCorrect": false }
+    ],
+    "explanation": "Der Blauwal ist mit einer Länge von bis zu 30 Metern das größte lebende Säugetier."
+  },
+
+
+  {
+    "level": 2,
+    "category": "kategorie2",
+    "question": "Welche Blutgruppe gilt als Universalspender?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "0 negativ", "isCorrect": true },
+      { "text": "A positiv", "isCorrect": false },
+      { "text": "AB positiv", "isCorrect": false },
+      { "text": "B negativ", "isCorrect": false }
+    ],
+    "explanation": "Blut der Gruppe 0 negativ kann allen Menschen im Notfall gespendet werden."
   },
   {
     "level": 2,
-    "question": "Wie viele Herzen besitzt ein Regenwurm?",
+    "category": "kategorie2",
+    "question": "Wie nennt man den Übergang von flüssig zu gasförmig?",
     "difficulty": "leicht",
     "answers": [
-      { "text": "5 Paar (also 10)", "isCorrect": true },
-      { "text": "1", "isCorrect": false },
-      { "text": "3", "isCorrect": false },
-      { "text": "Keines", "isCorrect": false }
-    ]
+      { "text": "Erstarren", "isCorrect": false },
+      { "text": "Verdampfen", "isCorrect": true },
+      { "text": "Sublimation", "isCorrect": false },
+      { "text": "Kondensation", "isCorrect": false }
+    ],
+    "explanation": "Verdampfen bezeichnet den Phasenübergang von flüssig zu gasförmig."
   },
   {
-    "level": 3,
-    "question": "Was versteht man unter der 'chromosomalen' Geschlechtsbestimmung bei Säugetieren (z.B. beim Menschen)?",
-    "difficulty": "mittel",
+    "level": 2,
+    "category": "kategorie2",
+    "question": "Was ist die kleinste Einheit eines chemischen Elements?",
+    "difficulty": "leicht",
     "answers": [
-      { "text": "XX und XY", "isCorrect": true },
-      { "text": "X0 und ZW", "isCorrect": false },
-      { "text": "ZZ und ZW", "isCorrect": false },
-      { "text": "XX und YY", "isCorrect": false }
-    ]
+      { "text": "Elektron", "isCorrect": false },
+      { "text": "Molekül", "isCorrect": false },
+      { "text": "Atom", "isCorrect": true },
+      { "text": "Proton", "isCorrect": false }
+    ],
+    "explanation": "Das Atom ist die kleinste Einheit eines Elements, die noch dessen Eigenschaften trägt."
   },
   {
-    "level": 3,
-    "question": "Wie nennt man die Wissenschaft, die sich mit der Erforschung des Weltalls beschäftigt?",
-    "difficulty": "mittel",
+    "level": 2,
+    "category": "kategorie2",
+    "question": "Welche Nährstoffgruppe liefert dem Körper hauptsächlich Energie?",
+    "difficulty": "leicht",
     "answers": [
-      { "text": "Astronomie", "isCorrect": true },
-      { "text": "Physiologie", "isCorrect": false },
+      { "text": "Vitamine", "isCorrect": false },
+      { "text": "Mineralstoffe", "isCorrect": false },
+      { "text": "Ballaststoffe", "isCorrect": false },
+      { "text": "Kohlenhydrate", "isCorrect": true }
+    ],
+    "explanation": "Kohlenhydrate sind die Hauptenergiequelle für den menschlichen Organismus."
+  },
+  {
+    "level": 2,
+    "category": "kategorie2",
+    "question": "Wie nennt man die Lehre von den Wechselwirkungen zwischen Organismen und ihrer Umwelt?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Ökologie", "isCorrect": true },
       { "text": "Geologie", "isCorrect": false },
-      { "text": "Chemie", "isCorrect": false }
-    ]
+      { "text": "Physiologie", "isCorrect": false },
+      { "text": "Soziologie", "isCorrect": false }
+    ],
+    "explanation": "Die Ökologie untersucht, wie Organismen miteinander und mit ihrer Umwelt interagieren."
+  },
+  {
+    "level": 2,
+    "category": "kategorie2",
+    "question": "Welches Vitamin wird hauptsächlich durch Sonnenlicht in der Haut gebildet?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Vitamin C", "isCorrect": false },
+      { "text": "Vitamin D", "isCorrect": true },
+      { "text": "Vitamin B12", "isCorrect": false },
+      { "text": "Vitamin A", "isCorrect": false }
+    ],
+    "explanation": "Vitamin D kann der Körper mithilfe von UV-B-Strahlung selbst produzieren."
+  },
+  {
+    "level": 2,
+    "category": "kategorie2",
+    "question": "Wie heißt das chemische Symbol für Gold?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Ag", "isCorrect": false },
+      { "text": "Fe", "isCorrect": false },
+      { "text": "Au", "isCorrect": true },
+      { "text": "Pt", "isCorrect": false }
+    ],
+    "explanation": "Das chemische Symbol für Gold lautet Au (Aurum)."
+  },
+  {
+    "level": 2,
+    "category": "kategorie2",
+    "question": "Welche Struktur in der Pflanzenzelle ist für die Photosynthese zuständig?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Zellmembran", "isCorrect": false },
+      { "text": "Zellkern", "isCorrect": false },
+      { "text": "Vakuole", "isCorrect": false },
+      { "text": "Chloroplast", "isCorrect": true }
+    ],
+    "explanation": "Chloroplasten enthalten das Chlorophyll, das für die Photosynthese notwendig ist."
+  },
+  {
+    "level": 2,
+    "category": "kategorie2",
+    "question": "Was beschreibt die Genetik?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Vererbung und Variation von Merkmalen", "isCorrect": true },
+      { "text": "Die Lehre vom Wetter", "isCorrect": false },
+      { "text": "Chemische Zusammensetzung von Stoffen", "isCorrect": false },
+      { "text": "Aufbau der Erdschichten", "isCorrect": false }
+    ],
+    "explanation": "Die Genetik untersucht, wie Merkmale durch Gene vererbt werden und wie Variation entsteht."
+  },
+  {
+    "level": 2,
+    "category": "kategorie2",
+    "question": "Wie lautet das chemische Symbol für Natrium?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "NaCl", "isCorrect": false },
+      { "text": "Na", "isCorrect": true },
+      { "text": "N", "isCorrect": false },
+      { "text": "Ne", "isCorrect": false }
+    ],
+    "explanation": "Natrium wird mit dem Symbol Na gekennzeichnet."
+  },
+
+
+  {
+    "level": 3,
+    "category": "kategorie2",
+    "question": "Wer entdeckte mithilfe selbstgebauter Mikroskope Bakterien und Protozoen?",
+    "difficulty": "mittel",
+    "answers": [
+      { "text": "Antonie van Leeuwenhoek", "isCorrect": true },
+      { "text": "Louis Pasteur", "isCorrect": false },
+      { "text": "Robert Koch", "isCorrect": false },
+      { "text": "Alexander Fleming", "isCorrect": false }
+    ],
+    "explanation": "Antonie van Leeuwenhoek baute einfache Mikroskope und beobachtete erstmals Bakterien und Einzeller."
+  },
+  {
+    "level": 3,
+    "category": "kategorie2",
+    "question": "Wie nennt man eine Eigenschaft von Substanzen, die angibt, wie viel Masse pro Volumen enthalten ist?",
+    "difficulty": "mittel",
+    "answers": [
+      { "text": "Schmelzpunkt", "isCorrect": false },
+      { "text": "Dichte", "isCorrect": true },
+      { "text": "Leitfähigkeit", "isCorrect": false },
+      { "text": "Härte", "isCorrect": false }
+    ],
+    "explanation": "Die Dichte ist definiert als Masse pro Volumen."
+  },
+  {
+    "level": 3,
+    "category": "kategorie2",
+    "question": "Welche Art von Strahlung besitzt die längsten Wellenlängen im elektromagnetischen Spektrum?",
+    "difficulty": "mittel",
+    "answers": [
+      { "text": "Infrarotstrahlung", "isCorrect": false },
+      { "text": "Ultraviolettstrahlung", "isCorrect": false },
+      { "text": "Radiowellen", "isCorrect": true },
+      { "text": "Gammastrahlung", "isCorrect": false }
+    ],
+    "explanation": "Radiowellen haben die längsten Wellenlängen und die niedrigste Frequenz."
+  },
+  {
+    "level": 3,
+    "category": "kategorie2",
+    "question": "Aus welchem grundlegenden Teilchen bestehen Protonen und Neutronen?",
+    "difficulty": "mittel",
+    "answers": [
+      { "text": "Elektronen", "isCorrect": false },
+      { "text": "Photonen", "isCorrect": false },
+      { "text": "Neutrinos", "isCorrect": false },
+      { "text": "Quarks", "isCorrect": true }
+    ],
+    "explanation": "Protonen und Neutronen setzen sich aus Up- und Down-Quarks zusammen."
+  },
+  {
+    "level": 3,
+    "category": "kategorie2",
+    "question": "Wie nennt man die Lehre vom Aufbau und der Funktion der Zellen?",
+    "difficulty": "mittel",
+    "answers": [
+      { "text": "Zytologie", "isCorrect": true },
+      { "text": "Pathologie", "isCorrect": false },
+      { "text": "Embryologie", "isCorrect": false },
+      { "text": "Taxonomie", "isCorrect": false }
+    ],
+    "explanation": "Die Zytologie beschäftigt sich mit Struktur, Funktion und Lebensprozessen der Zellen."
+  },
+  {
+    "level": 3,
+    "category": "kategorie2",
+    "question": "Welche Einheit misst die Frequenz?",
+    "difficulty": "mittel",
+    "answers": [
+      { "text": "Newton", "isCorrect": false },
+      { "text": "Hertz", "isCorrect": true },
+      { "text": "Pascal", "isCorrect": false },
+      { "text": "Watt", "isCorrect": false }
+    ],
+    "explanation": "Hertz (Hz) gibt an, wie viele Schwingungen pro Sekunde stattfinden."
+  },
+  {
+    "level": 3,
+    "category": "kategorie2",
+    "question": "Welcher Physiker entdeckte die Bewegungsgesetze und die Gesetze des freien Falls?",
+    "difficulty": "mittel",
+    "answers": [
+      { "text": "Max Planck", "isCorrect": false },
+      { "text": "Albert Einstein", "isCorrect": false },
+      { "text": "Isaac Newton", "isCorrect": true },
+      { "text": "Niels Bohr", "isCorrect": false }
+    ],
+    "explanation": "Isaac Newton formulierte u.a. die Gravitationstheorie sowie seine drei Bewegungsgesetze."
+  },
+  {
+    "level": 3,
+    "category": "kategorie2",
+    "question": "Was versteht man unter Osmose?",
+    "difficulty": "mittel",
+    "answers": [
+      { "text": "Reaktion von Säuren und Basen", "isCorrect": false },
+      { "text": "Verbrennung von Kohlenwasserstoffen", "isCorrect": false },
+      { "text": "Aufnahme von Lichtenergie", "isCorrect": false },
+      { "text": "Diffusion von Wasser durch eine semipermeable Membran", "isCorrect": true }
+    ],
+    "explanation": "Osmose ist der passive Transport von Wasser durch eine halbdurchlässige Membran."
+  },
+  {
+    "level": 3,
+    "category": "kategorie2",
+    "question": "Welches Himmelsphänomen entsteht durch die Brechung und Reflexion von Sonnenlicht an Regentropfen?",
+    "difficulty": "mittel",
+    "answers": [
+      { "text": "Regenbogen", "isCorrect": true },
+      { "text": "Polarlicht", "isCorrect": false },
+      { "text": "Halo", "isCorrect": false },
+      { "text": "Lichtverschmutzung", "isCorrect": false }
+    ],
+    "explanation": "Ein Regenbogen entsteht, wenn Sonnenlicht in Regentropfen gebrochen und reflektiert wird."
+  },
+  {
+    "level": 3,
+    "category": "kategorie2",
+    "question": "Wer entdeckte das Penicillin?",
+    "difficulty": "mittel",
+    "answers": [
+      { "text": "Edward Jenner", "isCorrect": false },
+      { "text": "Alexander Fleming", "isCorrect": true },
+      { "text": "Robert Koch", "isCorrect": false },
+      { "text": "Joseph Lister", "isCorrect": false }
+    ],
+    "explanation": "Alexander Fleming entdeckte 1928 das Antibiotikum Penicillin."
+  },
+
+
+  {
+    "level": 4,
+    "category": "kategorie2",
+    "question": "Welche Teilchenart trägt den Namen \"Positron\"?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Das Antiteilchen des Elektrons", "isCorrect": true },
+      { "text": "Ein anderes Wort für Proton", "isCorrect": false },
+      { "text": "Ein Neutrino", "isCorrect": false },
+      { "text": "Ein geladenes Neutron", "isCorrect": false }
+    ],
+    "explanation": "Ein Positron ist das Antiteilchen des Elektrons und besitzt eine positive Ladung."
   },
   {
     "level": 4,
-    "question": "Welches Gas ist am häufigsten in der Erdatmosphäre vertreten?",
+    "category": "kategorie2",
+    "question": "Welcher Astrophysiker ist für das Konzept Schwarzer Löcher bekannt und schrieb \"Eine kurze Geschichte der Zeit\"?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Carl Sagan", "isCorrect": false },
+      { "text": "Stephen Hawking", "isCorrect": true },
+      { "text": "Edwin Hubble", "isCorrect": false },
+      { "text": "Richard Feynman", "isCorrect": false }
+    ],
+    "explanation": "Stephen Hawking trug maßgeblich zur Erforschung Schwarzer Löcher und zur Kosmologie bei."
+  },
+  {
+    "level": 4,
+    "category": "kategorie2",
+    "question": "Welches chemische Element wird durch das Symbol Hg gekennzeichnet und auch als Quecksilber bezeichnet?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Helium", "isCorrect": false },
+      { "text": "Holmium", "isCorrect": false },
+      { "text": "Mercury (Hg)", "isCorrect": true },
+      { "text": "Hafnium", "isCorrect": false }
+    ],
+    "explanation": "Quecksilber (Hg, von Hydrargyrum) ist das einzige Metall, das bei Raumtemperatur flüssig ist."
+  },
+  {
+    "level": 4,
+    "category": "kategorie2",
+    "question": "Was besagt die Heisenbergsche Unschärferelation?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Teilchen können nicht schneller als das Licht sein.", "isCorrect": false },
+      { "text": "Die Masse eines Teilchens ändert sich bei Beschleunigung.", "isCorrect": false },
+      { "text": "Energie und Masse sind äquivalent.", "isCorrect": false },
+      { "text": "Ort und Impuls eines Teilchens lassen sich nicht gleichzeitig beliebig genau bestimmen.", "isCorrect": true }
+    ],
+    "explanation": "Die Unschärferelation beschreibt die fundamentale Grenze der gleichzeitigen Messbarkeit von Ort und Impuls."
+  },
+  {
+    "level": 4,
+    "category": "kategorie2",
+    "question": "Welcher Wissenschaftler entwickelte die Impfung gegen Tollwut und widerlegte die Urzeugungsthese?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Louis Pasteur", "isCorrect": true },
+      { "text": "Robert Koch", "isCorrect": false },
+      { "text": "Joseph Lister", "isCorrect": false },
+      { "text": "Jonas Salk", "isCorrect": false }
+    ],
+    "explanation": "Louis Pasteur entdeckte, dass Mikroorganismen Krankheiten verursachen, und entwickelte u.a. den Impfstoff gegen Tollwut."
+  },
+  {
+    "level": 4,
+    "category": "kategorie2",
+    "question": "Welches Modell beschreibt Elektronenbahnen als stehende Wellen um den Atomkern?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Daltonsches Atommodell", "isCorrect": false },
+      { "text": "Bohrsches Atommodell", "isCorrect": true },
+      { "text": "Rutherfordsches Atommodell", "isCorrect": false },
+      { "text": "Thomsonsches Rosinenkuchenmodell", "isCorrect": false }
+    ],
+    "explanation": "Niels Bohr führte diskrete Elektronenschalen ein, in denen sich Elektronen mit bestimmten Energieniveaus aufhalten."
+  },
+  {
+    "level": 4,
+    "category": "kategorie2",
+    "question": "Wie heißt der Effekt, bei dem Lichtteilchen Elektronen aus einem Metall herausschlagen?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Brechung", "isCorrect": false },
+      { "text": "Beugung", "isCorrect": false },
+      { "text": "Photoelektrischer Effekt", "isCorrect": true },
+      { "text": "Interferenz", "isCorrect": false }
+    ],
+    "explanation": "Der photoelektrische Effekt war ein Schlüssel für das Verständnis der Teilchennatur des Lichts."
+  },
+  {
+    "level": 4,
+    "category": "kategorie2",
+    "question": "Was ist ein Isotop?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Ein Stoff, der weder Protonen noch Neutronen besitzt", "isCorrect": false },
+      { "text": "Ein Ion mit negativer Ladung", "isCorrect": false },
+      { "text": "Ein Molekül mit unterschiedlicher Anzahl an Elektronen", "isCorrect": false },
+      { "text": "Variante eines Elements mit unterschiedlicher Neutronenzahl", "isCorrect": true }
+    ],
+    "explanation": "Isotope eines Elements besitzen dieselbe Anzahl an Protonen, jedoch eine unterschiedliche Anzahl an Neutronen."
+  },
+  {
+    "level": 4,
+    "category": "kategorie2",
+    "question": "Was wird in der Astrophysik als \"Rote Riesen\" bezeichnet?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Sterne in einem späten Entwicklungsstadium, die sich stark ausgedehnt haben", "isCorrect": true },
+      { "text": "Besonders heiße, junge Sterne mit hoher Leuchtkraft", "isCorrect": false },
+      { "text": "Galaxien, die sich aufgrund Dopplereffekts rot verschieben", "isCorrect": false },
+      { "text": "Planeten mit roter Oberfläche", "isCorrect": false }
+    ],
+    "explanation": "Rote Riesen entstehen, wenn Sterne ihren Wasserstoffvorrat im Kern aufgebraucht haben und sich ausdehnen."
+  },
+  {
+    "level": 4,
+    "category": "kategorie2",
+    "question": "Welcher Wissenschaftler formulierte anhand von Erbsenversuchen die Gesetze der Vererbung?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Charles Darwin", "isCorrect": false },
+      { "text": "Gregor Mendel", "isCorrect": true },
+      { "text": "James Watson", "isCorrect": false },
+      { "text": "Rosalind Franklin", "isCorrect": false }
+    ],
+    "explanation": "Gregor Mendel entdeckte die nach ihm benannten mendelschen Regeln über Vererbung durch Experimente mit Erbsen."
+
+
+  },
+  {
+    "level": 5,
+    "category": "kategorie2",
+    "question": "Welche Theorie beschreibt die quantisierte Natur elektromagnetischer Strahlung und geht auf Max Planck zurück?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Quantentheorie", "isCorrect": true },
+      { "text": "Relativitätstheorie", "isCorrect": false },
+      { "text": "Urknalltheorie", "isCorrect": false },
+      { "text": "Stringtheorie", "isCorrect": false }
+    ],
+    "explanation": "Max Planck legte den Grundstein der Quantentheorie, indem er Energiequanten postulierte."
+  },
+  {
+    "level": 5,
+    "category": "kategorie2",
+    "question": "Wie heißt das Phänomen, bei dem Materie bei sehr tiefen Temperaturen ihren elektrischen Widerstand verliert?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Supraspannung", "isCorrect": false },
+      { "text": "Supraleitung", "isCorrect": true },
+      { "text": "Superfluidität", "isCorrect": false },
+      { "text": "Hyperkonduktion", "isCorrect": false }
+    ],
+    "explanation": "Bei der Supraleitung verschwindet unter einer bestimmten Temperatur der elektrische Widerstand vollständig."
+  },
+  {
+    "level": 5,
+    "category": "kategorie2",
+    "question": "Welches Element besitzt nach der Pauling-Skala die höchste Elektronegativität?",
     "difficulty": "schwer",
     "answers": [
       { "text": "Sauerstoff", "isCorrect": false },
-      { "text": "Kohlendioxid", "isCorrect": false },
-      { "text": "Wasserstoff", "isCorrect": false },
-      { "text": "Stickstoff", "isCorrect": true }
-    ]
-  },
-  {
-    "level": 4,
-    "question": "Wie nennt man den Übergang eines Stoffes vom festen direkt in den gasförmigen Zustand?",
-    "difficulty": "schwer",
-    "answers": [
-      { "text": "Sublimation", "isCorrect": true },
-      { "text": "Kondensation", "isCorrect": false },
-      { "text": "Verdampfung", "isCorrect": false },
-      { "text": "Erstarren", "isCorrect": false }
-    ]
+      { "text": "Chlor", "isCorrect": false },
+      { "text": "Fluor", "isCorrect": true },
+      { "text": "Brom", "isCorrect": false }
+    ],
+    "explanation": "Fluor weist mit 3,98 (Pauling-Skala) die höchste Elektronegativität aller Elemente auf."
   },
   {
     "level": 5,
-    "question": "Wer entdeckte 1928 das Penicillin?",
+    "category": "kategorie2",
+    "question": "Wofür stehen die Buchstaben \"LASER\"?",
     "difficulty": "schwer",
     "answers": [
-      { "text": "Alexander Fleming", "isCorrect": true },
-      { "text": "Louis Pasteur", "isCorrect": false },
-      { "text": "Robert Koch", "isCorrect": false },
-      { "text": "Jonas Salk", "isCorrect": false }
-    ]
+      { "text": "Light Accumulation by Stimulated Emission of Radiation", "isCorrect": false },
+      { "text": "Light Adjustment for Spectral Energy Radiation", "isCorrect": false },
+      { "text": "Light Amplification for Spectral Emission Rays", "isCorrect": false },
+      { "text": "Light Amplification by Stimulated Emission of Radiation", "isCorrect": true }
+    ],
+    "explanation": "LASER ist ein Akronym für \"Light Amplification by Stimulated Emission of Radiation\"."
   },
   {
     "level": 5,
-    "question": "Welche Physikerin entdeckte gemeinsam mit ihrem Mann das Element Radium?",
+    "category": "kategorie2",
+    "question": "Welche Forscher entdeckten die Struktur der DNA als Doppelhelix?",
     "difficulty": "schwer",
     "answers": [
-      { "text": "Marie Curie", "isCorrect": true },
-      { "text": "Lise Meitner", "isCorrect": false },
-      { "text": "Rosalind Franklin", "isCorrect": false },
-      { "text": "Ada Lovelace", "isCorrect": false }
-    ]
+      { "text": "James Watson und Francis Crick", "isCorrect": true },
+      { "text": "Marie und Pierre Curie", "isCorrect": false },
+      { "text": "Max Planck und Niels Bohr", "isCorrect": false },
+      { "text": "John Dalton und J.J. Thomson", "isCorrect": false }
+    ],
+    "explanation": "Watson und Crick beschrieben 1953 die Doppelhelixstruktur, basierend auf Rosalind Franklins Röntgenbeugungsdaten."
+  },
+  {
+    "level": 5,
+    "category": "kategorie2",
+    "question": "Welche Kraft bindet Protonen und Neutronen im Atomkern aneinander?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Elektromagnetische Kraft", "isCorrect": false },
+      { "text": "Starke Kernkraft", "isCorrect": true },
+      { "text": "Gravitationskraft", "isCorrect": false },
+      { "text": "Schwache Kernkraft", "isCorrect": false }
+    ],
+    "explanation": "Die starke Kernkraft hält die Nukleonen (Protonen und Neutronen) zusammen, obwohl sie sich elektromagnetisch abstoßen würden."
+  },
+  {
+    "level": 5,
+    "category": "kategorie2",
+    "question": "Wie nennt man das Phänomen, wenn eine Welle ihre Ausbreitungsrichtung ändert, wenn sie in ein anderes Medium eintritt?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Reflexion", "isCorrect": false },
+      { "text": "Beugung", "isCorrect": false },
+      { "text": "Brechung", "isCorrect": true },
+      { "text": "Resonanz", "isCorrect": false }
+    ],
+    "explanation": "Brechung beschreibt die Richtungsänderung von Wellen (z.B. Licht) beim Übergang zwischen verschiedenen Medien."
+  },
+  {
+    "level": 5,
+    "category": "kategorie2",
+    "question": "Welche Wissenschaft beschäftigt sich mit den Eigenschaften und Wechselwirkungen subatomarer Teilchen?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Astronomie", "isCorrect": false },
+      { "text": "Chemie", "isCorrect": false },
+      { "text": "Geologie", "isCorrect": false },
+      { "text": "Teilchenphysik", "isCorrect": true }
+    ],
+    "explanation": "Die Teilchenphysik erforscht die elementarsten Bausteine der Materie und ihre Grundkräfte."
+  },
+  {
+    "level": 5,
+    "category": "kategorie2",
+    "question": "Was besagt der zweite Hauptsatz der Thermodynamik vereinfacht?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Die Entropie in einem abgeschlossenen System nimmt mit der Zeit zu.", "isCorrect": true },
+      { "text": "Energie kann weder geschaffen noch zerstört werden.", "isCorrect": false },
+      { "text": "Die Temperatur kann nicht unter den absoluten Nullpunkt sinken.", "isCorrect": false },
+      { "text": "Der Impuls bleibt in einem abgeschlossenen System erhalten.", "isCorrect": false }
+    ],
+    "explanation": "Der zweite Hauptsatz beschreibt, dass die Unordnung (Entropie) in einem isolierten System nicht abnimmt."
+  },
+  {
+    "level": 5,
+    "category": "kategorie2",
+    "question": "Welches Teilgebiet der Mathematik beschäftigt sich mit Grenzwerten, Ableitungen und Integralen?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Algebra", "isCorrect": false },
+      { "text": "Analysis", "isCorrect": true },
+      { "text": "Geometrie", "isCorrect": false },
+      { "text": "Stochastik", "isCorrect": false }
+    ],
+    "explanation": "Die Analysis untersucht das Verhalten von Funktionen in Bezug auf Grenzwerte sowie die Differential- und Integralrechnung."
   }
 ]

@@ -1,22 +1,660 @@
 [
   {
     "level": 1,
-    "question": "What is the capital of Germany?",
+    "category": "kategorie2",
+    "question": "What is the chemical formula for water?",
+    "difficulty": "easy",
     "answers": [
-      { "text": "Berlin", "isCorrect": true },
-      { "text": "Munich", "isCorrect": false },
-      { "text": "Hamburg", "isCorrect": false },
-      { "text": "Frankfurt", "isCorrect": false }
-    ]
+      { "text": "H2O", "isCorrect": true },
+      { "text": "CO2", "isCorrect": false },
+      { "text": "O2", "isCorrect": false },
+      { "text": "H2", "isCorrect": false }
+    ],
+    "explanation": "Water consists of two hydrogen atoms and one oxygen atom (H2O)."
+  },
+  {
+    "level": 1,
+    "category": "kategorie2",
+    "question": "Which gas is essential for human breathing?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "Nitrogen", "isCorrect": false },
+      { "text": "Oxygen", "isCorrect": true },
+      { "text": "Carbon dioxide", "isCorrect": false },
+      { "text": "Noble gases", "isCorrect": false }
+    ],
+    "explanation": "Although air is mostly nitrogen, oxygen is crucial for cellular respiration."
+  },
+  {
+    "level": 1,
+    "category": "kategorie2",
+    "question": "How many planets are there in our solar system (according to current scientific consensus)?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "9", "isCorrect": false },
+      { "text": "10", "isCorrect": false },
+      { "text": "8", "isCorrect": true },
+      { "text": "7", "isCorrect": false }
+    ],
+    "explanation": "After Pluto was reclassified as a dwarf planet, there are 8 official planets."
+  },
+  {
+    "level": 1,
+    "category": "kategorie2",
+    "question": "What force on Earth pulls objects downward?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "Centrifugal force", "isCorrect": false },
+      { "text": "Frictional force", "isCorrect": false },
+      { "text": "Magnetism", "isCorrect": false },
+      { "text": "Gravity", "isCorrect": true }
+    ],
+    "explanation": "Gravity (or gravitational force) is responsible for pulling everything downward on Earth."
+  },
+  {
+    "level": 1,
+    "category": "kategorie2",
+    "question": "Which particles are found in the nucleus of an atom?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "Protons and neutrons", "isCorrect": true },
+      { "text": "Electrons and protons", "isCorrect": false },
+      { "text": "Only electrons", "isCorrect": false },
+      { "text": "Neutrons and electrons", "isCorrect": false }
+    ],
+    "explanation": "The nucleus of an atom is made up of positively charged protons and neutral neutrons."
+  },
+  {
+    "level": 1,
+    "category": "kategorie2",
+    "question": "What is the process called in which plants use sunlight to produce sugar and oxygen?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "Respiration", "isCorrect": false },
+      { "text": "Photosynthesis", "isCorrect": true },
+      { "text": "Fermentation", "isCorrect": false },
+      { "text": "Evaporation", "isCorrect": false }
+    ],
+    "explanation": "During photosynthesis, plants convert water and carbon dioxide into glucose and oxygen using sunlight."
+  },
+  {
+    "level": 1,
+    "category": "kategorie2",
+    "question": "Which planet is referred to as the 'Red Planet'?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "Venus", "isCorrect": false },
+      { "text": "Jupiter", "isCorrect": false },
+      { "text": "Mars", "isCorrect": true },
+      { "text": "Saturn", "isCorrect": false }
+    ],
+    "explanation": "Mars is called the Red Planet because of its iron oxide-rich soil, giving it a reddish appearance."
+  },
+  {
+    "level": 1,
+    "category": "kategorie2",
+    "question": "What is the smallest unit that exhibits all characteristics of life?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "Atom", "isCorrect": false },
+      { "text": "Molecule", "isCorrect": false },
+      { "text": "Organ", "isCorrect": false },
+      { "text": "Cell", "isCorrect": true }
+    ],
+    "explanation": "The cell is the basic living unit that makes up all organisms."
+  },
+  {
+    "level": 1,
+    "category": "kategorie2",
+    "question": "Which scientist is known for the theory of relativity?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "Albert Einstein", "isCorrect": true },
+      { "text": "Isaac Newton", "isCorrect": false },
+      { "text": "Galileo Galilei", "isCorrect": false },
+      { "text": "Marie Curie", "isCorrect": false }
+    ],
+    "explanation": "Albert Einstein published the special theory of relativity in 1905 and the general theory in 1915."
+  },
+  {
+    "level": 1,
+    "category": "kategorie2",
+    "question": "What is the largest mammal on Earth?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "Elephant", "isCorrect": false },
+      { "text": "Blue whale", "isCorrect": true },
+      { "text": "Whale shark", "isCorrect": false },
+      { "text": "Giraffe", "isCorrect": false }
+    ],
+    "explanation": "The blue whale, reaching up to about 30 meters in length, is the largest living mammal."
+  },
+
+
+  {
+    "level": 2,
+    "category": "kategorie2",
+    "question": "Which blood group is considered the universal donor?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "A positive", "isCorrect": false },
+      { "text": "0 negative", "isCorrect": true },
+      { "text": "AB positive", "isCorrect": false },
+      { "text": "B negative", "isCorrect": false }
+    ],
+    "explanation": "Type O negative blood can be given to anyone in emergency situations."
   },
   {
     "level": 2,
-    "question": "Which planet is the largest in the solar system?",
+    "category": "kategorie2",
+    "question": "What is the term for the phase transition from liquid to gas?",
+    "difficulty": "easy",
     "answers": [
-      { "text": "Jupiter", "isCorrect": true },
-      { "text": "Mars", "isCorrect": false },
-      { "text": "Earth", "isCorrect": false },
-      { "text": "Saturn", "isCorrect": false }
-    ]
+      { "text": "Freezing", "isCorrect": false },
+      { "text": "Evaporation", "isCorrect": true },
+      { "text": "Sublimation", "isCorrect": false },
+      { "text": "Condensation", "isCorrect": false }
+    ],
+    "explanation": "Evaporation is the process of a substance changing from the liquid phase to the gas phase."
+  },
+  {
+    "level": 2,
+    "category": "kategorie2",
+    "question": "What is the smallest unit of a chemical element?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "Electron", "isCorrect": false },
+      { "text": "Molecule", "isCorrect": false },
+      { "text": "Atom", "isCorrect": true },
+      { "text": "Proton", "isCorrect": false }
+    ],
+    "explanation": "The atom is the smallest unit of an element that retains its chemical properties."
+  },
+  {
+    "level": 2,
+    "category": "kategorie2",
+    "question": "Which nutrient group primarily provides energy to the body?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "Vitamins", "isCorrect": false },
+      { "text": "Minerals", "isCorrect": false },
+      { "text": "Fiber", "isCorrect": false },
+      { "text": "Carbohydrates", "isCorrect": true }
+    ],
+    "explanation": "Carbohydrates are the main source of energy for the human body."
+  },
+  {
+    "level": 2,
+    "category": "kategorie2",
+    "question": "What do we call the study of interactions between organisms and their environment?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "Ecology", "isCorrect": true },
+      { "text": "Geology", "isCorrect": false },
+      { "text": "Physiology", "isCorrect": false },
+      { "text": "Sociology", "isCorrect": false }
+    ],
+    "explanation": "Ecology examines how organisms interact with each other and their surroundings."
+  },
+  {
+    "level": 2,
+    "category": "kategorie2",
+    "question": "Which vitamin is primarily produced by the skin when exposed to sunlight?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "Vitamin C", "isCorrect": false },
+      { "text": "Vitamin D", "isCorrect": true },
+      { "text": "Vitamin B12", "isCorrect": false },
+      { "text": "Vitamin A", "isCorrect": false }
+    ],
+    "explanation": "The human body can synthesize vitamin D in the skin through UV-B exposure."
+  },
+  {
+    "level": 2,
+    "category": "kategorie2",
+    "question": "What is the chemical symbol for gold?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "Ag", "isCorrect": false },
+      { "text": "Fe", "isCorrect": false },
+      { "text": "Au", "isCorrect": true },
+      { "text": "Pt", "isCorrect": false }
+    ],
+    "explanation": "Gold’s chemical symbol is Au (from the Latin 'Aurum')."
+  },
+  {
+    "level": 2,
+    "category": "kategorie2",
+    "question": "Which structure in plant cells is responsible for photosynthesis?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "Cell membrane", "isCorrect": false },
+      { "text": "Cell nucleus", "isCorrect": false },
+      { "text": "Vacuole", "isCorrect": false },
+      { "text": "Chloroplast", "isCorrect": true }
+    ],
+    "explanation": "Chloroplasts contain chlorophyll, which is essential for photosynthesis."
+  },
+  {
+    "level": 2,
+    "category": "kategorie2",
+    "question": "What does genetics study?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "The study of weather phenomena", "isCorrect": false },
+      { "text": "The chemical composition of substances", "isCorrect": false },
+      { "text": "Inheritance and variation of traits", "isCorrect": true },
+      { "text": "The structure of the Earth’s layers", "isCorrect": false }
+    ],
+    "explanation": "Genetics investigates how traits are passed on through genes and how variation occurs."
+  },
+  {
+    "level": 2,
+    "category": "kategorie2",
+    "question": "What is the chemical symbol for sodium?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "NaCl", "isCorrect": false },
+      { "text": "Na", "isCorrect": true },
+      { "text": "N", "isCorrect": false },
+      { "text": "Ne", "isCorrect": false }
+    ],
+    "explanation": "Sodium is represented by the symbol Na."
+  },
+
+
+  {
+    "level": 3,
+    "category": "kategorie2",
+    "question": "Who used self-built microscopes to discover bacteria and protozoa?",
+    "difficulty": "medium",
+    "answers": [
+      { "text": "Louis Pasteur", "isCorrect": false },
+      { "text": "Antonie van Leeuwenhoek", "isCorrect": true },
+      { "text": "Robert Koch", "isCorrect": false },
+      { "text": "Alexander Fleming", "isCorrect": false }
+    ],
+    "explanation": "Antonie van Leeuwenhoek built simple microscopes and was the first to observe bacteria and single-celled organisms."
+  },
+  {
+    "level": 3,
+    "category": "kategorie2",
+    "question": "What property of substances indicates how much mass is contained per volume unit?",
+    "difficulty": "medium",
+    "answers": [
+      { "text": "Melting point", "isCorrect": false },
+      { "text": "Density", "isCorrect": true },
+      { "text": "Conductivity", "isCorrect": false },
+      { "text": "Hardness", "isCorrect": false }
+    ],
+    "explanation": "Density is defined as mass per unit volume."
+  },
+  {
+    "level": 3,
+    "category": "kategorie2",
+    "question": "Which type of radiation has the longest wavelengths in the electromagnetic spectrum?",
+    "difficulty": "medium",
+    "answers": [
+      { "text": "Infrared radiation", "isCorrect": false },
+      { "text": "Ultraviolet radiation", "isCorrect": false },
+      { "text": "Radio waves", "isCorrect": true },
+      { "text": "Gamma rays", "isCorrect": false }
+    ],
+    "explanation": "Radio waves have the longest wavelengths and the lowest frequencies among electromagnetic waves."
+  },
+  {
+    "level": 3,
+    "category": "kategorie2",
+    "question": "Protons and neutrons are composed of which fundamental particles?",
+    "difficulty": "medium",
+    "answers": [
+      { "text": "Electrons", "isCorrect": false },
+      { "text": "Photons", "isCorrect": false },
+      { "text": "Neutrinos", "isCorrect": false },
+      { "text": "Quarks", "isCorrect": true }
+    ],
+    "explanation": "Protons and neutrons are made up of up quarks and down quarks."
+  },
+  {
+    "level": 3,
+    "category": "kategorie2",
+    "question": "What is the scientific study of the structure and function of cells called?",
+    "difficulty": "medium",
+    "answers": [
+      { "text": "Cytology", "isCorrect": true },
+      { "text": "Pathology", "isCorrect": false },
+      { "text": "Embryology", "isCorrect": false },
+      { "text": "Taxonomy", "isCorrect": false }
+    ],
+    "explanation": "Cytology focuses on the structure, function, and processes of cells."
+  },
+  {
+    "level": 3,
+    "category": "kategorie2",
+    "question": "Which unit is used to measure frequency?",
+    "difficulty": "medium",
+    "answers": [
+      { "text": "Newton", "isCorrect": false },
+      { "text": "Hertz", "isCorrect": true },
+      { "text": "Pascal", "isCorrect": false },
+      { "text": "Watt", "isCorrect": false }
+    ],
+    "explanation": "Hertz (Hz) indicates how many oscillations occur per second."
+  },
+  {
+    "level": 3,
+    "category": "kategorie2",
+    "question": "Which physicist discovered the laws of motion and the laws governing free fall?",
+    "difficulty": "medium",
+    "answers": [
+      { "text": "Max Planck", "isCorrect": false },
+      { "text": "Albert Einstein", "isCorrect": false },
+      { "text": "Isaac Newton", "isCorrect": true },
+      { "text": "Niels Bohr", "isCorrect": false }
+    ],
+    "explanation": "Isaac Newton formulated the theory of gravity and the three laws of motion."
+  },
+  {
+    "level": 3,
+    "category": "kategorie2",
+    "question": "What is osmosis?",
+    "difficulty": "medium",
+    "answers": [
+      { "text": "A reaction of acids and bases", "isCorrect": false },
+      { "text": "Combustion of hydrocarbons", "isCorrect": false },
+      { "text": "Absorption of light energy", "isCorrect": false },
+      { "text": "Diffusion of water through a semipermeable membrane", "isCorrect": true }
+    ],
+    "explanation": "Osmosis is the passive transport of water across a semipermeable membrane."
+  },
+  {
+    "level": 3,
+    "category": "kategorie2",
+    "question": "Which atmospheric phenomenon is formed when sunlight is refracted and reflected by raindrops?",
+    "difficulty": "medium",
+    "answers": [
+      { "text": "Rainbow", "isCorrect": true },
+      { "text": "Aurora", "isCorrect": false },
+      { "text": "Halo", "isCorrect": false },
+      { "text": "Light pollution", "isCorrect": false }
+    ],
+    "explanation": "A rainbow occurs when sunlight is refracted and reflected by water droplets in the atmosphere."
+  },
+  {
+    "level": 3,
+    "category": "kategorie2",
+    "question": "Who discovered penicillin?",
+    "difficulty": "medium",
+    "answers": [
+      { "text": "Edward Jenner", "isCorrect": false },
+      { "text": "Alexander Fleming", "isCorrect": true },
+      { "text": "Robert Koch", "isCorrect": false },
+      { "text": "Joseph Lister", "isCorrect": false }
+    ],
+    "explanation": "Alexander Fleming discovered the antibiotic penicillin in 1928."
+  },
+
+
+  {
+    "level": 4,
+    "category": "kategorie2",
+    "question": "Which particle is known as the 'positron'?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "The same as a proton", "isCorrect": false },
+      { "text": "A neutrino", "isCorrect": false },
+      { "text": "A charged neutron", "isCorrect": false },
+      { "text": "The antiparticle of the electron", "isCorrect": true }
+    ],
+    "explanation": "A positron is the electron’s antiparticle and carries a positive charge."
+  },
+  {
+    "level": 4,
+    "category": "kategorie2",
+    "question": "Which astrophysicist is famous for his work on black holes and wrote 'A Brief History of Time'?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Carl Sagan", "isCorrect": false },
+      { "text": "Stephen Hawking", "isCorrect": true },
+      { "text": "Edwin Hubble", "isCorrect": false },
+      { "text": "Richard Feynman", "isCorrect": false }
+    ],
+    "explanation": "Stephen Hawking made significant contributions to the study of black holes and cosmology."
+  },
+  {
+    "level": 4,
+    "category": "kategorie2",
+    "question": "Which chemical element is symbolized by Hg and is also called mercury?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Helium", "isCorrect": false },
+      { "text": "Holmium", "isCorrect": false },
+      { "text": "Mercury (Hg)", "isCorrect": true },
+      { "text": "Hafnium", "isCorrect": false }
+    ],
+    "explanation": "Mercury (chemical symbol Hg from Hydrargyrum) is the only metal that is liquid at room temperature."
+  },
+  {
+    "level": 4,
+    "category": "kategorie2",
+    "question": "What does Heisenberg’s uncertainty principle state?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Particles cannot travel faster than light.", "isCorrect": false },
+      { "text": "A particle’s mass changes with acceleration.", "isCorrect": false },
+      { "text": "Energy and mass are equivalent.", "isCorrect": false },
+      { "text": "The position and momentum of a particle cannot both be precisely measured at the same time.", "isCorrect": true }
+    ],
+    "explanation": "The uncertainty principle describes a fundamental limit to simultaneously knowing a particle’s position and momentum."
+  },
+  {
+    "level": 4,
+    "category": "kategorie2",
+    "question": "Which scientist developed the rabies vaccine and disproved spontaneous generation?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Louis Pasteur", "isCorrect": true },
+      { "text": "Robert Koch", "isCorrect": false },
+      { "text": "Joseph Lister", "isCorrect": false },
+      { "text": "Jonas Salk", "isCorrect": false }
+    ],
+    "explanation": "Louis Pasteur discovered that microorganisms cause disease and developed the rabies vaccine, among other breakthroughs."
+  },
+  {
+    "level": 4,
+    "category": "kategorie2",
+    "question": "Which model describes electron orbits as standing waves around the nucleus?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Dalton’s atomic model", "isCorrect": false },
+      { "text": "Bohr’s atomic model", "isCorrect": true },
+      { "text": "Rutherford’s atomic model", "isCorrect": false },
+      { "text": "Thomson’s plum pudding model", "isCorrect": false }
+    ],
+    "explanation": "Niels Bohr introduced discrete electron shells with specific energy levels."
+  },
+  {
+    "level": 4,
+    "category": "kategorie2",
+    "question": "What is the name of the effect in which light particles knock electrons out of a metal?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Refraction", "isCorrect": false },
+      { "text": "Diffraction", "isCorrect": false },
+      { "text": "Photoelectric effect", "isCorrect": true },
+      { "text": "Interference", "isCorrect": false }
+    ],
+    "explanation": "The photoelectric effect was a key to understanding the particle nature of light."
+  },
+  {
+    "level": 4,
+    "category": "kategorie2",
+    "question": "What is an isotope?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "A substance that has neither protons nor neutrons", "isCorrect": false },
+      { "text": "A negatively charged ion", "isCorrect": false },
+      { "text": "A molecule with a different number of electrons", "isCorrect": false },
+      { "text": "A variant of an element with a different number of neutrons", "isCorrect": true }
+    ],
+    "explanation": "Isotopes of an element have the same number of protons but different numbers of neutrons."
+  },
+  {
+    "level": 4,
+    "category": "kategorie2",
+    "question": "In astrophysics, what are 'Red Giants'?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Stars in an early stage of development that are very hot", "isCorrect": false },
+      { "text": "Planets with a red surface", "isCorrect": false },
+      { "text": "Galaxies that are red-shifted due to the Doppler effect", "isCorrect": false },
+      { "text": "Stars in a late stage of life that have expanded greatly", "isCorrect": true }
+    ],
+    "explanation": "Red giants form when stars run out of hydrogen in their core, causing them to expand."
+  },
+  {
+    "level": 4,
+    "category": "kategorie2",
+    "question": "Which scientist formulated the laws of inheritance based on pea plant experiments?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Charles Darwin", "isCorrect": false },
+      { "text": "Gregor Mendel", "isCorrect": true },
+      { "text": "James Watson", "isCorrect": false },
+      { "text": "Rosalind Franklin", "isCorrect": false }
+    ],
+    "explanation": "Gregor Mendel discovered the fundamental principles of inheritance (Mendelian laws) using pea plants."
+
+
+  },
+  {
+    "level": 5,
+    "category": "kategorie2",
+    "question": "Which theory describes the quantized nature of electromagnetic radiation and was proposed by Max Planck?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Quantum theory", "isCorrect": true },
+      { "text": "Theory of relativity", "isCorrect": false },
+      { "text": "Big Bang theory", "isCorrect": false },
+      { "text": "String theory", "isCorrect": false }
+    ],
+    "explanation": "Max Planck laid the foundation of quantum theory by proposing energy quanta."
+  },
+  {
+    "level": 5,
+    "category": "kategorie2",
+    "question": "What is the phenomenon called when matter loses all electrical resistance at very low temperatures?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Supervoltage", "isCorrect": false },
+      { "text": "Superconductivity", "isCorrect": true },
+      { "text": "Superfluidity", "isCorrect": false },
+      { "text": "Hyperconduction", "isCorrect": false }
+    ],
+    "explanation": "Under certain critical temperatures, materials can exhibit superconductivity with zero electrical resistance."
+  },
+  {
+    "level": 5,
+    "category": "kategorie2",
+    "question": "Which element has the highest electronegativity value on the Pauling scale?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Oxygen", "isCorrect": false },
+      { "text": "Chlorine", "isCorrect": false },
+      { "text": "Fluorine", "isCorrect": true },
+      { "text": "Bromine", "isCorrect": false }
+    ],
+    "explanation": "Fluorine has the highest electronegativity of all elements, at about 3.98 on the Pauling scale."
+  },
+  {
+    "level": 5,
+    "category": "kategorie2",
+    "question": "What do the letters LASER stand for?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Light Accumulation by Stimulated Emission of Radiation", "isCorrect": false },
+      { "text": "Light Adjustment for Spectral Energy Radiation", "isCorrect": false },
+      { "text": "Light Amplification for Spectral Emission Rays", "isCorrect": false },
+      { "text": "Light Amplification by Stimulated Emission of Radiation", "isCorrect": true }
+    ],
+    "explanation": "LASER is an acronym for 'Light Amplification by Stimulated Emission of Radiation.'"
+  },
+  {
+    "level": 5,
+    "category": "kategorie2",
+    "question": "Which researchers discovered the structure of DNA as a double helix?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Marie and Pierre Curie", "isCorrect": false },
+      { "text": "Max Planck and Niels Bohr", "isCorrect": false },
+      { "text": "James Watson and Francis Crick", "isCorrect": true },
+      { "text": "John Dalton and J.J. Thomson", "isCorrect": false }
+    ],
+    "explanation": "In 1953, Watson and Crick described the double-helix structure, based on Rosalind Franklin’s X-ray diffraction data."
+  },
+  {
+    "level": 5,
+    "category": "kategorie2",
+    "question": "Which force binds protons and neutrons together in the atomic nucleus?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Electromagnetic force", "isCorrect": false },
+      { "text": "Strong nuclear force", "isCorrect": true },
+      { "text": "Gravitational force", "isCorrect": false },
+      { "text": "Weak nuclear force", "isCorrect": false }
+    ],
+    "explanation": "The strong nuclear force holds nucleons (protons and neutrons) together, overcoming their electromagnetic repulsion."
+  },
+  {
+    "level": 5,
+    "category": "kategorie2",
+    "question": "What is it called when a wave changes direction upon entering a different medium?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Reflection", "isCorrect": false },
+      { "text": "Diffraction", "isCorrect": false },
+      { "text": "Refraction", "isCorrect": true },
+      { "text": "Resonance", "isCorrect": false }
+    ],
+    "explanation": "Refraction is the change in direction of a wave (e.g., light) when it moves between different media."
+  },
+  {
+    "level": 5,
+    "category": "kategorie2",
+    "question": "Which branch of science deals with the properties and interactions of subatomic particles?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Astronomy", "isCorrect": false },
+      { "text": "Chemistry", "isCorrect": false },
+      { "text": "Geology", "isCorrect": false },
+      { "text": "Particle physics", "isCorrect": true }
+    ],
+    "explanation": "Particle physics investigates the most fundamental building blocks of matter and their basic forces."
+  },
+  {
+    "level": 5,
+    "category": "kategorie2",
+    "question": "What does the Second Law of Thermodynamics state in simplified terms?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Energy can neither be created nor destroyed.", "isCorrect": false },
+      { "text": "Temperature cannot drop below absolute zero.", "isCorrect": false },
+      { "text": "Entropy in an isolated system tends to increase over time.", "isCorrect": true },
+      { "text": "Momentum is conserved in a closed system.", "isCorrect": false }
+    ],
+    "explanation": "The Second Law states that the disorder (entropy) of an isolated system does not decrease."
+  },
+  {
+    "level": 5,
+    "category": "kategorie2",
+    "question": "Which branch of mathematics deals with limits, derivatives, and integrals?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Algebra", "isCorrect": false },
+      { "text": "Analysis (Calculus)", "isCorrect": true },
+      { "text": "Geometry", "isCorrect": false },
+      { "text": "Stochastics", "isCorrect": false }
+    ],
+    "explanation": "Analysis (or calculus) investigates the behavior of functions regarding limits, differentiation, and integration."
   }
 ]

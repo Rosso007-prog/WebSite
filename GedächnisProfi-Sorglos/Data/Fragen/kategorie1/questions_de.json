@@ -2,7 +2,7 @@
   {
     "level": 1,
     "category": "kategorie1",
-    "question": "Welche Stadt ist die Hauptstadt von Frankreich?",
+    "question": "Lokal Welche Stadt ist die Hauptstadt von Frankreich?",
     "difficulty": "leicht",
     "answers": [
       { "text": "Paris", "isCorrect": true },
@@ -28,6 +28,112 @@
   {
     "level": 1,
     "category": "kategorie1",
+    "question": "Welcher Kontinent ist flächenmäßig der größte?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Afrika", "isCorrect": false },
+      { "text": "Nordamerika", "isCorrect": false },
+      { "text": "Asien", "isCorrect": true },
+      { "text": "Europa", "isCorrect": false }
+    ],
+    "explanation": "Asien ist mit rund 44,6 Millionen Quadratkilometern der flächenmäßig größte Kontinent."
+  },
+  {
+    "level": 1,
+    "category": "kategorie1",
+    "question": "Welcher Fluss fließt durch London?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Seine", "isCorrect": false },
+      { "text": "Elbe", "isCorrect": false },
+      { "text": "Tiber", "isCorrect": false },
+      { "text": "Themse", "isCorrect": true }
+    ],
+    "explanation": "Die Themse fließt durch London und ist ein bekanntes Wahrzeichen der Stadt."
+  },
+  {
+    "level": 1,
+    "category": "kategorie1",
+    "question": "In welchem Land liegt die berühmte Pyramidenstadt Gizeh?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Ägypten", "isCorrect": true },
+      { "text": "Marokko", "isCorrect": false },
+      { "text": "Algerien", "isCorrect": false },
+      { "text": "Tunesien", "isCorrect": false }
+    ],
+    "explanation": "Gizeh liegt in Ägypten und ist für die berühmten Pyramiden und die Sphinx bekannt."
+  },
+  {
+    "level": 1,
+    "category": "kategorie1",
+    "question": "Welches Land ist flächenmäßig das größte der Welt?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Kanada", "isCorrect": false },
+      { "text": "Russland", "isCorrect": true },
+      { "text": "China", "isCorrect": false },
+      { "text": "Vereinigte Staaten", "isCorrect": false }
+    ],
+    "explanation": "Russland ist mit über 17 Millionen Quadratkilometern das flächenmäßig größte Land der Welt."
+  },
+  {
+    "level": 1,
+    "category": "kategorie1",
+    "question": "Wie heißt der höchste Berg in Afrika?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Mount Kenya", "isCorrect": false },
+      { "text": "Toubkal", "isCorrect": false },
+      { "text": "Kilimandscharo", "isCorrect": true },
+      { "text": "Ruwenzori", "isCorrect": false }
+    ],
+    "explanation": "Der Kilimandscharo in Tansania ist mit 5.895 m der höchste Berg Afrikas."
+  },
+  {
+    "level": 1,
+    "category": "kategorie1",
+    "question": "Welche Stadt ist für ihre Oper und die Harbour Bridge bekannt?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Melbourne", "isCorrect": false },
+      { "text": "Vancouver", "isCorrect": false },
+      { "text": "Kapstadt", "isCorrect": false },
+      { "text": "Sydney", "isCorrect": true }
+    ],
+    "explanation": "Sydney in Australien ist bekannt für das Sydney Opera House und die Harbour Bridge."
+  },
+  {
+    "level": 1,
+    "category": "kategorie1",
+    "question": "Welcher See ist der größte Süßwassersee nach Fläche?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Oberer See (Lake Superior)", "isCorrect": true },
+      { "text": "Victoriasee", "isCorrect": false },
+      { "text": "Baikalsee", "isCorrect": false },
+      { "text": "Tanganyikasee", "isCorrect": false }
+    ],
+    "explanation": "Der Obere See (Lake Superior) in Nordamerika ist der größte Süßwassersee nach Fläche."
+  },
+  {
+    "level": 1,
+    "category": "kategorie1",
+    "question": "Wie heißt die Hauptstadt von Kanada?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Toronto", "isCorrect": false },
+      { "text": "Ottawa", "isCorrect": true },
+      { "text": "Montreal", "isCorrect": false },
+      { "text": "Vancouver", "isCorrect": false }
+    ],
+    "explanation": "Ottawa ist die Hauptstadt von Kanada, nicht Toronto oder Montreal."
+  },
+
+
+  {
+    "level": 2,
+    "category": "kategorie1",
     "question": "In welchem Land liegt die Stadt Venedig?",
     "difficulty": "leicht",
     "answers": [
@@ -39,7 +145,7 @@
     "explanation": "Venedig liegt in Italien und ist berühmt für seine Kanäle und Architektur."
   },
   {
-    "level": 1,
+    "level": 2,
     "category": "kategorie1",
     "question": "Wie viele Kontinente gibt es auf der Erde (konventionelle Zählweise)?",
     "difficulty": "leicht",
@@ -52,7 +158,113 @@
     "explanation": "Es gibt sieben Kontinente: Asien, Afrika, Nordamerika, Südamerika, Antarktika, Europa und Australien."
   },
   {
-    "level": 1,
+    "level": 2,
+    "category": "kategorie1",
+    "question": "Welche Stadt wird als 'Big Apple' bezeichnet?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Los Angeles", "isCorrect": false },
+      { "text": "New York City", "isCorrect": true },
+      { "text": "Chicago", "isCorrect": false },
+      { "text": "San Francisco", "isCorrect": false }
+    ],
+    "explanation": "New York City wird oft als 'Big Apple' bezeichnet."
+  },
+  {
+    "level": 2,
+    "category": "kategorie1",
+    "question": "In welchem Land befindet sich die berühmte Ruinenstadt Machu Picchu?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Mexiko", "isCorrect": false },
+      { "text": "Brasilien", "isCorrect": false },
+      { "text": "Peru", "isCorrect": true },
+      { "text": "Kolumbien", "isCorrect": false }
+    ],
+    "explanation": "Machu Picchu liegt in den Anden Perus und ist eine berühmte Inkastadt."
+  },
+  {
+    "level": 2,
+    "category": "kategorie1",
+    "question": "Welche Stadt ist die Hauptstadt von Deutschland?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "München", "isCorrect": false },
+      { "text": "Frankfurt", "isCorrect": false },
+      { "text": "Köln", "isCorrect": false },
+      { "text": "Berlin", "isCorrect": true }
+    ],
+    "explanation": "Berlin ist die Hauptstadt Deutschlands."
+  },
+  {
+    "level": 2,
+    "category": "kategorie1",
+    "question": "An welchem Meer liegt das Land Jordanien?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Totes Meer", "isCorrect": true },
+      { "text": "Mittelmeer", "isCorrect": false },
+      { "text": "Kaspisches Meer", "isCorrect": false },
+      { "text": "Schwarzes Meer", "isCorrect": false }
+    ],
+    "explanation": "Jordanien grenzt an das Tote Meer, das für seinen hohen Salzgehalt bekannt ist."
+  },
+  {
+    "level": 2,
+    "category": "kategorie1",
+    "question": "Welche Bergkette bildet die Grenze zwischen Europa und Asien?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Alpen", "isCorrect": false },
+      { "text": "Ural", "isCorrect": true },
+      { "text": "Kaukasus", "isCorrect": false },
+      { "text": "Karpaten", "isCorrect": false }
+    ],
+    "explanation": "Der Ural in Russland gilt als natürliche Grenze zwischen Europa und Asien."
+  },
+  {
+    "level": 2,
+    "category": "kategorie1",
+    "question": "Was ist die offizielle Sprache in Brasilien?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Spanisch", "isCorrect": false },
+      { "text": "Englisch", "isCorrect": false },
+      { "text": "Portugiesisch", "isCorrect": true },
+      { "text": "Französisch", "isCorrect": false }
+    ],
+    "explanation": "Die Amtssprache in Brasilien ist Portugiesisch, obwohl viele glauben, es sei Spanisch."
+  },
+  {
+    "level": 2,
+    "category": "kategorie1",
+    "question": "Wie heißt die Hauptstadt von Argentinien?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Santiago", "isCorrect": false },
+      { "text": "Lima", "isCorrect": false },
+      { "text": "Montevideo", "isCorrect": false },
+      { "text": "Buenos Aires", "isCorrect": true }
+    ],
+    "explanation": "Buenos Aires ist die Hauptstadt und das kulturelle Zentrum Argentiniens."
+  },
+  {
+    "level": 2,
+    "category": "kategorie1",
+    "question": "Welche Stadt in den USA ist für den Sitz der Regierung bekannt und wird oft als D.C. abgekürzt?",
+    "difficulty": "leicht",
+    "answers": [
+      { "text": "Washington D.C.", "isCorrect": true },
+      { "text": "New York City", "isCorrect": false },
+      { "text": "Los Angeles", "isCorrect": false },
+      { "text": "Chicago", "isCorrect": false }
+    ],
+    "explanation": "Washington D.C. ist die Hauptstadt der Vereinigten Staaten und Sitz der Regierung."
+  },
+
+
+  {
+    "level": 3,
     "category": "kategorie1",
     "question": "Welcher Ozean ist der flächenmäßig größte der Erde?",
     "difficulty": "mittel",
@@ -77,6 +289,112 @@
     ],
     "explanation": "Das Himalaya-Gebirge ist das höchste Gebirge der Erde, mit dem Mount Everest als höchstem Gipfel."
   },
+  {
+    "level": 3,
+    "category": "kategorie1",
+    "question": "Welches Gebiet an Land ist der tiefste Punkt der Erdoberfläche (gemessen zum Meeresspiegel)?",
+    "difficulty": "mittel",
+    "answers": [
+      { "text": "Ufer des Toten Meeres", "isCorrect": true },
+      { "text": "Death Valley", "isCorrect": false },
+      { "text": "Marianengraben", "isCorrect": false },
+      { "text": "Seespiegel des Baikalsees", "isCorrect": false }
+    ],
+    "explanation": "Die Ufer des Toten Meeres liegen rund 430 Meter unter dem Meeresspiegel und sind damit der tiefste frei zugängliche Ort an Land."
+  },
+  {
+    "level": 3,
+    "category": "kategorie1",
+    "question": "Wie heißt der größte Binnensee der Erde (nach Volumen)?",
+    "difficulty": "mittel",
+    "answers": [
+      { "text": "Tanganjikasee", "isCorrect": false },
+      { "text": "Baikalsee", "isCorrect": true },
+      { "text": "Victoriasee", "isCorrect": false },
+      { "text": "Aralsee", "isCorrect": false }
+    ],
+    "explanation": "Der Baikalsee in Russland ist der volumengrößte Süßwassersee der Erde."
+  },
+  {
+    "level": 3,
+    "category": "kategorie1",
+    "question": "Welcher Ozean liegt zwischen Amerika und Europa?",
+    "difficulty": "mittel",
+    "answers": [
+      { "text": "Pazifischer Ozean", "isCorrect": false },
+      { "text": "Indischer Ozean", "isCorrect": false },
+      { "text": "Atlantischer Ozean", "isCorrect": true },
+      { "text": "Arktischer Ozean", "isCorrect": false }
+    ],
+    "explanation": "Der Atlantische Ozean liegt zwischen den Kontinenten Amerika und Europa."
+  },
+  {
+    "level": 3,
+    "category": "kategorie1",
+    "question": "Welcher Fluss bildet einen Teil der Grenze zwischen den USA und Mexiko?",
+    "difficulty": "mittel",
+    "answers": [
+      { "text": "Colorado", "isCorrect": false },
+      { "text": "Mississippi", "isCorrect": false },
+      { "text": "Potomac", "isCorrect": false },
+      { "text": "Rio Grande", "isCorrect": true }
+    ],
+    "explanation": "Der Rio Grande bildet einen Teil der Grenze zwischen den Vereinigten Staaten und Mexiko."
+  },
+  {
+    "level": 3,
+    "category": "kategorie1",
+    "question": "Wie heißt der längste Fluss in Europa?",
+    "difficulty": "mittel",
+    "answers": [
+      { "text": "Wolga", "isCorrect": true },
+      { "text": "Donau", "isCorrect": false },
+      { "text": "Rhein", "isCorrect": false },
+      { "text": "Elbe", "isCorrect": false }
+    ],
+    "explanation": "Die Wolga in Russland ist mit rund 3.530 km der längste Fluss Europas."
+  },
+  {
+    "level": 3,
+    "category": "kategorie1",
+    "question": "In welchem Land befindet sich der größte Teil des Yellowstone-Nationalparks?",
+    "difficulty": "mittel",
+    "answers": [
+      { "text": "Kanada", "isCorrect": false },
+      { "text": "USA", "isCorrect": true },
+      { "text": "Mexiko", "isCorrect": false },
+      { "text": "Russland", "isCorrect": false }
+    ],
+    "explanation": "Der Yellowstone-Nationalpark liegt größtenteils im US-Bundesstaat Wyoming in den Vereinigten Staaten."
+  },
+  {
+    "level": 3,
+    "category": "kategorie1",
+    "question": "Welcher Kontinent beherbergt die meisten Länder?",
+    "difficulty": "mittel",
+    "answers": [
+      { "text": "Asien", "isCorrect": false },
+      { "text": "Europa", "isCorrect": false },
+      { "text": "Afrika", "isCorrect": true },
+      { "text": "Nordamerika", "isCorrect": false }
+    ],
+    "explanation": "Afrika hat die meisten Länder, derzeit über 50 international anerkannte Staaten."
+  },
+  {
+    "level": 3,
+    "category": "kategorie1",
+    "question": "Welche US-amerikanische Stadt ist das politische Zentrum Kaliforniens?",
+    "difficulty": "mittel",
+    "answers": [
+      { "text": "Los Angeles", "isCorrect": false },
+      { "text": "San Francisco", "isCorrect": false },
+      { "text": "San Diego", "isCorrect": false },
+      { "text": "Sacramento", "isCorrect": true }
+    ],
+    "explanation": "Sacramento ist die Hauptstadt Kaliforniens und Sitz der Staatsregierung."
+  },
+
+
   {
     "level": 4,
     "category": "kategorie1",
@@ -104,6 +422,112 @@
     "explanation": "Canberra ist die Hauptstadt von Australien, nicht Sydney oder Melbourne."
   },
   {
+    "level": 4,
+    "category": "kategorie1",
+    "question": "Welche Stadt war einst als Konstantinopel bekannt?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Athen", "isCorrect": false },
+      { "text": "Ankara", "isCorrect": false },
+      { "text": "Istanbul", "isCorrect": true },
+      { "text": "Izmir", "isCorrect": false }
+    ],
+    "explanation": "Istanbul trug früher den Namen Konstantinopel und war Hauptstadt des Byzantinischen Reiches."
+  },
+  {
+    "level": 4,
+    "category": "kategorie1",
+    "question": "Zu welchem Land gehört die Inselgruppe Galapagos?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Chile", "isCorrect": false },
+      { "text": "Peru", "isCorrect": false },
+      { "text": "Kolumbien", "isCorrect": false },
+      { "text": "Ecuador", "isCorrect": true }
+    ],
+    "explanation": "Die Galapagos-Inseln gehören zu Ecuador und sind bekannt für ihre einzigartige Tierwelt."
+  },
+  {
+    "level": 4,
+    "category": "kategorie1",
+    "question": "Welche Meerenge trennt Europa und Afrika?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Straße von Gibraltar", "isCorrect": true },
+      { "text": "Bosporus", "isCorrect": false },
+      { "text": "Straße von Hormus", "isCorrect": false },
+      { "text": "Bab al-Mandab", "isCorrect": false }
+    ],
+    "explanation": "Die Straße von Gibraltar trennt Spanien in Europa von Marokko in Afrika."
+  },
+  {
+    "level": 4,
+    "category": "kategorie1",
+    "question": "Welches ist das bevölkerungsreichste Land der Welt (Stand 2023)?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "China", "isCorrect": false },
+      { "text": "Indien", "isCorrect": true },
+      { "text": "USA", "isCorrect": false },
+      { "text": "Indonesien", "isCorrect": false }
+    ],
+    "explanation": "Nach aktuellen Schätzungen hat Indien China in der Bevölkerung überholt und ist das bevölkerungsreichste Land."
+  },
+  {
+    "level": 4,
+    "category": "kategorie1",
+    "question": "Welche Wüste ist die trockenste der Erde?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Sahara", "isCorrect": false },
+      { "text": "Gobi", "isCorrect": false },
+      { "text": "Atacama", "isCorrect": true },
+      { "text": "Kalahari", "isCorrect": false }
+    ],
+    "explanation": "Die Atacama-Wüste in Chile gilt als die trockenste nicht-polare Wüste der Welt."
+  },
+  {
+    "level": 4,
+    "category": "kategorie1",
+    "question": "Welcher Berg ist weltweit für seine höchste aktive vulkanische Tätigkeit bekannt?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Kilimandscharo", "isCorrect": false },
+      { "text": "Ätna", "isCorrect": false },
+      { "text": "Fuji", "isCorrect": false },
+      { "text": "Ojos del Salado", "isCorrect": true }
+    ],
+    "explanation": "Der Ojos del Salado an der Grenze zwischen Chile und Argentinien ist der höchste aktive Vulkan der Erde."
+  },
+  {
+    "level": 4,
+    "category": "kategorie1",
+    "question": "Welche Insel ist die größte der Welt, wenn man Australien als Kontinent betrachtet?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Grönland", "isCorrect": true },
+      { "text": "Neuguinea", "isCorrect": false },
+      { "text": "Borneo", "isCorrect": false },
+      { "text": "Madagaskar", "isCorrect": false }
+    ],
+    "explanation": "Grönland ist die größte Insel der Welt, sofern man Australien als Kontinent wertet."
+  },
+  {
+    "level": 4,
+    "category": "kategorie1",
+    "question": "Wie heißt die Hauptstadt des Iran?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Isfahan", "isCorrect": false },
+      { "text": "Teheran", "isCorrect": true },
+      { "text": "Schiras", "isCorrect": false },
+      { "text": "Tabris", "isCorrect": false }
+    ],
+    "explanation": "Teheran ist die Hauptstadt und das politische Zentrum des Iran."
+  },
+
+
+  {
     "level": 5,
     "category": "kategorie1",
     "question": "Welche Währung wird in Polen verwendet?",
@@ -128,5 +552,109 @@
       { "text": "Burkina Faso", "isCorrect": false }
     ],
     "explanation": "Timbuktu liegt in Mali und ist bekannt für seine historische Bedeutung im transsaharischen Handel."
+  },
+  {
+    "level": 5,
+    "category": "kategorie1",
+    "question": "In welchem Land liegt der Mount Everest (gemessen über die bekannteste Aufstiegsroute)?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Indien", "isCorrect": false },
+      { "text": "Bhutan", "isCorrect": false },
+      { "text": "Nepal", "isCorrect": true },
+      { "text": "Pakistan", "isCorrect": false }
+    ],
+    "explanation": "Der Mount Everest liegt an der Grenze zwischen Nepal und Tibet (China), wird jedoch meist über Nepal bestiegen."
+  },
+  {
+    "level": 5,
+    "category": "kategorie1",
+    "question": "Wie heißt die Hauptstadt von Neuseeland?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Auckland", "isCorrect": false },
+      { "text": "Christchurch", "isCorrect": false },
+      { "text": "Hamilton", "isCorrect": false },
+      { "text": "Wellington", "isCorrect": true }
+    ],
+    "explanation": "Wellington ist die Hauptstadt Neuseelands, obwohl Auckland die größere Stadt ist."
+  },
+  {
+    "level": 5,
+    "category": "kategorie1",
+    "question": "Welcher Fluss durchquert die Stadt Wien?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Donau", "isCorrect": true },
+      { "text": "Elbe", "isCorrect": false },
+      { "text": "Rhein", "isCorrect": false },
+      { "text": "Po", "isCorrect": false }
+    ],
+    "explanation": "Die Donau fließt durch Wien und ist der zweitlängste Fluss Europas."
+  },
+  {
+    "level": 5,
+    "category": "kategorie1",
+    "question": "Welche Inselgruppe gehört politisch zu Portugal und liegt im Atlantik?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Kanarische Inseln", "isCorrect": false },
+      { "text": "Azoren", "isCorrect": true },
+      { "text": "Kapverden", "isCorrect": false },
+      { "text": "Balearen", "isCorrect": false }
+    ],
+    "explanation": "Die Azoren sind eine zu Portugal gehörende Inselgruppe im Nordatlantik."
+  },
+  {
+    "level": 5,
+    "category": "kategorie1",
+    "question": "Wie heißt das östlichste Bundesland Deutschlands?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Bayern", "isCorrect": false },
+      { "text": "Sachsen-Anhalt", "isCorrect": false },
+      { "text": "Sachsen", "isCorrect": true },
+      { "text": "Thüringen", "isCorrect": false }
+    ],
+    "explanation": "Sachsen grenzt an Polen und ist das östlichste Bundesland Deutschlands."
+  },
+  {
+    "level": 5,
+    "category": "kategorie1",
+    "question": "Welche Stadt in den Vereinigten Arabischen Emiraten ist für ihre hochmoderne Architektur und künstlichen Inseln bekannt?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Abu Dhabi", "isCorrect": false },
+      { "text": "Sharjah", "isCorrect": false },
+      { "text": "Ras al-Chaima", "isCorrect": false },
+      { "text": "Dubai", "isCorrect": true }
+    ],
+    "explanation": "Dubai ist bekannt für seine Wolkenkratzer wie den Burj Khalifa und künstliche Inseln wie die Palm Islands."
+  },
+  {
+    "level": 5,
+    "category": "kategorie1",
+    "question": "Welches Land ist für den Salar de Uyuni, die größte Salzwüste der Erde, bekannt?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Bolivien", "isCorrect": true },
+      { "text": "Chile", "isCorrect": false },
+      { "text": "Argentinien", "isCorrect": false },
+      { "text": "Peru", "isCorrect": false }
+    ],
+    "explanation": "Der Salar de Uyuni in Bolivien ist die größte Salzfläche der Erde."
+  },
+  {
+    "level": 5,
+    "category": "kategorie1",
+    "question": "In welchem Land findet man das Tal der Könige, eine berühmte Grabstätte?",
+    "difficulty": "schwer",
+    "answers": [
+      { "text": "Marokko", "isCorrect": false },
+      { "text": "Ägypten", "isCorrect": true },
+      { "text": "Jordanien", "isCorrect": false },
+      { "text": "Saudi-Arabien", "isCorrect": false }
+    ],
+    "explanation": "Das Tal der Könige liegt in Ägypten in der Nähe von Luxor und beherbergt die Gräber zahlreicher Pharaonen."
   }
 ]

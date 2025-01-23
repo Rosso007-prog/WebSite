@@ -1,22 +1,663 @@
 [
   {
     "level": 1,
-    "question": "What is the capital of Germany?",
+    "category": "kategorie4",
+    "question": "How many players does a soccer (football) team have on the field per team?",
+    "difficulty": "easy",
     "answers": [
-      { "text": "Berlin", "isCorrect": true },
-      { "text": "Munich", "isCorrect": false },
-      { "text": "Hamburg", "isCorrect": false },
-      { "text": "Frankfurt", "isCorrect": false }
-    ]
+      { "text": "9", "isCorrect": false },
+      { "text": "11", "isCorrect": true },
+      { "text": "10", "isCorrect": false },
+      { "text": "12", "isCorrect": false }
+    ],
+    "explanation": "In soccer, each team has 11 players on the field at the same time."
+  },
+  {
+    "level": 1,
+    "category": "kategorie4",
+    "question": "What is the famous tennis tournament held annually in England?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "French Open", "isCorrect": false },
+      { "text": "Wimbledon", "isCorrect": true },
+      { "text": "US Open", "isCorrect": false },
+      { "text": "Australian Open", "isCorrect": false }
+    ],
+    "explanation": "Wimbledon is the oldest tennis tournament in the world and is held each year in London."
+  },
+  {
+    "level": 1,
+    "category": "kategorie4",
+    "question": "Which sport is typically played on ice with a puck?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "Curling", "isCorrect": false },
+      { "text": "Ice hockey", "isCorrect": true },
+      { "text": "Figure skating", "isCorrect": false },
+      { "text": "Short track", "isCorrect": false }
+    ],
+    "explanation": "Ice hockey is played on an ice rink using a hard rubber puck."
+  },
+  {
+    "level": 1,
+    "category": "kategorie4",
+    "question": "What is the most prestigious club competition in European soccer?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "UEFA Europa League", "isCorrect": false },
+      { "text": "UEFA Champions League", "isCorrect": true },
+      { "text": "FA Cup", "isCorrect": false },
+      { "text": "Bundesliga", "isCorrect": false }
+    ],
+    "explanation": "The UEFA Champions League is the premier club competition for European soccer clubs."
+  },
+  {
+    "level": 1,
+    "category": "kategorie4",
+    "question": "Which German racing driver won the Formula 1 World Championship seven times?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "Nico Rosberg", "isCorrect": false },
+      { "text": "Sebastian Vettel", "isCorrect": false },
+      { "text": "Michael Schumacher", "isCorrect": true },
+      { "text": "Ralf Schumacher", "isCorrect": false }
+    ],
+    "explanation": "Michael Schumacher won the Formula 1 World Championship a total of 7 times."
+  },
+  {
+    "level": 1,
+    "category": "kategorie4",
+    "question": "In which sport is Lionel Messi a world-renowned figure?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "Basketball", "isCorrect": false },
+      { "text": "Soccer (football)", "isCorrect": true },
+      { "text": "Tennis", "isCorrect": false },
+      { "text": "Rugby", "isCorrect": false }
+    ],
+    "explanation": "Lionel Messi is a famous Argentine soccer (football) player."
+  },
+  {
+    "level": 1,
+    "category": "kategorie4",
+    "question": "Which sport do LeBron James and Dirk Nowitzki play professionally?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "Handball", "isCorrect": false },
+      { "text": "Basketball", "isCorrect": true },
+      { "text": "Baseball", "isCorrect": false },
+      { "text": "Ice hockey", "isCorrect": false }
+    ],
+    "explanation": "LeBron James (USA) and Dirk Nowitzki (Germany) are/were well-known NBA basketball players."
+  },
+  {
+    "level": 1,
+    "category": "kategorie4",
+    "question": "Which sport uses rackets, gloves, and a net over which the ball is hit?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "Volleyball", "isCorrect": false },
+      { "text": "Tennis", "isCorrect": true },
+      { "text": "Badminton", "isCorrect": false },
+      { "text": "Cricket", "isCorrect": false }
+    ],
+    "explanation": "In tennis, players use rackets to hit the ball over a net; wristbands or overgrips may be worn, but not gloves."
+  },
+  {
+    "level": 1,
+    "category": "kategorie4",
+    "question": "Which country is home to the soccer club FC Barcelona?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "Portugal", "isCorrect": false },
+      { "text": "Spain", "isCorrect": true },
+      { "text": "Italy", "isCorrect": false },
+      { "text": "Brazil", "isCorrect": false }
+    ],
+    "explanation": "FC Barcelona is one of the most famous Spanish soccer clubs, based in Barcelona."
+  },
+  {
+    "level": 1,
+    "category": "kategorie4",
+    "question": "How long does a regular soccer (football) match last (without added time)?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "70 minutes", "isCorrect": false },
+      { "text": "80 minutes", "isCorrect": false },
+      { "text": "120 minutes", "isCorrect": false },
+      { "text": "90 minutes", "isCorrect": true }
+    ],
+    "explanation": "A soccer match lasts 2 × 45 minutes, totaling 90 minutes of regular play."
+  },
+
+
+  {
+    "level": 2,
+    "category": "kategorie4",
+    "question": "How many Grand Slam tournaments are there in the tennis calendar each year?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "2", "isCorrect": false },
+      { "text": "3", "isCorrect": false },
+      { "text": "4", "isCorrect": true },
+      { "text": "5", "isCorrect": false }
+    ],
+    "explanation": "The four Grand Slam tournaments are the Australian Open, French Open, Wimbledon, and the US Open."
   },
   {
     "level": 2,
-    "question": "Which planet is the largest in the solar system?",
+    "category": "kategorie4",
+    "question": "Which team is considered the record champion in the German Bundesliga?",
+    "difficulty": "easy",
     "answers": [
-      { "text": "Jupiter", "isCorrect": true },
-      { "text": "Mars", "isCorrect": false },
-      { "text": "Earth", "isCorrect": false },
-      { "text": "Saturn", "isCorrect": false }
-    ]
+      { "text": "Borussia Dortmund", "isCorrect": false },
+      { "text": "FC Schalke 04", "isCorrect": false },
+      { "text": "FC Bayern Munich", "isCorrect": true },
+      { "text": "Werder Bremen", "isCorrect": false }
+    ],
+    "explanation": "FC Bayern Munich has won the most league titles in Bundesliga history."
+  },
+  {
+    "level": 2,
+    "category": "kategorie4",
+    "question": "Which sport is known for the term 'hole-in-one'?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "Tennis", "isCorrect": false },
+      { "text": "Golf", "isCorrect": true },
+      { "text": "Cricket", "isCorrect": false },
+      { "text": "Baseball", "isCorrect": false }
+    ],
+    "explanation": "In golf, a 'hole-in-one' occurs when the ball is driven directly from the tee into the hole."
+  },
+  {
+    "level": 2,
+    "category": "kategorie4",
+    "question": "Which sport is often referred to as 'America’s Pastime' in the United States?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "Basketball", "isCorrect": false },
+      { "text": "American Football", "isCorrect": false },
+      { "text": "Baseball", "isCorrect": true },
+      { "text": "Ice hockey", "isCorrect": false }
+    ],
+    "explanation": "Baseball is considered a traditional national sport in the United States and is known as 'America’s Pastime.'"
+  },
+  {
+    "level": 2,
+    "category": "kategorie4",
+    "question": "Which female tennis player won 22 Grand Slam singles titles (in the Amateur and Open Era), holding a record?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "Maria Sharapova", "isCorrect": false },
+      { "text": "Steffi Graf", "isCorrect": true },
+      { "text": "Martina Navratilova", "isCorrect": false },
+      { "text": "Serena Williams", "isCorrect": false }
+    ],
+    "explanation": "Steffi Graf achieved 22 singles titles, including a Golden Slam in 1988 (all four Grand Slams and Olympic gold)."
+  },
+  {
+    "level": 2,
+    "category": "kategorie4",
+    "question": "Which running distance is 42.195 km long?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "Half marathon", "isCorrect": false },
+      { "text": "Marathon", "isCorrect": true },
+      { "text": "Ultramarathon", "isCorrect": false },
+      { "text": "10,000 meters", "isCorrect": false }
+    ],
+    "explanation": "The marathon covers exactly 42.195 kilometers."
+  },
+  {
+    "level": 2,
+    "category": "kategorie4",
+    "question": "How often do the Summer Olympic Games usually take place?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "Every 2 years", "isCorrect": false },
+      { "text": "Every 4 years", "isCorrect": true },
+      { "text": "Every 6 years", "isCorrect": false },
+      { "text": "Annually", "isCorrect": false }
+    ],
+    "explanation": "The Summer Olympics are normally held every four years."
+  },
+  {
+    "level": 2,
+    "category": "kategorie4",
+    "question": "Which sport uses a racket called a 'racquet' and a small shuttlecock (birdie)?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "Squash", "isCorrect": false },
+      { "text": "Badminton", "isCorrect": true },
+      { "text": "Softball", "isCorrect": false },
+      { "text": "Tennis", "isCorrect": false }
+    ],
+    "explanation": "Badminton is played with a racket and a shuttlecock (also called a birdie) over a net."
+  },
+  {
+    "level": 2,
+    "category": "kategorie4",
+    "question": "Which German basketball player was the first European to be named NBA MVP?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "Dennis Schröder", "isCorrect": false },
+      { "text": "Detlef Schrempf", "isCorrect": false },
+      { "text": "Dirk Nowitzki", "isCorrect": true },
+      { "text": "Christian Welp", "isCorrect": false }
+    ],
+    "explanation": "Dirk Nowitzki became the first European player to receive the NBA Most Valuable Player (MVP) award in 2007."
+  },
+  {
+    "level": 2,
+    "category": "kategorie4",
+    "question": "Which sport does Nikola Karabatic play professionally?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "Soccer", "isCorrect": false },
+      { "text": "Basketball", "isCorrect": false },
+      { "text": "Handball", "isCorrect": true },
+      { "text": "Rugby", "isCorrect": false }
+    ],
+    "explanation": "Nikola Karabatic is a world-famous French handball player with numerous international achievements."
+  },
+
+
+  {
+    "level": 3,
+    "category": "kategorie4",
+    "question": "How many innings does a standard Major League Baseball (MLB) game have?",
+    "difficulty": "medium",
+    "answers": [
+      { "text": "7 innings", "isCorrect": false },
+      { "text": "12 innings", "isCorrect": false },
+      { "text": "9 innings", "isCorrect": true },
+      { "text": "4 innings", "isCorrect": false }
+    ],
+    "explanation": "An MLB baseball game typically lasts 9 innings, with each team batting once per inning."
+  },
+  {
+    "level": 3,
+    "category": "kategorie4",
+    "question": "Which country won the 2014 FIFA World Cup?",
+    "difficulty": "medium",
+    "answers": [
+      { "text": "Brazil", "isCorrect": false },
+      { "text": "Argentina", "isCorrect": false },
+      { "text": "Germany", "isCorrect": true },
+      { "text": "Spain", "isCorrect": false }
+    ],
+    "explanation": "Germany defeated Argentina 1–0 in extra time in the 2014 World Cup final."
+  },
+  {
+    "level": 3,
+    "category": "kategorie4",
+    "question": "On which surface is the French Open (tennis) traditionally played?",
+    "difficulty": "medium",
+    "answers": [
+      { "text": "Grass", "isCorrect": false },
+      { "text": "Hard court", "isCorrect": false },
+      { "text": "Clay court", "isCorrect": true },
+      { "text": "Carpet", "isCorrect": false }
+    ],
+    "explanation": "The French Open (Roland Garros) is the most famous clay-court tournament in the world."
+  },
+  {
+    "level": 3,
+    "category": "kategorie4",
+    "question": "How many points does a team usually need to win a set in volleyball (excluding a tie-break)?",
+    "difficulty": "medium",
+    "answers": [
+      { "text": "21 points", "isCorrect": false },
+      { "text": "15 points", "isCorrect": false },
+      { "text": "25 points", "isCorrect": true },
+      { "text": "10 points", "isCorrect": false }
+    ],
+    "explanation": "In volleyball, sets (except the final deciding set) are played to 25 points, requiring at least a 2-point lead."
+  },
+  {
+    "level": 3,
+    "category": "kategorie4",
+    "question": "Who is the top scorer in the history of the German national soccer team (as of 2023)?",
+    "difficulty": "medium",
+    "answers": [
+      { "text": "Lukas Podolski", "isCorrect": false },
+      { "text": "Gerd Müller", "isCorrect": false },
+      { "text": "Miroslav Klose", "isCorrect": true },
+      { "text": "Jürgen Klinsmann", "isCorrect": false }
+    ],
+    "explanation": "Miroslav Klose scored a total of 71 goals for the German national team."
+  },
+  {
+    "level": 3,
+    "category": "kategorie4",
+    "question": "Which athlete, often called 'the fastest man in the world,' holds the 100-meter world record (as of 2023)?",
+    "difficulty": "medium",
+    "answers": [
+      { "text": "Carl Lewis", "isCorrect": false },
+      { "text": "Justin Gatlin", "isCorrect": false },
+      { "text": "Maurice Greene", "isCorrect": false },
+      { "text": "Usain Bolt", "isCorrect": true }
+    ],
+    "explanation": "Usain Bolt holds the current 100 m world record (as of 2023) with a time of 9.58 seconds."
+  },
+  {
+    "level": 3,
+    "category": "kategorie4",
+    "question": "How many different disciplines does a typical triathlon include?",
+    "difficulty": "medium",
+    "answers": [
+      { "text": "Two disciplines", "isCorrect": false },
+      { "text": "Four disciplines", "isCorrect": false },
+      { "text": "Three disciplines", "isCorrect": true },
+      { "text": "Five disciplines", "isCorrect": false }
+    ],
+    "explanation": "A triathlon consists of swimming, cycling, and running."
+  },
+  {
+    "level": 3,
+    "category": "kategorie4",
+    "question": "How many rings are on the Olympic Games logo?",
+    "difficulty": "medium",
+    "answers": [
+      { "text": "4", "isCorrect": false },
+      { "text": "5", "isCorrect": true },
+      { "text": "6", "isCorrect": false },
+      { "text": "3", "isCorrect": false }
+    ],
+    "explanation": "The Olympic symbol consists of five interlocking rings."
+  },
+  {
+    "level": 3,
+    "category": "kategorie4",
+    "question": "Which famous boxing match is known as the 'Rumble in the Jungle'?",
+    "difficulty": "medium",
+    "answers": [
+      { "text": "Muhammad Ali vs. Joe Frazier (Thrilla in Manila)", "isCorrect": false },
+      { "text": "George Foreman vs. Joe Frazier", "isCorrect": false },
+      { "text": "Muhammad Ali vs. George Foreman (Kinshasa 1974)", "isCorrect": true },
+      { "text": "Floyd Mayweather vs. Manny Pacquiao", "isCorrect": false }
+    ],
+    "explanation": "The 'Rumble in the Jungle' took place in 1974 in Kinshasa (now DR Congo) between Muhammad Ali and George Foreman."
+  },
+  {
+    "level": 3,
+    "category": "kategorie4",
+    "question": "Which type of rugby is internationally more widespread: Rugby Union or Rugby League?",
+    "difficulty": "medium",
+    "answers": [
+      { "text": "Rugby Sevens", "isCorrect": false },
+      { "text": "Rugby League", "isCorrect": false },
+      { "text": "Rugby Union", "isCorrect": true },
+      { "text": "Touch Rugby", "isCorrect": false }
+    ],
+    "explanation": "Rugby Union, with 15 players per team, is the most widely played form of rugby worldwide."
+  },
+
+
+  {
+    "level": 4,
+    "category": "kategorie4",
+    "question": "How many times did Roger Federer win the men’s singles title at Wimbledon?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "8 times", "isCorrect": true },
+      { "text": "9 times", "isCorrect": false },
+      { "text": "7 times", "isCorrect": false },
+      { "text": "10 times", "isCorrect": false }
+    ],
+    "explanation": "Roger Federer won Wimbledon in men’s singles a record eight times (as of 2023 for the men’s record)."
+  },
+  {
+    "level": 4,
+    "category": "kategorie4",
+    "question": "Which German female athlete set the 100-meter world record for women in 1988, still holding it today?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Heike Drechsler", "isCorrect": false },
+      { "text": "Katrin Krabbe", "isCorrect": false },
+      { "text": "Marlies Göhr", "isCorrect": false },
+      {
+        "text": "Florence Griffith-Joyner (USA) holds the record, not a German athlete",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "The women’s 100 m world record (10.49 s, set in 1988) belongs to Florence Griffith-Joyner (USA). No German holds this record."
+  },
+  {
+    "level": 4,
+    "category": "kategorie4",
+    "question": "In which year was the first Super Bowl (NFL Championship Game) played?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "1957", "isCorrect": false },
+      { "text": "1967", "isCorrect": true },
+      { "text": "1970", "isCorrect": false },
+      { "text": "1961", "isCorrect": false }
+    ],
+    "explanation": "The first Super Bowl took place on January 15, 1967, between the Green Bay Packers and the Kansas City Chiefs."
+  },
+  {
+    "level": 4,
+    "category": "kategorie4",
+    "question": "Who is the all-time top scorer in the history of FC Bayern Munich (as of 2023)?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Gerd Müller", "isCorrect": true },
+      { "text": "Robert Lewandowski", "isCorrect": false },
+      { "text": "Karl-Heinz Rummenigge", "isCorrect": false },
+      { "text": "Thomas Müller", "isCorrect": false }
+    ],
+    "explanation": "Gerd Müller scored the most goals in FC Bayern Munich’s history."
+  },
+  {
+    "level": 4,
+    "category": "kategorie4",
+    "question": "Which woman is considered the most successful alpine skier with 82 World Cup wins (as of the end of 2022)?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Mikaela Shiffrin (USA)", "isCorrect": false },
+      { "text": "Annemarie Moser-Pröll (AUT)", "isCorrect": false },
+      { "text": "Vreni Schneider (SUI)", "isCorrect": false },
+      { "text": "Lindsey Vonn (USA)", "isCorrect": true }
+    ],
+    "explanation": "Lindsey Vonn won 82 World Cup races, retiring in 2019. (Mikaela Shiffrin surpassed her in 2023.)"
+  },
+  {
+    "level": 4,
+    "category": "kategorie4",
+    "question": "How many points are taken off in a perfect 9-dart finish in a 501 darts game?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "501 points in total are reduced to 0 after 9 darts", "isCorrect": true },
+      { "text": "No fixed total, as the out-shot can vary", "isCorrect": false },
+      { "text": "441 points", "isCorrect": false },
+      { "text": "501 points remain, as 9-darter is impossible", "isCorrect": false }
+    ],
+    "explanation": "A 9-dart finish is the ideal leg in 501 darts, where exactly 501 points are reduced to zero in 9 throws."
+  },
+  {
+    "level": 4,
+    "category": "kategorie4",
+    "question": "Who was the first boxer to win world championship titles in five different weight classes?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Muhammad Ali", "isCorrect": false },
+      { "text": "Floyd Mayweather Jr.", "isCorrect": true },
+      { "text": "Manny Pacquiao", "isCorrect": false },
+      { "text": "Oscar De La Hoya", "isCorrect": false }
+    ],
+    "explanation": "Floyd Mayweather Jr. achieved world champion status in five different weight divisions."
+  },
+  {
+    "level": 4,
+    "category": "kategorie4",
+    "question": "Which sport features sabre, foil, and épée disciplines?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Track and field", "isCorrect": false },
+      { "text": "Modern pentathlon", "isCorrect": false },
+      { "text": "Fencing", "isCorrect": true },
+      { "text": "Wrestling", "isCorrect": false }
+    ],
+    "explanation": "Fencing is divided into three weapon categories: sabre, foil, and épée."
+  },
+  {
+    "level": 4,
+    "category": "kategorie4",
+    "question": "Which American swimmer has won a total of 23 Olympic gold medals?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Mark Spitz", "isCorrect": false },
+      { "text": "Ryan Lochte", "isCorrect": false },
+      { "text": "Ian Thorpe", "isCorrect": false },
+      { "text": "Michael Phelps", "isCorrect": true }
+    ],
+    "explanation": "Michael Phelps is the most successful Olympian of all time, with 23 gold medals."
+  },
+  {
+    "level": 4,
+    "category": "kategorie4",
+    "question": "Which German tennis player won Wimbledon in 1985 at the youngest age ever?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Tommy Haas", "isCorrect": false },
+      { "text": "Alexander Zverev", "isCorrect": false },
+      { "text": "Michael Stich", "isCorrect": false },
+      { "text": "Boris Becker", "isCorrect": true }
+    ],
+    "explanation": "Boris Becker won the 1985 Wimbledon men’s singles title at 17 years and 227 days old, making tennis history."
+  },
+
+
+  {
+    "level": 5,
+    "category": "kategorie4",
+    "question": "Who holds the record for the most goals in the history of ice hockey (NHL)?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Mario Lemieux", "isCorrect": false },
+      { "text": "Bobby Hull", "isCorrect": false },
+      { "text": "Wayne Gretzky", "isCorrect": true },
+      { "text": "Gordie Howe", "isCorrect": false }
+    ],
+    "explanation": "Wayne Gretzky scored 894 goals in his NHL career, holding the record for the most goals of all time."
+  },
+  {
+    "level": 5,
+    "category": "kategorie4",
+    "question": "From which city does the basketball team Panathinaikos hail, having won the EuroLeague multiple times?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Istanbul", "isCorrect": false },
+      { "text": "Tel Aviv", "isCorrect": false },
+      { "text": "Athens", "isCorrect": true },
+      { "text": "Barcelona", "isCorrect": false }
+    ],
+    "explanation": "Panathinaikos Athens is a Greek basketball club and one of Europe’s most successful teams."
+  },
+  {
+    "level": 5,
+    "category": "kategorie4",
+    "question": "How many times has the Brazilian soccer club FC Santos (Pelé’s home club) won the Copa Libertadores?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Never", "isCorrect": false },
+      { "text": "Twice", "isCorrect": false },
+      { "text": "Three times", "isCorrect": true },
+      { "text": "Five times", "isCorrect": false }
+    ],
+    "explanation": "FC Santos won the Copa Libertadores three times (1962, 1963, 2011)."
+  },
+  {
+    "level": 5,
+    "category": "kategorie4",
+    "question": "How many sets must you usually win in a standard table tennis (ping pong) singles match (current competition format)?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Best of 3", "isCorrect": false },
+      { "text": "Best of 9", "isCorrect": false },
+      { "text": "Best of 5 (3 winning sets)", "isCorrect": true },
+      { "text": "Best of 7 (4 winning sets)", "isCorrect": false }
+    ],
+    "explanation": "Most official table tennis matches are played as best-of-5, requiring three sets to win."
+  },
+  {
+    "level": 5,
+    "category": "kategorie4",
+    "question": "Which country won the very first FIFA World Cup in 1930?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Italy", "isCorrect": false },
+      { "text": "Argentina", "isCorrect": false },
+      { "text": "Uruguay", "isCorrect": true },
+      { "text": "Brazil", "isCorrect": false }
+    ],
+    "explanation": "Uruguay hosted the inaugural 1930 World Cup and defeated Argentina in the final."
+  },
+  {
+    "level": 5,
+    "category": "kategorie4",
+    "question": "How many victories did Valentino Rossi achieve in the MotoGP premier class (500 cc and MotoGP)?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "He never competed beyond the 250-cc class", "isCorrect": false },
+      { "text": "Well over 80 race wins in the premier class", "isCorrect": true },
+      { "text": "About 50 race wins", "isCorrect": false },
+      { "text": "Over 120 MotoGP victories", "isCorrect": false }
+    ],
+    "explanation": "Valentino Rossi won more than 80 races in the premier motorcycle class and was multiple times world champion."
+  },
+  {
+    "level": 5,
+    "category": "kategorie4",
+    "question": "What is the annual collegiate basketball tournament in the USA called?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "NBA Playoffs", "isCorrect": false },
+      { "text": "NIT (National Invitation Tournament)", "isCorrect": false },
+      { "text": "USA Cup", "isCorrect": false },
+      { "text": "NCAA March Madness", "isCorrect": true }
+    ],
+    "explanation": "The NCAA tournament (known as March Madness) is one of the biggest college basketball events in the US."
+  },
+  {
+    "level": 5,
+    "category": "kategorie4",
+    "question": "In alpine skiing, which competition combines a downhill race and a slalom?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Super-G", "isCorrect": false },
+      { "text": "Combination", "isCorrect": true },
+      { "text": "Parallel race", "isCorrect": false },
+      { "text": "Super combination (if only one slalom run)", "isCorrect": false }
+    ],
+    "explanation": "In the 'combination' or 'super combination,' times from the downhill and slalom are added together."
+  },
+  {
+    "level": 5,
+    "category": "kategorie4",
+    "question": "Which national ice hockey team holds the record for the most World Championship titles (as of 2023)?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Russia (formerly USSR)", "isCorrect": false },
+      { "text": "Czech Republic", "isCorrect": false },
+      { "text": "Sweden", "isCorrect": false },
+      { "text": "Canada", "isCorrect": true }
+    ],
+    "explanation": "Canada is the record titleholder at the Ice Hockey World Championships, followed by Russia (including the USSR)."
+  },
+  {
+    "level": 5,
+    "category": "kategorie4",
+    "question": "Which golfer, with 18 major championship wins, is considered the most successful major winner?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Tiger Woods", "isCorrect": false },
+      { "text": "Jack Nicklaus", "isCorrect": true },
+      { "text": "Arnold Palmer", "isCorrect": false },
+      { "text": "Gary Player", "isCorrect": false }
+    ],
+    "explanation": "Jack Nicklaus holds the record with 18 major titles; Tiger Woods follows with 15 majors."
   }
 ]

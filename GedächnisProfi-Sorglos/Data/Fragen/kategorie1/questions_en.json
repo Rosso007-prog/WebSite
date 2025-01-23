@@ -1,22 +1,660 @@
-{
-  "level": 0,
-  "question": "Welche Stadt ist die Hauptstadt von Frankreich?",
-  "difficulty": "leicht",
-  "answers": [
-    { "text": "Paris", "isCorrect": true },
-    { "text": "Lyon", "isCorrect": false },
-    { "text": "Marseille", "isCorrect": false },
-    { "text": "Bordeaux", "isCorrect": false }
-  ]
-},
-{
-"level": 0,
-"question": "Welche Stadt ist die Hauptstadt von Frankreich?",
-"difficulty": "leicht",
-"answers": [
-{ "text": "Paris", "isCorrect": true },
-{ "text": "Lyon", "isCorrect": false },
-{ "text": "Marseille", "isCorrect": false },
-{ "text": "Bordeaux", "isCorrect": false }
+[
+  {
+    "level": 1,
+    "category": "kategorie1",
+    "question": "Locally: Which city is the capital of France?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "Paris", "isCorrect": true },
+      { "text": "Lyon", "isCorrect": false },
+      { "text": "Marseille", "isCorrect": false },
+      { "text": "Bordeaux", "isCorrect": false }
+    ],
+    "explanation": "Paris is the capital of France and one of the world’s most famous cities."
+  },
+  {
+    "level": 1,
+    "category": "kategorie1",
+    "question": "Which river is the longest in Africa?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "Congo", "isCorrect": false },
+      { "text": "Nile", "isCorrect": true },
+      { "text": "Niger", "isCorrect": false },
+      { "text": "Zambezi", "isCorrect": false }
+    ],
+    "explanation": "The Nile is about 6,650 km long, making it the longest river in Africa."
+  },
+  {
+    "level": 1,
+    "category": "kategorie1",
+    "question": "Which continent is the largest by area?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "Africa", "isCorrect": false },
+      { "text": "North America", "isCorrect": false },
+      { "text": "Asia", "isCorrect": true },
+      { "text": "Europe", "isCorrect": false }
+    ],
+    "explanation": "Asia covers about 44.6 million square kilometers, making it the largest continent by area."
+  },
+  {
+    "level": 1,
+    "category": "kategorie1",
+    "question": "Which river flows through London?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "Seine", "isCorrect": false },
+      { "text": "Elbe", "isCorrect": false },
+      { "text": "Tiber", "isCorrect": false },
+      { "text": "Thames", "isCorrect": true }
+    ],
+    "explanation": "The River Thames flows through London and is a famous feature of the city."
+  },
+  {
+    "level": 1,
+    "category": "kategorie1",
+    "question": "In which country is the famous pyramid city of Giza located?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "Egypt", "isCorrect": true },
+      { "text": "Morocco", "isCorrect": false },
+      { "text": "Algeria", "isCorrect": false },
+      { "text": "Tunisia", "isCorrect": false }
+    ],
+    "explanation": "Giza is in Egypt, known for the famous Pyramids and the Great Sphinx."
+  },
+  {
+    "level": 1,
+    "category": "kategorie1",
+    "question": "Which country is the largest in the world by area?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "Canada", "isCorrect": false },
+      { "text": "Russia", "isCorrect": true },
+      { "text": "China", "isCorrect": false },
+      { "text": "United States", "isCorrect": false }
+    ],
+    "explanation": "Russia has an area of over 17 million square kilometers, making it the largest country by area."
+  },
+  {
+    "level": 1,
+    "category": "kategorie1",
+    "question": "Which mountain is the highest in Africa?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "Mount Kenya", "isCorrect": false },
+      { "text": "Toubkal", "isCorrect": false },
+      { "text": "Kilimanjaro", "isCorrect": true },
+      { "text": "Ruwenzori", "isCorrect": false }
+    ],
+    "explanation": "Mount Kilimanjaro in Tanzania stands at 5,895 m, making it Africa’s highest mountain."
+  },
+  {
+    "level": 1,
+    "category": "kategorie1",
+    "question": "Which city is known for its Opera House and the Harbour Bridge?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "Melbourne", "isCorrect": false },
+      { "text": "Vancouver", "isCorrect": false },
+      { "text": "Cape Town", "isCorrect": false },
+      { "text": "Sydney", "isCorrect": true }
+    ],
+    "explanation": "Sydney in Australia is famous for the Sydney Opera House and the Harbour Bridge."
+  },
+  {
+    "level": 1,
+    "category": "kategorie1",
+    "question": "Which lake is the largest freshwater lake by surface area?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "Lake Victoria", "isCorrect": false },
+      { "text": "Lake Baikal", "isCorrect": false },
+      { "text": "Lake Superior", "isCorrect": true },
+      { "text": "Lake Tanganyika", "isCorrect": false }
+    ],
+    "explanation": "Lake Superior in North America is the largest freshwater lake by surface area."
+  },
+  {
+    "level": 1,
+    "category": "kategorie1",
+    "question": "What is the capital city of Canada?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "Toronto", "isCorrect": false },
+      { "text": "Ottawa", "isCorrect": true },
+      { "text": "Montreal", "isCorrect": false },
+      { "text": "Vancouver", "isCorrect": false }
+    ],
+    "explanation": "Ottawa is the capital of Canada, not Toronto or Montreal."
+  },
+
+
+  {
+    "level": 2,
+    "category": "kategorie1",
+    "question": "In which country is the city of Venice located?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "Spain", "isCorrect": false },
+      { "text": "France", "isCorrect": false },
+      { "text": "Italy", "isCorrect": true },
+      { "text": "Portugal", "isCorrect": false }
+    ],
+    "explanation": "Venice is in Italy, famous for its canals and architecture."
+  },
+  {
+    "level": 2,
+    "category": "kategorie1",
+    "question": "How many continents are there on Earth (traditional count)?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "7", "isCorrect": true },
+      { "text": "6", "isCorrect": false },
+      { "text": "5", "isCorrect": false },
+      { "text": "8", "isCorrect": false }
+    ],
+    "explanation": "Traditionally, there are seven continents: Asia, Africa, North America, South America, Antarctica, Europe, and Australia."
+  },
+  {
+    "level": 2,
+    "category": "kategorie1",
+    "question": "Which city is referred to as the 'Big Apple'?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "Los Angeles", "isCorrect": false },
+      { "text": "New York City", "isCorrect": true },
+      { "text": "Chicago", "isCorrect": false },
+      { "text": "San Francisco", "isCorrect": false }
+    ],
+    "explanation": "New York City is often nicknamed the 'Big Apple.'"
+  },
+  {
+    "level": 2,
+    "category": "kategorie1",
+    "question": "In which country can you find the famous Inca site Machu Picchu?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "Mexico", "isCorrect": false },
+      { "text": "Brazil", "isCorrect": false },
+      { "text": "Peru", "isCorrect": true },
+      { "text": "Colombia", "isCorrect": false }
+    ],
+    "explanation": "Machu Picchu is located in the Andes of Peru, an iconic Inca citadel."
+  },
+  {
+    "level": 2,
+    "category": "kategorie1",
+    "question": "Which city is the capital of Germany?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "Munich", "isCorrect": false },
+      { "text": "Frankfurt", "isCorrect": false },
+      { "text": "Cologne", "isCorrect": false },
+      { "text": "Berlin", "isCorrect": true }
+    ],
+    "explanation": "Berlin is the capital city of Germany."
+  },
+  {
+    "level": 2,
+    "category": "kategorie1",
+    "question": "Which sea does Jordan border?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "Mediterranean Sea", "isCorrect": false },
+      { "text": "Caspian Sea", "isCorrect": false },
+      { "text": "Dead Sea", "isCorrect": true },
+      { "text": "Black Sea", "isCorrect": false }
+    ],
+    "explanation": "Jordan borders the Dead Sea, famous for its high salt content."
+  },
+  {
+    "level": 2,
+    "category": "kategorie1",
+    "question": "Which mountain range forms part of the boundary between Europe and Asia?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "Alps", "isCorrect": false },
+      { "text": "Urals", "isCorrect": true },
+      { "text": "Caucasus", "isCorrect": false },
+      { "text": "Carpathians", "isCorrect": false }
+    ],
+    "explanation": "The Ural Mountains in Russia are considered a natural boundary between Europe and Asia."
+  },
+  {
+    "level": 2,
+    "category": "kategorie1",
+    "question": "What is the official language in Brazil?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "Spanish", "isCorrect": false },
+      { "text": "English", "isCorrect": false },
+      { "text": "Portuguese", "isCorrect": true },
+      { "text": "French", "isCorrect": false }
+    ],
+    "explanation": "Portuguese is the official language of Brazil, contrary to common misconceptions that it might be Spanish."
+  },
+  {
+    "level": 2,
+    "category": "kategorie1",
+    "question": "What is the capital of Argentina?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "Santiago", "isCorrect": false },
+      { "text": "Lima", "isCorrect": false },
+      { "text": "Montevideo", "isCorrect": false },
+      { "text": "Buenos Aires", "isCorrect": true }
+    ],
+    "explanation": "Buenos Aires is the capital and cultural center of Argentina."
+  },
+  {
+    "level": 2,
+    "category": "kategorie1",
+    "question": "Which US city is known as D.C. and is the seat of the federal government?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "Washington D.C.", "isCorrect": true },
+      { "text": "New York City", "isCorrect": false },
+      { "text": "Los Angeles", "isCorrect": false },
+      { "text": "Chicago", "isCorrect": false }
+    ],
+    "explanation": "Washington D.C. is the capital of the United States and the seat of the federal government."
+  },
+
+
+  {
+    "level": 3,
+    "category": "kategorie1",
+    "question": "Which ocean is the largest by area?",
+    "difficulty": "medium",
+    "answers": [
+      { "text": "Indian Ocean", "isCorrect": false },
+      { "text": "Atlantic Ocean", "isCorrect": false },
+      { "text": "Pacific Ocean", "isCorrect": true },
+      { "text": "Arctic Ocean", "isCorrect": false }
+    ],
+    "explanation": "The Pacific Ocean covers about 168 million square kilometers, making it the largest ocean on Earth."
+  },
+  {
+    "level": 3,
+    "category": "kategorie1",
+    "question": "Which mountain range is the highest on Earth by average elevation?",
+    "difficulty": "medium",
+    "answers": [
+      { "text": "Alps", "isCorrect": false },
+      { "text": "Andes", "isCorrect": false },
+      { "text": "Himalayas", "isCorrect": true },
+      { "text": "Rocky Mountains", "isCorrect": false }
+    ],
+    "explanation": "The Himalayas contain many of Earth’s highest peaks, including Mount Everest."
+  },
+  {
+    "level": 3,
+    "category": "kategorie1",
+    "question": "Which land area is the lowest point on Earth’s surface (relative to sea level)?",
+    "difficulty": "medium",
+    "answers": [
+      { "text": "Death Valley", "isCorrect": false },
+      { "text": "The shores of the Dead Sea", "isCorrect": true },
+      { "text": "Mariana Trench", "isCorrect": false },
+      { "text": "Lake Baikal’s surface", "isCorrect": false }
+    ],
+    "explanation": "The shores of the Dead Sea lie about 430 meters below sea level, the lowest accessible point on land."
+  },
+  {
+    "level": 3,
+    "category": "kategorie1",
+    "question": "Which lake is the world’s largest by volume of freshwater?",
+    "difficulty": "medium",
+    "answers": [
+      { "text": "Lake Tanganyika", "isCorrect": false },
+      { "text": "Lake Baikal", "isCorrect": true },
+      { "text": "Lake Victoria", "isCorrect": false },
+      { "text": "Aral Sea", "isCorrect": false }
+    ],
+    "explanation": "Lake Baikal in Russia is the largest freshwater lake by volume on Earth."
+  },
+  {
+    "level": 3,
+    "category": "kategorie1",
+    "question": "Which ocean is located between the Americas and Europe?",
+    "difficulty": "medium",
+    "answers": [
+      { "text": "Pacific Ocean", "isCorrect": false },
+      { "text": "Indian Ocean", "isCorrect": false },
+      { "text": "Atlantic Ocean", "isCorrect": true },
+      { "text": "Arctic Ocean", "isCorrect": false }
+    ],
+    "explanation": "The Atlantic Ocean lies between the American continents and Europe (and Africa)."
+  },
+  {
+    "level": 3,
+    "category": "kategorie1",
+    "question": "Which river forms part of the border between the United States and Mexico?",
+    "difficulty": "medium",
+    "answers": [
+      { "text": "Colorado", "isCorrect": false },
+      { "text": "Mississippi", "isCorrect": false },
+      { "text": "Potomac", "isCorrect": false },
+      { "text": "Rio Grande", "isCorrect": true }
+    ],
+    "explanation": "The Rio Grande (Río Bravo del Norte) forms part of the US-Mexico border."
+  },
+  {
+    "level": 3,
+    "category": "kategorie1",
+    "question": "Which is the longest river in Europe?",
+    "difficulty": "medium",
+    "answers": [
+      { "text": "Danube", "isCorrect": false },
+      { "text": "Rhine", "isCorrect": false },
+      { "text": "Volga", "isCorrect": true },
+      { "text": "Elbe", "isCorrect": false }
+    ],
+    "explanation": "The Volga in Russia, at around 3,530 km, is considered Europe’s longest river."
+  },
+  {
+    "level": 3,
+    "category": "kategorie1",
+    "question": "In which country is most of Yellowstone National Park located?",
+    "difficulty": "medium",
+    "answers": [
+      { "text": "Canada", "isCorrect": false },
+      { "text": "USA", "isCorrect": true },
+      { "text": "Mexico", "isCorrect": false },
+      { "text": "Russia", "isCorrect": false }
+    ],
+    "explanation": "Yellowstone National Park is primarily in the state of Wyoming in the United States."
+  },
+  {
+    "level": 3,
+    "category": "kategorie1",
+    "question": "Which continent hosts the largest number of countries?",
+    "difficulty": "medium",
+    "answers": [
+      { "text": "Asia", "isCorrect": false },
+      { "text": "Europe", "isCorrect": false },
+      { "text": "Africa", "isCorrect": true },
+      { "text": "North America", "isCorrect": false }
+    ],
+    "explanation": "Africa has the greatest number of recognized countries—over 50."
+  },
+  {
+    "level": 3,
+    "category": "kategorie1",
+    "question": "Which US city is the political capital of California?",
+    "difficulty": "medium",
+    "answers": [
+      { "text": "Los Angeles", "isCorrect": false },
+      { "text": "San Francisco", "isCorrect": false },
+      { "text": "San Diego", "isCorrect": false },
+      { "text": "Sacramento", "isCorrect": true }
+    ],
+    "explanation": "Sacramento is the capital of California and the seat of its state government."
+  },
+
+
+  {
+    "level": 4,
+    "category": "kategorie1",
+    "question": "In which Italian city is the famous Leaning Tower, a popular landmark?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Pisa", "isCorrect": true },
+      { "text": "Florence", "isCorrect": false },
+      { "text": "Naples", "isCorrect": false },
+      { "text": "Palermo", "isCorrect": false }
+    ],
+    "explanation": "The Leaning Tower of Pisa is located in the city of Pisa in Italy."
+  },
+  {
+    "level": 4,
+    "category": "kategorie1",
+    "question": "What is the capital of Australia?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Sydney", "isCorrect": false },
+      { "text": "Canberra", "isCorrect": true },
+      { "text": "Melbourne", "isCorrect": false },
+      { "text": "Brisbane", "isCorrect": false }
+    ],
+    "explanation": "Canberra is the capital of Australia, not Sydney or Melbourne."
+  },
+  {
+    "level": 4,
+    "category": "kategorie1",
+    "question": "Which city was once known as Constantinople?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Athens", "isCorrect": false },
+      { "text": "Ankara", "isCorrect": false },
+      { "text": "Istanbul", "isCorrect": true },
+      { "text": "Izmir", "isCorrect": false }
+    ],
+    "explanation": "Istanbul was formerly called Constantinople and was the capital of the Byzantine Empire."
+  },
+  {
+    "level": 4,
+    "category": "kategorie1",
+    "question": "To which country do the Galápagos Islands belong?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Chile", "isCorrect": false },
+      { "text": "Peru", "isCorrect": false },
+      { "text": "Colombia", "isCorrect": false },
+      { "text": "Ecuador", "isCorrect": true }
+    ],
+    "explanation": "The Galápagos Islands are part of Ecuador, renowned for their unique wildlife."
+  },
+  {
+    "level": 4,
+    "category": "kategorie1",
+    "question": "Which strait separates Europe and Africa?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Bosporus", "isCorrect": false },
+      { "text": "Hormuz Strait", "isCorrect": false },
+      { "text": "Strait of Gibraltar", "isCorrect": true },
+      { "text": "Bab-el-Mandeb", "isCorrect": false }
+    ],
+    "explanation": "The Strait of Gibraltar separates Spain in Europe from Morocco in Africa."
+  },
+  {
+    "level": 4,
+    "category": "kategorie1",
+    "question": "Which country became the most populous in the world, overtaking China (as of 2023 estimates)?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "China", "isCorrect": false },
+      { "text": "India", "isCorrect": true },
+      { "text": "USA", "isCorrect": false },
+      { "text": "Indonesia", "isCorrect": false }
+    ],
+    "explanation": "Recent estimates suggest that India surpassed China in population, making it the most populous country."
+  },
+  {
+    "level": 4,
+    "category": "kategorie1",
+    "question": "Which desert is considered the driest non-polar desert on Earth?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Sahara", "isCorrect": false },
+      { "text": "Gobi", "isCorrect": false },
+      { "text": "Atacama", "isCorrect": true },
+      { "text": "Kalahari", "isCorrect": false }
+    ],
+    "explanation": "The Atacama Desert in Chile is regarded as the driest non-polar desert on the planet."
+  },
+  {
+    "level": 4,
+    "category": "kategorie1",
+    "question": "Which mountain is widely known as the highest active volcano on Earth?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Kilimanjaro", "isCorrect": false },
+      { "text": "Etna", "isCorrect": false },
+      { "text": "Fuji", "isCorrect": false },
+      { "text": "Ojos del Salado", "isCorrect": true }
+    ],
+    "explanation": "Ojos del Salado, on the border of Chile and Argentina, is the highest active volcano on Earth."
+  },
+  {
+    "level": 4,
+    "category": "kategorie1",
+    "question": "Which island is considered the largest in the world if Australia is counted as a continent?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "New Guinea", "isCorrect": false },
+      { "text": "Borneo", "isCorrect": false },
+      { "text": "Greenland", "isCorrect": true },
+      { "text": "Madagascar", "isCorrect": false }
+    ],
+    "explanation": "Greenland is the largest island on Earth if Australia is regarded as a continent."
+  },
+  {
+    "level": 4,
+    "category": "kategorie1",
+    "question": "What is the capital city of Iran?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Isfahan", "isCorrect": false },
+      { "text": "Tehran", "isCorrect": true },
+      { "text": "Shiraz", "isCorrect": false },
+      { "text": "Tabriz", "isCorrect": false }
+    ],
+    "explanation": "Tehran is the capital and political center of Iran."
+  },
+
+
+  {
+    "level": 5,
+    "category": "kategorie1",
+    "question": "Which currency is used in Poland?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Forint", "isCorrect": false },
+      { "text": "Złoty", "isCorrect": true },
+      { "text": "Euro", "isCorrect": false },
+      { "text": "Czech Koruna", "isCorrect": false }
+    ],
+    "explanation": "Poland uses the Złoty, not the Euro or the Forint."
+  },
+  {
+    "level": 5,
+    "category": "kategorie1",
+    "question": "In which West African country is the historic city of Timbuktu located?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Mali", "isCorrect": true },
+      { "text": "Senegal", "isCorrect": false },
+      { "text": "Niger", "isCorrect": false },
+      { "text": "Burkina Faso", "isCorrect": false }
+    ],
+    "explanation": "Timbuktu is in Mali, known for its historical significance in trans-Saharan trade."
+  },
+  {
+    "level": 5,
+    "category": "kategorie1",
+    "question": "In which country is Mount Everest located, considering the most common ascent route?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "India", "isCorrect": false },
+      { "text": "Bhutan", "isCorrect": false },
+      { "text": "Nepal", "isCorrect": true },
+      { "text": "Pakistan", "isCorrect": false }
+    ],
+    "explanation": "Mount Everest sits on the border between Nepal and Tibet (China), but most ascents start in Nepal."
+  },
+  {
+    "level": 5,
+    "category": "kategorie1",
+    "question": "What is the capital of New Zealand?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Auckland", "isCorrect": false },
+      { "text": "Christchurch", "isCorrect": false },
+      { "text": "Hamilton", "isCorrect": false },
+      { "text": "Wellington", "isCorrect": true }
+    ],
+    "explanation": "Wellington is the capital of New Zealand, although Auckland is the larger city."
+  },
+  {
+    "level": 5,
+    "category": "kategorie1",
+    "question": "Which river passes through the city of Vienna?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Rhine", "isCorrect": false },
+      { "text": "Elbe", "isCorrect": false },
+      { "text": "Po", "isCorrect": false },
+      { "text": "Danube", "isCorrect": true }
+    ],
+    "explanation": "The Danube flows through Vienna and is the second-longest river in Europe."
+  },
+  {
+    "level": 5,
+    "category": "kategorie1",
+    "question": "Which group of islands belongs to Portugal and lies in the Atlantic?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Canary Islands", "isCorrect": false },
+      { "text": "Azores", "isCorrect": true },
+      { "text": "Cape Verde", "isCorrect": false },
+      { "text": "Balearic Islands", "isCorrect": false }
+    ],
+    "explanation": "The Azores are a Portuguese archipelago in the North Atlantic."
+  },
+  {
+    "level": 5,
+    "category": "kategorie1",
+    "question": "Which German federal state (Bundesland) is located the furthest east?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Bavaria", "isCorrect": false },
+      { "text": "Saxony-Anhalt", "isCorrect": false },
+      { "text": "Saxony", "isCorrect": true },
+      { "text": "Thuringia", "isCorrect": false }
+    ],
+    "explanation": "Saxony borders Poland and is the easternmost federal state of Germany."
+  },
+  {
+    "level": 5,
+    "category": "kategorie1",
+    "question": "Which city in the United Arab Emirates is known for its modern architecture and artificial islands?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Abu Dhabi", "isCorrect": false },
+      { "text": "Sharjah", "isCorrect": false },
+      { "text": "Ras al-Khaimah", "isCorrect": false },
+      { "text": "Dubai", "isCorrect": true }
+    ],
+    "explanation": "Dubai is famous for skyscrapers like the Burj Khalifa and man-made islands such as the Palm Islands."
+  },
+  {
+    "level": 5,
+    "category": "kategorie1",
+    "question": "Which country is known for the Salar de Uyuni, the largest salt flat on Earth?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Chile", "isCorrect": false },
+      { "text": "Argentina", "isCorrect": false },
+      { "text": "Peru", "isCorrect": false },
+      { "text": "Bolivia", "isCorrect": true }
+    ],
+    "explanation": "The Salar de Uyuni in Bolivia is the world’s largest salt flat."
+  },
+  {
+    "level": 5,
+    "category": "kategorie1",
+    "question": "In which country can you find the Valley of the Kings, a famous burial site?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Morocco", "isCorrect": false },
+      { "text": "Egypt", "isCorrect": true },
+      { "text": "Jordan", "isCorrect": false },
+      { "text": "Saudi Arabia", "isCorrect": false }
+    ],
+    "explanation": "The Valley of the Kings lies near Luxor in Egypt, containing tombs of numerous pharaohs."
+  }
 ]
-},

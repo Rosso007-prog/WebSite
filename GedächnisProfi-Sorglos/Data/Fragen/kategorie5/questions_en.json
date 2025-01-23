@@ -1,22 +1,660 @@
 [
   {
     "level": 1,
-    "question": "What is the capital of Germany?",
+    "category": "kategorie5",
+    "question": "Who composed the famous 'Eine kleine Nachtmusik'?",
+    "difficulty": "easy",
     "answers": [
-      { "text": "Berlin", "isCorrect": true },
-      { "text": "Munich", "isCorrect": false },
-      { "text": "Hamburg", "isCorrect": false },
-      { "text": "Frankfurt", "isCorrect": false }
-    ]
+      { "text": "Joseph Haydn", "isCorrect": false },
+      { "text": "Ludwig van Beethoven", "isCorrect": false },
+      { "text": "Wolfgang Amadeus Mozart", "isCorrect": true },
+      { "text": "Johann Sebastian Bach", "isCorrect": false }
+    ],
+    "explanation": "Wolfgang Amadeus Mozart composed 'Eine kleine Nachtmusik' (Serenade No. 13 in G major)."
+  },
+  {
+    "level": 1,
+    "category": "kategorie5",
+    "question": "In which novel does the wizard Gandalf appear?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "The Name of the Rose", "isCorrect": false },
+      { "text": "The Neverending Story", "isCorrect": false },
+      { "text": "Harry Potter and the Philosopher's Stone", "isCorrect": false },
+      { "text": "The Lord of the Rings", "isCorrect": true }
+    ],
+    "explanation": "Gandalf is a main character in J.R.R. Tolkien’s 'The Lord of the Rings'."
+  },
+  {
+    "level": 1,
+    "category": "kategorie5",
+    "question": "Which country is considered the birthplace of the tango?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "Brazil", "isCorrect": false },
+      { "text": "Spain", "isCorrect": false },
+      { "text": "Argentina", "isCorrect": true },
+      { "text": "Portugal", "isCorrect": false }
+    ],
+    "explanation": "Tango has its roots primarily in Argentina, especially in Buenos Aires."
+  },
+  {
+    "level": 1,
+    "category": "kategorie5",
+    "question": "Who painted the 'Mona Lisa'?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "Michelangelo", "isCorrect": false },
+      { "text": "Vincent van Gogh", "isCorrect": false },
+      { "text": "Claude Monet", "isCorrect": false },
+      { "text": "Leonardo da Vinci", "isCorrect": true }
+    ],
+    "explanation": "Leonardo da Vinci created the 'Mona Lisa,' arguably the world’s most famous painting."
+  },
+  {
+    "level": 1,
+    "category": "kategorie5",
+    "question": "Which world-renowned museum in Paris houses the 'Mona Lisa'?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "Musée d'Orsay", "isCorrect": false },
+      { "text": "Centre Pompidou", "isCorrect": false },
+      { "text": "Louvre", "isCorrect": true },
+      { "text": "Musée Rodin", "isCorrect": false }
+    ],
+    "explanation": "The 'Mona Lisa' is exhibited at the Louvre in Paris."
+  },
+  {
+    "level": 1,
+    "category": "kategorie5",
+    "question": "Which musical style was significantly shaped by Elvis Presley and Chuck Berry?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "Jazz", "isCorrect": false },
+      { "text": "Rock 'n' Roll", "isCorrect": true },
+      { "text": "Soul", "isCorrect": false },
+      { "text": "Reggae", "isCorrect": false }
+    ],
+    "explanation": "Elvis Presley and Chuck Berry are both icons of Rock 'n' Roll."
+  },
+  {
+    "level": 1,
+    "category": "kategorie5",
+    "question": "Which German poet wrote the drama 'Faust'?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "Friedrich Schiller", "isCorrect": false },
+      { "text": "Gotthold Ephraim Lessing", "isCorrect": false },
+      { "text": "Johann Wolfgang von Goethe", "isCorrect": true },
+      { "text": "Heinrich Heine", "isCorrect": false }
+    ],
+    "explanation": "Goethe’s 'Faust' is one of the most famous works in German literature."
+  },
+  {
+    "level": 1,
+    "category": "kategorie5",
+    "question": "In which city is the opera house with sail-shaped roofs that serves as an iconic landmark?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "Sydney", "isCorrect": true },
+      { "text": "Vienna", "isCorrect": false },
+      { "text": "New York", "isCorrect": false },
+      { "text": "Milan", "isCorrect": false }
+    ],
+    "explanation": "The Sydney Opera House is an iconic landmark of Australia."
+  },
+  {
+    "level": 1,
+    "category": "kategorie5",
+    "question": "Which country is known for the musical genre 'Fado'?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "Greece", "isCorrect": false },
+      { "text": "Portugal", "isCorrect": true },
+      { "text": "Brazil", "isCorrect": false },
+      { "text": "Ireland", "isCorrect": false }
+    ],
+    "explanation": "Fado is a melancholic music style from Portugal, especially associated with Lisbon."
+  },
+  {
+    "level": 1,
+    "category": "kategorie5",
+    "question": "Who wrote the famous play 'Romeo and Juliet'?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "Charles Dickens", "isCorrect": false },
+      { "text": "Johann Wolfgang von Goethe", "isCorrect": false },
+      { "text": "William Shakespeare", "isCorrect": true },
+      { "text": "Molière", "isCorrect": false }
+    ],
+    "explanation": "'Romeo and Juliet' is a well-known romantic tragedy by William Shakespeare."
+  },
+
+
+  {
+    "level": 2,
+    "category": "kategorie5",
+    "question": "Which language is officially spoken in Brazil?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "Spanish", "isCorrect": false },
+      { "text": "Portuguese", "isCorrect": true },
+      { "text": "Italian", "isCorrect": false },
+      { "text": "French", "isCorrect": false }
+    ],
+    "explanation": "Brazil was colonized by Portugal, so its official language is Portuguese."
   },
   {
     "level": 2,
-    "question": "Which planet is the largest in the solar system?",
+    "category": "kategorie5",
+    "question": "Which filmmaker created the 'Star Wars' universe?",
+    "difficulty": "easy",
     "answers": [
-      { "text": "Jupiter", "isCorrect": true },
-      { "text": "Mars", "isCorrect": false },
-      { "text": "Earth", "isCorrect": false },
-      { "text": "Saturn", "isCorrect": false }
-    ]
+      { "text": "Steven Spielberg", "isCorrect": false },
+      { "text": "George Lucas", "isCorrect": true },
+      { "text": "Stan Lee", "isCorrect": false },
+      { "text": "James Cameron", "isCorrect": false }
+    ],
+    "explanation": "George Lucas created the 'Star Wars' franchise and founded Lucasfilm."
+  },
+  {
+    "level": 2,
+    "category": "kategorie5",
+    "question": "Who composed the opera 'The Magic Flute'?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "Ludwig van Beethoven", "isCorrect": false },
+      { "text": "Wolfgang Amadeus Mozart", "isCorrect": true },
+      { "text": "Giuseppe Verdi", "isCorrect": false },
+      { "text": "Franz Schubert", "isCorrect": false }
+    ],
+    "explanation": "Wolfgang Amadeus Mozart’s 'The Magic Flute' is one of the most famous operas of the Viennese Classic era."
+  },
+  {
+    "level": 2,
+    "category": "kategorie5",
+    "question": "Which event is known as the largest folk festival in the world?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "Carnival in Venice", "isCorrect": false },
+      { "text": "Oktoberfest in Munich", "isCorrect": true },
+      { "text": "New Year's Eve in Times Square", "isCorrect": false },
+      { "text": "Carnival in Rio de Janeiro", "isCorrect": false }
+    ],
+    "explanation": "Munich’s Oktoberfest draws millions of visitors annually and is considered the largest folk festival in the world."
+  },
+  {
+    "level": 2,
+    "category": "kategorie5",
+    "question": "Which American singer became world-famous with hits such as 'Like a Prayer' and 'Material Girl'?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "Britney Spears", "isCorrect": false },
+      { "text": "Cher", "isCorrect": false },
+      { "text": "Madonna", "isCorrect": true },
+      { "text": "Whitney Houston", "isCorrect": false }
+    ],
+    "explanation": "Madonna is one of the most successful pop singers of all time."
+  },
+  {
+    "level": 2,
+    "category": "kategorie5",
+    "question": "Which author wrote the novels about the young wizard Harry Potter?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "C. S. Lewis", "isCorrect": false },
+      { "text": "J. R. R. Tolkien", "isCorrect": false },
+      { "text": "J. K. Rowling", "isCorrect": true },
+      { "text": "Philip Pullman", "isCorrect": false }
+    ],
+    "explanation": "J. K. Rowling is the creator of the 'Harry Potter' series."
+  },
+  {
+    "level": 2,
+    "category": "kategorie5",
+    "question": "Which Spanish painter is known for the painting 'Guernica'?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "Salvador Dalí", "isCorrect": false },
+      { "text": "Francisco de Goya", "isCorrect": false },
+      { "text": "Diego Velázquez", "isCorrect": false },
+      { "text": "Pablo Picasso", "isCorrect": true }
+    ],
+    "explanation": "Picasso painted 'Guernica' in 1937 in response to the bombing of the city Guernica during the Spanish Civil War."
+  },
+  {
+    "level": 2,
+    "category": "kategorie5",
+    "question": "In which classic 1939 film does the song 'Over the Rainbow' appear?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "Gone with the Wind", "isCorrect": false },
+      { "text": "The Wizard of Oz", "isCorrect": true },
+      { "text": "Casablanca", "isCorrect": false },
+      { "text": "King Kong", "isCorrect": false }
+    ],
+    "explanation": "Judy Garland performs 'Over the Rainbow' in 'The Wizard of Oz'."
+  },
+  {
+    "level": 2,
+    "category": "kategorie5",
+    "question": "Which country is the home of the traditional Kabuki theater?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "China", "isCorrect": false },
+      { "text": "Japan", "isCorrect": true },
+      { "text": "South Korea", "isCorrect": false },
+      { "text": "Thailand", "isCorrect": false }
+    ],
+    "explanation": "Kabuki is a traditional form of Japanese theater with elaborate makeup and costumes."
+  },
+  {
+    "level": 2,
+    "category": "kategorie5",
+    "question": "Who is often referred to as the 'King of Pop'?",
+    "difficulty": "easy",
+    "answers": [
+      { "text": "Michael Jackson", "isCorrect": true },
+      { "text": "Prince", "isCorrect": false },
+      { "text": "Elvis Presley", "isCorrect": false },
+      { "text": "Freddie Mercury", "isCorrect": false }
+    ],
+    "explanation": "Michael Jackson was dubbed the 'King of Pop' due to his massive musical success."
+  },
+
+
+  {
+    "level": 3,
+    "category": "kategorie5",
+    "question": "In which country did the music genre 'Reggae' originate?",
+    "difficulty": "medium",
+    "answers": [
+      { "text": "Costa Rica", "isCorrect": false },
+      { "text": "Cuba", "isCorrect": false },
+      { "text": "Trinidad and Tobago", "isCorrect": false },
+      { "text": "Jamaica", "isCorrect": true }
+    ],
+    "explanation": "Reggae emerged in Jamaica in the 1960s and was popularized globally by artists like Bob Marley."
+  },
+  {
+    "level": 3,
+    "category": "kategorie5",
+    "question": "Which Brazilian dance and music style is inseparably linked to the Carnival in Rio?",
+    "difficulty": "medium",
+    "answers": [
+      { "text": "Flamenco", "isCorrect": false },
+      { "text": "Samba", "isCorrect": true },
+      { "text": "Bossa Nova", "isCorrect": false },
+      { "text": "Tango", "isCorrect": false }
+    ],
+    "explanation": "Samba is a popular dance and music style in Brazil and a key part of Rio de Janeiro’s Carnival."
+  },
+  {
+    "level": 3,
+    "category": "kategorie5",
+    "question": "Which French writer wrote the novel 'Les Misérables'?",
+    "difficulty": "medium",
+    "answers": [
+      { "text": "Gustave Flaubert", "isCorrect": false },
+      { "text": "Émile Zola", "isCorrect": false },
+      { "text": "Victor Hugo", "isCorrect": true },
+      { "text": "Alexandre Dumas", "isCorrect": false }
+    ],
+    "explanation": "Victor Hugo’s 'Les Misérables' is a cornerstone of French literature in the 19th century."
+  },
+  {
+    "level": 3,
+    "category": "kategorie5",
+    "question": "Who composed the famous orchestral piece 'Boléro'?",
+    "difficulty": "medium",
+    "answers": [
+      { "text": "Camille Saint-Saëns", "isCorrect": false },
+      { "text": "Claude Debussy", "isCorrect": false },
+      { "text": "Hector Berlioz", "isCorrect": false },
+      { "text": "Maurice Ravel", "isCorrect": true }
+    ],
+    "explanation": "Maurice Ravel’s 'Boléro' (1928) is widely recognized around the world."
+  },
+  {
+    "level": 3,
+    "category": "kategorie5",
+    "question": "What is the most prestigious German film award, also called 'Lola'?",
+    "difficulty": "medium",
+    "answers": [
+      { "text": "Golden Bear (Berlinale)", "isCorrect": false },
+      { "text": "German Film Award", "isCorrect": true },
+      { "text": "Golden Camera", "isCorrect": false },
+      { "text": "Grimme Award", "isCorrect": false }
+    ],
+    "explanation": "The German Film Award (often called 'Lola') is the most renowned award in the German film industry."
+  },
+  {
+    "level": 3,
+    "category": "kategorie5",
+    "question": "Which director made films such as 'Psycho' and 'Vertigo'?",
+    "difficulty": "medium",
+    "answers": [
+      { "text": "Stanley Kubrick", "isCorrect": false },
+      { "text": "Orson Welles", "isCorrect": false },
+      { "text": "Alfred Hitchcock", "isCorrect": true },
+      { "text": "Billy Wilder", "isCorrect": false }
+    ],
+    "explanation": "Alfred Hitchcock, often called the 'Master of Suspense,' directed numerous classic thrillers."
+  },
+  {
+    "level": 3,
+    "category": "kategorie5",
+    "question": "Where are the famous rock temples of Abu Simbel located?",
+    "difficulty": "medium",
+    "answers": [
+      { "text": "Jordan", "isCorrect": false },
+      { "text": "Morocco", "isCorrect": false },
+      { "text": "Egypt", "isCorrect": true },
+      { "text": "Syria", "isCorrect": false }
+    ],
+    "explanation": "The Abu Simbel temples were built in the 13th century BC under Pharaoh Ramesses II in Egypt."
+  },
+  {
+    "level": 3,
+    "category": "kategorie5",
+    "question": "Which Dutch painter created works like 'Starry Night'?",
+    "difficulty": "medium",
+    "answers": [
+      { "text": "Jan Vermeer", "isCorrect": false },
+      { "text": "Vincent van Gogh", "isCorrect": true },
+      { "text": "Piet Mondrian", "isCorrect": false },
+      { "text": "Hieronymus Bosch", "isCorrect": false }
+    ],
+    "explanation": "Vincent van Gogh painted 'The Starry Night' (1889)."
+  },
+  {
+    "level": 3,
+    "category": "kategorie5",
+    "question": "Which people built the famous ruined city of Chichén Itzá in Mexico?",
+    "difficulty": "medium",
+    "answers": [
+      { "text": "Aztecs", "isCorrect": false },
+      { "text": "Inca", "isCorrect": false },
+      { "text": "Maya", "isCorrect": true },
+      { "text": "Olmec", "isCorrect": false }
+    ],
+    "explanation": "The Maya built Chichén Itzá, a significant ceremonial center on the Yucatán Peninsula."
+  },
+  {
+    "level": 3,
+    "category": "kategorie5",
+    "question": "Which Verdi opera features the court jester Rigoletto as the main character?",
+    "difficulty": "medium",
+    "answers": [
+      { "text": "Nabucco", "isCorrect": false },
+      { "text": "La Traviata", "isCorrect": false },
+      { "text": "Rigoletto", "isCorrect": true },
+      { "text": "Aida", "isCorrect": false }
+    ],
+    "explanation": "'Rigoletto' (1851) is an opera by Giuseppe Verdi, focusing on the tragic entanglements of a court jester."
+  },
+
+
+  {
+    "level": 4,
+    "category": "kategorie5",
+    "question": "Which Russian author wrote the novel 'War and Peace'?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Fyodor Dostoevsky", "isCorrect": false },
+      { "text": "Anton Chekhov", "isCorrect": false },
+      { "text": "Leo Tolstoy", "isCorrect": true },
+      { "text": "Nikolai Gogol", "isCorrect": false }
+    ],
+    "explanation": "Leo Tolstoy (1828–1910) wrote 'War and Peace,' considered one of the greatest works of world literature."
+  },
+  {
+    "level": 4,
+    "category": "kategorie5",
+    "question": "In which museum in Florence can you find Michelangelo’s famous 'David' statue?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Uffizi Gallery", "isCorrect": false },
+      { "text": "Galleria dell'Accademia", "isCorrect": true },
+      { "text": "Palazzo Pitti", "isCorrect": false },
+      { "text": "Museo Bardini", "isCorrect": false }
+    ],
+    "explanation": "Michelangelo’s 'David' (1504) is housed in the Galleria dell’Accademia in Florence."
+  },
+  {
+    "level": 4,
+    "category": "kategorie5",
+    "question": "Which Italian city is famous for the 'La Scala' opera house?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Rome", "isCorrect": false },
+      { "text": "Venice", "isCorrect": false },
+      { "text": "Milan", "isCorrect": true },
+      { "text": "Naples", "isCorrect": false }
+    ],
+    "explanation": "The Teatro alla Scala (La Scala) opera house is located in central Milan."
+  },
+  {
+    "level": 4,
+    "category": "kategorie5",
+    "question": "Which composer and pianist lost his hearing at a young age but continued composing?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Frédéric Chopin", "isCorrect": false },
+      { "text": "Ludwig van Beethoven", "isCorrect": true },
+      { "text": "Franz Liszt", "isCorrect": false },
+      { "text": "Johannes Brahms", "isCorrect": false }
+    ],
+    "explanation": "Beethoven began to lose his hearing in his late 20s but went on to compose famous works despite his deafness."
+  },
+  {
+    "level": 4,
+    "category": "kategorie5",
+    "question": "Who wrote the novella 'The Metamorphosis' featuring the character Gregor Samsa?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Hermann Hesse", "isCorrect": false },
+      { "text": "Thomas Mann", "isCorrect": false },
+      { "text": "Franz Kafka", "isCorrect": true },
+      { "text": "Heinrich Böll", "isCorrect": false }
+    ],
+    "explanation": "Franz Kafka wrote 'The Metamorphosis' (1912), in which Gregor Samsa awakens to find he has turned into an 'insect'."
+  },
+  {
+    "level": 4,
+    "category": "kategorie5",
+    "question": "Which Spanish architect was responsible for the construction of the Sagrada Família in Barcelona?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Santiago Calatrava", "isCorrect": false },
+      { "text": "Antoni Gaudí", "isCorrect": true },
+      { "text": "Ricardo Bofill", "isCorrect": false },
+      { "text": "Rafael Moneo", "isCorrect": false }
+    ],
+    "explanation": "Antoni Gaudí directed the construction of the Sagrada Família, shaping the Catalan Modernisme style."
+  },
+  {
+    "level": 4,
+    "category": "kategorie5",
+    "question": "Which Russian composer wrote the ballet 'Swan Lake'?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Sergei Rachmaninoff", "isCorrect": false },
+      { "text": "Igor Stravinsky", "isCorrect": false },
+      { "text": "Modest Mussorgsky", "isCorrect": false },
+      { "text": "Pyotr Ilyich Tchaikovsky", "isCorrect": true }
+    ],
+    "explanation": "'Swan Lake' is one of Tchaikovsky’s most famous ballets, first performed in 1877 in Moscow."
+  },
+  {
+    "level": 4,
+    "category": "kategorie5",
+    "question": "Which Austrian Empress is commonly referred to as 'Sisi'?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Empress Zita", "isCorrect": false },
+      { "text": "Empress Elisabeth", "isCorrect": true },
+      { "text": "Empress Maria Theresa", "isCorrect": false },
+      { "text": "Empress Karoline Auguste", "isCorrect": false }
+    ],
+    "explanation": "Empress Elisabeth of Austria-Hungary (1837–1898) is often called 'Sisi'."
+  },
+  {
+    "level": 4,
+    "category": "kategorie5",
+    "question": "Which German dramatist wrote the (unfinished) play 'Woyzeck'?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Friedrich Schiller", "isCorrect": false },
+      { "text": "Heinrich von Kleist", "isCorrect": false },
+      { "text": "Gotthold Ephraim Lessing", "isCorrect": false },
+      { "text": "Georg Büchner", "isCorrect": true }
+    ],
+    "explanation": "'Woyzeck' remained unfinished due to Georg Büchner’s early death in 1837. It was published posthumously."
+  },
+  {
+    "level": 4,
+    "category": "kategorie5",
+    "question": "Which French painter created the series of paintings called 'Water Lilies' (Nymphéas)?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Edgar Degas", "isCorrect": false },
+      { "text": "Paul Cézanne", "isCorrect": false },
+      { "text": "Claude Monet", "isCorrect": true },
+      { "text": "Édouard Manet", "isCorrect": false }
+    ],
+    "explanation": "Claude Monet painted numerous 'Water Lilies' in his garden at Giverny."
+  },
+
+
+  {
+    "level": 5,
+    "category": "kategorie5",
+    "question": "Who wrote the seven-part novel cycle 'In Search of Lost Time'?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "André Gide", "isCorrect": false },
+      { "text": "Marcel Proust", "isCorrect": true },
+      { "text": "Albert Camus", "isCorrect": false },
+      { "text": "Jean-Paul Sartre", "isCorrect": false }
+    ],
+    "explanation": "Marcel Proust wrote 'À la recherche du temps perdu' (1913–1927), a landmark of modern literature."
+  },
+  {
+    "level": 5,
+    "category": "kategorie5",
+    "question": "Which composer wrote the opera cycle 'The Ring of the Nibelung'?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Richard Wagner", "isCorrect": true },
+      { "text": "Gioachino Rossini", "isCorrect": false },
+      { "text": "Richard Strauss", "isCorrect": false },
+      { "text": "Gustav Mahler", "isCorrect": false }
+    ],
+    "explanation": "Richard Wagner composed the four-part cycle: 'Das Rheingold,' 'Die Walküre,' 'Siegfried,' and 'Götterdämmerung.'"
+  },
+  {
+    "level": 5,
+    "category": "kategorie5",
+    "question": "Which Baroque painter created the monumental painting 'The Night Watch'?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Caravaggio", "isCorrect": false },
+      { "text": "Rembrandt", "isCorrect": true },
+      { "text": "Peter Paul Rubens", "isCorrect": false },
+      { "text": "Diego Velázquez", "isCorrect": false }
+    ],
+    "explanation": "Rembrandt’s painting 'The Night Watch' (1642) is a masterpiece of the Dutch Golden Age."
+  },
+  {
+    "level": 5,
+    "category": "kategorie5",
+    "question": "Which Mexican painter is famous for her many self-portraits?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Leonora Carrington", "isCorrect": false },
+      { "text": "María Izquierdo", "isCorrect": false },
+      { "text": "Remedios Varo", "isCorrect": false },
+      { "text": "Frida Kahlo", "isCorrect": true }
+    ],
+    "explanation": "Frida Kahlo (1907–1954) is known for her autobiographical paintings that address her personal pain."
+  },
+  {
+    "level": 5,
+    "category": "kategorie5",
+    "question": "Which Italian Renaissance poet wrote the epic 'The Divine Comedy'?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Giovanni Boccaccio", "isCorrect": false },
+      { "text": "Dante Alighieri", "isCorrect": true },
+      { "text": "Francesco Petrarca", "isCorrect": false },
+      { "text": "Ludovico Ariosto", "isCorrect": false }
+    ],
+    "explanation": "Dante Alighieri (1265–1321) wrote the 'Divina Commedia,' one of the greatest works in world literature."
+  },
+  {
+    "level": 5,
+    "category": "kategorie5",
+    "question": "Which famous ballet by Igor Stravinsky caused a scandal at its 1913 premiere?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "The Firebird", "isCorrect": false },
+      { "text": "Le sacre du printemps (The Rite of Spring)", "isCorrect": true },
+      { "text": "Petrushka", "isCorrect": false },
+      { "text": "Apollon musagète", "isCorrect": false }
+    ],
+    "explanation": "'Le sacre du printemps' (The Rite of Spring) incited a riot among the audience at its 1913 Paris premiere."
+  },
+  {
+    "level": 5,
+    "category": "kategorie5",
+    "question": "Who wrote the play 'Life of Galileo'?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Max Frisch", "isCorrect": false },
+      { "text": "Friedrich Dürrenmatt", "isCorrect": false },
+      { "text": "Bertolt Brecht", "isCorrect": true },
+      { "text": "Georg Kaiser", "isCorrect": false }
+    ],
+    "explanation": "Bertolt Brecht wrote 'Life of Galileo' (1938/39) about the conflict between science and the church."
+  },
+  {
+    "level": 5,
+    "category": "kategorie5",
+    "question": "Which modern building did Ludwig Mies van der Rohe design in 1929 for a World’s Fair in Spain?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "The Bauhaus building in Dessau", "isCorrect": false },
+      { "text": "The New National Gallery in Berlin", "isCorrect": false },
+      { "text": "The Barcelona Pavilion", "isCorrect": true },
+      { "text": "The Weißenhof Estate in Stuttgart", "isCorrect": false }
+    ],
+    "explanation": "The Barcelona Pavilion (1929) is an iconic example of modern architecture."
+  },
+  {
+    "level": 5,
+    "category": "kategorie5",
+    "question": "Which ancient Greek tragedy trilogy includes 'Agamemnon,' 'The Libation Bearers,' and 'The Eumenides'?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "The Theban Plays by Sophocles", "isCorrect": false },
+      { "text": "The Orestia by Aeschylus", "isCorrect": true },
+      { "text": "The Medea Trilogy by Euripides", "isCorrect": false },
+      { "text": "The Trojan Trilogy by Homer", "isCorrect": false }
+    ],
+    "explanation": "Aeschylus wrote the 'Oresteia' (5th century BC), consisting of these three tragedies about the House of Atreus."
+  },
+  {
+    "level": 5,
+    "category": "kategorie5",
+    "question": "Which composer created the opera 'La Traviata'?",
+    "difficulty": "hard",
+    "answers": [
+      { "text": "Giacomo Puccini", "isCorrect": false },
+      { "text": "Giuseppe Verdi", "isCorrect": true },
+      { "text": "Gioachino Rossini", "isCorrect": false },
+      { "text": "Gaetano Donizetti", "isCorrect": false }
+    ],
+    "explanation": "'La Traviata' (1853), by Giuseppe Verdi, is one of the most frequently performed operas worldwide."
   }
 ]
