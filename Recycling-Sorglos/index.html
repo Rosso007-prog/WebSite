@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sortly-Sorglos App</title>
+
+    <!-- Einbindung von styles.css aus dem Root-Verzeichnis -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Menü wird über JavaScript aus dem Root-Verzeichnis geladen -->
+    <div id="menu"></div>
+
+    <div class="container">
+        <h1>Sortly-Sorglos App</h1>
+        <img src="https://rosso007-prog.github.io/WebSite/GedächnisProfi-Sorglos/AppIcon150x150.png" alt="Sortly-Sorglos - App">
+        <h1>Buchhaltung-Sorglos – Deine umfassende Buchhaltungs- und Rechnungsverwaltungs-App</h1>
+        <p>Die Buchhaltung-Sorglos App wurde speziell für kleine Unternehmen, Freelancer und Selbständige entwickelt. Sie bietet dir alle nötigen Werkzeuge, um deine Buchhaltung effizient und zeitsparend zu organisieren. Von der Rechnungs- und Angebotserstellung bis zur Verwaltung deiner Kunden – alles in einer App.</p>
+        
+        <h2>Features und Funktionen:</h2>
+        <ul>
+            <li><strong>Rechnungs- und Angebotserstellung:</strong> Erstelle professionelle Rechnungen und Angebote schnell und einfach, verwalte deine offenen Posten und sende Dokumente direkt an deine Kunden.</li>
+            <li><strong>Kundenverwaltung:</strong> Behalte den Überblick über deine Kunden und deren Kontaktinformationen, damit du jederzeit bereit bist, Kundenbeziehungen zu pflegen und zu erweitern.</li>
+            <li><strong>Buchhaltungsübersicht:</strong> Analysiere deine Einnahmen und Ausgaben über monatliche und jährliche Berichte, um jederzeit einen umfassenden Einblick in deine Finanzen zu haben.</li>
+            <li><strong>Datenspeicherung:</strong> Alle Daten werden sicher auf deinem Gerät gespeichert. Eine Synchronisierung über iCloud ist in Arbeit und wird in zukünftigen Versionen verfügbar sein.</li>
+            <li><strong>PDF-Export:</strong> Exportiere Rechnungen, Angebote und Berichte als PDF und teile sie einfach mit deinen Kunden oder speichere sie für deine Unterlagen.</li>
+            <li><strong>Benutzerfreundliches Design:</strong> Die App ist intuitiv gestaltet und ermöglicht eine einfache Navigation, sodass du alle Funktionen schnell findest und effizient arbeiten kannst.</li>
+        </ul>
+
+        <p>Mit der Buchhaltung-Sorglos App bleibt deine Buchhaltung stressfrei und organisiert. Spare Zeit und fokussiere dich auf das Wachstum deines Unternehmens!</p>
+        
+        <a href="" class="download-button">Jetzt herunterladen</a>
+        <p><a href="Datenschutz/Datenschutz.html">Datenschutzerklärung</a></p>
+    </div>
+
+    <footer>
+        &copy; 2024 Sorglos Lack. Alle Rechte vorbehalten.
+    </footer>
+
+    <!-- Menü aus dem Root-Verzeichnis über JavaScript laden -->
+    <script>
+        fetch('menu.html')
+            .then(response => response.text())
+            .then(data => document.getElementById('menu').innerHTML = data);
+    </script>
+
+</body>
+</html>
