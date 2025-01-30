@@ -2,23 +2,53 @@
   "categories": [
     {
       "type": "plastic",
-      "description": "Recycle in the yellow bin.",
-      "examples": ["Plastic bottles", "Food containers", "Plastic bags"]
+      "description": "Gehört in den Gelben Sack oder die Gelbe Tonne.",
+      "examples": ["Plastikflaschen", "Lebensmittelverpackungen", "Plastiktüten"]
     },
     {
       "type": "glass",
-      "description": "Recycle in the green bin.",
-      "examples": ["Glass bottles", "Jars"]
+      "description": "Gehört in den Glascontainer (grüne, braune oder weiße Tonne je nach Farbe).",
+      "examples": ["Glasflaschen", "Einmachgläser", "Parfümflakons"]
     },
     {
       "type": "paper",
-      "description": "Recycle in the blue bin.",
-      "examples": ["Newspapers", "Cardboard boxes", "Books"]
+      "description": "Gehört in die Blaue Tonne oder Altpapiercontainer.",
+      "examples": ["Zeitungen", "Kartonverpackungen", "Bücher", "Briefpapier"]
     },
     {
       "type": "metal",
-      "description": "Recycle in the yellow bin.",
-      "examples": ["Aluminum cans", "Metal food tins"]
+      "description": "Gehört in den Gelben Sack oder die Gelbe Tonne.",
+      "examples": ["Aluminiumdosen", "Konservendosen", "Getränkedosen"]
+    },
+    {
+      "type": "cardboard",
+      "description": "Gehört in die Blaue Tonne oder Altpapiercontainer.",
+      "examples": ["Pizzakartons", "Schuhkartons", "Wellpappe"]
+    },
+    {
+      "type": "bio",
+      "description": "Gehört in die Biotonne oder auf den Kompost.",
+      "examples": ["Gemüseabfälle", "Obstschalen", "Kaffeesatz", "Eierschalen"]
+    },
+    {
+      "type": "trash",
+      "description": "Gehört in den Restmüll, falls keine andere Recyclingmöglichkeit besteht.",
+      "examples": ["Hygieneartikel", "Staubsaugerbeutel", "Zerbrochene Keramik"]
+    },
+    {
+      "type": "electronic",
+      "description": "Muss bei speziellen Sammelstellen oder im Elektroschrottcontainer entsorgt werden.",
+      "examples": ["Handys", "Kabel", "Fernseher", "Batterien"]
+    },
+    {
+      "type": "hazardous",
+      "description": "Sondermüll - Muss in speziellen Sammelstellen entsorgt werden.",
+      "examples": ["Farben & Lacke", "Chemikalien", "Batterien", "Energiesparlampen"]
+    },
+    {
+      "type": "textile",
+      "description": "Kann in Altkleidercontainer oder Second-Hand-Läden abgegeben werden.",
+      "examples": ["Alte Kleidung", "Schuhe", "Bettwäsche"]
     }
   ]
 }
