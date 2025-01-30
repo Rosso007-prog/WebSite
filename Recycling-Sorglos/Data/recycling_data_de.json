@@ -1,27 +1,27 @@
 {
   "categories": [
     {
-      "type": "plastic",
+      "type": "Plasik",
       "description": "Gehört in den Gelben Sack oder die Gelbe Tonne.",
       "examples": ["Plastikflaschen", "Lebensmittelverpackungen", "Plastiktüten"]
     },
     {
-      "type": "glass",
+      "type": "Glas",
       "description": "Gehört in den Glascontainer (grüne, braune oder weiße Tonne je nach Farbe).",
       "examples": ["Glasflaschen", "Einmachgläser", "Parfümflakons"]
     },
     {
-      "type": "paper",
+      "type": "Papier",
       "description": "Gehört in die Blaue Tonne oder Altpapiercontainer.",
       "examples": ["Zeitungen", "Kartonverpackungen", "Bücher", "Briefpapier"]
     },
     {
-      "type": "metal",
+      "type": "Metall",
       "description": "Gehört in den Gelben Sack oder die Gelbe Tonne.",
       "examples": ["Aluminiumdosen", "Konservendosen", "Getränkedosen"]
     },
     {
-      "type": "cardboard",
+      "type": "Pappe",
       "description": "Gehört in die Blaue Tonne oder Altpapiercontainer.",
       "examples": ["Pizzakartons", "Schuhkartons", "Wellpappe"]
     },
@@ -31,7 +31,7 @@
       "examples": ["Gemüseabfälle", "Obstschalen", "Kaffeesatz", "Eierschalen"]
     },
     {
-      "type": "trash",
+      "type": "Restmüll",
       "description": "Gehört in den Restmüll, falls keine andere Recyclingmöglichkeit besteht.",
       "examples": ["Hygieneartikel", "Staubsaugerbeutel", "Zerbrochene Keramik"]
     },
