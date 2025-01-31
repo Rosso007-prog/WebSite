@@ -51,27 +51,4 @@
       "examples": ["Old clothes", "Shoes", "Bedding"]
     }
   ]
-}{
-  "categories": [
-    {
-      "type": "plastic",
-      "description": "Recycle in the yellow bin.",
-      "examples": ["Plastic bottles", "Food containers", "Plastic bags"]
-    },
-    {
-      "type": "glass",
-      "description": "Recycle in the green bin.",
-      "examples": ["Glass bottles", "Jars"]
-    },
-    {
-      "type": "paper",
-      "description": "Recycle in the blue bin.",
-      "examples": ["Newspapers", "Cardboard boxes", "Books"]
-    },
-    {
-      "type": "metal",
-      "description": "Recycle in the yellow bin.",
-      "examples": ["Aluminum cans", "Metal food tins"]
-    }
-  ]
 }
