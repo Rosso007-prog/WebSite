@@ -1,6 +1,59 @@
 {
   "categories": [
     {
+      "type": "Plastic",
+      "description": "Belongs in the Yellow Bag or Yellow Bin.",
+      "examples": ["Plastic bottles", "Food containers", "Plastic bags"]
+    },
+    {
+      "type": "Glass",
+      "description": "Belongs in the glass container (green, brown, or white bin depending on the color).",
+      "examples": ["Glass bottles", "Mason jars", "Perfume bottles"]
+    },
+    {
+      "type": "Paper",
+      "description": "Belongs in the Blue Bin or paper recycling container.",
+      "examples": ["Newspapers", "Cardboard boxes", "Books", "Letter paper"]
+    },
+    {
+      "type": "Metal",
+      "description": "Belongs in the Yellow Bag or Yellow Bin.",
+      "examples": ["Aluminum cans", "Tin cans", "Beverage cans"]
+    },
+    {
+      "type": "Cardboard",
+      "description": "Belongs in the Blue Bin or paper recycling container.",
+      "examples": ["Pizza boxes", "Shoe boxes", "Corrugated cardboard"]
+    },
+    {
+      "type": "Organic",
+      "description": "Belongs in the organic waste bin or compost.",
+      "examples": ["Vegetable scraps", "Fruit peels", "Coffee grounds", "Eggshells"]
+    },
+    {
+      "type": "Residual waste",
+      "description": "Belongs in the residual waste bin if no other recycling option is available.",
+      "examples": ["Hygiene products", "Vacuum cleaner bags", "Broken ceramics"]
+    },
+    {
+      "type": "Electronic waste",
+      "description": "Must be disposed of at special collection points or electronic waste containers.",
+      "examples": ["Mobile phones", "Cables", "Televisions", "Batteries"]
+    },
+    {
+      "type": "Hazardous waste",
+      "description": "Hazardous waste - Must be disposed of at special collection points.",
+      "examples": ["Paints & varnishes", "Chemicals", "Batteries", "Energy-saving lamps"]
+    },
+    {
+      "type": "Textile",
+      "description": "Can be donated to textile recycling bins or second-hand stores.",
+      "examples": ["Old clothes", "Shoes", "Bedding"]
+    }
+  ]
+}{
+  "categories": [
+    {
       "type": "plastic",
       "description": "Recycle in the yellow bin.",
       "examples": ["Plastic bottles", "Food containers", "Plastic bags"]
