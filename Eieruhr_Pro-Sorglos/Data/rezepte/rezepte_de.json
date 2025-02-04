@@ -1,57 +1,64 @@
 {
-  "home_title": "Startseite",
-  "app_name": "Gedächtnis Profi",
-  "welcome_title": "Willkommen bei GedächtnisProfi!",
-  "welcome_message": "Entdecken Sie eine Welt voller spannender Spiele, intelligenter Analysen und hilfreicher Tools, um Ihr Gedächtnis auf das nächste Level zu bringen. Lassen Sie uns gemeinsam starten!\n\nWir erweitern diese App ständig um neue Funktionen und Spiele. Wenn Sie Fragen oder Anregungen haben, kontaktieren Sie uns bitte.", "games_title": "Spiele",
-  "settings": "Einstellungen",
-  "interviews": "Interviews",
-  "game_1": "Wissens Quiz",
-  "game_2": "Vokabeln",
-  "game_3": "Finde den Unteschied",
-  "change_language": "Sprache ändern",
-  "manage_notifications": "Benachrichtigungen verwalten",
-  "privacy_settings": "Datenschutzeinstellungen",
-  "about_app": "Über die App",
-  "version": "Version",
-  "build": "Build",
-  "close": "Schließen",
-  "continue": "Weiter",
-  "language_dialog_title": "Sprache auswählen",
-  "language_dialog_description": "Wählen Sie Ihre bevorzugte Sprache aus.",
-  "start_game": "Spiel starten",
-  "app_info": "App-Informationen",
-  "select_language": "Sprache auswählen",
-  "select_category": "Kategorie auswählen",
-  "choose_category": "Bitte wählen Sie eine Kategorie aus:",
-  "loading": "Laden...",
-  "error_loading_questions": "Fehler beim Laden der Fragen. Bitte versuchen Sie es erneut.",
-  "resume_game_question": "Möchten Sie Ihr gespeichertes Spiel fortsetzen oder neu starten?",
-  "continue_game": "Fortsetzen",
-  "restart_game": "Neustarten",
-  "game_over": "Spiel beendet",
-  "your_score": "Ihr Punktestand",
-  "resume_game": "Spielstand fortsetzen?",
-  "resume_game_prompt": "Möchten Sie den gespeicherten Spielstand verwenden oder ein neues Spiel starten?",
-  "resume": "Fortsetzen",
-  "start_new": "Neu starten",
-  "wrong_answer": "Falsche Antwort",
-
-  "categories": {
-    "kategorie1": "Allgemeinwissen",
-    "kategorie2": "Wissenschaft",
-    "kategorie3": "Geschichte",
-    "kategorie4": "Sport",
-    "kategorie5": "Kultur"
-  },
-  "progress_overview": "Fortschrittsübersicht",
-  "questions_answered": "Fragen beantwortet: {0} von {1}",
-  "points": "Punkte",
-  "select_language_pair": "Wähle die Sprachpaarung",
-  "next_word": "Nächstes Wort",
-  "find_differences_title": "Finde die Unterschiede (Level {0})",
-  "finish": "Fertig",
-  "next": "Weiter",
-  "found_difference": "Gefunden!",
-  "find_differences": "Finde die Unterschiede (insgesamt: {0})",
-  "all_found": "Hezlichen Glückwunsch! Alle Unterschiede gefunden. Weiter zum nächsten Level."
+  "rezepte": [
+    {
+      "titel": "Perfekt gekochte Eier",
+      "beschreibung": "Die klassischen Eier mit festem Eiweiß und cremigem Eigelb – ideal für den Alltag.",
+      "zutaten": [
+        { "name": "Eier", "menge": "4" },
+        { "name": "Wasser", "menge": "Genug, um die Eier zu bedecken" },
+        { "name": "Salz", "menge": "nach Geschmack" }
+      ],
+      "zubereitung": [
+        "Die Eier vorsichtig in einen Topf legen.",
+        "Mit kaltem Wasser bedecken.",
+        "Den Topf auf hohe Hitze stellen und das Wasser zum Kochen bringen.",
+        "Sobald das Wasser kocht, die Hitze reduzieren und 8-10 Minuten köcheln lassen, je nach gewünschter Konsistenz.",
+        "Die Eier sofort in Eiswasser abschrecken, um den Kochvorgang zu stoppen.",
+        "Nach dem Abkühlen schälen, mit Salz bestreuen und servieren."
+      ],
+      "kochzeit": "8-10 Minuten",
+      "portionen": 4
+    },
+    {
+      "titel": "Weich gekochte Eier",
+      "beschreibung": "Eier mit weichem, leicht fließendem Eigelb – perfekt für ein Frühstück oder als Topping.",
+      "zutaten": [
+        { "name": "Eier", "menge": "2" },
+        { "name": "Wasser", "menge": "Genug, um die Eier zu bedecken" },
+        { "name": "Salz", "menge": "nach Geschmack" }
+      ],
+      "zubereitung": [
+        "Die Eier vorsichtig in einen Topf legen.",
+        "Mit kaltem Wasser bedecken und zum Kochen bringen.",
+        "Sobald das Wasser kocht, die Hitze reduzieren und 4-6 Minuten köcheln lassen, je nach gewünschter Weichheit.",
+        "Die Eier sofort in kaltem Wasser abschrecken, damit sie nicht weitergaren.",
+        "Schälen, mit einer Prise Salz verfeinern und servieren."
+      ],
+      "kochzeit": "4-6 Minuten",
+      "portionen": 2
+    },
+    {
+      "titel": "Pikant gewürzte Eier",
+      "beschreibung": "Hart gekochte Eier, die nach dem Kochen in einer würzigen Marinade eingelegt werden – eine tolle Snack-Variante.",
+      "zutaten": [
+        { "name": "Eier", "menge": "6" },
+        { "name": "Wasser", "menge": "Genug, um die Eier zu bedecken" },
+        { "name": "Sojasauce", "menge": "3 EL" },
+        { "name": "Sesamöl", "menge": "1 TL" },
+        { "name": "Ingwer, frisch gerieben", "menge": "1 TL" },
+        { "name": "Knoblauch, fein gehackt", "menge": "1 Zehe" },
+        { "name": "Chiliflocken", "menge": "nach Geschmack" }
+      ],
+      "zubereitung": [
+        "Die Eier in einen Topf legen und mit Wasser bedecken.",
+        "Zum Kochen bringen und 10 Minuten lang hart kochen.",
+        "Die Eier abschrecken, schälen und halbieren.",
+        "In einer Schüssel Sojasauce, Sesamöl, geriebenen Ingwer, Knoblauch und Chiliflocken gut vermischen.",
+        "Die Eier in die Marinade legen und mindestens 30 Minuten ziehen lassen, damit sie den Geschmack aufnehmen.",
+        "Die marinierten Eier als Snack oder als Teil eines Salats servieren."
+      ],
+      "kochzeit": "10 Minuten Kochzeit plus 30 Minuten Marinierzeit",
+      "portionen": 6
+    }
+  ]
 }
