@@ -1,51 +1,51 @@
 {
-    "title": "Huevos Rellenos Clásicos",
-    "description": "Deliciosos huevos rellenos con un cremoso relleno de yema, sazonados con mostaza y mayonesa.",
-    "cooking time": "20 minutos",
-    "portions": 6,
-    "ingredients": [
+    "titel": "Huevos Rellenos Clásicos",
+    "beschreibung": "Deliciosos huevos rellenos con un cremoso relleno de yema, sazonados con mostaza y mayonesa.",
+    "kochzeit time": "20 minutos",
+    "portionen": 6,
+    "zutaten": [
         {
             "name": "Huevos",
-            "amount": "6",
-            "unit": "piezas"
+            "menge": "6",
+            "einheit": "piezas"
         },
         {
             "name": "Mayonesa",
-            "amount": "3",
-            "unit": "cda"
+            "menge": "3",
+            "einheit": "cda"
         },
         {
             "name": "Mostaza",
-            "amount": "1",
-            "unit": "cdita"
+            "menge": "1",
+            "einheit": "cdita"
         },
         {
             "name": "Jugo de limón",
-            "amount": "1",
-            "unit": "cdita"
+            "menge": "1",
+            "einheit": "cdita"
         },
         {
             "name": "Sal",
-            "amount": "al gusto",
-            "unit": ""
+            "menge": "al gusto",
+            "einheit": ""
         },
         {
             "name": "Pimienta",
-            "amount": "al gusto",
-            "unit": ""
+            "menge": "al gusto",
+            "einheit": ""
         },
         {
             "name": "Pimentón",
-            "amount": "para decorar",
-            "unit": ""
+            "menge": "para decorar",
+            "einheit": ""
         }
     ],
-    "preparation": [
+    "zubereitung": [
         "Hervir los huevos hasta que estén duros (aproximadamente 10 minutos), enfriar y pelar.",
         "Cortar los huevos por la mitad y retirar las yemas.",
         "Mezclar las yemas con mayonesa, mostaza, jugo de limón, sal y pimienta.",
         "Rellenar las mitades de huevo con la mezcla.",
         "Espolvorear con pimentón y servir."
     ],
-    "image path": "https://rosso007-prog.github.io/WebSite/Eieruhr_Pro-Sorglos/Data/rezepte/Bilder/image1.png"
+    "imagepath": "https://rosso007-prog.github.io/WebSite/Eieruhr_Pro-Sorglos/Data/rezepte/Bilder/image1.png"
 }
