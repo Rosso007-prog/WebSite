@@ -1,23 +1,23 @@
 {
-      "titel": "Klassische gefüllte Eier",
-      "beschreibung": "Leckere gefüllte Eier mit cremiger Eigelbfüllung, gewürzt mit Senf und Mayonnaise.",
-      "kochzeit": "20 Minuten",
-      "portionen": 6,
-      "zutaten": [
-        { "name": "Eier", "menge": "6", "einheit": "Stück" },
-        { "name": "Mayonnaise", "menge": "3", "einheit": "EL" },
-        { "name": "Senf", "menge": "1", "einheit": "TL" },
-        { "name": "Zitronensaft", "menge": "1", "einheit": "TL" },
-        { "name": "Salz", "menge": "nach Geschmack", "einheit": "" },
-        { "name": "Pfeffer", "menge": "nach Geschmack", "einheit": "" },
-        { "name": "Paprikapulver", "menge": "zum Garnieren", "einheit": "" }
-      ],
-      "zubereitung": [
-        "Eier hart kochen (ca. 10 Minuten), abschrecken und schälen.",
-        "Eier halbieren und Eigelb herauslösen.",
-        "Eigelb mit Mayonnaise, Senf, Zitronensaft, Salz und Pfeffer verrühren.",
-        "Die Mischung in die Eierhälften füllen.",
-        "Mit Paprikapulver bestreuen und servieren."
-      ],
-      "imagePath": "https://rosso007-prog.github.io/WebSite/Eieruhr_Pro-Sorglos/Data/rezepte/Bilder/image1.png"
-    }
+  "titel": "Huevos rellenos clásicos",
+  "beschreibung": "Deliciosos huevos rellenos con un cremoso relleno de yema de huevo, sazonado con mostaza y mayonesa.",
+  "kochzeit": "20 minutos",
+  "portionen": 6,
+  "zutaten": [
+    { "name": "Huevos", "menge": "6", "einheit": "unidades" },
+    { "name": "Mayonesa", "menge": "3", "einheit": "cucharadas" },
+    { "name": "Mostaza", "menge": "1", "einheit": "cucharadita" },
+    { "name": "Jugo de limón", "menge": "1", "einheit": "cucharadita" },
+    { "name": "Sal", "menge": "al gusto", "einheit": "" },
+    { "name": "Pimienta", "menge": "al gusto", "einheit": "" },
+    { "name": "Pimentón", "menge": "para decorar", "einheit": "" }
+  ],
+  "zubereitung": [
+    "Hervir los huevos duros (aproximadamente 10 minutos), enfriar y pelar.",
+    "Cortar los huevos por la mitad y retirar las yemas.",
+    "Mezclar las yemas con mayonesa, mostaza, jugo de limón, sal y pimienta.",
+    "Rellenar las mitades de huevo con la mezcla.",
+    "Espolvorear con pimentón y servir."
+  ],
+  "imagePath": "https://rosso007-prog.github.io/WebSite/Eieruhr_Pro-Sorglos/Data/rezepte/Bilder/image1.png"
+}

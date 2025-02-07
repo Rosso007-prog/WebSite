@@ -1,23 +1,23 @@
 {
-      "titel": "Klassische gefüllte Eier",
-      "beschreibung": "Leckere gefüllte Eier mit cremiger Eigelbfüllung, gewürzt mit Senf und Mayonnaise.",
-      "kochzeit": "20 Minuten",
-      "portionen": 6,
-      "zutaten": [
-        { "name": "Eier", "menge": "6", "einheit": "Stück" },
-        { "name": "Mayonnaise", "menge": "3", "einheit": "EL" },
-        { "name": "Senf", "menge": "1", "einheit": "TL" },
-        { "name": "Zitronensaft", "menge": "1", "einheit": "TL" },
-        { "name": "Salz", "menge": "nach Geschmack", "einheit": "" },
-        { "name": "Pfeffer", "menge": "nach Geschmack", "einheit": "" },
-        { "name": "Paprikapulver", "menge": "zum Garnieren", "einheit": "" }
-      ],
-      "zubereitung": [
-        "Eier hart kochen (ca. 10 Minuten), abschrecken und schälen.",
-        "Eier halbieren und Eigelb herauslösen.",
-        "Eigelb mit Mayonnaise, Senf, Zitronensaft, Salz und Pfeffer verrühren.",
-        "Die Mischung in die Eierhälften füllen.",
-        "Mit Paprikapulver bestreuen und servieren."
-      ],
-      "imagePath": "https://rosso007-prog.github.io/WebSite/Eieruhr_Pro-Sorglos/Data/rezepte/Bilder/image1.png"
-    }
+  "titel": "Œufs farcis classiques",
+  "beschreibung": "Délicieux œufs farcis avec une garniture crémeuse au jaune d'œuf, assaisonnés de moutarde et de mayonnaise.",
+  "kochzeit": "20 minutes",
+  "portionen": 6,
+  "zutaten": [
+    { "name": "Œufs", "menge": "6", "einheit": "pièces" },
+    { "name": "Mayonnaise", "menge": "3", "einheit": "c. à soupe" },
+    { "name": "Moutarde", "menge": "1", "einheit": "c. à café" },
+    { "name": "Jus de citron", "menge": "1", "einheit": "c. à café" },
+    { "name": "Sel", "menge": "selon goût", "einheit": "" },
+    { "name": "Poivre", "menge": "selon goût", "einheit": "" },
+    { "name": "Paprika", "menge": "pour la garniture", "einheit": "" }
+  ],
+  "zubereitung": [
+    "Faire bouillir les œufs durs (environ 10 minutes), les refroidir et les écaler.",
+    "Couper les œufs en deux et retirer les jaunes.",
+    "Mélanger les jaunes avec la mayonnaise, la moutarde, le jus de citron, le sel et le poivre.",
+    "Remplir les moitiés d'œufs avec ce mélange.",
+    "Saupoudrer de paprika et servir."
+  ],
+  "imagePath": "https://rosso007-prog.github.io/WebSite/Eieruhr_Pro-Sorglos/Data/rezepte/Bilder/image1.png"
+}

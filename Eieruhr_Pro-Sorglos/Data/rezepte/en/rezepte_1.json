@@ -1,23 +1,23 @@
 {
-      "titel": "Klassische gefüllte Eier",
-      "beschreibung": "Leckere gefüllte Eier mit cremiger Eigelbfüllung, gewürzt mit Senf und Mayonnaise.",
-      "kochzeit": "20 Minuten",
-      "portionen": 6,
-      "zutaten": [
-        { "name": "Eier", "menge": "6", "einheit": "Stück" },
-        { "name": "Mayonnaise", "menge": "3", "einheit": "EL" },
-        { "name": "Senf", "menge": "1", "einheit": "TL" },
-        { "name": "Zitronensaft", "menge": "1", "einheit": "TL" },
-        { "name": "Salz", "menge": "nach Geschmack", "einheit": "" },
-        { "name": "Pfeffer", "menge": "nach Geschmack", "einheit": "" },
-        { "name": "Paprikapulver", "menge": "zum Garnieren", "einheit": "" }
-      ],
-      "zubereitung": [
-        "Eier hart kochen (ca. 10 Minuten), abschrecken und schälen.",
-        "Eier halbieren und Eigelb herauslösen.",
-        "Eigelb mit Mayonnaise, Senf, Zitronensaft, Salz und Pfeffer verrühren.",
-        "Die Mischung in die Eierhälften füllen.",
-        "Mit Paprikapulver bestreuen und servieren."
-      ],
-      "imagePath": "https://rosso007-prog.github.io/WebSite/Eieruhr_Pro-Sorglos/Data/rezepte/Bilder/image1.png"
-    }
+  "titel": "Classic Deviled Eggs",
+  "beschreibung": "Delicious deviled eggs with a creamy yolk filling, seasoned with mustard and mayonnaise.",
+  "kochzeit": "20 minutes",
+  "portionen": 6,
+  "zutaten": [
+    { "name": "Eggs", "menge": "6", "einheit": "pieces" },
+    { "name": "Mayonnaise", "menge": "3", "einheit": "tbsp" },
+    { "name": "Mustard", "menge": "1", "einheit": "tsp" },
+    { "name": "Lemon juice", "menge": "1", "einheit": "tsp" },
+    { "name": "Salt", "menge": "to taste", "einheit": "" },
+    { "name": "Pepper", "menge": "to taste", "einheit": "" },
+    { "name": "Paprika", "menge": "for garnish", "einheit": "" }
+  ],
+  "zubereitung": [
+    "Boil eggs hard (about 10 minutes), cool, and peel.",
+    "Cut eggs in half and remove the yolks.",
+    "Mix yolks with mayonnaise, mustard, lemon juice, salt, and pepper.",
+    "Fill the mixture into the egg halves.",
+    "Sprinkle with paprika and serve."
+  ],
+  "imagePath": "https://rosso007-prog.github.io/WebSite/Eieruhr_Pro-Sorglos/Data/rezepte/Bilder/image1.png"
+}
