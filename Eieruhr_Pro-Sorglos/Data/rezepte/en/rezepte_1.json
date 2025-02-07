@@ -1,51 +1,23 @@
 {
-    "titel": "Huevos Rellenos Clásicos",
-    "beschreibung": "Deliciosos huevos rellenos con un cremoso relleno de yema, sazonados con mostaza y mayonesa.",
-    "kochzeit": "20 minutos",
+    "titel": "Classic Deviled Eggs",
+    "beschreibung": "Delicious deviled eggs with a creamy yolk filling, seasoned with mustard and mayonnaise.",
+    "kochzeit": "20 minutes",
     "portionen": 6,
     "zutaten": [
-        {
-            "name": "Huevos",
-            "menge": "6",
-            "einheit": "piezas"
-        },
-        {
-            "name": "Mayonesa",
-            "menge": "3",
-            "einheit": "cda"
-        },
-        {
-            "name": "Mostaza",
-            "menge": "1",
-            "einheit": "cdita"
-        },
-        {
-            "name": "Jugo de limón",
-            "menge": "1",
-            "einheit": "cdita"
-        },
-        {
-            "name": "Sal",
-            "menge": "al gusto",
-            "einheit": ""
-        },
-        {
-            "name": "Pimienta",
-            "menge": "al gusto",
-            "einheit": ""
-        },
-        {
-            "name": "Pimentón",
-            "menge": "para decorar",
-            "einheit": ""
-        }
+      { "name": "Eier", "menge": "6", "einheit": "pieces" },
+      { "name": "Mayonnaise", "menge": "3", "einheit": "tbsp" },
+      { "name": "Senf", "menge": "1", "einheit": "tsp" },
+      { "name": "Zitronensaft", "menge": "1", "einheit": "tsp" },
+      { "name": "Salz", "menge": "to taste", "einheit": "" },
+      { "name": "Pfeffer", "menge": "to taste", "einheit": "" },
+      { "name": "Paprikapulver", "menge": "for garnish", "einheit": "" }
     ],
     "zubereitung": [
-        "Hervir los huevos hasta que estén duros (aproximadamente 10 minutos), enfriar y pelar.",
-        "Cortar los huevos por la mitad y retirar las yemas.",
-        "Mezclar las yemas con mayonesa, mostaza, jugo de limón, sal y pimienta.",
-        "Rellenar las mitades de huevo con la mezcla.",
-        "Espolvorear con pimentón y servir."
+      "Boil eggs until hard (about 10 minutes), cool in cold water, and peel.",
+      "Cut eggs in half and remove the yolks.",
+      "Mix the yolks with mayonnaise, mustard, lemon juice, salt, and pepper.",
+      "Fill the mixture into the egg halves.",
+      "Sprinkle with paprika powder and serve."
     ],
-    "imagepath": "https://rosso007-prog.github.io/WebSite/Eieruhr_Pro-Sorglos/Data/rezepte/Bilder/image1.png"
-}
+    "imagePath": "https://rosso007-prog.github.io/WebSite/Eieruhr_Pro-Sorglos/Data/rezepte/Bilder/image1.png"
+  }

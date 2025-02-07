@@ -1,22 +1,22 @@
 {
-      "titel": "Brot mit Avocado & Ei",
-      "beschreibung": "Ein gesundes Avocado-Brot mit gekochten Eiern und Chiliflocken.",
-      "kochzeit": "10 Minuten",
-      "portionen": 2,
-      "zutaten": [
-        { "name": "Eier", "menge": "2", "einheit": "Stück" },
-        { "name": "Avocado", "menge": "1", "einheit": "reife" },
-        { "name": "Brot", "menge": "2", "einheit": "Scheiben" },
-        { "name": "Zitronensaft", "menge": "1", "einheit": "TL" },
-        { "name": "Salz", "menge": "nach Geschmack", "einheit": "" },
-        { "name": "Pfeffer", "menge": "nach Geschmack", "einheit": "" },
-        { "name": "Chiliflocken", "menge": "zum Garnieren", "einheit": "" }
-      ],
-      "zubereitung": [
-        "Eier wachsweich kochen, schälen und in Scheiben schneiden.",
-        "Avocado mit Zitronensaft, Salz und Pfeffer zerdrücken.",
-        "Brot toasten und mit Avocadocreme bestreichen.",
-        "Eierscheiben darauflegen und mit Chiliflocken bestreuen."
-      ],
-      "imagePath": "https://rosso007-prog.github.io/WebSite/Eieruhr_Pro-Sorglos/Data/rezepte/Bilder/image5.png"
-    }
+  "titel": "Pan con Aguacate y Huevo",
+  "beschreibung": "Un pan saludable con aguacate, huevos cocidos y hojuelas de chile.",
+  "kochzeit": "10 minutos",
+  "portionen": 2,
+  "zutaten": [
+    { "name": "Huevos", "menge": "2", "einheit": "piezas" },
+    { "name": "Aguacate", "menge": "1", "einheit": "maduro" },
+    { "name": "Pan", "menge": "2", "einheit": "rebanadas" },
+    { "name": "Jugo de limón", "menge": "1", "einheit": "cdta" },
+    { "name": "Sal", "menge": "al gusto", "einheit": "" },
+    { "name": "Pimienta", "menge": "al gusto", "einheit": "" },
+    { "name": "Hojuelas de chile", "menge": "para decorar", "einheit": "" }
+  ],
+  "zubereitung": [
+    "Cocer los huevos hasta que estén tiernos, pelarlos y cortarlos en rodajas.",
+    "Triturar el aguacate con jugo de limón, sal y pimienta.",
+    "Tostar el pan y untarlo con la crema de aguacate.",
+    "Colocar las rodajas de huevo encima y espolvorear con hojuelas de chile."
+  ],
+  "imagePath": "https://rosso007-prog.github.io/WebSite/Eieruhr_Pro-Sorglos/Data/rezepte/Bilder/image5.png"
+}

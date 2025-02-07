@@ -1,61 +1,25 @@
 {
-    "titel": "Ensalada de Papas con Huevo",
-    "description": "Una clásica ensalada de papas con huevos cocidos y un aderezo sabroso.",
-    "kochzeit": "30 minutos",
+    "titel": "Potato Salad with Egg",
+    "beschreibung": "A classic potato salad with boiled eggs and a tangy dressing.",
+    "kochzeit": "30 minutes",
     "portionen": 4,
     "zutaten": [
-        {
-            "name": "Papas",
-            "menge": "500",
-            "einheit": "g"
-        },
-        {
-            "name": "Huevos",
-            "menge": "4",
-            "einheit": "piezas"
-        },
-        {
-            "name": "Cebolla",
-            "menge": "1",
-            "einheit": "pequeña"
-        },
-        {
-            "name": "Vinagre",
-            "menge": "3",
-            "einheit": "cda"
-        },
-        {
-            "name": "Aceite",
-            "menge": "4",
-            "einheit": "cda"
-        },
-        {
-            "name": "Mostaza",
-            "menge": "2",
-            "einheit": "cdita"
-        },
-        {
-            "name": "Sal",
-            "amount": "al gusto",
-            "einheit": ""
-        },
-        {
-            "name": "Pimienta",
-            "amount": "al gusto",
-            "einheit": ""
-        },
-        {
-            "name": "Perejil",
-            "menge": "para decorar",
-            "einheit": ""
-        }
+      { "name": "Potatoes", "menge": "500", "einheit": "g" },
+      { "name": "Eggs", "menge": "4", "einheit": "pieces" },
+      { "name": "Onion", "menge": "1", "einheit": "small" },
+      { "name": "Vinegar", "menge": "3", "einheit": "tbsp" },
+      { "name": "Oil", "menge": "4", "einheit": "tbsp" },
+      { "name": "Mustard", "menge": "2", "einheit": "tsp" },
+      { "name": "Salt", "menge": "to taste", "einheit": "" },
+      { "name": "Pepper", "menge": "to taste", "einheit": "" },
+      { "name": "Parsley", "menge": "for garnish", "einheit": "" }
     ],
     "zubereitung": [
-        "Hervir las papas, pelarlas y cortarlas en rodajas.",
-        "Hervir los huevos hasta que estén duros, pelarlos y cortarlos en rodajas.",
-        "Picar la cebolla y mezclar con vinagre, aceite, mostaza, sal y pimienta para hacer el aderezo.",
-        "Mezclar las papas y los huevos con el aderezo.",
-        "Espolvorear con perejil y servir."
+      "Boil potatoes, peel, and slice them.",
+      "Boil eggs until hard, peel, and slice them.",
+      "Dice the onion and mix it with vinegar, oil, mustard, salt, and pepper to create a dressing.",
+      "Combine the potatoes and eggs with the dressing.",
+      "Sprinkle with parsley and serve."
     ],
-    "imagepath": "https://rosso007-prog.github.io/WebSite/Eieruhr_Pro-Sorglos/Data/rezepte/Bilder/image2.png"
-}
+    "imagePath": "https://rosso007-prog.github.io/WebSite/Eieruhr_Pro-Sorglos/Data/rezepte/Bilder/image2.png"
+  }

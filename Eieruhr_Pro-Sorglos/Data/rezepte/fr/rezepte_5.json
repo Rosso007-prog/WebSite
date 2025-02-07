@@ -1,50 +1,22 @@
 {
-  "title": "Tartine à l'Avocat et Œuf",
-  "description": "Une tartine saine à l'avocat avec des œufs durs et des flocons de piment.",
-  "cooking time": "10 minutes",
-  "portions": 2,
-  "ingredients": [
-      {
-          "name": "Œufs",
-          "amount": "2",
-          "unit": "pièces"
-      },
-      {
-          "name": "Avocat",
-          "amount": "1",
-          "unit": "mûr"
-      },
-      {
-          "name": "Pain",
-          "amount": "2",
-          "unit": "tranches"
-      },
-      {
-          "name": "Jus de citron",
-          "amount": "1",
-          "unit": "càc"
-      },
-      {
-          "name": "Sel",
-          "amount": "selon goût",
-          "unit": ""
-      },
-      {
-          "name": "Poivre",
-          "amount": "selon goût",
-          "unit": ""
-      },
-      {
-          "name": "Flocons de piment",
-          "amount": "pour garnir",
-          "unit": ""
-      }
-  ],
-  "preparation": [
-      "Cuire les œufs à la coque, les écaler et les couper en tranches.",
-      "Écraser l'avocat avec le jus de citron, le sel et le poivre.",
-      "Faire griller le pain et étaler la purée d'avocat.",
-      "Déposer les tranches d'œufs dessus et parsemer de flocons de piment."
-  ],
-  "image path": "https://rosso007-prog.github.io/WebSite/Eieruhr_Pro-Sorglos/Data/rezepte/Bilder/image5.png"
-}
+    "titel": "Pain à l'Avocat et Œuf",
+    "beschreibung": "Un pain à l'avocat sain avec des œufs cuits et des flocons de piment.",
+    "kochzeit": "10 minutes",
+    "portionen": 2,
+    "zutaten": [
+      { "name": "Œufs", "menge": "2", "einheit": "pièces" },
+      { "name": "Avocat", "menge": "1", "einheit": "mûr" },
+      { "name": "Pain", "menge": "2", "einheit": "tranches" },
+      { "name": "Jus de citron", "menge": "1", "einheit": "càc" },
+      { "name": "Sel", "menge": "à votre goût", "einheit": "" },
+      { "name": "Poivre", "menge": "à votre goût", "einheit": "" },
+      { "name": "Flocons de piment", "menge": "pour la garniture", "einheit": "" }
+    ],
+    "zubereitung": [
+      "Faire cuire les œufs jusqu'à ce qu'ils soient mollets, les écaler et les couper en rondelles.",
+      "Écraser l'avocat avec du jus de citron, du sel et du poivre.",
+      "Faire griller le pain et l'étaler avec la purée d'avocat.",
+      "Déposer les tranches d'œuf dessus et saupoudrer de flocons de piment."
+    ],
+    "imagePath": "https://rosso007-prog.github.io/WebSite/Eieruhr_Pro-Sorglos/Data/rezepte/Bilder/image5.png"
+  }

@@ -1,61 +1,25 @@
 {
-  "title": "Salade Russe aux Œufs",
-  "description": "Une salade d'œufs crémeuse avec des cornichons et de la mayonnaise.",
-  "cooking time": "20 minutes",
-  "portions": 4,
-  "ingredients": [
-      {
-          "name": "Œufs",
-          "amount": "5",
-          "unit": "pièces"
-      },
-      {
-          "name": "Mayonnaise",
-          "amount": "2",
-          "unit": "càs"
-      },
-      {
-          "name": "Moutarde",
-          "amount": "1",
-          "unit": "càc"
-      },
-      {
-          "name": "Jus de citron",
-          "amount": "1",
-          "unit": "càc"
-      },
-      {
-          "name": "Cornichons",
-          "amount": "2",
-          "unit": "pièces"
-      },
-      {
-          "name": "Oignon",
-          "amount": "1",
-          "unit": "petit"
-      },
-      {
-          "name": "Sel",
-          "amount": "selon goût",
-          "unit": ""
-      },
-      {
-          "name": "Poivre",
-          "amount": "selon goût",
-          "unit": ""
-      },
-      {
-          "name": "Aneth",
-          "amount": "pour garnir",
-          "unit": ""
-      }
-  ],
-  "preparation": [
-      "Faire cuire les œufs durs, les écaler et les hacher.",
+    "titel": "Salade Russe aux Œufs",
+    "beschreibung": "Une salade d'œufs crémeuse avec des cornichons et de la mayonnaise.",
+    "kochzeit": "20 minutes",
+    "portionen": 4,
+    "zutaten": [
+      { "name": "Œufs", "menge": "5", "einheit": "pièces" },
+      { "name": "Mayonnaise", "menge": "2", "einheit": "càs" },
+      { "name": "Moutarde", "menge": "1", "einheit": "càc" },
+      { "name": "Jus de citron", "menge": "1", "einheit": "càc" },
+      { "name": "Cornichons", "menge": "2", "einheit": "pièces" },
+      { "name": "Oignon", "menge": "1", "einheit": "petit" },
+      { "name": "Sel", "menge": "à votre goût", "einheit": "" },
+      { "name": "Poivre", "menge": "à votre goût", "einheit": "" },
+      { "name": "Aneth", "menge": "pour la garniture", "einheit": "" }
+    ],
+    "zubereitung": [
+      "Faire bouillir les œufs jusqu'à ce qu'ils soient durs, les écaler et les hacher.",
       "Mélanger la mayonnaise, la moutarde et le jus de citron.",
-      "Hacher finement les cornichons et l'oignon et les ajouter au mélange.",
+      "Hacher finement les cornichons et l'oignon, puis les ajouter au mélange.",
       "Assaisonner avec du sel, du poivre et de l'aneth.",
       "Laisser reposer la salade pendant environ 10 minutes avant de servir."
-  ],
-  "image path": "https://rosso007-prog.github.io/WebSite/Eieruhr_Pro-Sorglos/Data/rezepte/Bilder/image3.png"
-}
+    ],
+    "imagePath": "https://rosso007-prog.github.io/WebSite/Eieruhr_Pro-Sorglos/Data/rezepte/Bilder/image3.png"
+  }
