@@ -1,61 +1,61 @@
 {
-    "title": "Ensalada de Papas con Huevo",
+    "titel": "Ensalada de Papas con Huevo",
     "description": "Una clásica ensalada de papas con huevos cocidos y un aderezo sabroso.",
-    "cooking time": "30 minutos",
-    "portions": 4,
-    "ingredients": [
+    "kochzeit": "30 minutos",
+    "portionen": 4,
+    "zutaten": [
         {
             "name": "Papas",
-            "amount": "500",
-            "unit": "g"
+            "menge": "500",
+            "einheit": "g"
         },
         {
             "name": "Huevos",
-            "amount": "4",
-            "unit": "piezas"
+            "menge": "4",
+            "einheit": "piezas"
         },
         {
             "name": "Cebolla",
-            "amount": "1",
-            "unit": "pequeña"
+            "menge": "1",
+            "einheit": "pequeña"
         },
         {
             "name": "Vinagre",
-            "amount": "3",
-            "unit": "cda"
+            "menge": "3",
+            "einheit": "cda"
         },
         {
             "name": "Aceite",
-            "amount": "4",
-            "unit": "cda"
+            "menge": "4",
+            "einheit": "cda"
         },
         {
             "name": "Mostaza",
-            "amount": "2",
-            "unit": "cdita"
+            "menge": "2",
+            "einheit": "cdita"
         },
         {
             "name": "Sal",
             "amount": "al gusto",
-            "unit": ""
+            "einheit": ""
         },
         {
             "name": "Pimienta",
             "amount": "al gusto",
-            "unit": ""
+            "einheit": ""
         },
         {
             "name": "Perejil",
-            "amount": "para decorar",
-            "unit": ""
+            "menge": "para decorar",
+            "einheit": ""
         }
     ],
-    "preparation": [
+    "zubereitung": [
         "Hervir las papas, pelarlas y cortarlas en rodajas.",
         "Hervir los huevos hasta que estén duros, pelarlos y cortarlos en rodajas.",
         "Picar la cebolla y mezclar con vinagre, aceite, mostaza, sal y pimienta para hacer el aderezo.",
         "Mezclar las papas y los huevos con el aderezo.",
         "Espolvorear con perejil y servir."
     ],
-    "image path": "https://rosso007-prog.github.io/WebSite/Eieruhr_Pro-Sorglos/Data/rezepte/Bilder/image2.png"
+    "imagepath": "https://rosso007-prog.github.io/WebSite/Eieruhr_Pro-Sorglos/Data/rezepte/Bilder/image2.png"
 }

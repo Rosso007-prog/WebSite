@@ -1,52 +1,52 @@
   {
-      "title": "Œufs Mimosa Classiques",
-      "description": "Délicieux œufs mimosa avec une garniture crémeuse aux jaunes d'œufs, assaisonnée de moutarde et de mayonnaise.",
-      "cooking time": "20 minutes",
-      "portions": 6,
-      "ingredients": [
+      "titel": "Œufs Mimosa Classiques",
+      "beschreibung": "Délicieux œufs mimosa avec une garniture crémeuse aux jaunes d'œufs, assaisonnée de moutarde et de mayonnaise.",
+      "kochzeit": "20 minutes",
+      "portionen": 6,
+      "zutaten": [
           {
               "name": "Œufs",
-              "amount": "6",
-              "unit": "pièces"
+              "menge": "6",
+              "einheit": "pièces"
           },
           {
               "name": "Mayonnaise",
-              "amount": "3",
-              "unit": "càs"
+              "menge": "3",
+              "einheit": "càs"
           },
           {
               "name": "Moutarde",
-              "amount": "1",
-              "unit": "càc"
+              "menge": "1",
+              "einheit": "càc"
           },
           {
               "name": "Jus de citron",
-              "amount": "1",
-              "unit": "càc"
+              "menge": "1",
+              "einheit": "càc"
           },
           {
               "name": "Sel",
-              "amount": "selon goût",
-              "unit": ""
+              "menge": "selon goût",
+              "einheit": ""
           },
           {
               "name": "Poivre",
-              "amount": "selon goût",
-              "unit": ""
+              "menge": "selon goût",
+              "einheit": ""
           },
           {
               "name": "Paprika",
-              "amount": "pour garnir",
-              "unit": ""
+              "menge": "pour garnir",
+              "einheit": ""
           }
       ],
-      "preparation": [
+      "zubereitung": [
           "Faire bouillir les œufs jusqu'à ce qu'ils soient durs (environ 10 minutes), les refroidir et les écaler.",
           "Couper les œufs en deux et retirer les jaunes.",
           "Mélanger les jaunes avec la mayonnaise, la moutarde, le jus de citron, le sel et le poivre.",
           "Remplir les moitiés d'œufs avec ce mélange.",
           "Saupoudrer de paprika et servir."
       ],
-      "image path": "https://rosso007-prog.github.io/WebSite/Eieruhr_Pro-Sorglos/Data/rezepte/Bilder/image1.png"
+      "imagepath": "https://rosso007-prog.github.io/WebSite/Eieruhr_Pro-Sorglos/Data/rezepte/Bilder/image1.png"
   }
  

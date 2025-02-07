@@ -1,7 +1,7 @@
 {
     "titel": "Huevos Rellenos Clásicos",
     "beschreibung": "Deliciosos huevos rellenos con un cremoso relleno de yema, sazonados con mostaza y mayonesa.",
-    "kochzeit time": "20 minutos",
+    "kochzeit": "20 minutos",
     "portionen": 6,
     "zutaten": [
         {
