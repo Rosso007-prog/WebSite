@@ -1,25 +1,61 @@
 {
-    "titel": "Russischer Eiersalat",
-    "beschreibung": "Ein cremiger Eiersalat mit Gewürzgurken und Mayonnaise.",
-    "kochzeit": "20 Minuten",
-    "portionen": 4,
-    "zutaten": [
-      { "name": "Eier", "menge": "5", "einheit": "Stück" },
-      { "name": "Mayonnaise", "menge": "2", "einheit": "EL" },
-      { "name": "Senf", "menge": "1", "einheit": "TL" },
-      { "name": "Zitronensaft", "menge": "1", "einheit": "TL" },
-      { "name": "Gewürzgurken", "menge": "2", "einheit": "Stück" },
-      { "name": "Zwiebel", "menge": "1", "einheit": "klein" },
-      { "name": "Salz", "menge": "nach Geschmack", "einheit": "" },
-      { "name": "Pfeffer", "menge": "nach Geschmack", "einheit": "" },
-      { "name": "Dill", "menge": "zum Garnieren", "einheit": "" }
-    ],
-    "zubereitung": [
-      "Eier hart kochen, schälen und hacken.",
-      "Mayonnaise, Senf und Zitronensaft verrühren.",
-      "Gewürzgurken und Zwiebel fein hacken und unterheben.",
-      "Mit Salz, Pfeffer und Dill abschmecken.",
-      "Den Salat ca. 10 Minuten durchziehen lassen und servieren."
-    ],
-    "imagePath": "https://rosso007-prog.github.io/WebSite/Eieruhr_Pro-Sorglos/Data/rezepte/Bilder/image3.png"
-  }
+  "title": "Salade Russe aux Œufs",
+  "description": "Une salade d'œufs crémeuse avec des cornichons et de la mayonnaise.",
+  "cooking time": "20 minutes",
+  "portions": 4,
+  "ingredients": [
+      {
+          "name": "Œufs",
+          "amount": "5",
+          "unit": "pièces"
+      },
+      {
+          "name": "Mayonnaise",
+          "amount": "2",
+          "unit": "càs"
+      },
+      {
+          "name": "Moutarde",
+          "amount": "1",
+          "unit": "càc"
+      },
+      {
+          "name": "Jus de citron",
+          "amount": "1",
+          "unit": "càc"
+      },
+      {
+          "name": "Cornichons",
+          "amount": "2",
+          "unit": "pièces"
+      },
+      {
+          "name": "Oignon",
+          "amount": "1",
+          "unit": "petit"
+      },
+      {
+          "name": "Sel",
+          "amount": "selon goût",
+          "unit": ""
+      },
+      {
+          "name": "Poivre",
+          "amount": "selon goût",
+          "unit": ""
+      },
+      {
+          "name": "Aneth",
+          "amount": "pour garnir",
+          "unit": ""
+      }
+  ],
+  "preparation": [
+      "Faire cuire les œufs durs, les écaler et les hacher.",
+      "Mélanger la mayonnaise, la moutarde et le jus de citron.",
+      "Hacher finement les cornichons et l'oignon et les ajouter au mélange.",
+      "Assaisonner avec du sel, du poivre et de l'aneth.",
+      "Laisser reposer la salade pendant environ 10 minutes avant de servir."
+  ],
+  "image path": "https://rosso007-prog.github.io/WebSite/Eieruhr_Pro-Sorglos/Data/rezepte/Bilder/image3.png"
+}

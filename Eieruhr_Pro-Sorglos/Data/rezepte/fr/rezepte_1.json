@@ -1,23 +1,52 @@
-{
-  "titel": "Œufs farcis classiques",
-  "beschreibung": "Délicieux œufs farcis avec une garniture crémeuse au jaune d'œuf, assaisonnés de moutarde et de mayonnaise.",
-  "kochzeit": "20 minutes",
-  "portionen": 6,
-  "zutaten": [
-    { "name": "Œufs", "menge": "6", "einheit": "pièces" },
-    { "name": "Mayonnaise", "menge": "3", "einheit": "c. à soupe" },
-    { "name": "Moutarde", "menge": "1", "einheit": "c. à café" },
-    { "name": "Jus de citron", "menge": "1", "einheit": "c. à café" },
-    { "name": "Sel", "menge": "selon goût", "einheit": "" },
-    { "name": "Poivre", "menge": "selon goût", "einheit": "" },
-    { "name": "Paprika", "menge": "pour la garniture", "einheit": "" }
-  ],
-  "zubereitung": [
-    "Faire bouillir les œufs durs (environ 10 minutes), les refroidir et les écaler.",
-    "Couper les œufs en deux et retirer les jaunes.",
-    "Mélanger les jaunes avec la mayonnaise, la moutarde, le jus de citron, le sel et le poivre.",
-    "Remplir les moitiés d'œufs avec ce mélange.",
-    "Saupoudrer de paprika et servir."
-  ],
-  "imagePath": "https://rosso007-prog.github.io/WebSite/Eieruhr_Pro-Sorglos/Data/rezepte/Bilder/image1.png"
-}
+  {
+      "title": "Œufs Mimosa Classiques",
+      "description": "Délicieux œufs mimosa avec une garniture crémeuse aux jaunes d'œufs, assaisonnée de moutarde et de mayonnaise.",
+      "cooking time": "20 minutes",
+      "portions": 6,
+      "ingredients": [
+          {
+              "name": "Œufs",
+              "amount": "6",
+              "unit": "pièces"
+          },
+          {
+              "name": "Mayonnaise",
+              "amount": "3",
+              "unit": "càs"
+          },
+          {
+              "name": "Moutarde",
+              "amount": "1",
+              "unit": "càc"
+          },
+          {
+              "name": "Jus de citron",
+              "amount": "1",
+              "unit": "càc"
+          },
+          {
+              "name": "Sel",
+              "amount": "selon goût",
+              "unit": ""
+          },
+          {
+              "name": "Poivre",
+              "amount": "selon goût",
+              "unit": ""
+          },
+          {
+              "name": "Paprika",
+              "amount": "pour garnir",
+              "unit": ""
+          }
+      ],
+      "preparation": [
+          "Faire bouillir les œufs jusqu'à ce qu'ils soient durs (environ 10 minutes), les refroidir et les écaler.",
+          "Couper les œufs en deux et retirer les jaunes.",
+          "Mélanger les jaunes avec la mayonnaise, la moutarde, le jus de citron, le sel et le poivre.",
+          "Remplir les moitiés d'œufs avec ce mélange.",
+          "Saupoudrer de paprika et servir."
+      ],
+      "image path": "https://rosso007-prog.github.io/WebSite/Eieruhr_Pro-Sorglos/Data/rezepte/Bilder/image1.png"
+  }
+ 

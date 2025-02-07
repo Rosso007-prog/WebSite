@@ -1,22 +1,50 @@
 {
-  "titel": "Chinesische Ei-Drop-Suppe",
-  "beschreibung": "Eine leichte Suppe mit Ei, die in der heißen Brühe zarte Streifen bildet.",
-  "kochzeit": "15 Minuten",
-  "portionen": 2,
-  "zutaten": [
-    { "name": "Eier", "menge": "2", "einheit": "Stück" },
-    { "name": "Gemüsebrühe", "menge": "500", "einheit": "ml" },
-    { "name": "Sojasoße", "menge": "1", "einheit": "TL" },
-    { "name": "Speisestärke", "menge": "1", "einheit": "TL" },
-    { "name": "Frühlingszwiebel", "menge": "1", "einheit": "Stück" },
-    { "name": "Salz", "menge": "nach Geschmack", "einheit": "" },
-    { "name": "Pfeffer", "menge": "nach Geschmack", "einheit": "" }
+  "title": "Soupe Chinoise aux Œufs",
+  "description": "Une soupe légère avec des œufs formant de délicats rubans dans le bouillon chaud.",
+  "cooking time": "15 minutes",
+  "portions": 2,
+  "ingredients": [
+      {
+          "name": "Œufs",
+          "amount": "2",
+          "unit": "pièces"
+      },
+      {
+          "name": "Bouillon de légumes",
+          "amount": "500",
+          "unit": "ml"
+      },
+      {
+          "name": "Sauce soja",
+          "amount": "1",
+          "unit": "càc"
+      },
+      {
+          "name": "Fécule de maïs",
+          "amount": "1",
+          "unit": "càc"
+      },
+      {
+          "name": "Oignon vert",
+          "amount": "1",
+          "unit": "pièce"
+      },
+      {
+          "name": "Sel",
+          "amount": "selon goût",
+          "unit": ""
+      },
+      {
+          "name": "Poivre",
+          "amount": "selon goût",
+          "unit": ""
+      }
   ],
-  "zubereitung": [
-    "Gemüsebrühe erhitzen und Sojasoße hinzufügen.",
-    "Speisestärke in etwas Wasser auflösen und in die Brühe geben.",
-    "Eier verquirlen und langsam in die heiße Brühe einrühren.",
-    "Mit Frühlingszwiebeln garnieren und servieren."
+  "preparation": [
+      "Chauffer le bouillon de légumes et ajouter la sauce soja.",
+      "Dissoudre la fécule de maïs dans un peu d'eau et ajouter au bouillon.",
+      "Battre les œufs et les verser lentement dans le bouillon chaud.",
+      "Garnir avec l'oignon vert et servir."
   ],
-  "imagePath": "https://rosso007-prog.github.io/WebSite/Eieruhr_Pro-Sorglos/Data/rezepte/Bilder/image4.png"
+  "image path": "https://rosso007-prog.github.io/WebSite/Eieruhr_Pro-Sorglos/Data/rezepte/Bilder/image4.png"
 }

@@ -1,22 +1,50 @@
 {
-      "titel": "Brot mit Avocado & Ei",
-      "beschreibung": "Ein gesundes Avocado-Brot mit gekochten Eiern und Chiliflocken.",
-      "kochzeit": "10 Minuten",
-      "portionen": 2,
-      "zutaten": [
-        { "name": "Eier", "menge": "2", "einheit": "Stück" },
-        { "name": "Avocado", "menge": "1", "einheit": "reife" },
-        { "name": "Brot", "menge": "2", "einheit": "Scheiben" },
-        { "name": "Zitronensaft", "menge": "1", "einheit": "TL" },
-        { "name": "Salz", "menge": "nach Geschmack", "einheit": "" },
-        { "name": "Pfeffer", "menge": "nach Geschmack", "einheit": "" },
-        { "name": "Chiliflocken", "menge": "zum Garnieren", "einheit": "" }
-      ],
-      "zubereitung": [
-        "Eier wachsweich kochen, schälen und in Scheiben schneiden.",
-        "Avocado mit Zitronensaft, Salz und Pfeffer zerdrücken.",
-        "Brot toasten und mit Avocadocreme bestreichen.",
-        "Eierscheiben darauflegen und mit Chiliflocken bestreuen."
-      ],
-      "imagePath": "https://rosso007-prog.github.io/WebSite/Eieruhr_Pro-Sorglos/Data/rezepte/Bilder/image5.png"
-    }
+    "title": "Tostada con Aguacate y Huevo",
+    "description": "Una tostada saludable con aguacate, huevo cocido y hojuelas de chile.",
+    "cooking time": "10 minutos",
+    "portions": 2,
+    "ingredients": [
+        {
+            "name": "Huevos",
+            "amount": "2",
+            "unit": "piezas"
+        },
+        {
+            "name": "Aguacate",
+            "amount": "1",
+            "unit": "maduro"
+        },
+        {
+            "name": "Pan",
+            "amount": "2",
+            "unit": "rebanadas"
+        },
+        {
+            "name": "Jugo de limón",
+            "amount": "1",
+            "unit": "cdita"
+        },
+        {
+            "name": "Sal",
+            "amount": "al gusto",
+            "unit": ""
+        },
+        {
+            "name": "Pimienta",
+            "amount": "al gusto",
+            "unit": ""
+        },
+        {
+            "name": "Hojuelas de chile",
+            "amount": "para decorar",
+            "unit": ""
+        }
+    ],
+    "preparation": [
+        "Cocinar los huevos a punto medio, pelarlos y cortarlos en rodajas.",
+        "Triturar el aguacate con jugo de limón, sal y pimienta.",
+        "Tostar el pan y untarlo con la mezcla de aguacate.",
+        "Colocar las rodajas de huevo encima y espolvorear con hojuelas de chile."
+    ],
+    "image path": "https://rosso007-prog.github.io/WebSite/Eieruhr_Pro-Sorglos/Data/rezepte/Bilder/image5.png"
+}

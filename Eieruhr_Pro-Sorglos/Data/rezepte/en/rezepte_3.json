@@ -1,25 +1,61 @@
 {
-    "titel": "Russischer Eiersalat",
-    "beschreibung": "Ein cremiger Eiersalat mit Gewürzgurken und Mayonnaise.",
-    "kochzeit": "20 Minuten",
-    "portionen": 4,
-    "zutaten": [
-      { "name": "Eier", "menge": "5", "einheit": "Stück" },
-      { "name": "Mayonnaise", "menge": "2", "einheit": "EL" },
-      { "name": "Senf", "menge": "1", "einheit": "TL" },
-      { "name": "Zitronensaft", "menge": "1", "einheit": "TL" },
-      { "name": "Gewürzgurken", "menge": "2", "einheit": "Stück" },
-      { "name": "Zwiebel", "menge": "1", "einheit": "klein" },
-      { "name": "Salz", "menge": "nach Geschmack", "einheit": "" },
-      { "name": "Pfeffer", "menge": "nach Geschmack", "einheit": "" },
-      { "name": "Dill", "menge": "zum Garnieren", "einheit": "" }
+    "title": "Ensalada Rusa de Huevo",
+    "description": "Una cremosa ensalada de huevo con pepinillos y mayonesa.",
+    "cooking time": "20 minutos",
+    "portions": 4,
+    "ingredients": [
+        {
+            "name": "Huevos",
+            "amount": "5",
+            "unit": "piezas"
+        },
+        {
+            "name": "Mayonesa",
+            "amount": "2",
+            "unit": "cda"
+        },
+        {
+            "name": "Mostaza",
+            "amount": "1",
+            "unit": "cdita"
+        },
+        {
+            "name": "Jugo de limón",
+            "amount": "1",
+            "unit": "cdita"
+        },
+        {
+            "name": "Pepinillos",
+            "amount": "2",
+            "unit": "piezas"
+        },
+        {
+            "name": "Cebolla",
+            "amount": "1",
+            "unit": "pequeña"
+        },
+        {
+            "name": "Sal",
+            "amount": "al gusto",
+            "unit": ""
+        },
+        {
+            "name": "Pimienta",
+            "amount": "al gusto",
+            "unit": ""
+        },
+        {
+            "name": "Eneldo",
+            "amount": "para decorar",
+            "unit": ""
+        }
     ],
-    "zubereitung": [
-      "Eier hart kochen, schälen und hacken.",
-      "Mayonnaise, Senf und Zitronensaft verrühren.",
-      "Gewürzgurken und Zwiebel fein hacken und unterheben.",
-      "Mit Salz, Pfeffer und Dill abschmecken.",
-      "Den Salat ca. 10 Minuten durchziehen lassen und servieren."
+    "preparation": [
+        "Hervir los huevos hasta que estén duros, pelarlos y picarlos.",
+        "Mezclar mayonesa, mostaza y jugo de limón.",
+        "Picar finamente los pepinillos y la cebolla y añadir a la mezcla.",
+        "Sazonar con sal, pimienta y eneldo.",
+        "Dejar reposar la ensalada durante unos 10 minutos antes de servir."
     ],
-    "imagePath": "https://rosso007-prog.github.io/WebSite/Eieruhr_Pro-Sorglos/Data/rezepte/Bilder/image3.png"
-  }
+    "image path": "https://rosso007-prog.github.io/WebSite/Eieruhr_Pro-Sorglos/Data/rezepte/Bilder/image3.png"
+}

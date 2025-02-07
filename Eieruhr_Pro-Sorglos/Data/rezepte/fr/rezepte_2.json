@@ -1,25 +1,61 @@
 {
-   "titel": "Kartoffelsalat mit Ei",
-   "beschreibung": "Ein klassischer Kartoffelsalat mit gekochten Eiern und würzigem Dressing.",
-   "kochzeit": "30 Minuten",
-   "portionen": 4,
-   "zutaten": [
-     { "name": "Kartoffeln", "menge": "500", "einheit": "g" },
-     { "name": "Eier", "menge": "4", "einheit": "Stück" },
-     { "name": "Zwiebel", "menge": "1", "einheit": "klein" },
-     { "name": "Essig", "menge": "3", "einheit": "EL" },
-     { "name": "Öl", "menge": "4", "einheit": "EL" },
-     { "name": "Senf", "menge": "2", "einheit": "TL" },
-     { "name": "Salz", "menge": "nach Geschmack", "einheit": "" },
-     { "name": "Pfeffer", "menge": "nach Geschmack", "einheit": "" },
-     { "name": "Petersilie", "menge": "zum Garnieren", "einheit": "" }
-   ],
-   "zubereitung": [
-     "Kartoffeln kochen, schälen und in Scheiben schneiden.",
-     "Eier hart kochen, schälen und in Scheiben schneiden.",
-     "Zwiebel würfeln und mit Essig, Öl, Senf, Salz und Pfeffer zu einem Dressing verrühren.",
-     "Kartoffeln und Eier mit dem Dressing vermengen.",
-     "Mit Petersilie bestreuen und servieren."
-   ],
-   "imagePath": "https://rosso007-prog.github.io/WebSite/Eieruhr_Pro-Sorglos/Data/rezepte/Bilder/image2.png"
- }
+  "title": "Salade de Pommes de Terre aux Œufs",
+  "description": "Une salade de pommes de terre classique avec des œufs durs et une vinaigrette savoureuse.",
+  "cooking time": "30 minutes",
+  "portions": 4,
+  "ingredients": [
+      {
+          "name": "Pommes de terre",
+          "amount": "500",
+          "unit": "g"
+      },
+      {
+          "name": "Œufs",
+          "amount": "4",
+          "unit": "pièces"
+      },
+      {
+          "name": "Oignon",
+          "amount": "1",
+          "unit": "petit"
+      },
+      {
+          "name": "Vinaigre",
+          "amount": "3",
+          "unit": "càs"
+      },
+      {
+          "name": "Huile",
+          "amount": "4",
+          "unit": "càs"
+      },
+      {
+          "name": "Moutarde",
+          "amount": "2",
+          "unit": "càc"
+      },
+      {
+          "name": "Sel",
+          "amount": "selon goût",
+          "unit": ""
+      },
+      {
+          "name": "Poivre",
+          "amount": "selon goût",
+          "unit": ""
+      },
+      {
+          "name": "Persil",
+          "amount": "pour garnir",
+          "unit": ""
+      }
+  ],
+  "preparation": [
+      "Faire cuire les pommes de terre, les éplucher et les couper en rondelles.",
+      "Faire cuire les œufs durs, les écaler et les couper en rondelles.",
+      "Hacher l'oignon et mélanger avec le vinaigre, l'huile, la moutarde, le sel et le poivre pour faire la vinaigrette.",
+      "Mélanger les pommes de terre et les œufs avec la vinaigrette.",
+      "Parsemer de persil et servir."
+  ],
+  "image path": "https://rosso007-prog.github.io/WebSite/Eieruhr_Pro-Sorglos/Data/rezepte/Bilder/image2.png"
+}

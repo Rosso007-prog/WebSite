@@ -1,25 +1,61 @@
 {
-   "titel": "Kartoffelsalat mit Ei",
-   "beschreibung": "Ein klassischer Kartoffelsalat mit gekochten Eiern und würzigem Dressing.",
-   "kochzeit": "30 Minuten",
-   "portionen": 4,
-   "zutaten": [
-     { "name": "Kartoffeln", "menge": "500", "einheit": "g" },
-     { "name": "Eier", "menge": "4", "einheit": "Stück" },
-     { "name": "Zwiebel", "menge": "1", "einheit": "klein" },
-     { "name": "Essig", "menge": "3", "einheit": "EL" },
-     { "name": "Öl", "menge": "4", "einheit": "EL" },
-     { "name": "Senf", "menge": "2", "einheit": "TL" },
-     { "name": "Salz", "menge": "nach Geschmack", "einheit": "" },
-     { "name": "Pfeffer", "menge": "nach Geschmack", "einheit": "" },
-     { "name": "Petersilie", "menge": "zum Garnieren", "einheit": "" }
-   ],
-   "zubereitung": [
-     "Kartoffeln kochen, schälen und in Scheiben schneiden.",
-     "Eier hart kochen, schälen und in Scheiben schneiden.",
-     "Zwiebel würfeln und mit Essig, Öl, Senf, Salz und Pfeffer zu einem Dressing verrühren.",
-     "Kartoffeln und Eier mit dem Dressing vermengen.",
-     "Mit Petersilie bestreuen und servieren."
-   ],
-   "imagePath": "https://rosso007-prog.github.io/WebSite/Eieruhr_Pro-Sorglos/Data/rezepte/Bilder/image2.png"
- }
+    "title": "Ensalada de Papas con Huevo",
+    "description": "Una clásica ensalada de papas con huevos cocidos y un aderezo sabroso.",
+    "cooking time": "30 minutos",
+    "portions": 4,
+    "ingredients": [
+        {
+            "name": "Papas",
+            "amount": "500",
+            "unit": "g"
+        },
+        {
+            "name": "Huevos",
+            "amount": "4",
+            "unit": "piezas"
+        },
+        {
+            "name": "Cebolla",
+            "amount": "1",
+            "unit": "pequeña"
+        },
+        {
+            "name": "Vinagre",
+            "amount": "3",
+            "unit": "cda"
+        },
+        {
+            "name": "Aceite",
+            "amount": "4",
+            "unit": "cda"
+        },
+        {
+            "name": "Mostaza",
+            "amount": "2",
+            "unit": "cdita"
+        },
+        {
+            "name": "Sal",
+            "amount": "al gusto",
+            "unit": ""
+        },
+        {
+            "name": "Pimienta",
+            "amount": "al gusto",
+            "unit": ""
+        },
+        {
+            "name": "Perejil",
+            "amount": "para decorar",
+            "unit": ""
+        }
+    ],
+    "preparation": [
+        "Hervir las papas, pelarlas y cortarlas en rodajas.",
+        "Hervir los huevos hasta que estén duros, pelarlos y cortarlos en rodajas.",
+        "Picar la cebolla y mezclar con vinagre, aceite, mostaza, sal y pimienta para hacer el aderezo.",
+        "Mezclar las papas y los huevos con el aderezo.",
+        "Espolvorear con perejil y servir."
+    ],
+    "image path": "https://rosso007-prog.github.io/WebSite/Eieruhr_Pro-Sorglos/Data/rezepte/Bilder/image2.png"
+}
