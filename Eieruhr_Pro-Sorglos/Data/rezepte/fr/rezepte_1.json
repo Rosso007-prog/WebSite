@@ -1,0 +1,23 @@
+{
+      "titel": "Klassische gefüllte Eier",
+      "beschreibung": "Leckere gefüllte Eier mit cremiger Eigelbfüllung, gewürzt mit Senf und Mayonnaise.",
+      "kochzeit": "20 Minuten",
+      "portionen": 6,
+      "zutaten": [
+        { "name": "Eier", "menge": "6", "einheit": "Stück" },
+        { "name": "Mayonnaise", "menge": "3", "einheit": "EL" },
+        { "name": "Senf", "menge": "1", "einheit": "TL" },
+        { "name": "Zitronensaft", "menge": "1", "einheit": "TL" },
+        { "name": "Salz", "menge": "nach Geschmack", "einheit": "" },
+        { "name": "Pfeffer", "menge": "nach Geschmack", "einheit": "" },
+        { "name": "Paprikapulver", "menge": "zum Garnieren", "einheit": "" }
+      ],
+      "zubereitung": [
+        "Eier hart kochen (ca. 10 Minuten), abschrecken und schälen.",
+        "Eier halbieren und Eigelb herauslösen.",
+        "Eigelb mit Mayonnaise, Senf, Zitronensaft, Salz und Pfeffer verrühren.",
+        "Die Mischung in die Eierhälften füllen.",
+        "Mit Paprikapulver bestreuen und servieren."
+      ],
+      "imagePath": "https://rosso007-prog.github.io/WebSite/Eieruhr_Pro-Sorglos/Data/rezepte/Bilder/image1.png"
+    }
