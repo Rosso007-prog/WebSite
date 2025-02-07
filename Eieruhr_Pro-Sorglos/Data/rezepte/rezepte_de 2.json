@@ -1,0 +1,25 @@
+{
+   "titel": "Kartoffelsalat mit Ei",
+   "beschreibung": "Ein klassischer Kartoffelsalat mit gekochten Eiern und würzigem Dressing.",
+   "kochzeit": "30 Minuten",
+   "portionen": 4,
+   "zutaten": [
+     { "name": "Kartoffeln", "menge": "500", "einheit": "g" },
+     { "name": "Eier", "menge": "4", "einheit": "Stück" },
+     { "name": "Zwiebel", "menge": "1", "einheit": "klein" },
+     { "name": "Essig", "menge": "3", "einheit": "EL" },
+     { "name": "Öl", "menge": "4", "einheit": "EL" },
+     { "name": "Senf", "menge": "2", "einheit": "TL" },
+     { "name": "Salz", "menge": "nach Geschmack", "einheit": "" },
+     { "name": "Pfeffer", "menge": "nach Geschmack", "einheit": "" },
+     { "name": "Petersilie", "menge": "zum Garnieren", "einheit": "" }
+   ],
+   "zubereitung": [
+     "Kartoffeln kochen, schälen und in Scheiben schneiden.",
+     "Eier hart kochen, schälen und in Scheiben schneiden.",
+     "Zwiebel würfeln und mit Essig, Öl, Senf, Salz und Pfeffer zu einem Dressing verrühren.",
+     "Kartoffeln und Eier mit dem Dressing vermengen.",
+     "Mit Petersilie bestreuen und servieren."
+   ],
+   "imagePath": "path_to_potato_salad_image"
+ }
