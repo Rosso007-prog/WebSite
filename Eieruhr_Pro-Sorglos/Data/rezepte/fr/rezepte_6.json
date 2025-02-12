@@ -1,9 +1,9 @@
 {
-  "titre": "Œufs Bénédicte",
-  "description": "Plat classique du petit-déjeuner avec des œufs pochés, du jambon et une sauce hollandaise sur un muffin anglais.",
-  "temps_de_cuisson": "25 minutes",
-  "portions": 2,
-  "ingredients": [
+  "titel": "Œufs Bénédicte",
+  "beschreibung": "Plat classique du petit-déjeuner avec des œufs pochés, du jambon et une sauce hollandaise sur un muffin anglais.",
+  "kochzeit": "25 minutes",
+  "portionen": 2,
+  "zutaten": [
     { "nom": "Œufs", "quantite": "4", "unite": "pièces" },
     { "nom": "Muffins anglais", "quantite": "2", "unite": "pièces" },
     { "nom": "Jambon", "quantite": "2", "unite": "tranches" },
@@ -13,7 +13,7 @@
     { "nom": "Sel", "quantite": "selon le goût", "unite": "" },
     { "nom": "Poivre", "quantite": "selon le goût", "unite": "" }
   ],
-  "preparation": [
+  "zubereitung": [
     "Chauffer de l'eau avec du vinaigre sans la faire bouillir.",
     "Casser les œufs dans une tasse et les faire glisser doucement dans l'eau.",
     "Pocher les œufs pendant environ 3 à 4 minutes, puis les retirer et les égoutter sur du papier absorbant.",

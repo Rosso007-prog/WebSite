@@ -1,9 +1,9 @@
 {
-  "title": "Eggs Benedict",
-  "description": "Classic breakfast dish with poached eggs, ham, and hollandaise sauce on an English muffin.",
-  "cooking_time": "25 minutes",
-  "servings": 2,
-  "ingredients": [
+  "titel": "Eggs Benedict",
+  "beschreibung": "Classic breakfast dish with poached eggs, ham, and hollandaise sauce on an English muffin.",
+  "kochzeit": "25 minutes",
+  "portionen": 2,
+  "zutaten": [
     { "name": "Eggs", "quantity": "4", "unit": "pieces" },
     { "name": "English muffins", "quantity": "2", "unit": "pieces" },
     { "name": "Ham", "quantity": "2", "unit": "slices" },
@@ -13,7 +13,7 @@
     { "name": "Salt", "quantity": "to taste", "unit": "" },
     { "name": "Pepper", "quantity": "to taste", "unit": "" }
   ],
-  "preparation": [
+  "zubereitung": [
     "Heat water with vinegar, but do not boil.",
     "Crack eggs into a cup and gently slide them into the water.",
     "Poach eggs for about 3–4 minutes, then remove and drain on a paper towel.",
