@@ -1,0 +1,26 @@
+{
+  "titre": "Œufs Bénédicte",
+  "description": "Plat classique du petit-déjeuner avec des œufs pochés, du jambon et une sauce hollandaise sur un muffin anglais.",
+  "temps_de_cuisson": "25 minutes",
+  "portions": 2,
+  "ingredients": [
+    { "nom": "Œufs", "quantite": "4", "unite": "pièces" },
+    { "nom": "Muffins anglais", "quantite": "2", "unite": "pièces" },
+    { "nom": "Jambon", "quantite": "2", "unite": "tranches" },
+    { "nom": "Beurre", "quantite": "2", "unite": "c. à soupe" },
+    { "nom": "Sauce hollandaise", "quantite": "100", "unite": "ml" },
+    { "nom": "Vinaigre", "quantite": "1", "unite": "c. à soupe" },
+    { "nom": "Sel", "quantite": "selon le goût", "unite": "" },
+    { "nom": "Poivre", "quantite": "selon le goût", "unite": "" }
+  ],
+  "preparation": [
+    "Chauffer de l'eau avec du vinaigre sans la faire bouillir.",
+    "Casser les œufs dans une tasse et les faire glisser doucement dans l'eau.",
+    "Pocher les œufs pendant environ 3 à 4 minutes, puis les retirer et les égoutter sur du papier absorbant.",
+    "Couper les muffins en deux, les tartiner de beurre et les faire griller dans une poêle.",
+    "Faire revenir rapidement le jambon dans la poêle.",
+    "Servir les muffins avec le jambon, les œufs pochés et la sauce hollandaise.",
+    "Assaisonner avec du sel et du poivre."
+  ],
+  "imagePath": "https://rosso007-prog.github.io/WebSite/Eieruhr_Pro-Sorglos/Data/rezepte/Bilder/image6.png"
+}

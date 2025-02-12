@@ -1,0 +1,26 @@
+{
+  "title": "Eggs Benedict",
+  "description": "Classic breakfast dish with poached eggs, ham, and hollandaise sauce on an English muffin.",
+  "cooking_time": "25 minutes",
+  "servings": 2,
+  "ingredients": [
+    { "name": "Eggs", "quantity": "4", "unit": "pieces" },
+    { "name": "English muffins", "quantity": "2", "unit": "pieces" },
+    { "name": "Ham", "quantity": "2", "unit": "slices" },
+    { "name": "Butter", "quantity": "2", "unit": "tbsp" },
+    { "name": "Hollandaise sauce", "quantity": "100", "unit": "ml" },
+    { "name": "Vinegar", "quantity": "1", "unit": "tbsp" },
+    { "name": "Salt", "quantity": "to taste", "unit": "" },
+    { "name": "Pepper", "quantity": "to taste", "unit": "" }
+  ],
+  "preparation": [
+    "Heat water with vinegar, but do not boil.",
+    "Crack eggs into a cup and gently slide them into the water.",
+    "Poach eggs for about 3–4 minutes, then remove and drain on a paper towel.",
+    "Halve muffins, spread with butter, and toast in a pan.",
+    "Briefly fry ham in the pan.",
+    "Serve muffins with ham, poached eggs, and hollandaise sauce.",
+    "Season with salt and pepper."
+  ],
+  "imagePath": "https://rosso007-prog.github.io/WebSite/Eieruhr_Pro-Sorglos/Data/rezepte/Bilder/image6.png"
+}
