@@ -4,14 +4,14 @@
   "kochzeit": "25 minutes",
   "portionen": 2,
   "zutaten": [
-    { "nom": "Œufs", "quantite": "4", "unite": "pièces" },
-    { "nom": "Muffins anglais", "quantite": "2", "unite": "pièces" },
-    { "nom": "Jambon", "quantite": "2", "unite": "tranches" },
-    { "nom": "Beurre", "quantite": "2", "unite": "c. à soupe" },
-    { "nom": "Sauce hollandaise", "quantite": "100", "unite": "ml" },
-    { "nom": "Vinaigre", "quantite": "1", "unite": "c. à soupe" },
-    { "nom": "Sel", "quantite": "selon le goût", "unite": "" },
-    { "nom": "Poivre", "quantite": "selon le goût", "unite": "" }
+    { "name": "Œufs", "menge": "4", "einheit": "pièces" },
+    { "name": "Muffins anglais", "menge": "2", "einheit": "pièces" },
+    { "name": "Jambon", "menge": "2", "einheit": "tranches" },
+    { "name": "Beurre", "menge": "2", "einheit": "c. à soupe" },
+    { "name": "Sauce hollandaise", "menge": "100", "einheit": "ml" },
+    { "name": "Vinaigre", "menge": "1", "einheit": "c. à soupe" },
+    { "name": "Sel", "menge": "selon le goût", "einheit": "" },
+    { "name": "Poivre", "menge": "selon le goût", "einheit": "" }
   ],
   "zubereitung": [
     "Chauffer de l'eau avec du vinaigre sans la faire bouillir.",

@@ -4,14 +4,14 @@
   "kochzeit": "25 minutos",
   "portionen": 2,
   "zutaten": [
-    { "nombre": "Huevos", "cantidad": "4", "unidad": "piezas" },
-    { "nombre": "Muffins ingleses", "cantidad": "2", "unidad": "piezas" },
-    { "nombre": "Jamón", "cantidad": "2", "unidad": "rebanadas" },
-    { "nombre": "Mantequilla", "cantidad": "2", "unidad": "cda" },
-    { "nombre": "Salsa holandesa", "cantidad": "100", "unidad": "ml" },
-    { "nombre": "Vinagre", "cantidad": "1", "unidad": "cda" },
-    { "nombre": "Sal", "cantidad": "al gusto", "unidad": "" },
-    { "nombre": "Pimienta", "cantidad": "al gusto", "unidad": "" }
+    { "name": "Huevos", "menge": "4", "einheit": "piezas" },
+    { "name": "Muffins ingleses", "menge": "2", "einheit": "piezas" },
+    { "name": "Jamón", "menge": "2", "einheit": "rebanadas" },
+    { "name": "Mantequilla", "menge": "2", "einheit": "cda" },
+    { "name": "Salsa holandesa", "menge": "100", "einheit": "ml" },
+    { "name": "Vinagre", "menge": "1", "einheit": "cda" },
+    { "name": "Sal", "menge": "al gusto", "einheit": "" },
+    { "name": "Pimienta", "menge": "al gusto", "einheit": "" }
   ],
   "zubereitung": [
     "Calentar agua con vinagre, pero sin hervir.",
