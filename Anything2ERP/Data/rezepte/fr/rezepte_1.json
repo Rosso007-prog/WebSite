@@ -1,0 +1,23 @@
+{
+    "titel": "Œufs Mimosa Classiques",
+    "beschreibung": "Délicieux œufs mimosa avec une garniture crémeuse au jaune d'œuf, assaisonnée de moutarde et de mayonnaise.",
+    "kochzeit": "20 minutes",
+    "portionen": 6,
+    "zutaten": [
+      { "name": "Œufs", "menge": "6", "einheit": "pièces" },
+      { "name": "Mayonnaise", "menge": "3", "einheit": "càs" },
+      { "name": "Moutarde", "menge": "1", "einheit": "càc" },
+      { "name": "Jus de citron", "menge": "1", "einheit": "càc" },
+      { "name": "Sel", "menge": "à votre goût", "einheit": "" },
+      { "name": "Poivre", "menge": "à votre goût", "einheit": "" },
+      { "name": "Paprika", "menge": "pour la garniture", "einheit": "" }
+    ],
+    "zubereitung": [
+      "Faire bouillir les œufs jusqu'à ce qu'ils soient durs (environ 10 minutes), les refroidir à l'eau froide et les écaler.",
+      "Couper les œufs en deux et retirer les jaunes.",
+      "Mélanger les jaunes avec la mayonnaise, la moutarde, le jus de citron, le sel et le poivre.",
+      "Remplir les moitiés d'œufs avec le mélange.",
+      "Saupoudrer de paprika et servir."
+    ],
+    "imagePath": "https://rosso007-prog.github.io/WebSite/Eieruhr_Pro-Sorglos/Data/rezepte/Bilder/image1.png"
+  }

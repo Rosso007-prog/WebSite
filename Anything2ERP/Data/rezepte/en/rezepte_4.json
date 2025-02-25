@@ -1,0 +1,22 @@
+{
+    "titel": "Chinese Egg Drop Soup",
+    "beschreibung": "A light soup with egg forming delicate ribbons in the hot broth.",
+    "kochzeit": "15 minutes",
+    "portionen": 2,
+    "zutaten": [
+      { "name": "Eggs", "menge": "2", "einheit": "pieces" },
+      { "name": "Vegetable broth", "menge": "500", "einheit": "ml" },
+      { "name": "Soy sauce", "menge": "1", "einheit": "tsp" },
+      { "name": "Cornstarch", "menge": "1", "einheit": "tsp" },
+      { "name": "Spring onion", "menge": "1", "einheit": "piece" },
+      { "name": "Salt", "menge": "to taste", "einheit": "" },
+      { "name": "Pepper", "menge": "to taste", "einheit": "" }
+    ],
+    "zubereitung": [
+      "Heat the vegetable broth and add soy sauce.",
+      "Dissolve cornstarch in a little water and add it to the broth.",
+      "Beat the eggs and slowly stir them into the hot broth.",
+      "Garnish with spring onions and serve."
+    ],
+    "imagePath": "https://rosso007-prog.github.io/WebSite/Eieruhr_Pro-Sorglos/Data/rezepte/Bilder/image4.png"
+  }

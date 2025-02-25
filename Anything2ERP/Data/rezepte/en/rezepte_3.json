@@ -1,0 +1,25 @@
+{
+    "titel": "Russian Egg Salad",
+    "beschreibung": "A creamy egg salad with pickles and mayonnaise.",
+    "kochzeit": "20 minutes",
+    "portionen": 4,
+    "zutaten": [
+      { "name": "Eggs", "menge": "5", "einheit": "pieces" },
+      { "name": "Mayonnaise", "menge": "2", "einheit": "tbsp" },
+      { "name": "Mustard", "menge": "1", "einheit": "tsp" },
+      { "name": "Lemon juice", "menge": "1", "einheit": "tsp" },
+      { "name": "Pickles", "menge": "2", "einheit": "pieces" },
+      { "name": "Onion", "menge": "1", "einheit": "small" },
+      { "name": "Salt", "menge": "to taste", "einheit": "" },
+      { "name": "Pepper", "menge": "to taste", "einheit": "" },
+      { "name": "Dill", "menge": "for garnish", "einheit": "" }
+    ],
+    "zubereitung": [
+      "Boil eggs until hard, peel, and chop.",
+      "Mix mayonnaise, mustard, and lemon juice.",
+      "Finely chop pickles and onion, then add to the mixture.",
+      "Season with salt, pepper, and dill.",
+      "Let the salad sit for about 10 minutes before serving."
+    ],
+    "imagePath": "https://rosso007-prog.github.io/WebSite/Eieruhr_Pro-Sorglos/Data/rezepte/Bilder/image3.png"
+  }

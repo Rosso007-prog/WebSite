@@ -1,0 +1,23 @@
+{
+    "titel": "Classic Deviled Eggs",
+    "beschreibung": "Delicious deviled eggs with a creamy yolk filling, seasoned with mustard and mayonnaise.",
+    "kochzeit": "20 minutes",
+    "portionen": 6,
+    "zutaten": [
+      { "name": "Eier", "menge": "6", "einheit": "pieces" },
+      { "name": "Mayonnaise", "menge": "3", "einheit": "tbsp" },
+      { "name": "Senf", "menge": "1", "einheit": "tsp" },
+      { "name": "Zitronensaft", "menge": "1", "einheit": "tsp" },
+      { "name": "Salz", "menge": "to taste", "einheit": "" },
+      { "name": "Pfeffer", "menge": "to taste", "einheit": "" },
+      { "name": "Paprikapulver", "menge": "for garnish", "einheit": "" }
+    ],
+    "zubereitung": [
+      "Boil eggs until hard (about 10 minutes), cool in cold water, and peel.",
+      "Cut eggs in half and remove the yolks.",
+      "Mix the yolks with mayonnaise, mustard, lemon juice, salt, and pepper.",
+      "Fill the mixture into the egg halves.",
+      "Sprinkle with paprika powder and serve."
+    ],
+    "imagePath": "https://rosso007-prog.github.io/WebSite/Eieruhr_Pro-Sorglos/Data/rezepte/Bilder/image1.png"
+  }

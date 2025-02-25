@@ -1,0 +1,26 @@
+{
+  "titel": "Huevos Benedictinos",
+  "beschreibung": "Plato clásico de desayuno con huevos escalfados, jamón y salsa holandesa sobre un muffin inglés.",
+  "kochzeit": "25 minutos",
+  "portionen": 2,
+  "zutaten": [
+    { "name": "Huevos", "menge": "4", "einheit": "piezas" },
+    { "name": "Muffins ingleses", "menge": "2", "einheit": "piezas" },
+    { "name": "Jamón", "menge": "2", "einheit": "rebanadas" },
+    { "name": "Mantequilla", "menge": "2", "einheit": "cda" },
+    { "name": "Salsa holandesa", "menge": "100", "einheit": "ml" },
+    { "name": "Vinagre", "menge": "1", "einheit": "cda" },
+    { "name": "Sal", "menge": "al gusto", "einheit": "" },
+    { "name": "Pimienta", "menge": "al gusto", "einheit": "" }
+  ],
+  "zubereitung": [
+    "Calentar agua con vinagre, pero sin hervir.",
+    "Cascar los huevos en una taza y deslizarlos suavemente en el agua.",
+    "Escalfar los huevos durante unos 3-4 minutos, luego retirarlos y escurrirlos en papel de cocina.",
+    "Cortar los muffins por la mitad, untarlos con mantequilla y tostarlos en una sartén.",
+    "Freír brevemente el jamón en la sartén.",
+    "Servir los muffins con jamón, huevos escalfados y salsa holandesa.",
+    "Sazonar con sal y pimienta."
+  ],
+  "imagePath": "https://rosso007-prog.github.io/WebSite/Eieruhr_Pro-Sorglos/Data/rezepte/Bilder/image6.png"
+}

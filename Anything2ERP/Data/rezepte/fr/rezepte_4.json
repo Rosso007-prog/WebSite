@@ -1,0 +1,22 @@
+{
+    "titel": "Soupe Chinoise aux Œufs",
+    "beschreibung": "Une soupe légère où l'œuf forme de délicats rubans dans le bouillon chaud.",
+    "kochzeit": "15 minutes",
+    "portionen": 2,
+    "zutaten": [
+      { "name": "Œufs", "menge": "2", "einheit": "pièces" },
+      { "name": "Bouillon de légumes", "menge": "500", "einheit": "ml" },
+      { "name": "Sauce soja", "menge": "1", "einheit": "càc" },
+      { "name": "Fécule de maïs", "menge": "1", "einheit": "càc" },
+      { "name": "Oignon vert", "menge": "1", "einheit": "pièce" },
+      { "name": "Sel", "menge": "à votre goût", "einheit": "" },
+      { "name": "Poivre", "menge": "à votre goût", "einheit": "" }
+    ],
+    "zubereitung": [
+      "Chauffer le bouillon de légumes et ajouter la sauce soja.",
+      "Dissoudre la fécule de maïs dans un peu d'eau et l'ajouter au bouillon.",
+      "Battre les œufs et les incorporer lentement dans le bouillon chaud.",
+      "Garnir avec l'oignon vert et servir."
+    ],
+    "imagePath": "https://rosso007-prog.github.io/WebSite/Eieruhr_Pro-Sorglos/Data/rezepte/Bilder/image4.png"
+  }

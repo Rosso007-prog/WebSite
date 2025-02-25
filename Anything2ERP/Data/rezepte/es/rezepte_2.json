@@ -1,0 +1,25 @@
+{
+  "titel": "Ensalada de Patatas con Huevo",
+  "beschreibung": "Una ensalada de patatas clásica con huevos cocidos y un aliño sabroso.",
+  "kochzeit": "30 minutos",
+  "portionen": 4,
+  "zutaten": [
+    { "name": "Patatas", "menge": "500", "einheit": "g" },
+    { "name": "Huevos", "menge": "4", "einheit": "piezas" },
+    { "name": "Cebolla", "menge": "1", "einheit": "pequeña" },
+    { "name": "Vinagre", "menge": "3", "einheit": "cda" },
+    { "name": "Aceite", "menge": "4", "einheit": "cda" },
+    { "name": "Mostaza", "menge": "2", "einheit": "cdta" },
+    { "name": "Sal", "menge": "al gusto", "einheit": "" },
+    { "name": "Pimienta", "menge": "al gusto", "einheit": "" },
+    { "name": "Perejil", "menge": "para decorar", "einheit": "" }
+  ],
+  "zubereitung": [
+    "Cocer las patatas, pelarlas y cortarlas en rodajas.",
+    "Cocer los huevos hasta que estén duros, pelarlos y cortarlos en rodajas.",
+    "Picar la cebolla y mezclarla con vinagre, aceite, mostaza, sal y pimienta para hacer un aliño.",
+    "Mezclar las patatas y los huevos con el aliño.",
+    "Espolvorear con perejil y servir."
+  ],
+  "imagePath": "https://rosso007-prog.github.io/WebSite/Eieruhr_Pro-Sorglos/Data/rezepte/Bilder/image2.png"
+}

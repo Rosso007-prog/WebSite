@@ -1,0 +1,23 @@
+{
+  "titel": "Huevos Rellenos Clásicos",
+  "beschreibung": "Deliciosos huevos rellenos con un cremoso relleno de yema, sazonado con mostaza y mayonesa.",
+  "kochzeit": "20 minutos",
+  "portionen": 6,
+  "zutaten": [
+    { "name": "Huevos", "menge": "6", "einheit": "piezas" },
+    { "name": "Mayonesa", "menge": "3", "einheit": "cda" },
+    { "name": "Mostaza", "menge": "1", "einheit": "cdta" },
+    { "name": "Jugo de limón", "menge": "1", "einheit": "cdta" },
+    { "name": "Sal", "menge": "al gusto", "einheit": "" },
+    { "name": "Pimienta", "menge": "al gusto", "einheit": "" },
+    { "name": "Pimentón", "menge": "para decorar", "einheit": "" }
+  ],
+  "zubereitung": [
+    "Hervir los huevos hasta que estén duros (aproximadamente 10 minutos), enfriar en agua fría y pelar.",
+    "Cortar los huevos por la mitad y retirar las yemas.",
+    "Mezclar las yemas con mayonesa, mostaza, jugo de limón, sal y pimienta.",
+    "Rellenar las mitades de huevo con la mezcla.",
+    "Espolvorear con pimentón y servir."
+  ],
+  "imagePath": "https://rosso007-prog.github.io/WebSite/Eieruhr_Pro-Sorglos/Data/rezepte/Bilder/image1.png"
+}

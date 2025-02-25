@@ -1,0 +1,25 @@
+{
+    "titel": "Salade de Pommes de Terre aux Œufs",
+    "beschreibung": "Une salade de pommes de terre classique avec des œufs durs et une vinaigrette savoureuse.",
+    "kochzeit": "30 minutes",
+    "portionen": 4,
+    "zutaten": [
+      { "name": "Pommes de terre", "menge": "500", "einheit": "g" },
+      { "name": "Œufs", "menge": "4", "einheit": "pièces" },
+      { "name": "Oignon", "menge": "1", "einheit": "petit" },
+      { "name": "Vinaigre", "menge": "3", "einheit": "càs" },
+      { "name": "Huile", "menge": "4", "einheit": "càs" },
+      { "name": "Moutarde", "menge": "2", "einheit": "càc" },
+      { "name": "Sel", "menge": "à votre goût", "einheit": "" },
+      { "name": "Poivre", "menge": "à votre goût", "einheit": "" },
+      { "name": "Persil", "menge": "pour la garniture", "einheit": "" }
+    ],
+    "zubereitung": [
+      "Faire bouillir les pommes de terre, les éplucher et les couper en rondelles.",
+      "Faire bouillir les œufs jusqu'à ce qu'ils soient durs, les écaler et les couper en rondelles.",
+      "Hacher l'oignon et le mélanger avec du vinaigre, de l'huile, de la moutarde, du sel et du poivre pour faire une vinaigrette.",
+      "Mélanger les pommes de terre et les œufs avec la vinaigrette.",
+      "Saupoudrer de persil et servir."
+    ],
+    "imagePath": "https://rosso007-prog.github.io/WebSite/Eieruhr_Pro-Sorglos/Data/rezepte/Bilder/image2.png"
+  }

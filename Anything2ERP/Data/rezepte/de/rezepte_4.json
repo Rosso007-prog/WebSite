@@ -1,0 +1,22 @@
+{
+  "titel": "Chinesische Ei-Drop-Suppe",
+  "beschreibung": "Eine leichte Suppe mit Ei, die in der heißen Brühe zarte Streifen bildet.",
+  "kochzeit": "15 Minuten",
+  "portionen": 2,
+  "zutaten": [
+    { "name": "Eier", "menge": "2", "einheit": "Stück" },
+    { "name": "Gemüsebrühe", "menge": "500", "einheit": "ml" },
+    { "name": "Sojasoße", "menge": "1", "einheit": "TL" },
+    { "name": "Speisestärke", "menge": "1", "einheit": "TL" },
+    { "name": "Frühlingszwiebel", "menge": "1", "einheit": "Stück" },
+    { "name": "Salz", "menge": "nach Geschmack", "einheit": "" },
+    { "name": "Pfeffer", "menge": "nach Geschmack", "einheit": "" }
+  ],
+  "zubereitung": [
+    "Gemüsebrühe erhitzen und Sojasoße hinzufügen.",
+    "Speisestärke in etwas Wasser auflösen und in die Brühe geben.",
+    "Eier verquirlen und langsam in die heiße Brühe einrühren.",
+    "Mit Frühlingszwiebeln garnieren und servieren."
+  ],
+  "imagePath": "https://rosso007-prog.github.io/WebSite/Eieruhr_Pro-Sorglos/Data/rezepte/Bilder/image4.png"
+}
