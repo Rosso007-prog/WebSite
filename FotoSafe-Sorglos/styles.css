@@ -39,6 +39,31 @@ nav ul li a:hover {
     color: #ffcc80; /* Heller Orange-Ton für Hover-Effekt */
 }
 
+.features-container {
+    display: flex;
+    justify-content: space-between; /* Verteilt die Inhalte */
+    align-items: flex-start; /* Sorgt dafür, dass alles oben beginnt */
+    gap: 20px; /* Abstand zwischen den Spalten */
+}
+
+.features-text {
+    flex: 1; /* Lässt den Text-Bereich den Platz nutzen */
+    text-align: left;
+}
+
+.features-list {
+    flex: 1; /* Lässt die Liste den Platz nutzen */
+    text-align: left;
+    list-style-position: outside;
+    padding-left: 20px;
+}
+
+.container ul {
+    text-align: left; /* Setzt den Text innerhalb der Liste linksbündig */
+    list-style-position: inside; /* Falls die Bullet-Points innerhalb des Containers bleiben sollen */
+    padding-left: 0; /* Entfernt den linken Standardabstand */
+}
+
 .container {
     background-color: #fff;
     border-radius: 8px;

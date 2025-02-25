@@ -57,6 +57,7 @@ nav ul li a:hover {
     list-style-position: outside;
     padding-left: 20px;
 }
+
 .container ul {
     text-align: left; /* Setzt den Text innerhalb der Liste linksbündig */
     list-style-position: inside; /* Falls die Bullet-Points innerhalb des Containers bleiben sollen */
