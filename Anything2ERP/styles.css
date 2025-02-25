@@ -39,6 +39,12 @@ nav ul li a:hover {
     color: #ffcc80; /* Heller Orange-Ton für Hover-Effekt */
 }
 
+.container ul {
+    text-align: left; /* Setzt den Text innerhalb der Liste linksbündig */
+    list-style-position: inside; /* Falls die Bullet-Points innerhalb des Containers bleiben sollen */
+    padding-left: 0; /* Entfernt den linken Standardabstand */
+}
+
 .container {
     background-color: #fff;
     border-radius: 8px;
