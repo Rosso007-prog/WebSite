@@ -41,19 +41,20 @@ nav ul li a:hover {
 
 .features-container {
     display: flex;
-    justify-content: space-between; /* Verteilt die Inhalte */
-    align-items: flex-start; /* Sorgt dafür, dass alles oben beginnt */
-    gap: 20px; /* Abstand zwischen den Spalten */
+    flex-direction: column;
+    align-items: center; /* Überschrift zentrieren */
+    text-align: center;
 }
 
-.features-text {
-    flex: 1; /* Lässt den Text-Bereich den Platz nutzen */
-    text-align: left;
+.features-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px; /* Abstand zur Liste */
 }
 
 .features-list {
-    flex: 1; /* Lässt die Liste den Platz nutzen */
     text-align: left;
+    max-width: 600px; /* Begrenzung für bessere Lesbarkeit */
     list-style-position: outside;
     padding-left: 20px;
 }
