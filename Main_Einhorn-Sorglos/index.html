@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GedaechtnisProfi-Sorglos - Trainiere dein Gehirn</title>
+
+    <!-- Einbindung von styles.css -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div id="menu"></div>
+
+    <div class="container">
+        <h1>GedaechtnisProfi-Sorglos</h1>
+        <img src="https://rosso007-prog.github.io/WebSite/GedaechtnisProfi-Sorglos/AppIcon150x150.png" alt="Gedächtnistrainer Logo">
+        <p class="app-description">
+            **Trainiere dein Gedächtnis mit unterhaltsamen Spielen, kniffligen Fragen und einem interaktiven Vokabeltrainer.**
+        </p>
+        <div class="features-container">
+            <h2 class="features-title">Hauptfunktionen</h2>
+            <ul class="features-list">
+                <li>🧠 <strong>Gehirntraining</strong> – Spiele zur Förderung deiner Konzentration</li>
+                <li>📝 <strong>Vokabeltrainer</strong> – Verbessere deine Sprachkenntnisse spielerisch</li>
+                <li>🌍 <strong>Mehrsprachig</strong> – Unterstützung für mehrere Sprachen</li>
+                <li> ⚙ <strong>Individuelle Einstellungen</strong> – Sprache & Datenschutz anpassbar</li>
+            </ul>
+        </div>
+
+        <a href="https://apps.apple.com/de/app/ged%C3%A4chtnis-profi/id6740916047" class="download-button">Jetzt herunterladen</a>
+        <p><a href="Datenschutz/Datenschutz.html">Datenschutzerklärung</a></p>
+    </div>
+
+    <footer>
+        &copy; 2025 Sorglos. Alle Rechte vorbehalten.
+    </footer>
+
+    <script>
+        fetch('menu.html')
+            .then(response => response.text())
+            .then(data => document.getElementById('menu').innerHTML = data);
+    </script>
+
+</body>
+</html>
