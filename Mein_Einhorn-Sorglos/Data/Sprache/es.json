@@ -7,10 +7,19 @@
     "start_game": "Iniciar juego",
     "select_language": "Selecciona un idioma"
   },
+  "paywall": {
+    "message": "¡Compra versión completa para seguir!"
+  },
   "settings": {
     "title": "Configuración",
     "change_language": "Cambiar idioma",
-    "select_language": "Selecciona un idioma"
+    "select_language": "Selecciona un idioma",
+    "remove_ads_title": "Juego Sin Anuncios",
+    "remove_ads_desc": "¡Juego sin anuncios!",
+    "glitter_skin_title": "Unicornio Brillante",
+    "glitter_skin_desc": "¡Desbloquea un unicornio brillante!",
+    "full_version_title": "Versión Completa",
+    "full_version_desc": "¡Desbloquea el juego completo!"
   },
   "game": {
     "sleep_increased": "Sueño aumentado en: {0}%",

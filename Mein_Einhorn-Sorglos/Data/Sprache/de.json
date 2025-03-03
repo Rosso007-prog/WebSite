@@ -3,14 +3,23 @@
     "title": "Mein Einhorn"
   },
   "home": {
-    "title": "Mein Einhorn Online",
+    "title": "Mein Einhorn",
     "start_game": "Spiel starten",
     "select_language": "Wähle eine Sprache"
+  },
+  "paywall": {
+    "message": "Kauf die Vollversion zum Weiterspielen!"
   },
   "settings": {
     "title": "Einstellungen",
     "change_language": "Sprache ändern",
-    "select_language": "Wähle eine Sprache"
+    "select_language": "Wähle eine Sprache",
+    "remove_ads_title": "Werbefreies Spiel",
+    "remove_ads_desc": "Spiel ohne Werbung genießen!",
+    "glitter_skin_title": "Glitzer-Einhorn",
+    "glitter_skin_desc": "Funkelndes Einhorn freischalten!",
+    "full_version_title": "Vollversion",
+    "full_version_desc": "Schalte das volle Spiel frei!"
   },
   "game": {
     "sleep_increased": "Schlaf gesteigert um: {0}%",

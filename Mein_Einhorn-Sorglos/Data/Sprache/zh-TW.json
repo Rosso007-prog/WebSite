@@ -7,10 +7,19 @@
     "start_game": "開始遊戲",
     "select_language": "選擇語言"
     },
+  "paywall": {
+    "message": "購買完整版以繼續遊戲！"
+  },
     "settings": {
       "title": "設置",
       "change_language": "更改語言",
-      "select_language": "選擇語言"
+      "select_language": "選擇語言",
+      "remove_ads_title": "無廣告遊戲",
+      "remove_ads_desc": "無廣告遊戲體驗！",
+      "glitter_skin_title": "閃光獨角獸",
+      "glitter_skin_desc": "解鎖閃光獨角獸！",
+      "full_version_title": "完整版",
+      "full_version_desc": "解鎖完整遊戲！"
   },
   "game": {
     "sleep_increased": "睡眠增加：{0}%",

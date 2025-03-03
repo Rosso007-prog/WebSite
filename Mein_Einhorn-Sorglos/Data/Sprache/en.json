@@ -7,10 +7,19 @@
     "start_game": "Start Game",
     "select_language": "Select a language"
   },
+  "paywall": {
+    "message": "Buy full version to continue!"
+  },
   "settings": {
     "title": "Settings",
     "change_language": "Change language",
-    "select_language": "Select a language"
+    "select_language": "Select a language",
+    "remove_ads_title": "Ad-Free Game",
+    "remove_ads_desc": "Enjoy an ad-free game!",
+    "glitter_skin_title": "Glitter Unicorn",
+    "glitter_skin_desc": "Unlock a sparkling unicorn!",
+    "full_version_title": "Full Version",
+    "full_version_desc": "Unlock the full game!"
   },
   "game": {
     "sleep_increased": "Sleep increased by: {0}%",

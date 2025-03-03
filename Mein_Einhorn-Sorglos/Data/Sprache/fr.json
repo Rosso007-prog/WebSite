@@ -7,10 +7,18 @@
     "start_game": "Démarrer le jeu",
     "select_language": "Sélectionne une langue"
   },
+  "paywall": {
+    "message": "Achète la version complète pour continuer !",
   "settings": {
     "title": "Paramètres",
     "change_language": "Changer de langue",
-    "select_language": "Sélectionne une langue"
+    "select_language": "Sélectionne une langue",
+    "remove_ads_title": "Jeu Sans Pubs",
+    "remove_ads_desc": "Joue sans pubs !",
+    "glitter_skin_title": "Licorne Pailletée",
+    "glitter_skin_desc": "Débloque une licorne brillante !",
+    "full_version_title": "Version Complète",
+    "full_version_desc": "Débloque le jeu complet !"
   },
   "game": {
     "sleep_increased": "Sommeil augmenté de : {0}%",
