@@ -1,0 +1,66 @@
+{
+  "app": {
+    "title": "My Unicorn"
+  },
+  "home": {
+    "title": "My Unicorn",
+    "start_game": "Start Game",
+    "select_language": "Select a language"
+  },
+  "settings": {
+    "title": "Settings",
+    "change_language": "Change language",
+    "select_language": "Select a language"
+  },
+  "game": {
+    "sleep_increased": "Sleep increased by: {0}%",
+    "feed_increased": "Hunger satisfied by: {0}%",
+    "play_increased": "Play fun: {0}%",
+    "petting_increased": "Petting joy: {0}%",
+    "feed": {
+      "finished": "Feeding finished",
+      "collected": "Food collected: {0}",
+      "instruction": "Feed your unicorn!",
+      "progress": "Food collected: {0}  |  Time: {1} s"
+    },
+    "petting": {
+      "success": "Unicorn happy!",
+      "failure": "Not enough petting",
+      "instruction": "Pet your unicorn!",
+      "progress": "Progress: {0}%  |  Time: {1} s (Swipes: {2})"
+    },
+    "play": {
+      "finished": "Game won! Back",
+      "instruction": "Play with your unicorn – catch it!",
+      "progress": "Progress: {0}%  |  Time: {1} s (Hits: {2} / {3})"
+    },
+    "sleep": {
+      "finished": "Sleep finished",
+      "increased": "Sleep increased by: {0}%",
+      "instruction": "Hold your unicorn for a peaceful sleep",
+      "progress": "Sleep: {0}%  |  Time: {1} s"
+    }
+  },
+  "actions": {
+    "feed": "Feed",
+    "sleep": "Sleep",
+    "play": "Play",
+    "petting": "Pet"
+  },
+  "status": {
+    "hunger": "Hunger",
+    "energy": "Energy",
+    "happiness": "Happiness",
+    "friendship": "Friendship",
+    "tooltip": "{0}: {1}",
+    "header": "🐴✨ Your Unicorn Status ✨🐴",
+    "close": "🌸 Close 🌸"
+  },
+  "debug": {
+    "title": "Debug",
+    "time_label": "Time of day: ",
+    "time_value": "{0} o'clock",
+    "status_label": "Status: ",
+    "status_value": "{0}%"
+  }
+}

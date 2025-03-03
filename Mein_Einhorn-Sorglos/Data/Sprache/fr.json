@@ -1,0 +1,66 @@
+{
+  "app": {
+    "title": "Mon Licorne"
+  },
+  "home": {
+    "title": "Mon Licorne",
+    "start_game": "Démarrer le jeu",
+    "select_language": "Sélectionne une langue"
+  },
+  "settings": {
+    "title": "Paramètres",
+    "change_language": "Changer de langue",
+    "select_language": "Sélectionne une langue"
+  },
+  "game": {
+    "sleep_increased": "Sommeil augmenté de : {0}%",
+    "feed_increased": "Faim satisfaite de : {0}%",
+    "play_increased": "Plaisir de jeu : {0}%",
+    "petting_increased": "Joie de caresse : {0}%",
+    "feed": {
+      "finished": "Nourrir terminé",
+      "collected": "Nourriture collectée : {0}",
+      "instruction": "Nourris ta licorne !",
+      "progress": "Nourriture collectée : {0}  |  Temps : {1} s"
+    },
+    "petting": {
+      "success": "Licorne heureuse !",
+      "failure": "Pas assez caressée",
+      "instruction": "Caresse ta licorne !",
+      "progress": "Progrès : {0}%  |  Temps : {1} s (Caresses : {2})"
+    },
+    "play": {
+      "finished": "Jeu gagné ! Retour",
+      "instruction": "Joue avec ta licorne – attrape-la !",
+      "progress": "Progrès : {0}%  |  Temps : {1} s (Coups : {2} / {3})"
+    },
+    "sleep": {
+      "finished": "Sommeil terminé",
+      "increased": "Sommeil augmenté de : {0}%",
+      "instruction": "Tiens ta licorne pour un sommeil paisible",
+      "progress": "Sommeil : {0}%  |  Temps : {1} s"
+    }
+  },
+  "actions": {
+    "feed": "Nourrir",
+    "sleep": "Dormir",
+    "play": "Jouer",
+    "petting": "Caresser"
+  },
+  "status": {
+    "hunger": "Faim",
+    "energy": "Énergie",
+    "happiness": "Bonheur",
+    "friendship": "Amitié",
+    "tooltip": "{0} : {1}",
+    "header": "🐴✨ Statut de ta licorne ✨🐴",
+    "close": "🌸 Fermer 🌸"
+  },
+  "debug": {
+    "title": "Débogage",
+    "time_label": "Heure du jour : ",
+    "time_value": "{0} heures",
+    "status_label": "Statut : ",
+    "status_value": "{0}%"
+  }
+}
