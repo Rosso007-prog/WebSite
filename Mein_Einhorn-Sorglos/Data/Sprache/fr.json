@@ -57,7 +57,8 @@
     },
     "customize": {
       "title": "Personnalise ta Licorne",
-      "name_label": "Donne un nom à ta licorne"
+      "name_label": "Donne un nom à ta licorne",
+      "choose_unicorn": "Choisis ta Licorne Magique !"
     }
   },
   "actions": {

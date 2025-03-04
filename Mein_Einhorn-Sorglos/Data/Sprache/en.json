@@ -57,7 +57,8 @@
     },
     "customize": {
       "title": "Customize Your Unicorn",
-      "name_label": "Give your unicorn a name"
+      "name_label": "Give your unicorn a name",
+      "choose_unicorn": "Choose your Magic Unicorn!"
     }
   },
   "actions": {

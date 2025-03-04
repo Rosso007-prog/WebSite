@@ -57,7 +57,8 @@
     },
     "customize": {
       "title": "Personalisiere dein Einhorn",
-      "name_label": "Gib deinem Einhorn einen Namen"
+      "name_label": "Gib deinem Einhorn einen Namen",
+      "choose_unicorn": "Wähle dein Zaubereinhorn!"
     }
   },
   "actions": {

@@ -57,7 +57,8 @@
     },
     "customize": {
       "title": "自訂你的獨角獸",
-      "name_label": "給你的獨角獸取個名字"
+      "name_label": "給你的獨角獸取個名字",
+      "choose_unicorn": "選擇你的魔法獨角獸！"
     }
   },
   "actions": {

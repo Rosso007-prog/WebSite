@@ -57,7 +57,8 @@
     },
     "customize": {
       "title": "Personaliza tu Unicornio",
-      "name_label": "Dale un nombre a tu unicornio"
+      "name_label": "Dale un nombre a tu unicornio",
+      "choose_unicorn": "¡Elige tu Unicornio Mágico!"
     }
   },
   "actions": {
