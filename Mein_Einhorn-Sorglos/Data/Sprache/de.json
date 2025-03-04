@@ -3,12 +3,14 @@
     "title": "Mein Einhorn"
   },
   "home": {
-    "title": "Mein Einhorn",
+    "title": "Willkommen bei Mein Einhorn",
     "start_game": "Spiel starten",
-    "select_language": "Wähle eine Sprache"
+    "select_language": "Wähle eine Sprache",
+    "limited_mode": "Eingeschränkter Modus: Einige Funktionen eingeschränkt"
   },
   "paywall": {
-    "message": "Kauf die Vollversion zum Weiterspielen!"
+    "message": "Kauf die Vollversion zum Weiterspielen!",
+    "continue_limited": "Mit Einschränkungen fortfahren"
   },
   "settings": {
     "title": "Einstellungen",
@@ -19,7 +21,9 @@
     "glitter_skin_title": "Glitzer-Einhorn",
     "glitter_skin_desc": "Funkelndes Einhorn freischalten!",
     "full_version_title": "Vollversion",
-    "full_version_desc": "Schalte das volle Spiel frei!"
+    "full_version_desc": "Schalte das volle Spiel frei!",
+    "purchase_success": "Kauf erfolgreich! Vielen Dank!",
+    "purchase_failed": "Kauf fehlgeschlagen. Bitte versuche es erneut."
   },
   "game": {
     "sleep_increased": "Schlaf gesteigert um: {0}%",
@@ -36,7 +40,9 @@
       "success": "Einhorn glücklich!",
       "failure": "Nicht genug gestreichelt",
       "instruction": "Streichele dein Einhorn!",
-      "progress": "Fortschritt: {0}%  |  Zeit: {1} s (Swipes: {2})"
+      "progress": "Fortschritt: {0}%  |  Zeit: {1} s (Swipes: {2})",
+      "locked_title": "Funktion gesperrt",
+      "locked_message": "Streicheln ist nur in der Vollversion verfügbar. Kauf sie in den Einstellungen."
     },
     "play": {
       "finished": "Spiel gewonnen! Zurück",
@@ -71,5 +77,12 @@
     "time_value": "{0} Uhr",
     "status_label": "Status: ",
     "status_value": "{0}%"
+  },
+  "dialog": {
+    "cancel": "Abbrechen",
+    "go_to_settings": "Zu Einstellungen"
+  },
+  "error": {
+    "generic": "Ein Fehler ist aufgetreten. Bitte versuche es erneut."
   }
 }
