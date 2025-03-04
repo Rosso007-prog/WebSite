@@ -3,30 +3,35 @@
     "title": "Mon Licorne"
   },
   "home": {
-    "title": "Mon Licorne",
-    "start_game": "Démarrer le jeu",
-    "select_language": "Sélectionne une langue"
+    "title": "Bienvenue chez Mon Licorne",
+    "start_game": "Démarrer le Jeu",
+    "select_language": "Choisis une Langue",
+    "limited_mode": "Mode Limité : Certaines fonctionnalités sont restreintes"
   },
   "paywall": {
-    "message": "Achète la version complète pour continuer !",
+    "message": "Achète la version complète pour continuer à jouer !",
+    "continue_limited": "Continuer avec des restrictions"
+  },
   "settings": {
     "title": "Paramètres",
-    "change_language": "Changer de langue",
-    "select_language": "Sélectionne une langue",
+    "change_language": "Changer de Langue",
+    "select_language": "Sélectionne une Langue",
     "remove_ads_title": "Jeu Sans Pubs",
-    "remove_ads_desc": "Joue sans pubs !",
-    "glitter_skin_title": "Licorne Pailletée",
-    "glitter_skin_desc": "Débloque une licorne brillante !",
+    "remove_ads_desc": "Profite du jeu sans publicités !",
+    "glitter_skin_title": "Licorne Scintillante",
+    "glitter_skin_desc": "Débloque une licorne scintillante !",
     "full_version_title": "Version Complète",
-    "full_version_desc": "Débloque le jeu complet !"
+    "full_version_desc": "Débloque le jeu complet !",
+    "purchase_success": "Achat réussi ! Merci beaucoup !",
+    "purchase_failed": "Échec de l’achat. Veuillez réessayer."
   },
   "game": {
     "sleep_increased": "Sommeil augmenté de : {0}%",
     "feed_increased": "Faim satisfaite de : {0}%",
-    "play_increased": "Plaisir de jeu : {0}%",
-    "petting_increased": "Joie de caresse : {0}%",
+    "play_increased": "Joie de jouer : {0}%",
+    "petting_increased": "Joie des caresses : {0}%",
     "feed": {
-      "finished": "Nourrir terminé",
+      "finished": "Nourrissage Terminé",
       "collected": "Nourriture collectée : {0}",
       "instruction": "Nourris ta licorne !",
       "progress": "Nourriture collectée : {0}  |  Temps : {1} s"
@@ -35,18 +40,24 @@
       "success": "Licorne heureuse !",
       "failure": "Pas assez caressée",
       "instruction": "Caresse ta licorne !",
-      "progress": "Progrès : {0}%  |  Temps : {1} s (Caresses : {2})"
+      "progress": "Progrès : {0}%  |  Temps : {1} s (Caresses : {2})",
+      "locked_title": "Fonction Verrouillée",
+      "locked_message": "Caresser est disponible uniquement dans la version complète. Achète-la dans les paramètres."
     },
     "play": {
-      "finished": "Jeu gagné ! Retour",
+      "finished": "Partie Gagnée ! Retour",
       "instruction": "Joue avec ta licorne – attrape-la !",
-      "progress": "Progrès : {0}%  |  Temps : {1} s (Coups : {2} / {3})"
+      "progress": "Progrès : {0}%  |  Temps : {1} s (Touches : {2} / {3})"
     },
     "sleep": {
-      "finished": "Sommeil terminé",
+      "finished": "Sommeil Terminé",
       "increased": "Sommeil augmenté de : {0}%",
       "instruction": "Tiens ta licorne pour un sommeil paisible",
       "progress": "Sommeil : {0}%  |  Temps : {1} s"
+    },
+    "customize": {
+      "title": "Personnalise ta Licorne",
+      "name_label": "Donne un nom à ta licorne"
     }
   },
   "actions": {
@@ -61,14 +72,22 @@
     "happiness": "Bonheur",
     "friendship": "Amitié",
     "tooltip": "{0} : {1}",
-    "header": "🐴✨ Statut de ta licorne ✨🐴",
+    "header": "🐴✨ État de ta Licorne ✨🐴",
     "close": "🌸 Fermer 🌸"
   },
   "debug": {
     "title": "Débogage",
-    "time_label": "Heure du jour : ",
+    "time_label": "Heure de la Journée : ",
     "time_value": "{0} heures",
-    "status_label": "Statut : ",
+    "status_label": "État : ",
     "status_value": "{0}%"
+  },
+  "dialog": {
+    "cancel": "Annuler",
+    "go_to_settings": "Aller aux Paramètres",
+    "save": "Sauvegarder"
+  },
+  "error": {
+    "generic": "Une erreur s’est produite. Veuillez réessayer."
   }
 }

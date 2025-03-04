@@ -54,6 +54,10 @@
       "increased": "Schlaf gesteigert um: {0}%",
       "instruction": "Halte dein Einhorn für einen ruhigen Schlaf",
       "progress": "Schlaf: {0}%  |  Zeit: {1} s"
+    },
+    "customize": {
+      "title": "Personalisiere dein Einhorn",
+      "name_label": "Gib deinem Einhorn einen Namen"
     }
   },
   "actions": {
@@ -80,7 +84,8 @@
   },
   "dialog": {
     "cancel": "Abbrechen",
-    "go_to_settings": "Zu Einstellungen"
+    "go_to_settings": "Zu Einstellungen",
+    "save": "Speichern"
   },
   "error": {
     "generic": "Ein Fehler ist aufgetreten. Bitte versuche es erneut."
