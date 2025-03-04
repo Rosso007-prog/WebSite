@@ -9,10 +9,12 @@
     "limited_mode": "Eingeschränkter Modus: Einige Funktionen eingeschränkt"
   },
   "paywall": {
-    "message": "Kauf die Vollversion zum Weiterspielen!",
-    "continue_limited": "Mit Einschränkungen fortfahren"
+    "message": "Kauf die die schönen Skins!",
+    "continue_limited": "Mit Einschränkungen fortfahren",
+    "unlock_premium_skin": "Schalte die Premium-Skin frei:",
+    "buy_now": "Jetzt kaufen - 4,99 €"
   },
-  "settings": {
+    "settings": {
     "title": "Einstellungen",
     "change_language": "Sprache ändern",
     "select_language": "Wähle eine Sprache",
