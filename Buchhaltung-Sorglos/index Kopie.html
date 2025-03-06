@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Buchhaltung-Sorglos App</title>
 
-    <!-- Einbindung von styles.css aus dem Main-Verzeichnis -->
-    <link rel="stylesheet" href="/Main/styles.css">
+    <!-- Einbindung von styles.css aus dem Root-Verzeichnis -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <!-- Menü wird über JavaScript aus dem Main-Verzeichnis geladen -->
+    <!-- Menü wird über JavaScript aus dem Root-Verzeichnis geladen -->
     <div id="menu"></div>
 
     <div class="container">
@@ -39,12 +39,12 @@
         &copy; 2025 Sorglos. Alle Rechte vorbehalten.
     </footer>
 
-    <!-- Menü aus dem Main-Verzeichnis über JavaScript laden -->
+    <!-- Menü aus dem Root-Verzeichnis über JavaScript laden -->
     <script>
-        fetch('/Main/menu.html')
+        fetch('menu.html')
             .then(response => response.text())
             .then(data => document.getElementById('menu').innerHTML = data);
     </script>
 
-<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'91c0c4c35c0c5084',t:'MTc0MTI1MjczNi4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</body>
 </html>
