@@ -50,7 +50,7 @@ nav ul li a:hover {
     color: #333;
 }
 
-/* Dropdown-Menü */
+/* Erstes Dropdown-Menü (Kategorien) */
 nav ul li ul {
     display: none;
     position: absolute;
@@ -67,13 +67,31 @@ nav ul li:hover > ul {
     display: block; /* Dropdown bei Hover anzeigen */
 }
 
+/* Zweites Untermenü (Apps) horizontal */
+nav ul li ul li ul {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%; /* Rechts neben dem ersten Untermenü */
+    background-color: #e68900; /* Etwas dunkler für Unterscheidung */
+    min-width: 250px;
+    padding: 0.5rem;
+    display: flex; /* Horizontal */
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 4px;
+}
+
+nav ul li ul li:hover > ul {
+    display: flex; /* Zeigt das horizontale Untermenü */
+}
+
 nav ul li ul li {
     margin: 0;
-    width: 100%;
 }
 
 nav ul li ul li a {
-    padding: 0.75rem 1rem;
+    padding: 0.5rem 1rem;
     font-size: 0.9rem;
 }
 
@@ -122,11 +140,23 @@ nav ul li ul li a {
         position: static;
         display: none;
         box-shadow: none;
-        background-color: #e68900; /* Etwas dunkler für Unterscheidung */
+        width: 100%;
     }
 
     nav ul li.active > ul {
-        display: block; /* Im Mobile-Modus per Klick anzeigen */
+        display: block;
+    }
+
+    nav ul li ul li ul {
+        position: static;
+        display: none;
+        flex-direction: column; /* Vertikal im Mobile-Modus */
+        background-color: #e68900;
+        width: 100%;
+    }
+
+    nav ul li ul li.active > ul {
+        display: block;
     }
 
     nav ul li ul li a {
