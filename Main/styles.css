@@ -25,7 +25,6 @@ nav ul {
     padding: 0;
 }
 
-/* Hauptebene Menüpunkte */
 nav > ul {
     display: flex;
     justify-content: center;
@@ -55,8 +54,12 @@ nav ul li a:active {
     color: #333;
 }
 
-/* Erstes Dropdown-Menü (Kategorien) - nur Desktop */
-nav ul li ul {
+/* Desktop-Menü */
+.desktop-menu {
+    display: flex;
+}
+
+.desktop-menu ul {
     display: none;
     position: absolute;
     top: 100%;
@@ -67,19 +70,31 @@ nav ul li ul {
     border-radius: 4px;
 }
 
-/* Zweites Untermenü (Apps) horizontal - nur Desktop */
-nav ul li ul li ul {
+.desktop-menu ul ul {
     top: 0;
     left: 100%;
     background-color: #e68900;
     min-width: 250px;
     padding: 0.5rem;
-    display: none;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
-/* Hamburger-Menü */
+@media (min-width: 901px) {
+    .desktop-menu li:hover > ul {
+        display: block;
+    }
+
+    .desktop-menu ul li:hover > ul {
+        display: flex;
+    }
+}
+
+/* Mobile-Menü */
+.mobile-menu {
+    display: none;
+}
+
 .hamburger {
     display: none;
     font-size: 2rem;
@@ -90,27 +105,12 @@ nav ul li ul li ul {
     padding: 0.5rem 1rem;
 }
 
-/* Desktop Hover */
-@media (min-width: 901px) {
-    nav ul li:hover > ul {
-        display: block;
-    }
-
-    nav ul li ul li:hover > ul {
-        display: flex;
-    }
-}
-
-/* Mobile Anpassungen */
 @media (max-width: 900px) {
-    .hamburger {
-        display: block;
-        position: absolute;
-        left: 0;
-        top: 0;
+    .desktop-menu {
+        display: none;
     }
 
-    nav > ul {
+    .mobile-menu {
         display: none;
         flex-direction: column;
         width: 100%;
@@ -120,20 +120,21 @@ nav ul li ul li ul {
         background-color: #ff9800;
     }
 
-    nav > ul.active {
+    .mobile-menu.active {
         display: flex;
     }
 
-    nav > ul > li {
+    .mobile-menu > li {
         margin: 0;
         width: 100%;
         text-align: left;
     }
 
-    /* Keine Dropdowns auf Mobil */
-    nav ul li ul,
-    nav ul li ul li ul {
-        display: none; /* Untermenüs werden komplett durch JS gesteuert */
+    .hamburger {
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
     }
 }
 
@@ -240,60 +241,6 @@ ul:not(nav ul) li strong {
 .container a:not(.download-button):hover {
     text-decoration: underline;
     color: #0056b3;
-}
-
-/* Formular-Elemente */
-label {
-    display: block;
-    margin-bottom: 0.5rem;
-    font-weight: bold;
-    color: #555;
-}
-
-select, textarea, input[type="submit"] {
-    width: 100%;
-    padding: 0.75rem;
-    margin: 0.5rem 0;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 1rem;
-    box-sizing: border-box;
-}
-
-input[type="submit"] {
-    background-color: #007bff;
-    color: white;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-input[type="submit"]:hover {
-    background-color: #0056b3;
-}
-
-/* Sternbewertung */
-.rating {
-    display: flex;
-    justify-content: center;
-    margin: 1rem 0;
-    direction: rtl;
-}
-
-.rating input {
-    display: none;
-}
-
-.rating label {
-    font-size: 2rem;
-    color: #ccc;
-    cursor: pointer;
-    transition: color 0.3s ease;
-}
-
-.rating input:checked ~ label,
-.rating label:hover,
-.rating label:hover ~ label {
-    color: #ffca28;
 }
 
 /* Footer */
