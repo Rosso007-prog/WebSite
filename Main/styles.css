@@ -26,15 +26,12 @@ nav ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    white-space: nowrap;
-    transition: all 0.3s ease;
 }
 
-nav ul li {
-    flex: 0 1 auto;
-    margin: 0.5rem 0.75rem;
+/* Hauptebene Menüpunkte */
+nav > ul > li {
+    position: relative;
+    margin: 0 1rem;
 }
 
 nav ul li a {
@@ -44,13 +41,40 @@ nav ul li a {
     padding: 0.5rem 1rem;
     transition: background-color 0.3s ease, color 0.3s ease;
     border-radius: 4px;
-    font-size: clamp(0.8rem, 2vw, 1rem);
+    font-size: 1rem;
     display: block;
 }
 
 nav ul li a:hover {
     background-color: #ffca28;
     color: #333;
+}
+
+/* Dropdown-Menü */
+nav ul li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #ff9800;
+    min-width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    z-index: 1000;
+}
+
+nav ul li:hover > ul {
+    display: block; /* Dropdown bei Hover anzeigen */
+}
+
+nav ul li ul li {
+    margin: 0;
+    width: 100%;
+}
+
+nav ul li ul li a {
+    padding: 0.75rem 1rem;
+    font-size: 0.9rem;
 }
 
 /* Hamburger-Menü */
@@ -66,21 +90,6 @@ nav ul li a:hover {
 
 /* Responsive Anpassungen */
 @media (max-width: 900px) {
-    nav ul {
-        flex-wrap: wrap;
-        justify-content: flex-start;
-    }
-
-    nav ul li {
-        margin: 0.3rem 0.5rem;
-    }
-
-    nav ul li a {
-        padding: 0.4rem 0.8rem;
-    }
-}
-
-@media (max-width: 600px) {
     .hamburger {
         display: block;
         position: absolute;
@@ -96,23 +105,32 @@ nav ul li a:hover {
         position: absolute;
         top: 100%;
         left: 0;
-        overflow-x: hidden;
-        white-space: normal;
     }
 
     nav ul.active {
         display: flex;
     }
 
-    nav ul li {
+    nav > ul > li {
         margin: 0.5rem 0;
-        text-align: center;
         width: 100%;
+        text-align: center;
     }
 
-    nav ul li a {
-        font-size: 1rem;
-        padding: 0.75rem;
+    /* Dropdown im Mobile-Modus */
+    nav ul li ul {
+        position: static;
+        display: none;
+        box-shadow: none;
+        background-color: #e68900; /* Etwas dunkler für Unterscheidung */
+    }
+
+    nav ul li.active > ul {
+        display: block; /* Im Mobile-Modus per Klick anzeigen */
+    }
+
+    nav ul li ul li a {
+        padding: 0.5rem 1rem;
     }
 }
 
@@ -160,14 +178,14 @@ img {
 }
 
 /* Listen-Styling */
-ul {
+ul:not(nav ul) {
     list-style: none;
     padding: 0;
     text-align: left;
     margin: 1rem 0;
 }
 
-ul li {
+ul:not(nav ul) li {
     margin: 1rem 0;
     padding-left: 1.5rem;
     position: relative;
@@ -175,7 +193,7 @@ ul li {
     line-height: 1.6;
 }
 
-ul li:before {
+ul:not(nav ul) li:before {
     content: "✔";
     color: #ff9800;
     position: absolute;
@@ -183,7 +201,7 @@ ul li:before {
     font-size: 1.2rem;
 }
 
-ul li strong {
+ul:not(nav ul) li strong {
     color: #333;
 }
 
@@ -221,7 +239,7 @@ ul li strong {
     color: #0056b3;
 }
 
-/* Formular-Elemente (für Bewertungsseite) */
+/* Formular-Elemente */
 label {
     display: block;
     margin-bottom: 0.5rem;
@@ -250,7 +268,7 @@ input[type="submit"]:hover {
     background-color: #0056b3;
 }
 
-/* Sternbewertung (für Bewertungsseite) */
+/* Sternbewertung */
 .rating {
     display: flex;
     justify-content: center;
