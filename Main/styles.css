@@ -71,14 +71,14 @@ nav ul li a:active {
 }
 
 .desktop-menu ul li {
-    position: relative; /* Wichtig für die Positionierung des zweiten Untermenüs */
+    position: relative;
 }
 
 .desktop-menu ul ul {
     display: none;
     position: absolute;
-    top: 0;
     left: 100%;
+    top: 0; /* Startet auf gleicher Höhe wie das übergeordnete <li> */
     background-color: #e68900;
     min-width: 250px;
     padding: 0.5rem;
@@ -93,8 +93,6 @@ nav ul li a:active {
 
     .desktop-menu ul li:hover > ul {
         display: flex;
-        top: 0; /* An die Oberkante des übergeordneten <li> binden */
-        left: 100%; /* Rechts neben der Kategorie */
     }
 }
 
@@ -176,6 +174,79 @@ p {
     font-size: 1rem;
     line-height: 1.6;
     margin: 0.5rem 0;
+}
+
+/* Bild-Styling (für Unterseiten) */
+img {
+    border-radius: 15px;
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 1rem auto;
+    display: block;
+}
+
+/* Listen-Styling (für Unterseiten) */
+ul:not(nav ul) {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    margin: 1rem 0;
+}
+
+ul:not(nav ul) li {
+    margin: 1rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+    color: #666;
+    line-height: 1.6;
+}
+
+ul:not(nav ul) li:before {
+    content: "✔";
+    color: #ff9800;
+    position: absolute;
+    left: 0;
+    font-size: 1.2rem;
+}
+
+ul:not(nav ul) li strong {
+    color: #333;
+}
+
+/* Download-Button (für Unterseiten) */
+.download-button {
+    display: inline-block;
+    margin-top: 1.5rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #ff9800;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.download-button:hover {
+    background-color: #e68900;
+    transform: scale(1.05);
+}
+
+/* Datenschutz-Link (für Unterseiten) */
+.container a:not(.download-button) {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    display: inline-block;
+}
+
+.container a:not(.download-button):hover {
+    text-decoration: underline;
+    color: #0056b3;
 }
 
 /* Formular-Elemente */

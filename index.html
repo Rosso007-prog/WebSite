@@ -52,23 +52,19 @@
     </div>
 
     <footer>
-        <p>Danke für dein Feedback! Version 1.5</p>
+        <p>Danke für dein Feedback! Version 1.6</p>
     </footer>
 
     <script>
         fetch('Main/menu.html')
             .then(response => {
-                if (!response.ok) {
-                    throw new Error('Menu konnte nicht geladen werden: ' + response.status);
-                }
+                if (!response.ok) throw new Error('Menu konnte nicht geladen werden');
                 return response.text();
             })
             .then(data => {
                 document.getElementById('menu').innerHTML = data;
             })
-            .catch(error => {
-                console.error('Fehler beim Laden des Menüs:', error);
-            });
+            .catch(error => console.error('Fehler beim Laden des Menüs:', error));
     </script>
 </body>
 </html>

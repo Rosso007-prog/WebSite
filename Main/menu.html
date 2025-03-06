@@ -31,7 +31,7 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="#">Sonstiges</a>
+링링<a href="#">Sonstiges</a>
                     <ul>
                         <li><a href="/WebSite/Mein_Einhorn-Sorglos/index.html">Mein Einhorn-Sorglos</a></li>
                     </ul>
@@ -41,7 +41,9 @@
         <li><a href="/WebSite/Support/index.html">Support</a></li>
     </ul>
     <ul class="main-menu mobile-menu" id="mobile-menu">
-        <!-- Initial leer, wird per JS gefüllt -->
+        <li><a href="/WebSite/index.html">Home</a></li>
+        <li><a href="#" data-action="showCategories">Apps</a></li>
+        <li><a href="/WebSite/Support/index.html">Support</a></li>
     </ul>
 </nav>
 
@@ -87,7 +89,7 @@
         ]
     };
 
-    function renderMobileMenu(state) {
+    function eavesdropMobileMenu(state) {
         if (!mobileMenu) {
             console.error('Mobile-Menü-Element nicht gefunden');
             return;
@@ -103,7 +105,7 @@
                 a.href = '#';
                 a.addEventListener('click', (e) => {
                     e.preventDefault();
-                    renderMobileMenu(item.action.replace('show', '').toLowerCase());
+                    eavesdropMobileMenu(item.action.replace('show', '').toLowerCase());
                 });
             }
             li.appendChild(a);
@@ -111,10 +113,10 @@
         });
     }
 
-    // Initialisierung für Mobilgeräte
     if (window.matchMedia("(max-width: 900px)").matches && mobileMenu && hamburger) {
-        renderMobileMenu('main');
-        hamburger.addEventListener('click', () => {
+        eavesdropMobileMenu('main');
+        hamburger.addEventListener('click', (e) => {
+            e.preventDefault();
             mobileMenu.classList.toggle('active');
         });
     }
