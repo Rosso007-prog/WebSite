@@ -55,7 +55,7 @@ nav ul li a:active {
     color: #333;
 }
 
-/* Erstes Dropdown-Menü (Kategorien) */
+/* Erstes Dropdown-Menü (Kategorien) - nur Desktop */
 nav ul li ul {
     display: none;
     position: absolute;
@@ -67,14 +67,14 @@ nav ul li ul {
     border-radius: 4px;
 }
 
-/* Zweites Untermenü (Apps) horizontal */
+/* Zweites Untermenü (Apps) horizontal - nur Desktop */
 nav ul li ul li ul {
     top: 0;
     left: 100%;
     background-color: #e68900;
     min-width: 250px;
     padding: 0.5rem;
-    display: none; /* Standardmäßig aus */
+    display: none;
     flex-direction: row;
     flex-wrap: wrap;
 }
@@ -93,11 +93,11 @@ nav ul li ul li ul {
 /* Desktop Hover */
 @media (min-width: 901px) {
     nav ul li:hover > ul {
-        display: block; /* Öffnet erstes Untermenü */
+        display: block;
     }
 
     nav ul li ul li:hover > ul {
-        display: flex; /* Öffnet zweites Untermenü horizontal */
+        display: flex;
     }
 }
 
@@ -111,7 +111,7 @@ nav ul li ul li ul {
     }
 
     nav > ul {
-        display: none; /* Standardmäßig ausgeblendet */
+        display: none;
         flex-direction: column;
         width: 100%;
         position: absolute;
@@ -121,7 +121,7 @@ nav ul li ul li ul {
     }
 
     nav > ul.active {
-        display: flex; /* Per JS einblenden */
+        display: flex;
     }
 
     nav > ul > li {
@@ -130,34 +130,10 @@ nav ul li ul li ul {
         text-align: left;
     }
 
-    nav ul li ul {
-        position: static;
-        width: 100%;
-        box-shadow: none;
-        background-color: #ff9800;
-        display: none; /* Standardmäßig ausgeblendet */
-    }
-
-    nav ul li.active > ul {
-        display: block; /* Per JS einblenden */
-    }
-
+    /* Keine Dropdowns auf Mobil */
+    nav ul li ul,
     nav ul li ul li ul {
-        position: static;
-        flex-direction: column;
-        background-color: #e68900;
-        width: 100%;
-        padding: 0;
-        display: none; /* Standardmäßig ausgeblendet */
-    }
-
-    nav ul li ul li.active > ul {
-        display: block; /* Per JS einblenden */
-    }
-
-    nav ul li ul li a {
-        padding: 0.75rem 1.5rem;
-        font-size: 0.9rem;
+        display: none; /* Untermenüs werden komplett durch JS gesteuert */
     }
 }
 

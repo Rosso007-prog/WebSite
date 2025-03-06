@@ -1,69 +1,163 @@
 <nav>
     <button class="hamburger">☰</button>
-    <ul class="main-menu">
-        <li><a href="/WebSite/index.html">Home</a></li>
-        <li>
-            <a href="#">Apps</a>
-            <ul>
-                <li>
-                    <a href="#">Produktivität</a>
-                    <ul>
-                        <li><a href="/WebSite/Buchhaltung-Sorglos/index.html">Buchhaltung-Sorglos</a></li>
-                        <li><a href="/WebSite/Anything2ERP/index.html">Anything2ERP</a></li>
-                        <li><a href="/WebSite/Sortly-Sorglos/index.html">Sortly-Sorglos</a></li>
-                        <li><a href="/WebSite/Sorglos-Wachsen/index.html">Sorglos-Wachsen</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#">Tools</a>
-                    <ul>
-                        <li><a href="/WebSite/SpeedTest-Sorglos/index.html">SpeedTest-Sorglos</a></li>
-                        <li><a href="/WebSite/My_Grill_Timer-Sorglos/index.html">My Grill Timer</a></li>
-                        <li><a href="/WebSite/Eieruhr_Pro-Sorglos/index.html">Eieruhr Pro</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#">Kreativität</a>
-                    <ul>
-                        <li><a href="/WebSite/Mein_Malbuch-Sorglos/index.html">Mein Malbuch</a></li>
-                        <li><a href="/WebSite/FotoSafe-Sorglos/index.html">FotoSafe-Sorglos</a></li>
-                        <li><a href="/WebSite/GedaechtnisProfi-Sorglos/index.html">GedächtnisProfi-Sorglos</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#">Sonstiges</a>
-                    <ul>
-                        <li><a href="/WebSite/Mein_Einhorn-Sorglos/index.html">Mein Einhorn-Sorglos</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </li>
-        <li><a href="/WebSite/Support/index.html">Support</a></li>
-    </ul>
+    <ul class="main-menu" id="main-menu"></ul>
 </nav>
 
 <script>
-    // Hamburger-Menü Toggle (nur für Mobile)
-    const hamburger = document.querySelector('.hamburger');
-    const mainMenu = document.querySelector('.main-menu');
+    // Menü-Daten
+    const menuData = {
+        main: [
+            { text: 'Home', href: '/WebSite/index.html' },
+            { text: 'Apps', action: 'showCategories' },
+            { text: 'Support', href: '/WebSite/Support/index.html' }
+        ],
+        categories: [
+            { text: 'Zurück', action: 'showMain' },
+            { text: 'Produktivität', action: 'showProductivity' },
+            { text: 'Tools', action: 'showTools' },
+            { text: 'Kreativität', action: 'showCreativity' },
+            { text: 'Sonstiges', action: 'showMisc' }
+        ],
+        productivity: [
+            { text: 'Zurück', action: 'showCategories' },
+            { text: 'Buchhaltung-Sorglos', href: '/WebSite/Buchhaltung-Sorglos/index.html' },
+            { text: 'Anything2ERP', href: '/WebSite/Anything2ERP/index.html' },
+            { text: 'Sortly-Sorglos', href: '/WebSite/Sortly-Sorglos/index.html' },
+            { text: 'Sorglos-Wachsen', href: '/WebSite/Sorglos-Wachsen/index.html' }
+        ],
+        tools: [
+            { text: 'Zurück', action: 'showCategories' },
+            { text: 'SpeedTest-Sorglos', href: '/WebSite/SpeedTest-Sorglos/index.html' },
+            { text: 'My Grill Timer', href: '/WebSite/My_Grill_Timer-Sorglos/index.html' },
+            { text: 'Eieruhr Pro', href: '/WebSite/Eieruhr_Pro-Sorglos/index.html' }
+        ],
+        creativity: [
+            { text: 'Zurück', action: 'showCategories' },
+            { text: 'Mein Malbuch', href: '/WebSite/Mein_Malbuch-Sorglos/index.html' },
+            { text: 'FotoSafe-Sorglos', href: '/WebSite/FotoSafe-Sorglos/index.html' },
+            { text: 'GedächtnisProfi-Sorglos', href: '/WebSite/GedaechtnisProfi-Sorglos/index.html' }
+        ],
+        misc: [
+            { text: 'Zurück', action: 'showCategories' },
+            { text: 'Mein Einhorn-Sorglos', href: '/WebSite/Mein_Einhorn-Sorglos/index.html' }
+        ]
+    };
 
-    if (hamburger && mainMenu) {
-        hamburger.addEventListener('click', () => {
-            mainMenu.classList.toggle('active');
+    // Menü rendern
+    function renderMenu(items) {
+        const menu = document.getElementById('main-menu');
+        menu.innerHTML = '';
+        items.forEach(item => {
+            const li = document.createElement('li');
+            const a = document.createElement('a');
+            a.textContent = item.text;
+            if (item.href) {
+                a.href = item.href;
+            } else if (item.action) {
+                a.href = '#';
+                a.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    window[item.action]();
+                });
+            }
+            li.appendChild(a);
+            menu.appendChild(li);
         });
     }
 
-    // Untermenüs per Klick öffnen (nur auf Mobilgeräten)
+    // Menü-Funktionen
+    window.showMain = () => renderMenu(menuData.main);
+    window.showCategories = () => renderMenu(menuData.categories);
+    window.showProductivity = () => renderMenu(menuData.productivity);
+    window.showTools = () => renderMenu(menuData.tools);
+    window.showCreativity = () => renderMenu(menuData.creativity);
+    window.showMisc = () => renderMenu(menuData.misc);
+
+    // Initiales Menü
     if (window.matchMedia("(max-width: 900px)").matches) {
-        document.querySelectorAll('nav ul li > a').forEach(item => {
-            item.addEventListener('click', (e) => {
-                const parentLi = item.parentElement;
-                const subMenu = parentLi.querySelector('ul');
-                if (subMenu) {
-                    e.preventDefault();
-                    parentLi.classList.toggle('active');
-                }
-            });
+        renderMenu(menuData.main); // Mobiles Menü
+    } else {
+        // Desktop: Statisches Dropdown-Menü
+        renderMenu([
+            { text: 'Home', href: '/WebSite/index.html' },
+            {
+                text: 'Apps',
+                subMenu: [
+                    {
+                        text: 'Produktivität',
+                        subMenu: [
+                            { text: 'Buchhaltung-Sorglos', href: '/WebSite/Buchhaltung-Sorglos/index.html' },
+                            { text: 'Anything2ERP', href: '/WebSite/Anything2ERP/index.html' },
+                            { text: 'Sortly-Sorglos', href: '/WebSite/Sortly-Sorglos/index.html' },
+                            { text: 'Sorglos-Wachsen', href: '/WebSite/Sorglos-Wachsen/index.html' }
+                        ]
+                    },
+                    {
+                        text: 'Tools',
+                        subMenu: [
+                            { text: 'SpeedTest-Sorglos', href: '/WebSite/SpeedTest-Sorglos/index.html' },
+                            { text: 'My Grill Timer', href: '/WebSite/My_Grill_Timer-Sorglos/index.html' },
+                            { text: 'Eieruhr Pro', href: '/WebSite/Eieruhr_Pro-Sorglos/index.html' }
+                        ]
+                    },
+                    {
+                        text: 'Kreativität',
+                        subMenu: [
+                            { text: 'Mein Malbuch', href: '/WebSite/Mein_Malbuch-Sorglos/index.html' },
+                            { text: 'FotoSafe-Sorglos', href: '/WebSite/FotoSafe-Sorglos/index.html' },
+                            { text: 'GedächtnisProfi-Sorglos', href: '/WebSite/GedaechtnisProfi-Sorglos/index.html' }
+                        ]
+                    },
+                    {
+                        text: 'Sonstiges',
+                        subMenu: [
+                            { text: 'Mein Einhorn-Sorglos', href: '/WebSite/Mein_Einhorn-Sorglos/index.html' }
+                        ]
+                    }
+                ]
+            },
+            { text: 'Support', href: '/WebSite/Support/index.html' }
+        ].map(item => {
+            const li = document.createElement('li');
+            const a = document.createElement('a');
+            a.textContent = item.text;
+            if (item.href) a.href = item.href;
+            li.appendChild(a);
+            if (item.subMenu) {
+                const ul = document.createElement('ul');
+                item.subMenu.forEach(subItem => {
+                    const subLi = document.createElement('li');
+                    const subA = document.createElement('a');
+                    subA.textContent = subItem.text;
+                    if (subItem.href) subA.href = subItem.href;
+                    subLi.appendChild(subA);
+                    if (subItem.subMenu) {
+                        const subUl = document.createElement('ul');
+                        subItem.subMenu.forEach(subSubItem => {
+                            const subSubLi = document.createElement('li');
+                            const subSubA = document.createElement('a');
+                            subSubA.textContent = subSubItem.text;
+                            subSubA.href = subSubItem.href;
+                            subSubLi.appendChild(subSubA);
+                            subUl.appendChild(subSubLi);
+                        });
+                        subLi.appendChild(subUl);
+                    }
+                    ul.appendChild(subLi);
+                });
+                li.appendChild(ul);
+            }
+            return li.outerHTML;
+        })).join(''));
+        document.getElementById('main-menu').innerHTML = menu.outerHTML;
+    }
+
+    // Hamburger-Menü Toggle (nur für Mobile)
+    const hamburger = document.querySelector('.hamburger');
+    const mainMenu = document.getElementById('main-menu');
+    if (hamburger && mainMenu && window.matchMedia("(max-width: 900px)").matches) {
+        hamburger.addEventListener('click', () => {
+            mainMenu.classList.toggle('active');
         });
     }
 </script>
