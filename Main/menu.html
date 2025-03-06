@@ -41,14 +41,11 @@
         <li><a href="/WebSite/Support/index.html">Support</a></li>
     </ul>
     <ul class="main-menu mobile-menu" id="mobile-menu">
-        <li><a href="/WebSite/index.html">Home</a></li>
-        <li><a href="#" data-action="showCategories">Apps</a></li>
-        <li><a href="/WebSite/Support/index.html">Support</a></li>
+        <!-- Initial leer, wird per JS gefüllt -->
     </ul>
 </nav>
 
 <script>
-    // Mobile Menü-Logik
     const mobileMenu = document.getElementById('mobile-menu');
     const hamburger = document.querySelector('.hamburger');
 
@@ -91,7 +88,10 @@
     };
 
     function renderMobileMenu(state) {
-        if (!mobileMenu) return;
+        if (!mobileMenu) {
+            console.error('Mobile-Menü-Element nicht gefunden');
+            return;
+        }
         mobileMenu.innerHTML = '';
         menuStates[state].forEach(item => {
             const li = document.createElement('li');
@@ -111,7 +111,7 @@
         });
     }
 
-    // Initialisierung
+    // Initialisierung für Mobilgeräte
     if (window.matchMedia("(max-width: 900px)").matches && mobileMenu && hamburger) {
         renderMobileMenu('main');
         hamburger.addEventListener('click', () => {

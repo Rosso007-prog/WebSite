@@ -171,90 +171,42 @@ p {
     margin: 0.5rem 0;
 }
 
-/* Bild-Styling */
-img {
-    border-radius: 15px;
-    width: 100%;
-    max-width: 150px;
-    height: auto;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin: 1rem auto;
+/* Formular-Elemente */
+label {
     display: block;
-}
-
-/* Listen-Styling */
-ul:not(nav ul) {
-    list-style: none;
-    padding: 0;
-    text-align: left;
-    margin: 1rem 0;
-}
-
-ul:not(nav ul) li {
-    margin: 1rem 0;
-    padding-left: 1.5rem;
-    position: relative;
-    color: #666;
-    line-height: 1.6;
-}
-
-ul:not(nav ul) li:before {
-    content: "✔";
-    color: #ff9800;
-    position: absolute;
-    left: 0;
-    font-size: 1.2rem;
-}
-
-ul:not(nav ul) li strong {
-    color: #333;
-}
-
-/* Download-Button */
-.download-button {
-    display: inline-block;
-    margin-top: 1.5rem;
-    padding: 0.75rem 1.5rem;
-    background-color: #ff9800;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 1rem;
+    margin-bottom: 0.5rem;
     font-weight: bold;
-    transition: background-color 0.3s ease, transform 0.3s ease;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: #555;
 }
 
-.download-button:hover {
-    background-color: #e68900;
-    transform: scale(1.05);
+select, textarea, input[type="submit"] {
+    width: 100%;
+    padding: 0.75rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    box-sizing: border-box;
 }
 
-/* Datenschutz-Link */
-.container a:not(.download-button) {
-    color: #007bff;
-    text-decoration: none;
-    font-size: 0.9rem;
-    margin-top: 1rem;
-    display: inline-block;
+input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
-.container a:not(.download-button):hover {
-    text-decoration: underline;
-    color: #0056b3;
+input[type="submit"]:hover {
+    background-color: #0056b3;
 }
 
-/* Footer */
-footer {
-    margin-top: auto;
-    padding: 1rem;
-    font-size: 0.9rem;
-    color: #777;
-    text-align: center;
+/* Sternbewertung */
+.rating {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+    direction: rtl;
 }
 
-/* Animation */
-@keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
-}
+.rating input {
+    display: none
