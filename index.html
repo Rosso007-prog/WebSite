@@ -6,18 +6,55 @@
     <meta name="description" content="Bewerte unsere Apps und gib dein Feedback ab">
     <title>App-Bewertungen</title>
     <link rel="stylesheet" href="Main/styles.css">
-    <!-- Primäre Einbindung -->
     <link rel="stylesheet" href="Main/mobile.css">
-    <!-- Fallback: Relativer Pfad mit "../" falls index.html in einem Unterverzeichnis liegt -->
-    <link rel="stylesheet" href="../Main/mobile.css" id="mobile-fallback">
+    <!-- Inline-CSS als Fallback, um Pfadprobleme auszuschließen -->
+    <style>
+        @media (max-width: 900px) {
+            .desktop-menu {
+                display: none;
+            }
+            .hamburger {
+                display: block;
+                font-size: 2rem;
+                background: none;
+                border: none;
+                color: white;
+                cursor: pointer;
+                padding: 0.5rem 1rem;
+                position: absolute;
+                left: 0;
+                top: 0;
+            }
+            .mobile-menu {
+                display: none;
+                flex-direction: column;
+                width: 100%;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                background-color: #007bff; /* Blau zum Testen */
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            }
+            .mobile-menu.active {
+                display: flex;
+            }
+            .mobile-menu > li {
+                margin: 0;
+                width: 100%;
+                text-align: left;
+            }
+            .mobile-menu li a {
+                padding: 0.75rem 1.5rem;
+                font-size: 1rem;
+                color: white;
+            }
+        }
+    </style>
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             const mobileCss = document.querySelector('link[href="Main/mobile.css"]');
-            const mobileFallback = document.querySelector('#mobile-fallback');
-            if (mobileCss && mobileCss.sheet) console.log('Main/mobile.css geladen');
-            else console.error('Main/mobile.css nicht geladen');
-            if (mobileFallback && mobileFallback.sheet) console.log('../Main/mobile.css geladen');
-            else console.error('../Main/mobile.css nicht geladen');
+            if (mobileCss) console.log('mobile.css gefunden');
+            else console.error('mobile.css nicht gefunden');
         });
     </script>
 </head>
