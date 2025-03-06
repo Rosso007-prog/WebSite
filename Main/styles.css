@@ -10,8 +10,8 @@ body {
 
 /* Navigation */
 nav {
-    background-color: #ff9800; /* Orange */
-    padding: 1rem;
+    background-color: #ff9800;
+    padding: 0.5rem 1rem;
     width: 100%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     position: sticky;
@@ -25,11 +25,16 @@ nav ul {
     padding: 0;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap; /* Ermöglicht Umbruch bei vielen Links */
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    white-space: nowrap;
+    transition: all 0.3s ease;
 }
 
 nav ul li {
-    margin: 0.5rem 1rem;
+    flex: 0 1 auto;
+    margin: 0.5rem 0.75rem;
 }
 
 nav ul li a {
@@ -39,6 +44,8 @@ nav ul li a {
     padding: 0.5rem 1rem;
     transition: background-color 0.3s ease, color 0.3s ease;
     border-radius: 4px;
+    font-size: clamp(0.8rem, 2vw, 1rem);
+    display: block;
 }
 
 nav ul li a:hover {
@@ -46,7 +53,7 @@ nav ul li a:hover {
     color: #333;
 }
 
-/* Hamburger-Menü für Mobile */
+/* Hamburger-Menü */
 .hamburger {
     display: none;
     font-size: 2rem;
@@ -57,7 +64,23 @@ nav ul li a:hover {
     padding: 0.5rem;
 }
 
-@media (max-width: 768px) {
+/* Responsive Anpassungen */
+@media (max-width: 900px) {
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    nav ul li {
+        margin: 0.3rem 0.5rem;
+    }
+
+    nav ul li a {
+        padding: 0.4rem 0.8rem;
+    }
+}
+
+@media (max-width: 600px) {
     .hamburger {
         display: block;
         position: absolute;
@@ -73,6 +96,8 @@ nav ul li a:hover {
         position: absolute;
         top: 100%;
         left: 0;
+        overflow-x: hidden;
+        white-space: normal;
     }
 
     nav ul.active {
@@ -82,6 +107,12 @@ nav ul li a:hover {
     nav ul li {
         margin: 0.5rem 0;
         text-align: center;
+        width: 100%;
+    }
+
+    nav ul li a {
+        font-size: 1rem;
+        padding: 0.75rem;
     }
 }
 
@@ -104,6 +135,93 @@ h1 {
     margin-bottom: 1.5rem;
 }
 
+h2 {
+    color: #555;
+    font-size: 1.5rem;
+    margin: 1.5rem 0 1rem;
+}
+
+p {
+    color: #666;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 0.5rem 0;
+}
+
+/* Bild-Styling */
+img {
+    border-radius: 15px;
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 1rem auto;
+    display: block;
+}
+
+/* Listen-Styling */
+ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    margin: 1rem 0;
+}
+
+ul li {
+    margin: 1rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+    color: #666;
+    line-height: 1.6;
+}
+
+ul li:before {
+    content: "✔";
+    color: #ff9800;
+    position: absolute;
+    left: 0;
+    font-size: 1.2rem;
+}
+
+ul li strong {
+    color: #333;
+}
+
+/* Download-Button */
+.download-button {
+    display: inline-block;
+    margin-top: 1.5rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #ff9800;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.download-button:hover {
+    background-color: #e68900;
+    transform: scale(1.05);
+}
+
+/* Datenschutz-Link */
+.container a:not(.download-button) {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    display: inline-block;
+}
+
+.container a:not(.download-button):hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+/* Formular-Elemente (für Bewertungsseite) */
 label {
     display: block;
     margin-bottom: 0.5rem;
@@ -132,12 +250,12 @@ input[type="submit"]:hover {
     background-color: #0056b3;
 }
 
-/* Sternbewertung */
+/* Sternbewertung (für Bewertungsseite) */
 .rating {
     display: flex;
     justify-content: center;
     margin: 1rem 0;
-    direction: rtl; /* Für korrekte Reihenfolge der Sterne */
+    direction: rtl;
 }
 
 .rating input {
