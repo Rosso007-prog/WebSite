@@ -3,62 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Bewerte unsere Apps und gib dein Feedback ab">
-    <title>App-Bewertungen</title>
-    <link rel="stylesheet" href="Main/styles.css">
+    <title>Buchhaltung-Sorglos App</title>
+    <link rel="stylesheet" href="../Main/styles.css">
 </head>
 <body>
     <div id="menu"></div>
 
     <div class="container">
-        <h1>Bewerte unsere Apps</h1>
+        <h1>Buchhaltung-Sorglos App</h1>
+        <img src="https://rosso007-prog.github.io/WebSite/Buchhaltung-Sorglos/AppIcon150x150.png" alt="Buchhaltung-Sorglos - App">
+        <h1>Buchhaltung-Sorglos – Deine umfassende Buchhaltungs- und Rechnungsverwaltungs-App</h1>
+        <p>Die Buchhaltung-Sorglos App wurde speziell für kleine Unternehmen, Freelancer und Selbständige entwickelt. Sie bietet dir alle nötigen Werkzeuge, um deine Buchhaltung effizient und zeitsparend zu organisieren. Von der Rechnungs- und Angebotserstellung bis zur Verwaltung deiner Kunden – alles in einer App.</p>
+        
+        <h2>Features und Funktionen:</h2>
+        <ul>
+            <li><strong>Rechnungs- und Angebotserstellung:</strong> Erstelle professionelle Rechnungen und Angebote schnell und einfach, verwalte deine offenen Posten und sende Dokumente direkt an deine Kunden.</li>
+            <li><strong>Kundenverwaltung:</strong> Behalte den Überblick über deine Kunden und deren Kontaktinformationen, damit du jederzeit bereit bist, Kundenbeziehungen zu pflegen und zu erweitern.</li>
+            <li><strong>Buchhaltungsübersicht:</strong> Analysiere deine Einnahmen und Ausgaben über monatliche und jährliche Berichte, um jederzeit einen umfassenden Einblick in deine Finanzen zu haben.</li>
+            <li><strong>Datenspeicherung:</strong> Alle Daten werden sicher auf deinem Gerät gespeichert. Eine Synchronisierung über iCloud ist in Arbeit und wird in zukünftigen Versionen verfügbar sein.</li>
+            <li><strong>PDF-Export:</strong> Exportiere Rechnungen, Angebote und Berichte als PDF und teile sie einfach mit deinen Kunden oder speichere sie für deine Unterlagen.</li>
+            <li><strong>Benutzerfreundliches Design:</strong> Die App ist intuitiv gestaltet und ermöglicht eine einfache Navigation, sodass du alle Funktionen schnell findest und effizient arbeiten kannst.</li>
+        </ul>
 
-        <form action="#" method="POST">
-            <div class="app-select">
-                <label for="app">Wähle eine App</label>
-                <select id="app" name="app">
-                    <option value="Anything2ERP">Anything2ERP</option>
-                    <option value="Sortly-Sorglos">Sortly-Sorglos</option>
-                    <option value="Sorglos-Wachsen">Sorglos-Wachsen</option>
-                    <option value="FotoSafe-Sorglos">FotoSafe-Sorglos</option>
-                    <option value="GedaechtnisProfi-Sorglos">GedächtnisProfi-Sorglos</option>
-                    <option value="Buchhaltung-Sorglos">Buchhaltung-Sorglos</option>
-                    <option value="My Grill Timer">My Grill Timer</option>
-                    <option value="Eieruhr Pro-Sorglos">Eieruhr Pro-Sorglos</option>
-                    <option value="Mein Malbuch-Sorglos">Mein Malbuch-Sorglos</option>
-                </select>
-            </div>
-
-            <div class="rating">
-                <input type="radio" id="star5" name="rating" value="5">
-                <label for="star5" title="5 Sterne">★</label>
-                <input type="radio" id="star4" name="rating" value="4">
-                <label for="star4" title="4 Sterne">★</label>
-                <input type="radio" id="star3" name="rating" value="3">
-                <label for="star3" title="3 Sterne">★</label>
-                <input type="radio" id="star2" name="rating" value="2">
-                <label for="star2" title="2 Sterne">★</label>
-                <input type="radio" id="star1" name="rating" value="1">
-                <label for="star1" title="1 Stern">★</label>
-            </div>
-
-            <div>
-                <label for="feedback">Dein Feedback</label>
-                <textarea id="feedback" name="feedback" rows="4" placeholder="Deine Meinung zur App..."></textarea>
-            </div>
-
-            <input type="submit" value="Bewertung absenden">
-        </form>
+        <p>Mit der Buchhaltung-Sorglos App bleibt deine Buchhaltung stressfrei und organisiert. Spare Zeit und fokussiere dich auf das Wachstum deines Unternehmens!</p>
+        
+        <a href="https://apps.apple.com/de/app/buchhaltung-sorglos/id6737428527" class="download-button">Jetzt herunterladen</a>
+        <p><a href="../Main/Datenschutz1.html">Datenschutzerklärung</a></p>
     </div>
 
     <footer>
-        <p>Danke für dein Feedback! Version 1.3</p>
+        © 2025 Sorglos. Alle Rechte vorbehalten.
     </footer>
 
     <script>
-        fetch('Main/menu.html')
-            .then(response => response.text())
-            .then(data => document.getElementById('menu').innerHTML = data);
+        fetch('../Main/menu.html')
+            .then(response => {
+                if (!response.ok) throw new Error('Menu konnte nicht geladen werden');
+                return response.text();
+            })
+            .then(data => {
+                document.getElementById('menu').innerHTML = data;
+            })
+            .catch(error => console.error('Fehler beim Laden des Menüs:', error));
     </script>
 </body>
 </html>
