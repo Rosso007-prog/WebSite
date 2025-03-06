@@ -56,10 +56,10 @@ nav ul li a:active {
 
 /* Desktop-Menü */
 .desktop-menu {
-    display: flex !important;
+    display: flex;
 }
 
-.desktop-menu .submenu {
+.desktop-menu ul {
     display: none;
     position: absolute;
     top: 100%;
@@ -68,10 +68,9 @@ nav ul li a:active {
     min-width: 200px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 4px;
-    z-index: 1001;
 }
 
-.desktop-menu .submenu .submenu {
+.desktop-menu ul ul {
     top: 0;
     left: 100%; /* Rechts daneben */
     background-color: #e68900;
@@ -79,7 +78,7 @@ nav ul li a:active {
 }
 
 @media (min-width: 901px) {
-    .desktop-menu li:hover > .submenu {
+    .desktop-menu li:hover > ul {
         display: block;
     }
 
