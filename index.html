@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Bewerte unsere Apps und gib dein Feedback ab">
     <title>App-Bewertungen</title>
-    <link rel="stylesheet" href="/Main/styles.css">
+    <link rel="stylesheet" href="Main/styles.css">
 </head>
 <body>
     <div id="menu"></div>
@@ -56,7 +56,7 @@
     </footer>
 
     <script>
-        fetch('/Main/menu.html')
+        fetch('Main/menu.html')
             .then(response => response.text())
             .then(data => document.getElementById('menu').innerHTML = data);
     </script>
