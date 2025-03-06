@@ -43,10 +43,9 @@ nav ul li a {
     border-radius: 4px;
     font-size: 1rem;
     display: block;
-    -webkit-tap-highlight-color: transparent; /* Entfernt blaue Hervorhebung auf iOS */
+    -webkit-tap-highlight-color: transparent;
 }
 
-/* Hover- und Aktiv-Styling */
 nav ul li a:hover,
 nav ul li a:active {
     background-color: #ffca28;
@@ -68,17 +67,13 @@ nav ul li ul {
 
 /* Zweites Untermenü (Apps) horizontal */
 nav ul li ul li ul {
-    display: none;
-    position: absolute;
     top: 0;
     left: 100%;
     background-color: #e68900;
     min-width: 250px;
     padding: 0.5rem;
-    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    border-radius: 4px;
 }
 
 /* Hamburger-Menü */
@@ -101,7 +96,7 @@ nav ul li ul li ul {
         top: 0;
     }
 
-    nav ul {
+    nav > ul {
         display: none;
         flex-direction: column;
         width: 100%;
@@ -111,7 +106,7 @@ nav ul li ul li ul {
         left: 0;
     }
 
-    nav ul.active {
+    nav > ul.active {
         display: flex;
     }
 
@@ -121,30 +116,19 @@ nav ul li ul li ul {
         text-align: left;
     }
 
-    /* Dropdown im Mobile-Modus */
     nav ul li ul {
         position: static;
-        display: none;
         width: 100%;
         box-shadow: none;
         background-color: #ff9800;
     }
 
-    nav ul li.active > ul {
-        display: block;
-    }
-
     nav ul li ul li ul {
         position: static;
-        display: none;
         flex-direction: column;
         background-color: #e68900;
         width: 100%;
         padding: 0;
-    }
-
-    nav ul li ul li.active > ul {
-        display: block;
     }
 
     nav ul li ul li a {
@@ -325,4 +309,15 @@ footer {
 @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
+}
+
+/* Desktop Hover (nicht im Media Query, um Standardverhalten zu setzen) */
+@media (min-width: 901px) {
+    nav ul li:hover > ul {
+        display: block;
+    }
+
+    nav ul li ul li:hover > ul {
+        display: flex;
+    }
 }

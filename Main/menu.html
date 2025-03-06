@@ -47,42 +47,31 @@
     const hamburger = document.querySelector('.hamburger');
     const mainMenu = document.querySelector('.main-menu');
 
-    hamburger.addEventListener('click', (e) => {
-        e.preventDefault();
-        mainMenu.classList.toggle('active');
-    });
-
-    // Untermenüs per Klick öffnen (Desktop und Mobile)
-    document.querySelectorAll('nav ul li a').forEach(item => {
-        item.addEventListener('click', (e) => {
-            const parentLi = item.parentElement;
-            const subMenu = parentLi.querySelector('ul');
-
-            if (subMenu) {
-                e.preventDefault(); // Verhindert Navigation bei Klick auf Kategorie
-                parentLi.classList.toggle('active');
-
-                // Schließt andere offene Menüs auf derselben Ebene
-                parentLi.parentElement.querySelectorAll('li').forEach(sibling => {
-                    if (sibling !== parentLi && sibling.classList.contains('active')) {
-                        sibling.classList.remove('active');
-                    }
-                });
-            }
+    if (hamburger && mainMenu) {
+        hamburger.addEventListener('click', (e) => {
+            e.preventDefault();
+            mainMenu.classList.toggle('active');
         });
-    });
+    }
 
-    // Sicherstellen, dass Hover auf Desktop funktioniert
-    if (window.innerWidth > 900) {
-        document.querySelectorAll('nav ul li').forEach(item => {
-            item.addEventListener('mouseenter', () => {
-                const subMenu = item.querySelector('ul');
+    // Untermenüs per Klick öffnen (nur auf Mobilgeräten)
+    if (window.matchMedia("(max-width: 900px)").matches) {
+        document.querySelectorAll('nav ul li a').forEach(item => {
+            item.addEventListener('click', (e) => {
+                const parentLi = item.parentElement;
+                const subMenu = parentLi.querySelector('ul');
+
                 if (subMenu) {
-                    item.classList.add('active');
+                    e.preventDefault();
+                    parentLi.classList.toggle('active');
+
+                    // Schließt andere offene Menüs auf derselben Ebene
+                    parentLi.parentElement.querySelectorAll('li').forEach(sibling => {
+                        if (sibling !== parentLi && sibling.classList.contains('active')) {
+                            sibling.classList.remove('active');
+                        }
+                    });
                 }
-            });
-            item.addEventListener('mouseleave', () => {
-                item.classList.remove('active');
             });
         });
     }
