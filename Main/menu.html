@@ -43,34 +43,25 @@
 </nav>
 
 <script>
-    // Hamburger-Menü Toggle
+    // Hamburger-Menü Toggle (nur für Mobile)
     const hamburger = document.querySelector('.hamburger');
     const mainMenu = document.querySelector('.main-menu');
 
     if (hamburger && mainMenu) {
-        hamburger.addEventListener('click', (e) => {
-            e.preventDefault();
+        hamburger.addEventListener('click', () => {
             mainMenu.classList.toggle('active');
         });
     }
 
     // Untermenüs per Klick öffnen (nur auf Mobilgeräten)
     if (window.matchMedia("(max-width: 900px)").matches) {
-        document.querySelectorAll('nav ul li a').forEach(item => {
+        document.querySelectorAll('nav ul li > a').forEach(item => {
             item.addEventListener('click', (e) => {
                 const parentLi = item.parentElement;
                 const subMenu = parentLi.querySelector('ul');
-
                 if (subMenu) {
                     e.preventDefault();
                     parentLi.classList.toggle('active');
-
-                    // Schließt andere offene Menüs auf derselben Ebene
-                    parentLi.parentElement.querySelectorAll('li').forEach(sibling => {
-                        if (sibling !== parentLi && sibling.classList.contains('active')) {
-                            sibling.classList.remove('active');
-                        }
-                    });
                 }
             });
         });

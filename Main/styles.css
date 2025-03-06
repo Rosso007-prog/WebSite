@@ -23,12 +23,15 @@ nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
+}
+
+/* Hauptebene Menüpunkte */
+nav > ul {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-/* Hauptebene Menüpunkte */
 nav > ul > li {
     position: relative;
     margin: 0 1rem;
@@ -62,7 +65,6 @@ nav ul li ul {
     min-width: 200px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 4px;
-    z-index: 1000;
 }
 
 /* Zweites Untermenü (Apps) horizontal */
@@ -72,6 +74,7 @@ nav ul li ul li ul {
     background-color: #e68900;
     min-width: 250px;
     padding: 0.5rem;
+    display: none; /* Standardmäßig aus */
     flex-direction: row;
     flex-wrap: wrap;
 }
@@ -87,7 +90,18 @@ nav ul li ul li ul {
     padding: 0.5rem 1rem;
 }
 
-/* Responsive Anpassungen */
+/* Desktop Hover */
+@media (min-width: 901px) {
+    nav ul li:hover > ul {
+        display: block; /* Öffnet erstes Untermenü */
+    }
+
+    nav ul li ul li:hover > ul {
+        display: flex; /* Öffnet zweites Untermenü horizontal */
+    }
+}
+
+/* Mobile Anpassungen */
 @media (max-width: 900px) {
     .hamburger {
         display: block;
@@ -97,17 +111,17 @@ nav ul li ul li ul {
     }
 
     nav > ul {
-        display: none;
+        display: none; /* Standardmäßig ausgeblendet */
         flex-direction: column;
         width: 100%;
-        background-color: #ff9800;
         position: absolute;
         top: 100%;
         left: 0;
+        background-color: #ff9800;
     }
 
     nav > ul.active {
-        display: flex;
+        display: flex; /* Per JS einblenden */
     }
 
     nav > ul > li {
@@ -121,6 +135,11 @@ nav ul li ul li ul {
         width: 100%;
         box-shadow: none;
         background-color: #ff9800;
+        display: none; /* Standardmäßig ausgeblendet */
+    }
+
+    nav ul li.active > ul {
+        display: block; /* Per JS einblenden */
     }
 
     nav ul li ul li ul {
@@ -129,6 +148,11 @@ nav ul li ul li ul {
         background-color: #e68900;
         width: 100%;
         padding: 0;
+        display: none; /* Standardmäßig ausgeblendet */
+    }
+
+    nav ul li ul li.active > ul {
+        display: block; /* Per JS einblenden */
     }
 
     nav ul li ul li a {
@@ -309,15 +333,4 @@ footer {
 @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
-}
-
-/* Desktop Hover (nicht im Media Query, um Standardverhalten zu setzen) */
-@media (min-width: 901px) {
-    nav ul li:hover > ul {
-        display: block;
-    }
-
-    nav ul li ul li:hover > ul {
-        display: flex;
-    }
 }
