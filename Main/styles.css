@@ -79,7 +79,7 @@ nav ul li a:active {
 }
 
 .desktop-menu ul ul {
-    top: -0.5rem; /* Nach oben verschoben, um mit dem Hauptelement ausgerichtet zu sein */
+    top: 0; /* Nach oben verschoben, um mit dem Hauptelement ausgerichtet zu sein */
     left: 100%;
     background-color: #e68900;
     min-width: 250px;
