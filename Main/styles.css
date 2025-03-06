@@ -70,7 +70,15 @@ nav ul li a:active {
     border-radius: 4px;
 }
 
+.desktop-menu ul li {
+    position: relative; /* Wichtig für die Positionierung des zweiten Untermenüs */
+}
+
 .desktop-menu ul ul {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
     background-color: #e68900;
     min-width: 250px;
     padding: 0.5rem;
@@ -85,9 +93,8 @@ nav ul li a:active {
 
     .desktop-menu ul li:hover > ul {
         display: flex;
-        position: absolute;
-        top: 0;
-        left: 100%;
+        top: 0; /* An die Oberkante des übergeordneten <li> binden */
+        left: 100%; /* Rechts neben der Kategorie */
     }
 }
 
