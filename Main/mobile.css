@@ -1,43 +1,45 @@
-.desktop-menu {
-    display: none;
-}
+@media (max-width: 900px) {
+    .desktop-menu {
+        display: none;
+    }
 
-.hamburger {
-    display: block;
-    font-size: 2rem;
-    background: none;
-    border: none;
-    color: white;
-    cursor: pointer;
-    padding: 0.5rem 1rem;
-    position: absolute;
-    left: 0;
-    top: 0;
-}
+    .hamburger {
+        display: block;
+        font-size: 2rem;
+        background: none;
+        border: none;
+        color: white;
+        cursor: pointer;
+        padding: 0.5rem 1rem;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
 
-.mobile-menu {
-    display: none;
-    flex-direction: column;
-    width: 100%;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: #007bff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
+    .mobile-menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: #007bff; /* Blau zum Testen */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
 
-.mobile-menu.active {
-    display: flex;
-}
+    .mobile-menu.active {
+        display: flex;
+    }
 
-.mobile-menu > li {
-    margin: 0;
-    width: 100%;
-    text-align: left;
-}
+    .mobile-menu > li {
+        margin: 0;
+        width: 100%;
+        text-align: left;
+    }
 
-.mobile-menu li a {
-    padding: 0.75rem 1.5rem;
-    font-size: 1rem;
-    color: white;
+    .mobile-menu li a {
+        padding: 0.75rem 1.5rem;
+        font-size: 1rem;
+        color: white;
+    }
 }
