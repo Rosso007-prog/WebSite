@@ -10,7 +10,7 @@ body {
 
 /* Navigation */
 nav {
-    background-color: #ff8800;
+    background-color: #4CAF50; /* Grün statt Orange */
     padding: 0.5rem 1rem;
     width: 100%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -64,30 +64,26 @@ nav ul li a:active {
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: #ff9800;
+    background-color: #4CAF50; /* Grün statt Orange */
     min-width: 200px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 4px;
 }
 
 .desktop-menu ul ul {
-    top: 0; /* Standardwert zurückgesetzt */
-    left: 100%;
-    background-color: #e68900;
+    background-color: #388E3C; /* Dunkleres Grün statt dunkleres Orange */
     min-width: 250px;
+    top: auto; /* Entfernt festen top-Wert */
+    left: 100%;
+}
+
+.desktop-menu li {
+    position: relative;
 }
 
 .desktop-menu li:hover > ul {
     display: block;
-}
-
-.desktop-menu ul li {
-    position: relative;
-}
-
-.desktop-menu ul li:hover > ul {
     top: 0; /* Auf Höhe des gehoverten li */
-    left: 100%;
 }
 
 @media (min-width: 901px) {
