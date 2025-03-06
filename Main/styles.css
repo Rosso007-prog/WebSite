@@ -43,9 +43,12 @@ nav ul li a {
     border-radius: 4px;
     font-size: 1rem;
     display: block;
+    -webkit-tap-highlight-color: transparent; /* Entfernt blaue Hervorhebung auf iOS */
 }
 
-nav ul li a:hover {
+/* Hover- und Aktiv-Styling */
+nav ul li a:hover,
+nav ul li a:active {
     background-color: #ffca28;
     color: #333;
 }
@@ -63,36 +66,19 @@ nav ul li ul {
     z-index: 1000;
 }
 
-nav ul li:hover > ul {
-    display: block; /* Dropdown bei Hover anzeigen */
-}
-
 /* Zweites Untermenü (Apps) horizontal */
 nav ul li ul li ul {
     display: none;
     position: absolute;
     top: 0;
-    left: 100%; /* Rechts neben dem ersten Untermenü */
-    background-color: #e68900; /* Etwas dunkler für Unterscheidung */
+    left: 100%;
+    background-color: #e68900;
     min-width: 250px;
     padding: 0.5rem;
-    display: flex; /* Horizontal */
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     border-radius: 4px;
-}
-
-nav ul li ul li:hover > ul {
-    display: flex; /* Zeigt das horizontale Untermenü */
-}
-
-nav ul li ul li {
-    margin: 0;
-}
-
-nav ul li ul li a {
-    padding: 0.5rem 1rem;
-    font-size: 0.9rem;
 }
 
 /* Hamburger-Menü */
@@ -103,7 +89,7 @@ nav ul li ul li a {
     border: none;
     color: white;
     cursor: pointer;
-    padding: 0.5rem;
+    padding: 0.5rem 1rem;
 }
 
 /* Responsive Anpassungen */
@@ -111,8 +97,8 @@ nav ul li ul li a {
     .hamburger {
         display: block;
         position: absolute;
-        left: 1rem;
-        top: 0.5rem;
+        left: 0;
+        top: 0;
     }
 
     nav ul {
@@ -130,17 +116,18 @@ nav ul li ul li a {
     }
 
     nav > ul > li {
-        margin: 0.5rem 0;
+        margin: 0;
         width: 100%;
-        text-align: center;
+        text-align: left;
     }
 
     /* Dropdown im Mobile-Modus */
     nav ul li ul {
         position: static;
         display: none;
-        box-shadow: none;
         width: 100%;
+        box-shadow: none;
+        background-color: #ff9800;
     }
 
     nav ul li.active > ul {
@@ -150,9 +137,10 @@ nav ul li ul li a {
     nav ul li ul li ul {
         position: static;
         display: none;
-        flex-direction: column; /* Vertikal im Mobile-Modus */
+        flex-direction: column;
         background-color: #e68900;
         width: 100%;
+        padding: 0;
     }
 
     nav ul li ul li.active > ul {
@@ -160,7 +148,8 @@ nav ul li ul li a {
     }
 
     nav ul li ul li a {
-        padding: 0.5rem 1rem;
+        padding: 0.75rem 1.5rem;
+        font-size: 0.9rem;
     }
 }
 
