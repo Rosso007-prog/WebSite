@@ -10,7 +10,7 @@ body {
 
 /* Navigation */
 nav {
-    background-color: #F44336; /* Rot statt Grün */
+    background-color: #9C27B0; /* Lila statt Rot */
     padding: 0.5rem 1rem;
     width: 100%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -64,14 +64,14 @@ nav ul li a:active {
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: #F44336; /* Rot statt Grün */
+    background-color: #9C27B0; /* Lila statt Rot */
     min-width: 200px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 4px;
 }
 
 .desktop-menu ul ul {
-    background-color: #D32F2F; /* Dunkleres Rot statt dunkleres Grün */
+    background-color: #7B1FA2; /* Dunkleres Lila statt dunkleres Rot */
     min-width: 250px;
     top: auto;
     left: 100%;
@@ -148,10 +148,16 @@ nav ul li a:active {
     .hamburger:hover + .mobile-menu,
     .mobile-menu:hover {
         display: flex; /* Vollständig anzeigen */
+        min-height: 200px; /* Mindesthöhe, um sicherzustellen, dass es sichtbar ist */
     }
 
     .mobile-menu li:hover > ul {
         display: block;
+        min-height: 150px; /* Mindesthöhe für Untermenüs */
+    }
+
+    .mobile-menu > li {
+        width: 100%;
     }
 }
 
