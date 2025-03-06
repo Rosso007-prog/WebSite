@@ -10,7 +10,7 @@ body {
 
 /* Navigation */
 nav {
-    background-color: #4CAF50; /* Grün statt Orange */
+    background-color: #F44336; /* Rot statt Grün */
     padding: 0.5rem 1rem;
     width: 100%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -64,16 +64,16 @@ nav ul li a:active {
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: #4CAF50; /* Grün statt Orange */
+    background-color: #F44336; /* Rot statt Grün */
     min-width: 200px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 4px;
 }
 
 .desktop-menu ul ul {
-    background-color: #388E3C; /* Dunkleres Grün statt dunkleres Orange */
+    background-color: #D32F2F; /* Dunkleres Rot statt dunkleres Grün */
     min-width: 250px;
-    top: auto; /* Entfernt festen top-Wert */
+    top: auto;
     left: 100%;
 }
 
@@ -141,9 +141,13 @@ nav ul li a:active {
         display: block;
     }
 
+    .mobile-menu {
+        display: none; /* Standardmäßig ausgeblendet */
+    }
+
     .hamburger:hover + .mobile-menu,
     .mobile-menu:hover {
-        display: flex;
+        display: flex; /* Vollständig anzeigen */
     }
 
     .mobile-menu li:hover > ul {
