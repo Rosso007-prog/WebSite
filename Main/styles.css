@@ -71,7 +71,7 @@ nav ul li a:active {
 }
 
 .desktop-menu ul ul {
-    top: 0; /* Zurückgesetzt, wird durch li:hover angepasst */
+    top: 0; /* Standardwert zurückgesetzt */
     left: 100%;
     background-color: #e68900;
     min-width: 250px;
@@ -81,8 +81,13 @@ nav ul li a:active {
     display: block;
 }
 
+.desktop-menu ul li {
+    position: relative;
+}
+
 .desktop-menu ul li:hover > ul {
-    top: calc(0px - 0.5rem); /* Ausrichtung an der Höhe des übergeordneten li */
+    top: 0; /* Auf Höhe des gehoverten li */
+    left: 100%;
 }
 
 @media (min-width: 901px) {
