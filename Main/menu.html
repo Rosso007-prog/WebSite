@@ -47,6 +47,50 @@
     </ul>
 </nav>
 
+<style>
+    /* Fallback-Styling, falls mobile.css nicht lädt */
+    @media (max-width: 900px) {
+        .desktop-menu {
+            display: none;
+        }
+        .hamburger {
+            display: block;
+            font-size: 2rem;
+            background: none;
+            border: none;
+            color: white;
+            cursor: pointer;
+            padding: 0.5rem 1rem;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+        .mobile-menu {
+            display: none;
+            flex-direction: column;
+            width: 100%;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #00ff00; /* Grün als Fallback */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .mobile-menu.active {
+            display: flex;
+        }
+        .mobile-menu > li {
+            margin: 0;
+            width: 100%;
+            text-align: left;
+        }
+        .mobile-menu li a {
+            padding: 0.75rem 1.5rem;
+            font-size: 1rem;
+            color: white;
+        }
+    }
+</style>
+
 <script>
     const mobileMenu = document.getElementById('mobile-menu');
     const hamburger = document.querySelector('.hamburger');
@@ -111,11 +155,9 @@
             li.appendChild(a);
             mobileMenu.appendChild(li);
         });
-        // Debugging: Sicherstellen, dass das Menü sichtbar wird
         mobileMenu.classList.add('active');
     }
 
-    // Debugging: Log, ob mobil erkannt wird
     console.log('Viewport-Breite:', window.innerWidth);
     if (window.matchMedia("(max-width: 900px)").matches) {
         console.log('Mobil erkannt');

@@ -6,14 +6,18 @@
     <meta name="description" content="Bewerte unsere Apps und gib dein Feedback ab">
     <title>App-Bewertungen</title>
     <link rel="stylesheet" href="Main/styles.css">
-    <!-- Alternative Einbindung ohne Media Query zum Testen -->
+    <!-- Primäre Einbindung -->
     <link rel="stylesheet" href="Main/mobile.css">
-    <!-- Debugging: Log, ob CSS geladen wird -->
+    <!-- Fallback: Relativer Pfad mit "../" falls index.html in einem Unterverzeichnis liegt -->
+    <link rel="stylesheet" href="../Main/mobile.css" id="mobile-fallback">
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             const mobileCss = document.querySelector('link[href="Main/mobile.css"]');
-            if (mobileCss) console.log('mobile.css gefunden');
-            else console.error('mobile.css nicht gefunden');
+            const mobileFallback = document.querySelector('#mobile-fallback');
+            if (mobileCss && mobileCss.sheet) console.log('Main/mobile.css geladen');
+            else console.error('Main/mobile.css nicht geladen');
+            if (mobileFallback && mobileFallback.sheet) console.log('../Main/mobile.css geladen');
+            else console.error('../Main/mobile.css nicht geladen');
         });
     </script>
 </head>
