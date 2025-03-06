@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eieruhr Pro - Sorglos</title>
 
-    <!-- Einbindung von styles.css aus dem Root-Verzeichnis -->
-    <link rel="stylesheet" href="styles.css">
+    <!-- Relativ zum aktuellen Verzeichnis, eine Ebene hoch zu Main -->
+    <link rel="stylesheet" href="../Main/styles.css">
 </head>
 <body>
 
@@ -27,7 +27,7 @@
 
     <!-- Menü über JavaScript aus dem Root-Verzeichnis laden -->
     <script>
-        fetch('menu.html')
+        fetch('../Main/menu.html')
             .then(response => response.text())
             .then(data => document.getElementById('menu').innerHTML = data);
     </script>

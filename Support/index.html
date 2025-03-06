@@ -21,7 +21,7 @@
             margin-bottom: 5px;
         }
     </style>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../Main/styles.css">
 </head>
 <body>
 
@@ -75,7 +75,7 @@
 
     <!-- JavaScript zum Laden des Menüs -->
     <script>
-        fetch('menu.html')
+        fetch('../Main/menu.html')
             .then(response => response.text())
             .then(data => document.getElementById('menu').innerHTML = data);
     </script>

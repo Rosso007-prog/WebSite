@@ -6,7 +6,7 @@
     <title>Sortly-Sorglos App</title>
 
     <!-- Einbindung von styles.css aus dem Root-Verzeichnis -->
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../Main/styles.css">
 </head>
 <body>
 
@@ -41,7 +41,7 @@
 
     <!-- Menü aus dem Root-Verzeichnis über JavaScript laden -->
     <script>
-        fetch('menu.html')
+        fetch('../Main/menu.html')
             .then(response => response.text())
             .then(data => document.getElementById('menu').innerHTML = data);
     </script>
