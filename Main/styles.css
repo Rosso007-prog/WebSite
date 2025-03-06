@@ -62,7 +62,7 @@ nav ul li a:active {
 .desktop-menu .submenu {
     display: none;
     position: absolute;
-    top: 100%;
+    top: 100%; /* Direkt unter dem Hauptelement */
     left: 0;
     background-color: #ff9800;
     min-width: 200px;
@@ -79,13 +79,12 @@ nav ul li a:active {
 }
 
 .desktop-menu ul ul {
-    top: 0; /* Nach oben verschoben, um mit dem Hauptelement ausgerichtet zu sein */
-    left: 100%;
+    top: 0; /* Mittig zum übergeordneten Menüpunkt */
+    left: 100%; /* Rechts daneben */
     background-color: #e68900;
     min-width: 250px;
     padding: 0.5rem;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column; /* Vertikal statt horizontal */
 }
 
 @media (min-width: 901px) {
