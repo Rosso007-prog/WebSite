@@ -31,7 +31,7 @@
                     </ul>
                 </li>
                 <li>
-<a href="#">Sonstiges</a>
+                    <a href="#">Sonstiges</a>
                     <ul>
                         <li><a href="/WebSite/Mein_Einhorn-Sorglos/index.html">Mein Einhorn-Sorglos</a></li>
                     </ul>
@@ -89,7 +89,7 @@
         ]
     };
 
-    function eavesdropMobileMenu(state) {
+    function renderMobileMenu(state) {
         if (!mobileMenu) {
             console.error('Mobile-Menü-Element nicht gefunden');
             return;
@@ -105,19 +105,29 @@
                 a.href = '#';
                 a.addEventListener('click', (e) => {
                     e.preventDefault();
-                    eavesdropMobileMenu(item.action.replace('show', '').toLowerCase());
+                    renderMobileMenu(item.action.replace('show', '').toLowerCase());
                 });
             }
             li.appendChild(a);
             mobileMenu.appendChild(li);
         });
+        // Debugging: Sicherstellen, dass das Menü sichtbar wird
+        mobileMenu.classList.add('active');
     }
 
-    if (window.matchMedia("(max-width: 900px)").matches && mobileMenu && hamburger) {
-        eavesdropMobileMenu('main');
-        hamburger.addEventListener('click', (e) => {
-            e.preventDefault();
-            mobileMenu.classList.toggle('active');
-        });
+    // Debugging: Log, ob mobil erkannt wird
+    console.log('Viewport-Breite:', window.innerWidth);
+    if (window.matchMedia("(max-width: 900px)").matches) {
+        console.log('Mobil erkannt');
+        if (mobileMenu && hamburger) {
+            renderMobileMenu('main');
+            hamburger.addEventListener('click', (e) => {
+                e.preventDefault();
+                console.log('Hamburger geklickt');
+                mobileMenu.classList.toggle('active');
+            });
+        } else {
+            console.error('mobileMenu oder hamburger nicht gefunden');
+        }
     }
 </script>
