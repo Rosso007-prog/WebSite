@@ -1,0 +1,94 @@
+{
+  "app": {
+    "title": "My Unicorn"
+  },
+  "home": {
+    "title": "Welcome to My Unicorn",
+    "start_game": "Start Game",
+    "select_language": "Choose a Language",
+    "limited_mode": "Limited Mode: Some features restricted"
+  },
+  "paywall": {
+    "message": "Buy the full version to keep playing!",
+    "continue_limited": "Continue with restrictions"
+  },
+  "settings": {
+    "title": "Settings",
+    "change_language": "Change Language",
+    "select_language": "Select a Language",
+    "remove_ads_title": "Ad-Free Game",
+    "remove_ads_desc": "Enjoy the game without ads!",
+    "glitter_skin_title": "Glitter Unicorn",
+    "glitter_skin_desc": "Unlock a sparkling unicorn!",
+    "full_version_title": "Full Version",
+    "full_version_desc": "Unlock the full game!",
+    "purchase_success": "Purchase successful! Thank you!",
+    "purchase_failed": "Purchase failed. Please try again."
+  },
+  "game": {
+    "sleep_increased": "Sleep increased by: {0}%",
+    "feed_increased": "Hunger satisfied by: {0}%",
+    "play_increased": "Play fun: {0}%",
+    "petting_increased": "Petting joy: {0}%",
+    "feed": {
+      "finished": "Feeding Finished",
+      "collected": "Food collected: {0}",
+      "instruction": "Feed your unicorn!",
+      "progress": "Food collected: {0}  |  Time: {1} s"
+    },
+    "petting": {
+      "success": "Unicorn happy!",
+      "failure": "Not enough petting",
+      "instruction": "Pet your unicorn!",
+      "progress": "Progress: {0}%  |  Time: {1} s (Swipes: {2})",
+      "locked_title": "Feature Locked",
+      "locked_message": "Petting is only available in the full version. Buy it in settings."
+    },
+    "play": {
+      "finished": "Game Won! Back",
+      "instruction": "Play with your unicorn – catch it!",
+      "progress": "Progress: {0}%  |  Time: {1} s (Hits: {2} / {3})"
+    },
+    "sleep": {
+      "finished": "Sleep Finished",
+      "increased": "Sleep increased by: {0}%",
+      "instruction": "Hold your unicorn for a peaceful sleep",
+      "progress": "Sleep: {0}%  |  Time: {1} s"
+    },
+    "customize": {
+      "title": "Customize Your Unicorn",
+      "name_label": "Give your unicorn a name",
+      "choose_unicorn": "Choose your Magic Unicorn!"
+    }
+  },
+  "actions": {
+    "feed": "Feed",
+    "sleep": "Sleep",
+    "play": "Play",
+    "petting": "Pet"
+  },
+  "status": {
+    "hunger": "Hunger",
+    "energy": "Energy",
+    "happiness": "Happiness",
+    "friendship": "Friendship",
+    "tooltip": "{0}: {1}",
+    "header": "🐴✨ Your Unicorn Status ✨🐴",
+    "close": "🌸 Close 🌸"
+  },
+  "debug": {
+    "title": "Debug",
+    "time_label": "Time of Day: ",
+    "time_value": "{0} o'clock",
+    "status_label": "Status: ",
+    "status_value": "{0}%"
+  },
+  "dialog": {
+    "cancel": "Cancel",
+    "go_to_settings": "Go to Settings",
+    "save": "Save"
+  },
+  "error": {
+    "generic": "An error occurred. Please try again."
+  }
+}

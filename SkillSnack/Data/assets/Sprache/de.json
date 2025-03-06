@@ -1,0 +1,96 @@
+{
+  "app": {
+    "title": "Mein Einhorn"
+  },
+  "home": {
+    "title": "Willkommen bei Mein Einhorn",
+    "start_game": "Spiel starten",
+    "select_language": "Wähle eine Sprache",
+    "limited_mode": "Eingeschränkter Modus: Einige Funktionen eingeschränkt"
+  },
+  "paywall": {
+    "message": "Kauf die die schönen Skins!",
+    "continue_limited": "Mit Einschränkungen fortfahren",
+    "unlock_premium_skin": "Schalte die Premium-Skin frei:",
+    "buy_now": "Jetzt kaufen - 4,99 €"
+  },
+    "settings": {
+    "title": "Einstellungen",
+    "change_language": "Sprache ändern",
+    "select_language": "Wähle eine Sprache",
+    "remove_ads_title": "Werbefreies Spiel",
+    "remove_ads_desc": "Spiel ohne Werbung genießen!",
+    "glitter_skin_title": "Glitzer-Einhorn",
+    "glitter_skin_desc": "Funkelndes Einhorn freischalten!",
+    "full_version_title": "Vollversion",
+    "full_version_desc": "Schalte das volle Spiel frei!",
+    "purchase_success": "Kauf erfolgreich! Vielen Dank!",
+    "purchase_failed": "Kauf fehlgeschlagen. Bitte versuche es erneut."
+  },
+  "game": {
+    "sleep_increased": "Schlaf gesteigert um: {0}%",
+    "feed_increased": "Hunger gestillt um: {0}%",
+    "play_increased": "Spielspaß: {0}%",
+    "petting_increased": "Streichelfreude: {0}%",
+    "feed": {
+      "finished": "Füttern beendet",
+      "collected": "Essen gesammelt: {0}",
+      "instruction": "Füttere dein Einhorn!",
+      "progress": "Essen gesammelt: {0}  |  Zeit: {1} s"
+    },
+    "petting": {
+      "success": "Einhorn glücklich!",
+      "failure": "Nicht genug gestreichelt",
+      "instruction": "Streichele dein Einhorn!",
+      "progress": "Fortschritt: {0}%  |  Zeit: {1} s (Swipes: {2})",
+      "locked_title": "Funktion gesperrt",
+      "locked_message": "Streicheln ist nur in der Vollversion verfügbar. Kauf sie in den Einstellungen."
+    },
+    "play": {
+      "finished": "Spiel gewonnen! Zurück",
+      "instruction": "Spiele mit deinem Einhorn – fange es!",
+      "progress": "Fortschritt: {0}%  |  Zeit: {1} s (Treffer: {2} / {3})"
+    },
+    "sleep": {
+      "finished": "Schlaf beendet",
+      "increased": "Schlaf gesteigert um: {0}%",
+      "instruction": "Halte dein Einhorn für einen ruhigen Schlaf",
+      "progress": "Schlaf: {0}%  |  Zeit: {1} s"
+    },
+    "customize": {
+      "title": "Personalisiere dein Einhorn",
+      "name_label": "Gib deinem Einhorn einen Namen",
+      "choose_unicorn": "Wähle dein Zaubereinhorn!"
+    }
+  },
+  "actions": {
+    "feed": "Füttern",
+    "sleep": "Schlafen",
+    "play": "Spielen",
+    "petting": "Streicheln"
+  },
+  "status": {
+    "hunger": "Hunger",
+    "energy": "Energie",
+    "happiness": "Glück",
+    "friendship": "Freundschaft",
+    "tooltip": "{0}: {1}",
+    "header": "🐴✨ Dein Einhorn-Status ✨🐴",
+    "close": "🌸 Schließen 🌸"
+  },
+  "debug": {
+    "title": "Debug",
+    "time_label": "Tageszeit: ",
+    "time_value": "{0} Uhr",
+    "status_label": "Status: ",
+    "status_value": "{0}%"
+  },
+  "dialog": {
+    "cancel": "Abbrechen",
+    "go_to_settings": "Zu Einstellungen",
+    "save": "Speichern"
+  },
+  "error": {
+    "generic": "Ein Fehler ist aufgetreten. Bitte versuche es erneut."
+  }
+}

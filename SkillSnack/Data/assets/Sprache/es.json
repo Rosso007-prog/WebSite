@@ -1,0 +1,94 @@
+{
+  "app": {
+    "title": "Mi Unicornio"
+  },
+  "home": {
+    "title": "Bienvenido a Mi Unicornio",
+    "start_game": "Iniciar Juego",
+    "select_language": "Elige un Idioma",
+    "limited_mode": "Modo Limitado: Algunas funciones restringidas"
+  },
+  "paywall": {
+    "message": "¡Compra la versión completa para seguir jugando!",
+    "continue_limited": "Continuar con restricciones"
+  },
+  "settings": {
+    "title": "Ajustes",
+    "change_language": "Cambiar Idioma",
+    "select_language": "Selecciona un Idioma",
+    "remove_ads_title": "Juego Sin Anuncios",
+    "remove_ads_desc": "¡Disfruta del juego sin anuncios!",
+    "glitter_skin_title": "Unicornio Brillante",
+    "glitter_skin_desc": "¡Desbloquea un unicornio brillante!",
+    "full_version_title": "Versión Completa",
+    "full_version_desc": "¡Desbloquea el juego completo!",
+    "purchase_success": "¡Compra exitosa! ¡Gracias!",
+    "purchase_failed": "Compra fallida. Por favor, intenta de nuevo."
+  },
+  "game": {
+    "sleep_increased": "Sueño aumentado en: {0}%",
+    "feed_increased": "Hambre saciado en: {0}%",
+    "play_increased": "Diversión al jugar: {0}%",
+    "petting_increased": "Alegría al acariciar: {0}%",
+    "feed": {
+      "finished": "Alimentación Terminada",
+      "collected": "Comida recogida: {0}",
+      "instruction": "¡Alimenta a tu unicornio!",
+      "progress": "Comida recogida: {0}  |  Tiempo: {1} s"
+    },
+    "petting": {
+      "success": "¡Unicornio feliz!",
+      "failure": "No lo acariciaste lo suficiente",
+      "instruction": "¡Acaricia a tu unicornio!",
+      "progress": "Progreso: {0}%  |  Tiempo: {1} s (Deslizamientos: {2})",
+      "locked_title": "Función Bloqueada",
+      "locked_message": "Acariciar solo está disponible en la versión completa. Cómprala en ajustes."
+    },
+    "play": {
+      "finished": "¡Juego Ganado! Volver",
+      "instruction": "¡Juega con tu unicornio – atrápalo!",
+      "progress": "Progreso: {0}%  |  Tiempo: {1} s (Aciertos: {2} / {3})"
+    },
+    "sleep": {
+      "finished": "Sueño Terminado",
+      "increased": "Sueño aumentado en: {0}%",
+      "instruction": "Sujeta a tu unicornio para un sueño tranquilo",
+      "progress": "Sueño: {0}%  |  Tiempo: {1} s"
+    },
+    "customize": {
+      "title": "Personaliza tu Unicornio",
+      "name_label": "Dale un nombre a tu unicornio",
+      "choose_unicorn": "¡Elige tu Unicornio Mágico!"
+    }
+  },
+  "actions": {
+    "feed": "Alimentar",
+    "sleep": "Dormir",
+    "play": "Jugar",
+    "petting": "Acariciar"
+  },
+  "status": {
+    "hunger": "Hambre",
+    "energy": "Energía",
+    "happiness": "Felicidad",
+    "friendship": "Amistad",
+    "tooltip": "{0}: {1}",
+    "header": "🐴✨ Estado de tu Unicornio ✨🐴",
+    "close": "🌸 Cerrar 🌸"
+  },
+  "debug": {
+    "title": "Depuración",
+    "time_label": "Hora del Día: ",
+    "time_value": "{0} en punto",
+    "status_label": "Estado: ",
+    "status_value": "{0}%"
+  },
+  "dialog": {
+    "cancel": "Cancelar",
+    "go_to_settings": "Ir a Ajustes",
+    "save": "Guardar"
+  },
+  "error": {
+    "generic": "Ha ocurrido un error. Por favor, intenta de nuevo."
+  }
+}
