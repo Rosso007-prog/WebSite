@@ -3,11 +3,11 @@
     <ul class="main-menu desktop-menu">
         <li><a href="/WebSite/index.html">Home</a></li>
         <li>
-            <a href="#" data-action="showApps">Apps</a>
-            <ul class="submenu" data-menu="apps">
+            <a href="#">Apps</a>
+            <ul class="submenu">
                 <li>
-                    <a href="#" data-action="showProductivity">Produktivität</a>
-                    <ul class="submenu" data-menu="productivity">
+                    <a href="#">Produktivität</a>
+                    <ul class="submenu">
                         <li><a href="/WebSite/Buchhaltung-Sorglos/index.html">Buchhaltung-Sorglos</a></li>
                         <li><a href="/WebSite/Anything2ERP/index.html">Anything2ERP</a></li>
                         <li><a href="/WebSite/Sortly-Sorglos/index.html">Sortly-Sorglos</a></li>
@@ -15,24 +15,24 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="#" data-action="showTools">Tools</a>
-                    <ul class="submenu" data-menu="tools">
+                    <a href="#">Tools</a>
+                    <ul class="submenu">
                         <li><a href="/WebSite/SpeedTest-Sorglos/index.html">SpeedTest-Sorglos</a></li>
                         <li><a href="/WebSite/My_Grill_Timer-Sorglos/index.html">My Grill Timer</a></li>
                         <li><a href="/WebSite/Eieruhr_Pro-Sorglos/index.html">Eieruhr Pro</a></li>
                     </ul>
                 </li>
                 <li>
-                    <a href="#" data-action="showCreativity">Kreativität</a>
-                    <ul class="submenu" data-menu="creativity">
+                    <a href="#">Kreativität</a>
+                    <ul class="submenu">
                         <li><a href="/WebSite/Mein_Malbuch-Sorglos/index.html">Mein Malbuch</a></li>
                         <li><a href="/WebSite/FotoSafe-Sorglos/index.html">FotoSafe-Sorglos</a></li>
                         <li><a href="/WebSite/GedaechtnisProfi-Sorglos/index.html">GedächtnisProfi-Sorglos</a></li>
                     </ul>
                 </li>
                 <li>
-                    <a href="#" data-action="showMisc">Sonstiges</a>
-                    <ul class="submenu" data-menu="misc">
+                    <a href="#">Sonstiges</a>
+                    <ul class="submenu">
                         <li><a href="/WebSite/Mein_Einhorn-Sorglos/index.html">Mein Einhorn-Sorglos</a></li>
                     </ul>
                 </li>
@@ -42,7 +42,15 @@
     </ul>
     <ul class="main-menu mobile-menu" id="mobile-menu">
         <li><a href="/WebSite/index.html">Home</a></li>
-        <li><a href="#" data-action="showApps">Apps</a></li>
+        <li>
+            <a href="#" data-action="showApps">Apps</a>
+            <ul class="submenu" data-menu="apps">
+                <li><a href="#" data-action="showProductivity">Produktivität</a></li>
+                <li><a href="#" data-action="showTools">Tools</a></li>
+                <li><a href="#" data-action="showCreativity">Kreativität</a></li>
+                <li><a href="#" data-action="showMisc">Sonstiges</a></li>
+            </ul>
+        </li>
         <li><a href="/WebSite/Support/index.html">Support</a></li>
     </ul>
 </nav>
@@ -50,15 +58,9 @@
 <script>
     const mobileMenu = document.getElementById('mobile-menu');
     const hamburger = document.querySelector('.hamburger');
-    const desktopMenu = document.querySelector('.desktop-menu');
-    const allLinks = document.querySelectorAll('nav a[data-action]');
+    const mobileLinks = document.querySelectorAll('.mobile-menu a[data-action]');
 
     const menuStates = {
-        main: [
-            { text: 'Home', href: '/WebSite/index.html' },
-            { text: 'Apps', action: 'showApps' },
-            { text: 'Support', href: '/WebSite/Support/index.html' }
-        ],
         apps: [
             { text: 'Produktivität', action: 'showProductivity' },
             { text: 'Tools', action: 'showTools' },
@@ -86,38 +88,42 @@
         ]
     };
 
-    function renderMobileMenu(state) {
+    function renderMobileSubmenu(state) {
         if (!mobileMenu) {
             console.error('Mobile-Menü-Element nicht gefunden');
             return;
         }
-        mobileMenu.innerHTML = '';
-        menuStates[state].forEach(item => {
-            const li = document.createElement('li');
-            const a = document.createElement('a');
-            a.textContent = item.text;
-            if (item.href) {
-                a.href = item.href;
-            } else if (item.action) {
-                a.href = '#';
-                a.setAttribute('data-action', item.action);
-            }
-            li.appendChild(a);
-            mobileMenu.appendChild(li);
-        });
+        const submenu = mobileMenu.querySelector('.submenu[data-menu="apps"]');
+        if (submenu) {
+            submenu.innerHTML = '';
+            menuStates[state].forEach(item => {
+                const li = document.createElement('li');
+                const a = document.createElement('a');
+                a.textContent = item.text;
+                if (item.href) {
+                    a.href = item.href;
+                } else if (item.action) {
+                    a.href = '#';
+                    a.setAttribute('data-action', item.action);
+                }
+                li.appendChild(a);
+                submenu.appendChild(li);
+            });
+            submenu.classList.add('active');
+        }
     }
 
-    // Klick-Logik für Mobil und Desktop
-    allLinks.forEach(link => {
+    // Klick-Logik nur für Mobil
+    mobileLinks.forEach(link => {
         link.addEventListener('click', (e) => {
             e.preventDefault();
             const action = link.getAttribute('data-action');
             const submenu = link.nextElementSibling;
             if (submenu && submenu.classList.contains('submenu')) {
                 submenu.classList.toggle('active');
-            } else if (window.innerWidth <= 900 && action) {
-                renderMobileMenu(action.replace('show', '').toLowerCase());
-                mobileMenu.classList.add('active');
+            }
+            if (action && menuStates[action.replace('show', '').toLowerCase()]) {
+                renderMobileSubmenu(action.replace('show', '').toLowerCase());
             }
             console.log('Klick auf:', action);
         });
@@ -127,7 +133,6 @@
     if (window.innerWidth <= 900) {
         console.log('Mobil erkannt (window.innerWidth):', window.innerWidth);
         if (mobileMenu && hamburger) {
-            renderMobileMenu('main');
             hamburger.addEventListener('click', (e) => {
                 e.preventDefault();
                 console.log('Hamburger geklickt');

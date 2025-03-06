@@ -62,30 +62,20 @@ nav ul li a:active {
 .desktop-menu .submenu {
     display: none;
     position: absolute;
-    top: 100%; /* Direkt unter dem Hauptelement */
+    top: 100%;
     left: 0;
     background-color: #ff9800;
     min-width: 200px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 4px;
-    z-index: 1001; /* Höherer z-index für Sichtbarkeit */
-}
-
-.desktop-menu .submenu.active {
-    display: block;
-}
-
-.desktop-menu ul li {
-    position: relative;
+    z-index: 1001;
 }
 
 .desktop-menu .submenu .submenu {
-    top: 0; /* Mittig zum übergeordneten Menüpunkt */
+    top: 0;
     left: 100%; /* Rechts daneben */
     background-color: #e68900;
     min-width: 250px;
-    padding: 0.5rem;
-    flex-direction: column; /* Vertikal statt horizontal */
 }
 
 @media (min-width: 901px) {
@@ -102,13 +92,50 @@ nav ul li a:active {
     }
 }
 
-/* Mobile-Menü (nur Basis) */
+/* Mobile-Menü */
 .mobile-menu {
     display: none;
 }
 
+.mobile-menu.active {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #007bff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.mobile-menu .submenu {
+    display: none;
+    background-color: #0056b3;
+    width: 100%;
+    padding-left: 1rem;
+}
+
+.mobile-menu .submenu.active {
+    display: block;
+}
+
 .hamburger {
     display: none;
+}
+
+@media (max-width: 900px) {
+    .hamburger {
+        display: block;
+        font-size: 2rem;
+        background: none;
+        border: none;
+        color: white;
+        cursor: pointer;
+        padding: 0.5rem 1rem;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
 }
 
 /* Container */
@@ -133,7 +160,7 @@ h1 {
 h2 {
     color: #555;
     font-size: 1.5rem;
-    margin: 1.5rem 0ll 1rem;
+    margin: 1.5rem 0 1rem;
 }
 
 p {
