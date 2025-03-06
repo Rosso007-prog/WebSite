@@ -56,10 +56,10 @@ nav ul li a:active {
 
 /* Desktop-Menü */
 .desktop-menu {
-    display: flex !important; /* Verstärkt für Desktop */
+    display: flex !important;
 }
 
-.desktop-menu ul {
+.desktop-menu .submenu {
     display: none;
     position: absolute;
     top: 100%;
@@ -70,15 +70,17 @@ nav ul li a:active {
     border-radius: 4px;
 }
 
+.desktop-menu .submenu.active {
+    display: block;
+}
+
 .desktop-menu ul li {
     position: relative;
 }
 
 .desktop-menu ul ul {
-    display: none;
-    position: absolute;
+    top: 0; /* Mittig zum übergeordneten Menüpunkt */
     left: 100%;
-    top: 5;
     background-color: #e68900;
     min-width: 250px;
     padding: 0.5rem;
@@ -87,20 +89,16 @@ nav ul li a:active {
 }
 
 @media (min-width: 901px) {
-    .desktop-menu li:hover > ul {
+    .desktop-menu li:hover > .submenu {
         display: block;
     }
 
-    .desktop-menu ul li:hover > ul {
-        display: flex;
-    }
-
     .hamburger {
-        display: none !important; /* Versteckt Hamburger auf Desktop */
+        display: none !important;
     }
 
     .mobile-menu {
-        display: none !important; /* Versteckt Mobile-Menü auf Desktop */
+        display: none !important;
     }
 }
 
