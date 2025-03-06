@@ -72,7 +72,7 @@ nav ul li a:active {
 
 .desktop-menu ul ul {
     top: 0;
-    left: 100%; /* Rechts daneben */
+    left: 100%;
     background-color: #e68900;
     min-width: 250px;
 }
@@ -83,21 +83,17 @@ nav ul li a:active {
     }
 
     .hamburger {
-        display: none !important;
+        display: none;
     }
 
     .mobile-menu {
-        display: none !important;
+        display: none;
     }
 }
 
 /* Mobile-Menü */
 .mobile-menu {
     display: none;
-}
-
-.mobile-menu.active {
-    display: flex;
     flex-direction: column;
     width: 100%;
     position: absolute;
@@ -107,33 +103,42 @@ nav ul li a:active {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.mobile-menu .submenu {
+.mobile-menu ul {
     display: none;
     background-color: #0056b3;
     width: 100%;
     padding-left: 1rem;
 }
 
-.mobile-menu .submenu.active {
-    display: block;
-}
-
 .hamburger {
     display: none;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 
 @media (max-width: 900px) {
+    .desktop-menu {
+        display: none;
+    }
+
     .hamburger {
         display: block;
-        font-size: 2rem;
-        background: none;
-        border: none;
-        color: white;
-        cursor: pointer;
-        padding: 0.5rem 1rem;
-        position: absolute;
-        left: 0;
-        top: 0;
+    }
+
+    .hamburger:hover + .mobile-menu,
+    .mobile-menu:hover {
+        display: flex;
+    }
+
+    .mobile-menu li:hover > ul {
+        display: block;
     }
 }
 
