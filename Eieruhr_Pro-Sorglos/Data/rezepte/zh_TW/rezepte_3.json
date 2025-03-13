@@ -1,0 +1,25 @@
+{
+  "titel": "经典俄式蛋沙拉",
+  "beschreibung": "一道奶油味的蛋沙拉，配以酸黄瓜和蛋黄酱。",
+  "kochzeit": "20分钟",
+  "portionen": 4,
+  "zutaten": [
+    { "name": "鸡蛋", "menge": "5", "einheit": "个" },
+    { "name": "蛋黄酱", "menge": "2", "einheit": "汤匙" },
+    { "name": "芥末", "menge": "1", "einheit": "茶匙" },
+    { "name": "柠檬汁", "menge": "1", "einheit": "茶匙" },
+    { "name": "酸黄瓜", "menge": "2", "einheit": "个" },
+    { "name": "洋葱", "menge": "1", "einheit": "小个" },
+    { "name": "盐", "menge": "适量", "einheit": "" },
+    { "name": "胡椒", "menge": "适量", "einheit": "" },
+    { "name": "莳萝", "menge": "用于装饰", "einheit": "" }
+  ],
+  "zubereitung": [
+    "将鸡蛋煮熟，去壳并切碎。",
+    "将蛋黄酱、芥末和柠檬汁搅拌均匀。",
+    "切碎酸黄瓜和洋葱，加入混合物中。",
+    "用盐、胡椒和莳萝调味。",
+    "让沙拉静置10分钟后食用。"
+  ],
+  "imagePath": "https://rosso007-prog.github.io/WebSite/Eieruhr_Pro-Sorglos/Data/rezepte/Bilder/image3.png"
+}

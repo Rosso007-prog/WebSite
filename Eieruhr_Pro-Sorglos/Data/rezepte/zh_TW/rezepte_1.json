@@ -1,0 +1,23 @@
+{
+  "titel": "经典酿鸡蛋",
+  "beschreibung": "美味的酿鸡蛋，蛋黄馅柔滑，搭配芥末和蛋黄酱调味。",
+  "kochzeit": "20分钟",
+  "portionen": 6,
+  "zutaten": [
+    { "name": "鸡蛋", "menge": "6", "einheit": "个" },
+    { "name": "蛋黄酱", "menge": "3", "einheit": "汤匙" },
+    { "name": "芥末", "menge": "1", "einheit": "茶匙" },
+    { "name": "柠檬汁", "menge": "1", "einheit": "茶匙" },
+    { "name": "盐", "menge": "适量", "einheit": "" },
+    { "name": "胡椒", "menge": "适量", "einheit": "" },
+    { "name": "红椒粉", "menge": "用于装饰", "einheit": "" }
+  ],
+  "zubereitung": [
+    "将鸡蛋煮熟（约10分钟），然后放入冷水中冷却并剥壳。",
+    "将鸡蛋对半切开，取出蛋黄。",
+    "将蛋黄与蛋黄酱、芥末、柠檬汁、盐和胡椒搅拌均匀。",
+    "将混合物填入蛋白中。",
+    "撒上红椒粉，即可食用。"
+  ],
+  "imagePath": "https://rosso007-prog.github.io/WebSite/Eieruhr_Pro-Sorglos/Data/rezepte/Bilder/image1.png"
+}

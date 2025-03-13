@@ -1,0 +1,26 @@
+{
+  "titel": "班尼迪克蛋",
+  "beschreibung": "一道经典的早餐，包含水波蛋、火腿和荷兰酱，搭配英式松饼。",
+  "kochzeit": "25分钟",
+  "portionen": 2,
+  "zutaten": [
+    { "name": "鸡蛋", "menge": "4", "einheit": "个" },
+    { "name": "英式松饼", "menge": "2", "einheit": "个" },
+    { "name": "火腿", "menge": "2", "einheit": "片" },
+    { "name": "黄油", "menge": "2", "einheit": "汤匙" },
+    { "name": "荷兰酱", "menge": "100", "einheit": "毫升" },
+    { "name": "白醋", "menge": "1", "einheit": "汤匙" },
+    { "name": "盐", "menge": "适量", "einheit": "" },
+    { "name": "胡椒", "menge": "适量", "einheit": "" }
+  ],
+  "zubereitung": [
+    "加热水并加入白醋，不要让水沸腾。",
+    "将鸡蛋逐个打入碗中，小心地倒入热水中。",
+    "水波蛋煮3-4分钟后捞出，沥干水分。",
+    "将英式松饼切半，抹上黄油，并用锅轻微煎烤。",
+    "将火腿片在锅中稍微煎一下。",
+    "将松饼上放火腿、水波蛋，并淋上荷兰酱。",
+    "撒上盐和胡椒，即可食用。"
+  ],
+  "imagePath": "https://rosso007-prog.github.io/WebSite/Eieruhr_Pro-Sorglos/Data/rezepte/Bilder/image6.png"
+}

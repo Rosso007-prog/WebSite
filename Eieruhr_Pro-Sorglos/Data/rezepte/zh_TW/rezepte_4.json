@@ -1,0 +1,22 @@
+{
+  "titel": "中式蛋花汤",
+  "beschreibung": "一款清淡的汤，鸡蛋在热汤中形成嫩滑的蛋花。",
+  "kochzeit": "15分钟",
+  "portionen": 2,
+  "zutaten": [
+    { "name": "鸡蛋", "menge": "2", "einheit": "个" },
+    { "name": "蔬菜高汤", "menge": "500", "einheit": "毫升" },
+    { "name": "酱油", "menge": "1", "einheit": "茶匙" },
+    { "name": "玉米淀粉", "menge": "1", "einheit": "茶匙" },
+    { "name": "香葱", "menge": "1", "einheit": "根" },
+    { "name": "盐", "menge": "适量", "einheit": "" },
+    { "name": "胡椒", "menge": "适量", "einheit": "" }
+  ],
+  "zubereitung": [
+    "加热蔬菜高汤，加入酱油。",
+    "将玉米淀粉用少量水溶解，倒入汤中。",
+    "鸡蛋打散，慢慢倒入热汤中，不断搅拌。",
+    "撒上香葱，即可食用。"
+  ],
+  "imagePath": "https://rosso007-prog.github.io/WebSite/Eieruhr_Pro-Sorglos/Data/rezepte/Bilder/image4.png"
+}

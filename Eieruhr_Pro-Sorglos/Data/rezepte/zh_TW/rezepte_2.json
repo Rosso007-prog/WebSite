@@ -1,0 +1,25 @@
+{
+   "titel": "土豆鸡蛋沙拉",
+   "beschreibung": "一款经典的土豆沙拉，搭配煮熟的鸡蛋和风味浓郁的调料。",
+   "kochzeit": "30分钟",
+   "portionen": 4,
+   "zutaten": [
+     { "name": "土豆", "menge": "500", "einheit": "克" },
+     { "name": "鸡蛋", "menge": "4", "einheit": "个" },
+     { "name": "洋葱", "menge": "1", "einheit": "小个" },
+     { "name": "醋", "menge": "3", "einheit": "汤匙" },
+     { "name": "油", "menge": "4", "einheit": "汤匙" },
+     { "name": "芥末", "menge": "2", "einheit": "茶匙" },
+     { "name": "盐", "menge": "适量", "einheit": "" },
+     { "name": "胡椒", "menge": "适量", "einheit": "" },
+     { "name": "欧芹", "menge": "用于装饰", "einheit": "" }
+   ],
+   "zubereitung": [
+     "将土豆煮熟，去皮并切成片。",
+     "将鸡蛋煮熟，去壳并切片。",
+     "将洋葱切碎，与醋、油、芥末、盐和胡椒混合，制成调味汁。",
+     "将土豆和鸡蛋与调味汁拌匀。",
+     "撒上欧芹，即可食用。"
+   ],
+   "imagePath": "https://rosso007-prog.github.io/WebSite/Eieruhr_Pro-Sorglos/Data/rezepte/Bilder/image2.png"
+}

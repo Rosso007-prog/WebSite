@@ -1,0 +1,22 @@
+{
+  "titel": "牛油果鸡蛋面包",
+  "beschreibung": "一道健康的牛油果面包，配上煮熟的鸡蛋和辣椒片。",
+  "kochzeit": "10分钟",
+  "portionen": 2,
+  "zutaten": [
+    { "name": "鸡蛋", "menge": "2", "einheit": "个" },
+    { "name": "牛油果", "menge": "1", "einheit": "个（熟透）" },
+    { "name": "面包", "menge": "2", "einheit": "片" },
+    { "name": "柠檬汁", "menge": "1", "einheit": "茶匙" },
+    { "name": "盐", "menge": "适量", "einheit": "" },
+    { "name": "胡椒", "menge": "适量", "einheit": "" },
+    { "name": "辣椒片", "menge": "用于装饰", "einheit": "" }
+  ],
+  "zubereitung": [
+    "将鸡蛋煮至半熟，去壳并切片。",
+    "将牛油果捣碎，加入柠檬汁、盐和胡椒。",
+    "将面包烤至酥脆，并抹上牛油果泥。",
+    "放上鸡蛋片，撒上辣椒片，即可食用。"
+  ],
+  "imagePath": "https://rosso007-prog.github.io/WebSite/Eieruhr_Pro-Sorglos/Data/rezepte/Bilder/image5.png"
+}
