@@ -1,5 +1,5 @@
 {
-  "app_title": "ESP32 Bluetooth Controller",
+  "app_title": "ESP32 Bluetooth Controller Deutsch",
   "connect_to_device": "Mit Gerät verbinden",
   "scanning": "Scannen...",
   "select_device": "Gerät auswählen",
@@ -7,10 +7,10 @@
   "select_previous_device": "Vorheriges Gerät auswählen",
   "settings": "Einstellungen",
   "general_settings": "Allgemeine Einstellungen",
-  "medical_terms": "Begriffe",
+  "medical_terms": "Medizinische Begriffe",
   "connection": "Verbindung",
   "code": "Code",
-  "add_medical_term": "Begriff hinzufügen",
+  "add_medical_term": "Medizinischen Begriff hinzufügen",
   "add_term": "Begriff hinzufügen",
   "connected_device": "Verbundenes Gerät",
   "no_device": "Kein Gerät",
@@ -33,5 +33,14 @@
   "app_info": "App-Info",
   "version": "Version",
   "build_number": "Build-Nummer",
-  "select_language": "Sprache auswählen"
+  "select_language": "Sprache auswählen",
+  "purchase_premium": "Premium kaufen",
+  "iap_not_available": "In-App-Käufe sind derzeit nicht verfügbar.",
+  "selected_product": "Ausgewähltes Produkt",
+  "buy_now": "Jetzt kaufen",
+  "one_time_purchase": "Einmalkauf",
+  "subscription": "Abonnement",
+  "Anything2ERP.premium_once": "Einmaliger Kauf für die Pro-Version.",
+  "Anything2ERP.premium_monthly": "Monatliches Abonnement mit Premium-Funktionen.",
+  "Anything2ERP.premium_yearly": "Jährliches Abonnement mit erweitertem Zugang."
 }
