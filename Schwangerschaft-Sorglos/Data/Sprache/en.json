@@ -1,37 +1,54 @@
 {
-  "app_title": "ESP32 Bluetooth Controller",
-  "connect_to_device": "Connect to device",
-  "scanning": "Scanning...",
-  "select_device": "Select device",
-  "last_connected_devices": "Last connected devices",
-  "select_previous_device": "Select previous device",
-  "settings": "Settings",
-  "general_settings": "General settings",
-  "medical_terms": "terms",
-  "connection": "Connection",
-  "code": "Code",
-  "add_medical_term": "Add term",
-  "add_term": "Add term",
-  "connected_device": "Connected device",
-  "no_device": "No device",
-  "no_connection_or_text": "❌ No connection or text!",
-  "connection_lost": "❌ Connection lost!",
-  "confirm_deletion": "Confirm deletion",
-  "clear_text_confirmation": "Do you really want to delete the text?",
-  "cancel": "Cancel",
-  "clear": "Clear",
-  "clear_text": "Clear text",
-  "enter_text_to_send": "Enter text to send",
-  "send_to_esp32": "Send to ESP32",
-  "listening": "Listening...",
-  "hold_to_listen": "Hold to listen",
-  "message_sent": "📤 Message sent: ",
-  "massage": "Message",
-  "dark_mode": "Dark mode",
-  "enable_notifications": "Enable notifications",
-  "language": "Language",
-  "app_info": "App info",
-  "version": "Version",
-  "build_number": "Build number",
-  "select_language": "Select language"
+  "app_title": "Pregnancy Carefree",
+  "select_language": "Select Language",
+  "welcome": "Welcome to Pregnancy Carefree!",
+  "week_1": {
+    "title": "Week 1",
+    "description": "Your pregnancy begins with conception."
+  },
+  "week_2": {
+    "title": "week_2.title",
+    "description": "week_2.description"
+  },
+  "week_3": {
+    "title": "week_3.title",
+    "description": "week_3.description"
+  },
+
+  "week_40": {
+    "title": "week_40.title",
+    "description": "week_40.description"
+  },
+  "tips": {
+    "title": "Tips for Your Pregnancy",
+    "nutrition": {
+      "title": "Nutrition",
+      "description": "Ensure sufficient folic acid and iron."
+    },
+    "exercise": {
+      "title": "Exercise",
+      "description": "Light walks promote your well-being."
+    },
+    "rest": {
+      "title": "Rest",
+      "description": "Get plenty of sleep."
+    }
+  },
+  "navigation": {
+    "home": "Home",
+    "weeks": "navigation.weeks",
+    "tips": "Tips",
+    "settings": "Settings"
+  },
+  "show_tips": "Show Tips",
+  "settings": {
+    "title": "Settings",
+    "theme_section": "Theme",
+    "theme_default": "Default",
+    "theme_dark": "Dark",
+    "theme_pastel": "Pastel"
+  },
+  "weeks": {
+    "title": "weeks.title"
+  }
 }
