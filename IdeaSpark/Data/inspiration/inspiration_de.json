@@ -1,12 +1,22 @@
 {
-  "inspirations": [
-    "Schreibe eine Geschichte über einen verlorenen Schuh",
-    "Plane eine Reise an einen ungewöhnlichen Ort",
-    "Erfinde ein neues Gerät für den Alltag",
-    "Kreiere ein Rezept mit nur 3 Zutaten",
-    "Stell dir ein Gespräch zwischen zwei Tieren vor",
-    "Entwerfe ein Kleidungsstück für die Zukunft",
-    "Erzähle von einem Tag ohne Technologie",
-    "Finde einen neuen Zweck für einen alten Gegenstand"
-  ]
+  "categories": {
+    "Geschichten": [
+      "Schreibe eine Geschichte über einen verlorenen Schuh",
+      "Erzähle von einem Tag ohne Technologie",
+      "Stell dir ein Gespräch zwischen zwei Tieren vor"
+    ],
+    "Erfindungen": [
+      "Erfinde ein neues Gerät für den Alltag",
+      "Finde einen neuen Zweck für einen alten Gegenstand",
+      "Entwerfe ein Kleidungsstück für die Zukunft"
+    ],
+    "Reisen": [
+      "Plane eine Reise an einen ungewöhnlichen Ort",
+      "Erstelle einen Reiseplan für einen Tag in einer Fantasiestadt"
+    ],
+    "Kochen": [
+      "Kreiere ein Rezept mit nur 3 Zutaten",
+      "Erfinde ein Gericht für einen besonderen Anlass"
+    ]
+  }
 }

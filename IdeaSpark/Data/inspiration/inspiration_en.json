@@ -1,12 +1,22 @@
 {
-  "inspirations": [
-    "Write a story about a lost shoe",
-    "Plan a trip to an unusual place",
-    "Invent a new gadget for daily life",
-    "Create a recipe with only 3 ingredients",
-    "Imagine a conversation between two animals",
-    "Design a piece of clothing for the future",
-    "Tell about a day without technology",
-    "Find a new purpose for an old object"
-  ]
+  "categories": {
+    "Stories": [
+      "Write a story about a lost shoe",
+      "Tell about a day without technology",
+      "Imagine a conversation between two animals"
+    ],
+    "Inventions": [
+      "Invent a new gadget for daily life",
+      "Find a new purpose for an old object",
+      "Design a piece of clothing for the future"
+    ],
+    "Travel": [
+      "Plan a trip to an unusual place",
+      "Create a travel itinerary for a day in a fantasy city"
+    ],
+    "Cooking": [
+      "Create a recipe with only 3 ingredients",
+      "Invent a dish for a special occasion"
+    ]
+  }
 }
