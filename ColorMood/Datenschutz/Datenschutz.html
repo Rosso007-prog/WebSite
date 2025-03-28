@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datenschutzerklärung - Sorglos</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        function changeLanguage(lang) {
+            document.querySelectorAll('[data-lang]').forEach(el => {
+                el.style.display = el.getAttribute('data-lang') === lang ? 'block' : 'none';
+            });
+        }
+    </script>
+</head>
+<body>
+    <!-- Sprachumschalter -->
+    <div>
+        <button onclick="changeLanguage('de')">Deutsch</button>
+        <button onclick="changeLanguage('en')">English</button>
+    </div>
+
+    <!-- Menü wird über JavaScript aus dem Root-Verzeichnis geladen -->
+    <div id="menu"></div>
+    <div class="container">
+        <h1 data-lang="de">Datenschutzerklärung</h1>
+        <h1 data-lang="en" style="display:none;">Privacy Policy</h1>
+
+        <p data-lang="de">Wir freuen uns über Ihr Interesse an unserer App. Der Schutz Ihrer Privatsphäre ist für uns sehr wichtig. Nachfolgend informieren wir Sie ausführlich über den Umgang mit Ihren Daten.</p>
+        <p data-lang="en" style="display:none;">We appreciate your interest in our app. Protecting your privacy is very important to us. Below we provide detailed information on how we handle your data.</p>
+
+        <h2 data-lang="de">1. Verantwortliche Stelle</h2>
+        <h2 data-lang="en" style="display:none;">1. Responsible Authority</h2>
+        <p data-lang="de">Verantwortlich für die Datenverarbeitung im Rahmen dieser App ist:</p>
+        <p data-lang="en" style="display:none;">The responsible party for data processing within this app is:</p>
+        <p>Sorglos<br>
+           E-Mail: sorgloslack@gmail.com</p>
+
+        <h2 data-lang="de">2. Datenerhebung und Speicherung</h2>
+        <h2 data-lang="en" style="display:none;">2. Data Collection and Storage</h2>
+        <p data-lang="de">Unsere App speichert und verarbeitet <strong>keine personenbezogenen Daten</strong> auf unseren Servern. Alle Daten bleiben ausschließlich auf Ihrem Gerät gespeichert.</p>
+        <p data-lang="en" style="display:none;">Our app does <strong>not store or process any personal data</strong> on our servers. All data remains stored only on your device.</p>
+
+        <h2 data-lang="de">3. Werbung und Drittanbieter</h2>
+        <h2 data-lang="en" style="display:none;">3. Advertising and Third-Party Services</h2>
+        <p data-lang="de">Unsere App nutzt Google AdMob, um Werbeanzeigen anzuzeigen. AdMob kann dabei Daten erheben, um personalisierte Werbung bereitzustellen. Diese Datenerhebung erfolgt durch Google gemäß deren eigenen Datenschutzrichtlinien.</p>
+        <p data-lang="en" style="display:none;">Our app uses Google AdMob to display advertisements. AdMob may collect data to provide personalized advertising. This data collection is carried out by Google in accordance with their own privacy policies.</p>
+        <p><a href="https://policies.google.com/privacy" target="_blank">Google AdMob Datenschutzrichtlinie</a></p>
+
+        <h2 data-lang="de">4. Rechte der Nutzer</h2>
+        <h2 data-lang="en" style="display:none;">4. User Rights</h2>
+        <p data-lang="de">Da keine personenbezogenen Daten gespeichert oder verarbeitet werden, entfallen die meisten klassischen Datenschutzrechte wie Löschung oder Datenübertragbarkeit. Falls Sie Fragen haben, können Sie uns jederzeit kontaktieren.</p>
+        <p data-lang="en" style="display:none;">Since no personal data is stored or processed, most standard data protection rights such as deletion or data portability do not apply. If you have any questions, you can contact us at any time.</p>
+
+        <h2 data-lang="de">5. Zusätzliche Hinweise für Nutzer in den USA</h2>
+        <h2 data-lang="en" style="display:none;">5. Additional Information for Users in the USA</h2>
+        <p data-lang="de">Unsere App erhebt keine personenbezogenen Daten und verkauft diese nicht an Dritte. Falls Sie in Kalifornien ansässig sind, haben Sie gemäß dem California Consumer Privacy Act (CCPA) das Recht:</p>
+        <p data-lang="en" style="display:none;">Our app does not collect personal data and does not sell it to third parties. If you are a resident of California, you have the right under the California Consumer Privacy Act (CCPA) to:</p>
+        <ul>
+            <li data-lang="de">Zu erfahren, welche personenbezogenen Daten über Sie gespeichert werden (was in unserem Fall nicht zutrifft).</li>
+            <li data-lang="en" style="display:none;">Find out what personal data is stored about you (which does not apply in our case).</li>
+            <li data-lang="de">Die Löschung Ihrer Daten zu beantragen (nicht relevant, da wir keine Daten speichern).</li>
+            <li data-lang="en" style="display:none;">Request deletion of your data (not relevant, as we do not store any data).</li>
+            <li data-lang="de">Der Weitergabe von Daten zu Werbezwecken zu widersprechen (Google AdMob verarbeitet möglicherweise Daten, siehe deren <a href="https://policies.google.com/privacy" target="_blank">Datenschutzrichtlinie</a>).</li>
+            <li data-lang="en" style="display:none;">Object to the sharing of data for advertising purposes (Google AdMob may process data, see their <a href="https://policies.google.com/privacy" target="_blank">privacy policy</a>).</li>
+        </ul>
+
+        <h2 data-lang="de">6. Änderungen an dieser Datenschutzerklärung</h2>
+        <h2 data-lang="en" style="display:none;">6. Changes to This Privacy Policy</h2>
+        <p data-lang="de">Wir behalten uns das Recht vor, diese Datenschutzerklärung zu ändern. Die aktuellste Version wird immer in der App oder auf unserer Webseite verfügbar sein.</p>
+        <p data-lang="en" style="display:none;">We reserve the right to change this privacy policy. The latest version will always be available in the app or on our website.</p>
+
+        <h2 data-lang="de">7. Kontakt</h2>
+        <h2 data-lang="en" style="display:none;">7. Contact</h2>
+        <p data-lang="de">Falls Sie Fragen zu dieser Datenschutzerklärung haben, können Sie uns unter folgender Adresse kontaktieren:</p>
+        <p data-lang="en" style="display:none;">If you have any questions regarding this privacy policy, you can contact us at:</p>
+        <p>E-Mail: sorgloslack@gmail.com</p>
+    </div>
+
+    <footer>
+        &copy; 2024 Sorglos. Alle Rechte vorbehalten.
+    </footer>
+
+    <!-- Menü aus dem Root-Verzeichnis über JavaScript laden -->
+    <script>
+        fetch('menu.html')
+            .then(response => response.text())
+            .then(data => document.getElementById('menu').innerHTML = data);
+    </script>
+</body>
+</html>
