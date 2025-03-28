@@ -1,0 +1,6 @@
+{
+  "latest_version": "1.0.3",
+  "update_url_ios": "https://apps.apple.com/app/deine-app",
+  "update_url_android": "https://play.google.com/store/apps/details?id=deine.app",
+  "force": false
+}
