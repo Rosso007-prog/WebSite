@@ -1,0 +1,143 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav {
+    background-color: #ff9800; /* Orange */
+    padding: 1rem;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffcc80; /* Heller Orange-Ton für Hover-Effekt */
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    max-width: 600px;
+    margin: 2rem auto;
+    text-align: center;
+    animation: fadeIn 0.5s ease-in;
+}
+
+h1 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+select, textarea, input[type="submit"] {
+    width: 100%;
+    padding: 0.75rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+input[type="submit"] {
+    background-color: #ff9800; /* Orange */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #e67e22; /* Dunklerer Orange-Ton für Hover-Effekt */
+}
+
+.download-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff9800; /* Orange */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.download-button:hover {
+    background-color: #e67e22; /* Dunklerer Orange-Ton für Hover-Effekt */
+    transform: scale(1.05); /* Leichtes Vergrößern beim Hover */
+}
+
+/* Stil für das Bild */
+img {
+    border-radius: 15px; /* Abgerundete Ecken für das Bild */
+    width: 100%; /* Sorgt dafür, dass das Bild in den Container passt */
+    max-width: 150px; /* Maximale Breite des Bildes */
+    height: auto; /* Automatische Anpassung der Höhe */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Schatten für das Bild */
+}
+
+footer {
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    color: #777;
+    text-align: center;
+}
+
+.rating {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+
+.rating label {
+    font-size: 2rem;
+    color: #ff9800; /* Orange */
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.rating input:checked ~ label {
+    color: #c0c0c0;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
