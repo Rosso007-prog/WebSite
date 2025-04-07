@@ -1,6 +1,7 @@
 {
   "latest_version": "1.2.0",
   "update_description": "In dieser Version wurden wichtige Sicherheitsupdates und Leistungsverbesserungen vorgenommen.",
+  "required": true,
   "store_link": "https://play.google.com/store/apps/details?id=dein.app.id",
-  "update_image": "https://raw.githubusercontent.com/deinbenutzername/deinrepository/main/assets/update_banner.png"
+  "update_image": "https://rosso007-prog.github.io/WebSite/neurobyte/Data/Startbild/startup.png"
 }
