@@ -1,7 +1,7 @@
 {
   "latest_version": "1.0.1",
   "update_description": "In dieser Version wurden wichtige Sicherheitsupdates und Leistungsverbesserungen vorgenommen.",
-  "required": true,
+  "required": false,
   "store_link": "https://apps.apple.com/us/app/neurobyte/id6744259967",
   "update_image": "https://rosso007-prog.github.io/WebSite/neurobyte/Data/Startbild/startup.png"
 }
