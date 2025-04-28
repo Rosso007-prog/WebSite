@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Super Eieruhr",
+    "description": "Perfekte Frühstückseier, jeden Tag!",
+    "imageUrl": "https://your-cdn-link.com/eieruhr.png",
+    "url": "https://your-appstore-link.com/eieruhr"
+  },
+  {
+    "title": "Turbo Timer",
+    "description": "Dein smarter Küchenhelfer!",
+    "imageUrl": "https://your-cdn-link.com/timer.png",
+    "url": "https://your-appstore-link.com/timer"
+  },
+  {
+    "title": "Mega Meal Prep",
+    "description": "Plane deine Woche wie ein Profi!",
+    "imageUrl": "https://your-cdn-link.com/mealprep.png",
+    "url": "https://your-appstore-link.com/mealprep"
+  }
+]
