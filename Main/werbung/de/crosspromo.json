@@ -1,20 +1,23 @@
-[
-  {
-    "title": "FotoSafe-Sorglos",
-    "description": "Schütze deine Erinnerungen mit FotoSafe-Sorglos! Organisiere Fotos sicher in Ordnern, mit PIN-Schutz und Mehrsprachigkeit. Jetzt herunterladen!",
-    "imageUrl": "https://rosso007-prog.github.io/WebSite/Main/werbung/images/Fotosafe.png",
-    "url": "https://apps.apple.com/de/app/fotosafe-sorglos/id6740139435"
-  },
-  {
-    "title": "NeuroByte",
-    "description": "Weltneuheit! Entdecke das neuronale Netzwerk, knacke Knotenpunkte und schütze sie vor KI-Angriffen! PowerUps, visuelle Effekte & ein taktisches Quizsystem erwarten dich!",
-    "imageUrl": "https://rosso007-prog.github.io/WebSite/Main/werbung/images/neurobyte.png",
-    "url": "https://your-appstore-link.com/timer"
-  },
-  {
-    "title": "Sorglos Wachsen",
-    "description": "Plane deine Woche wie ein Profi!",
-    "imageUrl": "https://rosso007-prog.github.io/WebSite/Main/werbung/images/mealprep.png",
-    "url": "https://apps.apple.com/de/app/sorglos-wachsen/id6739536384"
-  }
-]
+{
+    "version": 2,
+    "apps": [
+        {
+            "title": "FotoSafe-Sorglos",
+            "description": "Schütze deine Erinnerungen mit FotoSafe-Sorglos! Organisiere Fotos sicher in Ordnern, mit PIN-Schutz und Mehrsprachigkeit. Jetzt herunterladen!",
+            "imageUrl": "https://rosso007-prog.github.io/WebSite/Main/werbung/images/Fotosafe.png",
+            "url": "https://apps.apple.com/de/app/fotosafe-sorglos/id6740139435"
+        },
+        {
+            "title": "NeuroByte",
+            "description": "Weltneuheit! Entdecke das neuronale Netzwerk, knacke Knotenpunkte und schütze sie vor KI-Angriffen! PowerUps, visuelle Effekte & ein taktisches Quizsystem erwarten dich!",
+            "imageUrl": "https://rosso007-prog.github.io/WebSite/Main/werbung/images/neurobyte.png",
+            "url": "https://your-appstore-link.com/timer"
+        },
+        {
+            "title": "Sorglos Wachsen",
+            "description": "Plane deine Woche wie ein Profi!",
+            "imageUrl": "https://rosso007-prog.github.io/WebSite/Main/werbung/images/mealprep.png",
+            "url": "https://apps.apple.com/de/app/sorglos-wachsen/id6739536384"
+        }
+    ]
+}
