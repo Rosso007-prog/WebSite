@@ -1,0 +1,82 @@
+{
+  "mapSize": { "width": 2000, "height": 1200 },
+  "nodes": [
+    { "id": "avatar", "name": "Hacker", "description": "Headquarter P1", "category": "allgemeinwissen", "level": 0, "isStartNode": true, "isPlayer2StartNode": false, "position": { "x": 100, "y": 600 }, "imagePathDefault": "assets/nodes/node_default.png", "imagePathCaptured": "assets/nodes/node_captured.png", "imagePathLocked": "assets/nodes/locked.png" },
+    { "id": "ki", "name": "KI", "description": "Headquarter P2", "category": "allgemeinwissen", "level": 0, "isStartNode": false, "isPlayer2StartNode": true, "position": { "x": 1900, "y": 600 }, "imagePathDefault": "assets/nodes/ki_locked.png", "imagePathCaptured": "assets/nodes/ki_locked.png", "imagePathLocked": "assets/nodes/ki_locked.png" },
+
+    { "id": "p1-h1-1", "name": "P1-H1-1", "description": "", "category": "mathematik", "level": 1, "position": { "x": 300, "y": 400 }, "imagePathDefault": "assets/nodes/node_default.png", "imagePathCaptured": "assets/nodes/node_captured.png", "imagePathLocked": "assets/nodes/locked.png" },
+    { "id": "p1-h1-2", "name": "P1-H1-2", "description": "", "category": "sprachen", "level": 1, "position": { "x": 300, "y": 600 }, "imagePathDefault": "assets/nodes/node_default.png", "imagePathCaptured": "assets/nodes/node_captured.png", "imagePathLocked": "assets/nodes/locked.png" },
+    { "id": "p1-h1-3", "name": "P1-H1-3", "description": "", "category": "popkultur", "level": 1, "position": { "x": 300, "y": 800 }, "imagePathDefault": "assets/nodes/node_default.png", "imagePathCaptured": "assets/nodes/node_captured.png", "imagePathLocked": "assets/nodes/locked.png" },
+
+    { "id": "p2-h1-1", "name": "P2-H1-1", "description": "", "category": "mathematik", "level": 1, "position": { "x": 1700, "y": 400 }, "imagePathDefault": "assets/nodes/node_default.png", "imagePathCaptured": "assets/nodes/node_captured.png", "imagePathLocked": "assets/nodes/locked.png" },
+    { "id": "p2-h1-2", "name": "P2-H1-2", "description": "", "category": "sprachen", "level": 1, "position": { "x": 1700, "y": 600 }, "imagePathDefault": "assets/nodes/node_default.png", "imagePathCaptured": "assets/nodes/node_captured.png", "imagePathLocked": "assets/nodes/locked.png" },
+    { "id": "p2-h1-3", "name": "P2-H1-3", "description": "", "category": "popkultur", "level": 1, "position": { "x": 1700, "y": 800 }, "imagePathDefault": "assets/nodes/node_default.png", "imagePathCaptured": "assets/nodes/node_captured.png", "imagePathLocked": "assets/nodes/locked.png" },
+
+    { "id": "p1-h2-1", "name": "P1-H2-1", "description": "", "category": "naturwissenschaften", "level": 2, "position": { "x": 500, "y": 500 }, "imagePathDefault": "assets/nodes/node_default.png", "imagePathCaptured": "assets/nodes/node_captured.png", "imagePathLocked": "assets/nodes/locked.png" },
+    { "id": "p1-h2-2", "name": "P1-H2-2", "description": "", "category": "psychologie", "level": 2, "position": { "x": 500, "y": 700 }, "imagePathDefault": "assets/nodes/node_default.png", "imagePathCaptured": "assets/nodes/node_captured.png", "imagePathLocked": "assets/nodes/locked.png" },
+
+    { "id": "p2-h2-1", "name": "P2-H2-1", "description": "", "category": "naturwissenschaften", "level": 2, "position": { "x": 1500, "y": 500 }, "imagePathDefault": "assets/nodes/node_default.png", "imagePathCaptured": "assets/nodes/node_captured.png", "imagePathLocked": "assets/nodes/locked.png" },
+    { "id": "p2-h2-2", "name": "P2-H2-2", "description": "", "category": "psychologie", "level": 2, "position": { "x": 1500, "y": 700 }, "imagePathDefault": "assets/nodes/node_default.png", "imagePathCaptured": "assets/nodes/node_captured.png", "imagePathLocked": "assets/nodes/locked.png" },
+
+    { "id": "p1-h3-1", "name": "P1-H3-1", "description": "", "category": "brainteaser", "level": 3, "position": { "x": 700, "y": 600 }, "imagePathDefault": "assets/nodes/node_default.png", "imagePathCaptured": "assets/nodes/node_captured.png", "imagePathLocked": "assets/nodes/locked.png" },
+    { "id": "p2-h3-1", "name": "P2-H3-1", "description": "", "category": "literatur", "level": 3, "position": { "x": 1300, "y": 600 }, "imagePathDefault": "assets/nodes/node_default.png", "imagePathCaptured": "assets/nodes/node_captured.png", "imagePathLocked": "assets/nodes/locked.png" },
+
+    { "id": "center", "name": "Firewall", "description": "Zentraler Punkt", "category": "wissenschaft", "level": 4, "position": { "x": 1000, "y": 600 }, "imagePathDefault": "assets/nodes/firewall_default.png", "imagePathCaptured": "assets/nodes/firewall_captured.png", "imagePathLocked": "assets/nodes/firewall_locked.png" }
+  ],
+  "edges": [
+    { "from": "avatar", "to": "p1-h1-1", "p1": true, "p2": false },
+    { "from": "avatar", "to": "p1-h1-2", "p1": true, "p2": false },
+    { "from": "avatar", "to": "p1-h1-3", "p1": true, "p2": false },
+
+    { "from": "ki", "to": "p2-h1-1", "p1": false, "p2": true },
+    { "from": "ki", "to": "p2-h1-2", "p1": false, "p2": true },
+    { "from": "ki", "to": "p2-h1-3", "p1": false, "p2": true },
+
+    { "from": "p1-h1-1", "to": "p1-h2-1", "p1": true, "p2": false },
+    { "from": "p1-h1-1", "to": "p1-h2-2", "p1": true, "p2": false },
+    { "from": "p1-h1-2", "to": "p1-h2-1", "p1": true, "p2": false },
+    { "from": "p1-h1-2", "to": "p1-h2-2", "p1": true, "p2": false },
+    { "from": "p1-h1-3", "to": "p1-h2-1", "p1": true, "p2": false },
+    { "from": "p1-h1-3", "to": "p1-h2-2", "p1": true, "p2": false },
+
+    { "from": "p2-h1-1", "to": "p2-h2-1", "p1": false, "p2": true },
+    { "from": "p2-h1-1", "to": "p2-h2-2", "p1": false, "p2": true },
+    { "from": "p2-h1-2", "to": "p2-h2-1", "p1": false, "p2": true },
+    { "from": "p2-h1-2", "to": "p2-h2-2", "p1": false, "p2": true },
+    { "from": "p2-h1-3", "to": "p2-h2-1", "p1": false, "p2": true },
+    { "from": "p2-h1-3", "to": "p2-h2-2", "p1": false, "p2": true },
+
+    { "from": "p1-h2-1", "to": "p1-h3-1", "p1": true, "p2": false },
+    { "from": "p1-h2-2", "to": "p1-h3-1", "p1": true, "p2": false },
+    { "from": "p2-h2-1", "to": "p2-h3-1", "p1": false, "p2": true },
+    { "from": "p2-h2-2", "to": "p2-h3-1", "p1": false, "p2": true },
+
+    { "from": "p1-h3-1", "to": "center", "p1": true, "p2": false },
+    { "from": "p2-h3-1", "to": "center", "p1": false, "p2": true },
+
+    { "from": "center", "to": "p1-h3-1", "p1": false, "p2": true },
+    { "from": "center", "to": "p2-h3-1", "p1": true, "p2": false },
+    { "from": "p1-h3-1", "to": "p1-h2-1", "p1": false, "p2": true },
+    { "from": "p1-h3-1", "to": "p1-h2-2", "p1": false, "p2": true },
+    { "from": "p2-h3-1", "to": "p2-h2-1", "p1": true, "p2": false },
+    { "from": "p2-h3-1", "to": "p2-h2-2", "p1": true, "p2": false },
+    { "from": "p1-h2-1", "to": "p1-h1-1", "p1": false, "p2": true },
+    { "from": "p1-h2-1", "to": "p1-h1-2", "p1": false, "p2": true },
+    { "from": "p1-h2-1", "to": "p1-h1-3", "p1": false, "p2": true },
+    { "from": "p1-h2-2", "to": "p1-h1-1", "p1": false, "p2": true },
+    { "from": "p1-h2-2", "to": "p1-h1-2", "p1": false, "p2": true },
+    { "from": "p1-h2-2", "to": "p1-h1-3", "p1": false, "p2": true },
+    { "from": "p2-h2-1", "to": "p2-h1-1", "p1": true, "p2": false },
+    { "from": "p2-h2-1", "to": "p2-h1-2", "p1": true, "p2": false },
+    { "from": "p2-h2-1", "to": "p2-h1-3", "p1": true, "p2": false },
+    { "from": "p2-h2-2", "to": "p2-h1-1", "p1": true, "p2": false },
+    { "from": "p2-h2-2", "to": "p2-h1-2", "p1": true, "p2": false },
+    { "from": "p2-h2-2", "to": "p2-h1-3", "p1": true, "p2": false },
+    { "from": "p1-h1-1", "to": "avatar", "p1": false, "p2": true },
+    { "from": "p1-h1-2", "to": "avatar", "p1": false, "p2": true },
+    { "from": "p1-h1-3", "to": "avatar", "p1": false, "p2": true },
+    { "from": "p2-h1-1", "to": "ki", "p1": true, "p2": false },
+    { "from": "p2-h1-2", "to": "ki", "p1": true, "p2": false },
+    { "from": "p2-h1-3", "to": "ki", "p1": true, "p2": false }
+  ]
+}

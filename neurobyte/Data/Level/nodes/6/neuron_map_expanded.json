@@ -1,0 +1,1286 @@
+{
+  "mapSize": {
+    "width": 2000,
+    "height": 1200
+  },
+  "nodes": [
+    {
+      "id": "avatar",
+      "name": "Hacker",
+      "description": "Einstieg in das neuronale Netzwerk",
+      "category": "brainteaser",
+      "level": 0,
+      "isStartNode": true,
+      "isPlayer2StartNode": false,
+      "position": {
+        "x": 100,
+        "y": 600
+      },
+      "imagePathDefault": "assets/nodes/node_default.png",
+      "imagePathCaptured": "assets/nodes/node_captured.png",
+      "imagePathLocked": "assets/nodes/locked.png"
+    },
+    {
+      "id": "n1-1",
+      "name": "Input Neuron 1",
+      "description": "Erste Schicht: Eingangssignal",
+      "category": "mathematik",
+      "level": 1,
+      "position": {
+        "x": 300,
+        "y": 150
+      },
+      "imagePathDefault": "assets/nodes/neuron_default.png",
+      "imagePathCaptured": "assets/nodes/neuron_captured.png",
+      "imagePathLocked": "assets/nodes/locked.png"
+    },
+    {
+      "id": "n1-2",
+      "name": "Input Neuron 2",
+      "description": "Erste Schicht: Eingangssignal",
+      "category": "sprachen",
+      "level": 1,
+      "position": {
+        "x": 300,
+        "y": 300
+      },
+      "imagePathDefault": "assets/nodes/neuron_default.png",
+      "imagePathCaptured": "assets/nodes/neuron_captured.png",
+      "imagePathLocked": "assets/nodes/locked.png"
+    },
+    {
+      "id": "n1-3",
+      "name": "Input Neuron 3",
+      "description": "Erste Schicht: Eingangssignal",
+      "category": "popkultur",
+      "level": 1,
+      "position": {
+        "x": 300,
+        "y": 450
+      },
+      "imagePathDefault": "assets/nodes/neuron_default.png",
+      "imagePathCaptured": "assets/nodes/neuron_captured.png",
+      "imagePathLocked": "assets/nodes/locked.png"
+    },
+    {
+      "id": "n1-4",
+      "name": "Input Neuron 4",
+      "description": "Erste Schicht: Eingangssignal",
+      "category": "memory",
+      "level": 1,
+      "position": {
+        "x": 300,
+        "y": 600
+      },
+      "imagePathDefault": "assets/nodes/neuron_default.png",
+      "imagePathCaptured": "assets/nodes/neuron_captured.png",
+      "imagePathLocked": "assets/nodes/locked.png"
+    },
+    {
+      "id": "n1-5",
+      "name": "Input Neuron 5",
+      "description": "Erste Schicht: Eingangssignal",
+      "category": "allgemeinwissen",
+      "level": 1,
+      "position": {
+        "x": 300,
+        "y": 750
+      },
+      "imagePathDefault": "assets/nodes/neuron_default.png",
+      "imagePathCaptured": "assets/nodes/neuron_captured.png",
+      "imagePathLocked": "assets/nodes/locked.png"
+    },
+    {
+      "id": "n1-6",
+      "name": "Input Neuron 6",
+      "description": "Erste Schicht: Eingangssignal",
+      "category": "literatur",
+      "level": 1,
+      "position": {
+        "x": 300,
+        "y": 900
+      },
+      "imagePathDefault": "assets/nodes/neuron_default.png",
+      "imagePathCaptured": "assets/nodes/neuron_captured.png",
+      "imagePathLocked": "assets/nodes/locked.png"
+    },
+    {
+      "id": "n1-7",
+      "name": "Input Neuron 7",
+      "description": "Erste Schicht: Eingangssignal",
+      "category": "literatur",
+      "level": 1,
+      "position": {
+        "x": 300,
+        "y": 1050
+      },
+      "imagePathDefault": "assets/nodes/neuron_default.png",
+      "imagePathCaptured": "assets/nodes/neuron_captured.png",
+      "imagePathLocked": "assets/nodes/locked.png"
+    },
+    {
+      "id": "n2-1",
+      "name": "Hidden Neuron 1",
+      "description": "Zweite Schicht: Verarbeitung",
+      "category": "naturwissenschaften",
+      "level": 2,
+      "position": {
+        "x": 500,
+        "y": 250
+      },
+      "imagePathDefault": "assets/nodes/neuron_default.png",
+      "imagePathCaptured": "assets/nodes/neuron_captured.png",
+      "imagePathLocked": "assets/nodes/locked.png"
+    },
+    {
+      "id": "n2-2",
+      "name": "Hidden Neuron 2",
+      "description": "Zweite Schicht: Verarbeitung",
+      "category": "sprachen",
+      "level": 2,
+      "position": {
+        "x": 500,
+        "y": 400
+      },
+      "imagePathDefault": "assets/nodes/neuron_default.png",
+      "imagePathCaptured": "assets/nodes/neuron_captured.png",
+      "imagePathLocked": "assets/nodes/locked.png"
+    },
+    {
+      "id": "n2-3",
+      "name": "Hidden Neuron 3",
+      "description": "Zweite Schicht: Verarbeitung",
+      "category": "memory",
+      "level": 2,
+      "position": {
+        "x": 500,
+        "y": 550
+      },
+      "imagePathDefault": "assets/nodes/neuron_default.png",
+      "imagePathCaptured": "assets/nodes/neuron_captured.png",
+      "imagePathLocked": "assets/nodes/locked.png"
+    },
+    {
+      "id": "n2-4",
+      "name": "Hidden Neuron 4",
+      "description": "Zweite Schicht: Verarbeitung",
+      "category": "psychologie",
+      "level": 2,
+      "position": {
+        "x": 500,
+        "y": 700
+      },
+      "imagePathDefault": "assets/nodes/neuron_default.png",
+      "imagePathCaptured": "assets/nodes/neuron_captured.png",
+      "imagePathLocked": "assets/nodes/locked.png"
+    },
+    {
+      "id": "n2-5",
+      "name": "Hidden Neuron 5",
+      "description": "Zweite Schicht: Verarbeitung",
+      "category": "naturwissenschaften",
+      "level": 2,
+      "position": {
+        "x": 500,
+        "y": 850
+      },
+      "imagePathDefault": "assets/nodes/neuron_default.png",
+      "imagePathCaptured": "assets/nodes/neuron_captured.png",
+      "imagePathLocked": "assets/nodes/locked.png"
+    },
+    {
+      "id": "n2-6",
+      "name": "Hidden Neuron 6",
+      "description": "Zweite Schicht: Verarbeitung",
+      "category": "psychologie",
+      "level": 2,
+      "position": {
+        "x": 500,
+        "y": 1000
+      },
+      "imagePathDefault": "assets/nodes/neuron_default.png",
+      "imagePathCaptured": "assets/nodes/neuron_captured.png",
+      "imagePathLocked": "assets/nodes/locked.png"
+    },
+    {
+      "id": "n3-1",
+      "name": "Deep Neuron 1",
+      "description": "Dritte Schicht: Tiefere Verarbeitung",
+      "category": "wissenschaft",
+      "level": 3,
+      "position": {
+        "x": 700,
+        "y": 350
+      },
+      "imagePathDefault": "assets/nodes/neuron_default.png",
+      "imagePathCaptured": "assets/nodes/neuron_captured.png",
+      "imagePathLocked": "assets/nodes/locked.png"
+    },
+    {
+      "id": "n3-2",
+      "name": "Deep Neuron 2",
+      "description": "Dritte Schicht: Tiefere Verarbeitung",
+      "category": "popkultur",
+      "level": 3,
+      "position": {
+        "x": 700,
+        "y": 500
+      },
+      "imagePathDefault": "assets/nodes/neuron_default.png",
+      "imagePathCaptured": "assets/nodes/neuron_captured.png",
+      "imagePathLocked": "assets/nodes/locked.png"
+    },
+    {
+      "id": "n3-3",
+      "name": "Deep Neuron 3",
+      "description": "Dritte Schicht: Tiefere Verarbeitung",
+      "category": "weltgeschichte",
+      "level": 3,
+      "position": {
+        "x": 700,
+        "y": 650
+      },
+      "imagePathDefault": "assets/nodes/neuron_default.png",
+      "imagePathCaptured": "assets/nodes/neuron_captured.png",
+      "imagePathLocked": "assets/nodes/locked.png"
+    },
+    {
+      "id": "n3-4",
+      "name": "Deep Neuron 4",
+      "description": "Dritte Schicht: Tiefere Verarbeitung",
+      "category": "popkultur",
+      "level": 3,
+      "position": {
+        "x": 700,
+        "y": 800
+      },
+      "imagePathDefault": "assets/nodes/neuron_default.png",
+      "imagePathCaptured": "assets/nodes/neuron_captured.png",
+      "imagePathLocked": "assets/nodes/locked.png"
+    },
+    {
+      "id": "n4-1",
+      "name": "Deeper Neuron 1",
+      "description": "Vierte Schicht: Noch tiefere Verarbeitung",
+      "category": "mathematik",
+      "level": 4,
+      "position": {
+        "x": 900,
+        "y": 400
+      },
+      "imagePathDefault": "assets/nodes/neuron_default.png",
+      "imagePathCaptured": "assets/nodes/neuron_captured.png",
+      "imagePathLocked": "assets/nodes/locked.png"
+    },
+    {
+      "id": "n4-2",
+      "name": "Deeper Neuron 2",
+      "description": "Vierte Schicht: Noch tiefere Verarbeitung",
+      "category": "psychologie",
+      "level": 4,
+      "position": {
+        "x": 900,
+        "y": 550
+      },
+      "imagePathDefault": "assets/nodes/neuron_default.png",
+      "imagePathCaptured": "assets/nodes/neuron_captured.png",
+      "imagePathLocked": "assets/nodes/locked.png"
+    },
+    {
+      "id": "n4-3",
+      "name": "Deeper Neuron 3",
+      "description": "Vierte Schicht: Noch tiefere Verarbeitung",
+      "category": "naturwissenschaften",
+      "level": 4,
+      "position": {
+        "x": 900,
+        "y": 700
+      },
+      "imagePathDefault": "assets/nodes/neuron_default.png",
+      "imagePathCaptured": "assets/nodes/neuron_captured.png",
+      "imagePathLocked": "assets/nodes/locked.png"
+    },
+    {
+      "id": "n5-1",
+      "name": "Core Neuron 1",
+      "description": "F\u00fcnfte Schicht: Kernverarbeitung",
+      "category": "weltgeschichte",
+      "level": 5,
+      "position": {
+        "x": 1100,
+        "y": 450
+      },
+      "imagePathDefault": "assets/nodes/neuron_default.png",
+      "imagePathCaptured": "assets/nodes/neuron_captured.png",
+      "imagePathLocked": "assets/nodes/locked.png"
+    },
+    {
+      "id": "n5-2",
+      "name": "Core Neuron 2",
+      "description": "F\u00fcnfte Schicht: Kernverarbeitung",
+      "category": "wissenschaft",
+      "level": 5,
+      "position": {
+        "x": 1100,
+        "y": 600
+      },
+      "imagePathDefault": "assets/nodes/neuron_default.png",
+      "imagePathCaptured": "assets/nodes/neuron_captured.png",
+      "imagePathLocked": "assets/nodes/locked.png"
+    },
+    {
+      "id": "n6-1",
+      "name": "Output Neuron",
+      "description": "Sechste Schicht: Ausgangssignal",
+      "category": "allgemeinwissen",
+      "level": 6,
+      "position": {
+        "x": 1300,
+        "y": 600
+      },
+      "imagePathDefault": "assets/nodes/neuron_default.png",
+      "imagePathCaptured": "assets/nodes/neuron_captured.png",
+      "imagePathLocked": "assets/nodes/locked.png"
+    },
+    {
+      "id": "firewall1",
+      "name": "Outer Firewall",
+      "description": "Erste Sicherheitsbarriere",
+      "category": "wissenschaft",
+      "level": 7,
+      "position": {
+        "x": 1500,
+        "y": 600
+      },
+      "imagePathDefault": "assets/nodes/firewall_default.png",
+      "imagePathCaptured": "assets/nodes/firewall_captured.png",
+      "imagePathLocked": "assets/nodes/firewall_locked.png"
+    },
+    {
+      "id": "firewall2",
+      "name": "Middle Firewall 1",
+      "description": "Zweite Sicherheitsbarriere",
+      "category": "wissenschaft",
+      "level": 8,
+      "position": {
+        "x": 1600,
+        "y": 600
+      },
+      "imagePathDefault": "assets/nodes/firewall_default.png",
+      "imagePathCaptured": "assets/nodes/firewall_captured.png",
+      "imagePathLocked": "assets/nodes/firewall_locked.png"
+    },
+    {
+      "id": "firewall3",
+      "name": "Middle Firewall 2",
+      "description": "Dritte Sicherheitsbarriere",
+      "category": "wissenschaft",
+      "level": 9,
+      "position": {
+        "x": 1700,
+        "y": 600
+      },
+      "imagePathDefault": "assets/nodes/firewall_default.png",
+      "imagePathCaptured": "assets/nodes/firewall_captured.png",
+      "imagePathLocked": "assets/nodes/firewall_locked.png"
+    },
+    {
+      "id": "firewall4",
+      "name": "Inner Firewall",
+      "description": "Vierte Sicherheitsbarriere",
+      "category": "wissenschaft",
+      "level": 10,
+      "position": {
+        "x": 1800,
+        "y": 600
+      },
+      "imagePathDefault": "assets/nodes/firewall_default.png",
+      "imagePathCaptured": "assets/nodes/firewall_captured.png",
+      "imagePathLocked": "assets/nodes/firewall_locked.png"
+    },
+    {
+      "id": "core",
+      "name": "Netzwerk-Kern",
+      "description": "Zentrales Kontrollzentrum",
+      "category": "finale",
+      "level": 11,
+      "isStartNode": false,
+      "isPlayer2StartNode": true,
+      "position": {
+        "x": 1900,
+        "y": 600
+      },
+      "imagePathDefault": "assets/nodes/core_default.png",
+      "imagePathCaptured": "assets/nodes/core_captured.png",
+      "imagePathLocked": "assets/nodes/core_locked.png"
+    },
+    {
+      "id": "n6-2",
+      "name": "Output Neuron 2",
+      "description": "Sechste Schicht: Ausgangssignal",
+      "category": "allgemeinwissen",
+      "level": 6,
+      "position": {
+        "x": 1300,
+        "y": 300
+      },
+      "imagePathDefault": "assets/nodes/neuron_default.png",
+      "imagePathCaptured": "assets/nodes/neuron_captured.png",
+      "imagePathLocked": "assets/nodes/locked.png"
+    },
+    {
+      "id": "n6-3",
+      "name": "Output Neuron 3",
+      "description": "Sechste Schicht: Ausgangssignal",
+      "category": "allgemeinwissen",
+      "level": 6,
+      "position": {
+        "x": 1300,
+        "y": 450
+      },
+      "imagePathDefault": "assets/nodes/neuron_default.png",
+      "imagePathCaptured": "assets/nodes/neuron_captured.png",
+      "imagePathLocked": "assets/nodes/locked.png"
+    },
+    {
+      "id": "n6-4",
+      "name": "Output Neuron 4",
+      "description": "Sechste Schicht: Ausgangssignal",
+      "category": "allgemeinwissen",
+      "level": 6,
+      "position": {
+        "x": 1300,
+        "y": 600
+      },
+      "imagePathDefault": "assets/nodes/neuron_default.png",
+      "imagePathCaptured": "assets/nodes/neuron_captured.png",
+      "imagePathLocked": "assets/nodes/locked.png"
+    },
+    {
+      "id": "n6-5",
+      "name": "Output Neuron 5",
+      "description": "Sechste Schicht: Ausgangssignal",
+      "category": "allgemeinwissen",
+      "level": 6,
+      "position": {
+        "x": 1300,
+        "y": 750
+      },
+      "imagePathDefault": "assets/nodes/neuron_default.png",
+      "imagePathCaptured": "assets/nodes/neuron_captured.png",
+      "imagePathLocked": "assets/nodes/locked.png"
+    }
+  ],
+  "edges": [
+    {
+      "from": "avatar",
+      "to": "n1-1",
+      "p1": true,
+      "p2": false
+    },
+    {
+      "from": "avatar",
+      "to": "n1-2",
+      "p1": true,
+      "p2": false
+    },
+    {
+      "from": "avatar",
+      "to": "n1-3",
+      "p1": true,
+      "p2": false
+    },
+    {
+      "from": "avatar",
+      "to": "n1-4",
+      "p1": true,
+      "p2": false
+    },
+    {
+      "from": "avatar",
+      "to": "n1-5",
+      "p1": true,
+      "p2": false
+    },
+    {
+      "from": "avatar",
+      "to": "n1-6",
+      "p1": true,
+      "p2": false
+    },
+    {
+      "from": "avatar",
+      "to": "n1-7",
+      "p1": true,
+      "p2": false
+    },
+    {
+      "from": "n1-1",
+      "to": "n2-1",
+      "p1": true,
+      "p2": false
+    },
+    {
+      "from": "n1-1",
+      "to": "n2-2",
+      "p1": true,
+      "p2": false
+    },
+    {
+      "from": "n1-2",
+      "to": "n2-1",
+      "p1": true,
+      "p2": false
+    },
+    {
+      "from": "n1-2",
+      "to": "n2-2",
+      "p1": true,
+      "p2": false
+    },
+    {
+      "from": "n1-2",
+      "to": "n2-3",
+      "p1": true,
+      "p2": false
+    },
+    {
+      "from": "n1-3",
+      "to": "n2-2",
+      "p1": true,
+      "p2": false
+    },
+    {
+      "from": "n1-3",
+      "to": "n2-3",
+      "p1": true,
+      "p2": false
+    },
+    {
+      "from": "n1-4",
+      "to": "n2-3",
+      "p1": true,
+      "p2": false
+    },
+    {
+      "from": "n1-4",
+      "to": "n2-4",
+      "p1": true,
+      "p2": false
+    },
+    {
+      "from": "n1-5",
+      "to": "n2-4",
+      "p1": true,
+      "p2": false
+    },
+    {
+      "from": "n1-5",
+      "to": "n2-5",
+      "p1": true,
+      "p2": false
+    },
+    {
+      "from": "n1-6",
+      "to": "n2-5",
+      "p1": true,
+      "p2": false
+    },
+    {
+      "from": "n1-6",
+      "to": "n2-6",
+      "p1": true,
+      "p2": false
+    },
+    {
+      "from": "n1-7",
+      "to": "n2-5",
+      "p1": true,
+      "p2": false
+    },
+    {
+      "from": "n1-7",
+      "to": "n2-6",
+      "p1": true,
+      "p2": false
+    },
+    {
+      "from": "n2-1",
+      "to": "n3-1",
+      "p1": true,
+      "p2": false
+    },
+    {
+      "from": "n2-1",
+      "to": "n3-2",
+      "p1": true,
+      "p2": false
+    },
+    {
+      "from": "n2-2",
+      "to": "n3-1",
+      "p1": true,
+      "p2": false
+    },
+    {
+      "from": "n2-2",
+      "to": "n3-2",
+      "p1": true,
+      "p2": false
+    },
+    {
+      "from": "n2-2",
+      "to": "n3-3",
+      "p1": true,
+      "p2": false
+    },
+    {
+      "from": "n2-3",
+      "to": "n3-1",
+      "p1": true,
+      "p2": false
+    },
+    {
+      "from": "n2-3",
+      "to": "n3-2",
+      "p1": true,
+      "p2": false
+    },
+    {
+      "from": "n2-3",
+      "to": "n3-3",
+      "p1": true,
+      "p2": false
+    },
+    {
+      "from": "n2-4",
+      "to": "n3-2",
+      "p1": true,
+      "p2": false
+    },
+    {
+      "from": "n2-4",
+      "to": "n3-3",
+      "p1": true,
+      "p2": false
+    },
+    {
+      "from": "n2-4",
+      "to": "n3-4",
+      "p1": true,
+      "p2": false
+    },
+    {
+      "from": "n2-5",
+      "to": "n3-3",
+      "p1": true,
+      "p2": false
+    },
+    {
+      "from": "n2-5",
+      "to": "n3-4",
+      "p1": true,
+      "p2": false
+    },
+    {
+      "from": "n2-6",
+      "to": "n3-3",
+      "p1": true,
+      "p2": false
+    },
+    {
+      "from": "n2-6",
+      "to": "n3-4",
+      "p1": true,
+      "p2": false
+    },
+    {
+      "from": "n3-1",
+      "to": "n4-1",
+      "p1": true,
+      "p2": false
+    },
+    {
+      "from": "n3-1",
+      "to": "n4-2",
+      "p1": true,
+      "p2": false
+    },
+    {
+      "from": "n3-2",
+      "to": "n4-1",
+      "p1": true,
+      "p2": false
+    },
+    {
+      "from": "n3-2",
+      "to": "n4-2",
+      "p1": true,
+      "p2": false
+    },
+    {
+      "from": "n3-2",
+      "to": "n4-3",
+      "p1": true,
+      "p2": false
+    },
+    {
+      "from": "n3-3",
+      "to": "n4-1",
+      "p1": true,
+      "p2": false
+    },
+    {
+      "from": "n3-3",
+      "to": "n4-2",
+      "p1": true,
+      "p2": false
+    },
+    {
+      "from": "n3-3",
+      "to": "n4-3",
+      "p1": true,
+      "p2": false
+    },
+    {
+      "from": "n3-4",
+      "to": "n4-2",
+      "p1": true,
+      "p2": false
+    },
+    {
+      "from": "n3-4",
+      "to": "n4-3",
+      "p1": true,
+      "p2": false
+    },
+    {
+      "from": "n4-1",
+      "to": "n5-1",
+      "p1": true,
+      "p2": false
+    },
+    {
+      "from": "n4-1",
+      "to": "n5-2",
+      "p1": true,
+      "p2": false
+    },
+    {
+      "from": "n4-2",
+      "to": "n5-1",
+      "p1": true,
+      "p2": false
+    },
+    {
+      "from": "n4-2",
+      "to": "n5-2",
+      "p1": true,
+      "p2": false
+    },
+    {
+      "from": "n4-3",
+      "to": "n5-1",
+      "p1": true,
+      "p2": false
+    },
+    {
+      "from": "n4-3",
+      "to": "n5-2",
+      "p1": true,
+      "p2": false
+    },
+    {
+      "from": "n5-1",
+      "to": "n6-1",
+      "p1": true,
+      "p2": false
+    },
+    {
+      "from": "n5-2",
+      "to": "n6-1",
+      "p1": true,
+      "p2": false
+    },
+    {
+      "from": "n6-1",
+      "to": "firewall1",
+      "p1": true,
+      "p2": false
+    },
+    {
+      "from": "firewall1",
+      "to": "firewall2",
+      "p1": true,
+      "p2": false
+    },
+    {
+      "from": "firewall2",
+      "to": "firewall3",
+      "p1": true,
+      "p2": false
+    },
+    {
+      "from": "firewall3",
+      "to": "firewall4",
+      "p1": true,
+      "p2": false
+    },
+    {
+      "from": "firewall4",
+      "to": "core",
+      "p1": true,
+      "p2": false
+    },
+    {
+      "from": "core",
+      "to": "firewall4",
+      "p1": false,
+      "p2": true
+    },
+    {
+      "from": "firewall4",
+      "to": "firewall3",
+      "p1": false,
+      "p2": true
+    },
+    {
+      "from": "firewall3",
+      "to": "firewall2",
+      "p1": false,
+      "p2": true
+    },
+    {
+      "from": "firewall2",
+      "to": "firewall1",
+      "p1": false,
+      "p2": true
+    },
+    {
+      "from": "firewall1",
+      "to": "n6-1",
+      "p1": false,
+      "p2": true
+    },
+    {
+      "from": "n6-1",
+      "to": "n5-1",
+      "p1": false,
+      "p2": true
+    },
+    {
+      "from": "n6-1",
+      "to": "n5-2",
+      "p1": false,
+      "p2": true
+    },
+    {
+      "from": "n5-1",
+      "to": "n4-1",
+      "p1": false,
+      "p2": true
+    },
+    {
+      "from": "n5-1",
+      "to": "n4-2",
+      "p1": false,
+      "p2": true
+    },
+    {
+      "from": "n5-1",
+      "to": "n4-3",
+      "p1": false,
+      "p2": true
+    },
+    {
+      "from": "n5-2",
+      "to": "n4-1",
+      "p1": false,
+      "p2": true
+    },
+    {
+      "from": "n5-2",
+      "to": "n4-2",
+      "p1": false,
+      "p2": true
+    },
+    {
+      "from": "n5-2",
+      "to": "n4-3",
+      "p1": false,
+      "p2": true
+    },
+    {
+      "from": "n4-1",
+      "to": "n3-1",
+      "p1": false,
+      "p2": true
+    },
+    {
+      "from": "n4-1",
+      "to": "n3-2",
+      "p1": false,
+      "p2": true
+    },
+    {
+      "from": "n4-1",
+      "to": "n3-3",
+      "p1": false,
+      "p2": true
+    },
+    {
+      "from": "n4-2",
+      "to": "n3-1",
+      "p1": false,
+      "p2": true
+    },
+    {
+      "from": "n4-2",
+      "to": "n3-2",
+      "p1": false,
+      "p2": true
+    },
+    {
+      "from": "n4-2",
+      "to": "n3-3",
+      "p1": false,
+      "p2": true
+    },
+    {
+      "from": "n4-2",
+      "to": "n3-4",
+      "p1": false,
+      "p2": true
+    },
+    {
+      "from": "n4-3",
+      "to": "n3-2",
+      "p1": false,
+      "p2": true
+    },
+    {
+      "from": "n4-3",
+      "to": "n3-3",
+      "p1": false,
+      "p2": true
+    },
+    {
+      "from": "n4-3",
+      "to": "n3-4",
+      "p1": false,
+      "p2": true
+    },
+    {
+      "from": "n3-1",
+      "to": "n2-1",
+      "p1": false,
+      "p2": true
+    },
+    {
+      "from": "n3-1",
+      "to": "n2-2",
+      "p1": false,
+      "p2": true
+    },
+    {
+      "from": "n3-1",
+      "to": "n2-3",
+      "p1": false,
+      "p2": true
+    },
+    {
+      "from": "n3-2",
+      "to": "n2-1",
+      "p1": false,
+      "p2": true
+    },
+    {
+      "from": "n3-2",
+      "to": "n2-2",
+      "p1": false,
+      "p2": true
+    },
+    {
+      "from": "n3-2",
+      "to": "n2-3",
+      "p1": false,
+      "p2": true
+    },
+    {
+      "from": "n3-2",
+      "to": "n2-4",
+      "p1": false,
+      "p2": true
+    },
+    {
+      "from": "n3-3",
+      "to": "n2-2",
+      "p1": false,
+      "p2": true
+    },
+    {
+      "from": "n3-3",
+      "to": "n2-3",
+      "p1": false,
+      "p2": true
+    },
+    {
+      "from": "n3-3",
+      "to": "n2-4",
+      "p1": false,
+      "p2": true
+    },
+    {
+      "from": "n3-3",
+      "to": "n2-5",
+      "p1": false,
+      "p2": true
+    },
+    {
+      "from": "n3-4",
+      "to": "n2-4",
+      "p1": false,
+      "p2": true
+    },
+    {
+      "from": "n3-4",
+      "to": "n2-5",
+      "p1": false,
+      "p2": true
+    },
+    {
+      "from": "n3-4",
+      "to": "n2-6",
+      "p1": false,
+      "p2": true
+    },
+    {
+      "from": "n2-1",
+      "to": "n1-1",
+      "p1": false,
+      "p2": true
+    },
+    {
+      "from": "n2-1",
+      "to": "n1-2",
+      "p1": false,
+      "p2": true
+    },
+    {
+      "from": "n2-2",
+      "to": "n1-1",
+      "p1": false,
+      "p2": true
+    },
+    {
+      "from": "n2-2",
+      "to": "n1-2",
+      "p1": false,
+      "p2": true
+    },
+    {
+      "from": "n2-2",
+      "to": "n1-3",
+      "p1": false,
+      "p2": true
+    },
+    {
+      "from": "n2-3",
+      "to": "n1-2",
+      "p1": false,
+      "p2": true
+    },
+    {
+      "from": "n2-3",
+      "to": "n1-3",
+      "p1": false,
+      "p2": true
+    },
+    {
+      "from": "n2-3",
+      "to": "n1-4",
+      "p1": false,
+      "p2": true
+    },
+    {
+      "from": "n2-4",
+      "to": "n1-4",
+      "p1": false,
+      "p2": true
+    },
+    {
+      "from": "n2-4",
+      "to": "n1-5",
+      "p1": false,
+      "p2": true
+    },
+    {
+      "from": "n2-5",
+      "to": "n1-5",
+      "p1": false,
+      "p2": true
+    },
+    {
+      "from": "n2-5",
+      "to": "n1-6",
+      "p1": false,
+      "p2": true
+    },
+    {
+      "from": "n2-5",
+      "to": "n1-7",
+      "p1": false,
+      "p2": true
+    },
+    {
+      "from": "n2-6",
+      "to": "n1-6",
+      "p1": false,
+      "p2": true
+    },
+    {
+      "from": "n2-6",
+      "to": "n1-7",
+      "p1": false,
+      "p2": true
+    },
+    {
+      "from": "n1-1",
+      "to": "avatar",
+      "p1": false,
+      "p2": true
+    },
+    {
+      "from": "n1-2",
+      "to": "avatar",
+      "p1": false,
+      "p2": true
+    },
+    {
+      "from": "n1-3",
+      "to": "avatar",
+      "p1": false,
+      "p2": true
+    },
+    {
+      "from": "n1-4",
+      "to": "avatar",
+      "p1": false,
+      "p2": true
+    },
+    {
+      "from": "n1-5",
+      "to": "avatar",
+      "p1": false,
+      "p2": true
+    },
+    {
+      "from": "n1-6",
+      "to": "avatar",
+      "p1": false,
+      "p2": true
+    },
+    {
+      "from": "n1-7",
+      "to": "avatar",
+      "p1": false,
+      "p2": true
+    },
+    {
+      "from": "n5-1",
+      "to": "n6-2",
+      "p1": true,
+      "p2": false
+    },
+    {
+      "from": "n6-2",
+      "to": "n5-1",
+      "p1": false,
+      "p2": true
+    },
+    {
+      "from": "n5-2",
+      "to": "n6-2",
+      "p1": true,
+      "p2": false
+    },
+    {
+      "from": "n6-2",
+      "to": "n5-2",
+      "p1": false,
+      "p2": true
+    },
+    {
+      "from": "n5-1",
+      "to": "n6-3",
+      "p1": true,
+      "p2": false
+    },
+    {
+      "from": "n6-3",
+      "to": "n5-1",
+      "p1": false,
+      "p2": true
+    },
+    {
+      "from": "n5-2",
+      "to": "n6-3",
+      "p1": true,
+      "p2": false
+    },
+    {
+      "from": "n6-3",
+      "to": "n5-2",
+      "p1": false,
+      "p2": true
+    },
+    {
+      "from": "n5-1",
+      "to": "n6-4",
+      "p1": true,
+      "p2": false
+    },
+    {
+      "from": "n6-4",
+      "to": "n5-1",
+      "p1": false,
+      "p2": true
+    },
+    {
+      "from": "n5-2",
+      "to": "n6-4",
+      "p1": true,
+      "p2": false
+    },
+    {
+      "from": "n6-4",
+      "to": "n5-2",
+      "p1": false,
+      "p2": true
+    },
+    {
+      "from": "n5-1",
+      "to": "n6-5",
+      "p1": true,
+      "p2": false
+    },
+    {
+      "from": "n6-5",
+      "to": "n5-1",
+      "p1": false,
+      "p2": true
+    },
+    {
+      "from": "n5-2",
+      "to": "n6-5",
+      "p1": true,
+      "p2": false
+    },
+    {
+      "from": "n6-5",
+      "to": "n5-2",
+      "p1": false,
+      "p2": true
+    }
+  ]
+}
