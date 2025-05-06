@@ -1,0 +1,487 @@
+{
+  "mapSize": { "width": 2000, "height": 1200 },
+  "nodes": [
+    {
+      "id": "avatar",
+      "name": "Hacker",
+      "description": "Headquarter P1",
+      "category": "allgemeinwissen",
+      "level": 0,
+      "isStartNode": true,
+      "isPlayer2StartNode": false,
+      "position": { "x": 100, "y": 600 },
+      "imagePathDefault": "assets/nodes/node_default.png",
+      "imagePathCaptured": "assets/nodes/node_captured.png",
+      "imagePathLocked": "assets/nodes/locked.png"
+    },
+    {
+      "id": "p1-n1-1",
+      "name": "P1-N1-1",
+      "description": "Erste Schicht: Eingangssignal",
+      "category": "mathematik",
+      "level": 1,
+      "position": { "x": 300, "y": 200 },
+      "imagePathDefault": "assets/nodes/neuron_default.png",
+      "imagePathCaptured": "assets/nodes/neuron_captured.png",
+      "imagePathLocked": "assets/nodes/locked.png"
+    },
+    {
+      "id": "p1-n1-2",
+      "name": "P1-N1-2",
+      "description": "Erste Schicht: Eingangssignal",
+      "category": "mathematik",
+      "level": 1,
+      "position": { "x": 300, "y": 400 },
+      "imagePathDefault": "assets/nodes/neuron_default.png",
+      "imagePathCaptured": "assets/nodes/neuron_captured.png",
+      "imagePathLocked": "assets/nodes/locked.png"
+    },
+    {
+      "id": "p1-n1-3",
+      "name": "P1-N1-3",
+      "description": "Erste Schicht: Eingangssignal",
+      "category": "sprachen",
+      "level": 1,
+      "position": { "x": 300, "y": 600 },
+      "imagePathDefault": "assets/nodes/neuron_default.png",
+      "imagePathCaptured": "assets/nodes/neuron_captured.png",
+      "imagePathLocked": "assets/nodes/locked.png"
+    },
+    {
+      "id": "p1-n1-4",
+      "name": "P1-N1-4",
+      "description": "Erste Schicht: Eingangssignal",
+      "category": "popkultur",
+      "level": 1,
+      "position": { "x": 300, "y": 800 },
+      "imagePathDefault": "assets/nodes/neuron_default.png",
+      "imagePathCaptured": "assets/nodes/neuron_captured.png",
+      "imagePathLocked": "assets/nodes/locked.png"
+    },
+    {
+      "id": "p1-n1-5",
+      "name": "P1-N1-5",
+      "description": "Erste Schicht: Eingangssignal",
+      "category": "literatur",
+      "level": 1,
+      "position": { "x": 300, "y": 1000 },
+      "imagePathDefault": "assets/nodes/neuron_default.png",
+      "imagePathCaptured": "assets/nodes/neuron_captured.png",
+      "imagePathLocked": "assets/nodes/locked.png"
+    },
+    {
+      "id": "p1-n2-1",
+      "name": "P1-N2-1",
+      "description": "Zweite Schicht: Verarbeitung",
+      "category": "memory",
+      "level": 2,
+      "position": { "x": 500, "y": 300 },
+      "imagePathDefault": "assets/nodes/neuron_default.png",
+      "imagePathCaptured": "assets/nodes/neuron_captured.png",
+      "imagePathLocked": "assets/nodes/locked.png"
+    },
+    {
+      "id": "p1-n2-2",
+      "name": "P1-N2-2",
+      "description": "Zweite Schicht: Verarbeitung",
+      "category": "memory",
+      "level": 2,
+      "position": { "x": 500, "y": 500 },
+      "imagePathDefault": "assets/nodes/neuron_default.png",
+      "imagePathCaptured": "assets/nodes/neuron_captured.png",
+      "imagePathLocked": "assets/nodes/locked.png"
+    },
+    {
+      "id": "p1-n2-3",
+      "name": "P1-N2-3",
+      "description": "Zweite Schicht: Verarbeitung",
+      "category": "naturwissenschaften",
+      "level": 2,
+      "position": { "x": 500, "y": 700 },
+      "imagePathDefault": "assets/nodes/neuron_default.png",
+      "imagePathCaptured": "assets/nodes/neuron_captured.png",
+      "imagePathLocked": "assets/nodes/locked.png"
+    },
+    {
+      "id": "p1-n2-4",
+      "name": "P1-N2-4",
+      "description": "Zweite Schicht: Verarbeitung",
+      "category": "weltgeschichte",
+      "level": 2,
+      "position": { "x": 500, "y": 900 },
+      "imagePathDefault": "assets/nodes/neuron_default.png",
+      "imagePathCaptured": "assets/nodes/neuron_captured.png",
+      "imagePathLocked": "assets/nodes/locked.png"
+    },
+    {
+      "id": "p1-n3-1",
+      "name": "P1-N3-1",
+      "description": "Dritte Schicht: Verarbeitung",
+      "category": "brainteaser",
+      "level": 3,
+      "position": { "x": 700, "y": 400 },
+      "imagePathDefault": "assets/nodes/neuron_default.png",
+      "imagePathCaptured": "assets/nodes/neuron_captured.png",
+      "imagePathLocked": "assets/nodes/locked.png"
+    },
+    {
+      "id": "p1-n3-2",
+      "name": "P1-N3-2",
+      "description": "Dritte Schicht: Verarbeitung",
+      "category": "psychologie",
+      "level": 3,
+      "position": { "x": 700, "y": 600 },
+      "imagePathDefault": "assets/nodes/neuron_default.png",
+      "imagePathCaptured": "assets/nodes/neuron_captured.png",
+      "imagePathLocked": "assets/nodes/locked.png"
+    },
+    {
+      "id": "p1-n3-3",
+      "name": "P1-N3-3",
+      "description": "Dritte Schicht: Verarbeitung",
+      "category": "naturwissenschaften",
+      "level": 3,
+      "position": { "x": 700, "y": 800 },
+      "imagePathDefault": "assets/nodes/neuron_default.png",
+      "imagePathCaptured": "assets/nodes/neuron_captured.png",
+      "imagePathLocked": "assets/nodes/locked.png"
+    },
+    {
+      "id": "p1-n4-1",
+      "name": "P1-N4-1",
+      "description": "Vierte Schicht: Ausgangssignal",
+      "category": "wissenschaft",
+      "level": 4,
+      "position": { "x": 900, "y": 500 },
+      "imagePathDefault": "assets/nodes/neuron_default.png",
+      "imagePathCaptured": "assets/nodes/neuron_captured.png",
+      "imagePathLocked": "assets/nodes/locked.png"
+    },
+    {
+      "id": "p1-n4-2",
+      "name": "P1-N4-2",
+      "description": "Vierte Schicht: Ausgangssignal",
+      "category": "wissenschaft",
+      "level": 4,
+      "position": { "x": 900, "y": 700 },
+      "imagePathDefault": "assets/nodes/neuron_default.png",
+      "imagePathCaptured": "assets/nodes/neuron_captured.png",
+      "imagePathLocked": "assets/nodes/locked.png"
+    },
+    {
+      "id": "firewall-1",
+      "name": "Firewall 1",
+      "description": "Sicherheitsprotokoll",
+      "category": "wissenschaft",
+      "level": 5,
+      "position": { "x": 1000, "y": 500 },
+      "imagePathDefault": "assets/nodes/firewall_default.png",
+      "imagePathCaptured": "assets/nodes/firewall_captured.png",
+      "imagePathLocked": "assets/nodes/firewall_locked.png"
+    },
+    {
+      "id": "firewall-2",
+      "name": "Firewall 2",
+      "description": "Sicherheitsprotokoll",
+      "category": "wissenschaft",
+      "level": 5,
+      "position": { "x": 1000, "y": 700 },
+      "imagePathDefault": "assets/nodes/firewall_default.png",
+      "imagePathCaptured": "assets/nodes/firewall_captured.png",
+      "imagePathLocked": "assets/nodes/firewall_locked.png"
+    },
+    {
+      "id": "p2-n4-1",
+      "name": "P2-N4-1",
+      "description": "Vierte Schicht: Ausgangssignal",
+      "category": "wissenschaft",
+      "level": 4,
+      "position": { "x": 1100, "y": 500 },
+      "imagePathDefault": "assets/nodes/neuron_default.png",
+      "imagePathCaptured": "assets/nodes/neuron_captured.png",
+      "imagePathLocked": "assets/nodes/locked.png"
+    },
+    {
+      "id": "p2-n4-2",
+      "name": "P2-N4-2",
+      "description": "Vierte Schicht: Ausgangssignal",
+      "category": "wissenschaft",
+      "level": 4,
+      "position": { "x": 1100, "y": 700 },
+      "imagePathDefault": "assets/nodes/neuron_default.png",
+      "imagePathCaptured": "assets/nodes/neuron_captured.png",
+      "imagePathLocked": "assets/nodes/locked.png"
+    },
+    {
+      "id": "p2-n3-1",
+      "name": "P2-N3-1",
+      "description": "Dritte Schicht: Verarbeitung",
+      "category": "brainteaser",
+      "level": 3,
+      "position": { "x": 1300, "y": 400 },
+      "imagePathDefault": "assets/nodes/neuron_default.png",
+      "imagePathCaptured": "assets/nodes/neuron_captured.png",
+      "imagePathLocked": "assets/nodes/locked.png"
+    },
+    {
+      "id": "p2-n3-2",
+      "name": "P2-N3-2",
+      "description": "Dritte Schicht: Verarbeitung",
+      "category": "psychologie",
+      "level": 3,
+      "position": { "x": 1300, "y": 600 },
+      "imagePathDefault": "assets/nodes/neuron_default.png",
+      "imagePathCaptured": "assets/nodes/neuron_captured.png",
+      "imagePathLocked": "assets/nodes/locked.png"
+    },
+    {
+      "id": "p2-n3-3",
+      "name": "P2-N3-3",
+      "description": "Dritte Schicht: Verarbeitung",
+      "category": "naturwissenschaften",
+      "level": 3,
+      "position": { "x": 1300, "y": 800 },
+      "imagePathDefault": "assets/nodes/neuron_default.png",
+      "imagePathCaptured": "assets/nodes/neuron_captured.png",
+      "imagePathLocked": "assets/nodes/locked.png"
+    },
+    {
+      "id": "p2-n2-1",
+      "name": "P2-N2-1",
+      "description": "Zweite Schicht: Verarbeitung",
+      "category": "memory",
+      "level": 2,
+      "position": { "x": 1500, "y": 300 },
+      "imagePathDefault": "assets/nodes/neuron_default.png",
+      "imagePathCaptured": "assets/nodes/neuron_captured.png",
+      "imagePathLocked": "assets/nodes/locked.png"
+    },
+    {
+      "id": "p2-n2-2",
+      "name": "P2-N2-2",
+      "description": "Zweite Schicht: Verarbeitung",
+      "category": "memory",
+      "level": 2,
+      "position": { "x": 1500, "y": 500 },
+      "imagePathDefault": "assets/nodes/neuron_default.png",
+      "imagePathCaptured": "assets/nodes/neuron_captured.png",
+      "imagePathLocked": "assets/nodes/locked.png"
+    },
+    {
+      "id": "p2-n2-3",
+      "name": "P2-N2-3",
+      "description": "Zweite Schicht: Verarbeitung",
+      "category": "naturwissenschaften",
+      "level": 2,
+      "position": { "x": 1500, "y": 700 },
+      "imagePathDefault": "assets/nodes/neuron_default.png",
+      "imagePathCaptured": "assets/nodes/neuron_captured.png",
+      "imagePathLocked": "assets/nodes/locked.png"
+    },
+    {
+      "id": "p2-n2-4",
+      "name": "P2-N2-4",
+      "description": "Zweite Schicht: Verarbeitung",
+      "category": "weltgeschichte",
+      "level": 2,
+      "position": { "x": 1500, "y": 900 },
+      "imagePathDefault": "assets/nodes/neuron_default.png",
+      "imagePathCaptured": "assets/nodes/neuron_captured.png",
+      "imagePathLocked": "assets/nodes/locked.png"
+    },
+    {
+      "id": "p2-n1-1",
+      "name": "P2-N1-1",
+      "description": "Erste Schicht: Eingangssignal",
+      "category": "mathematik",
+      "level": 1,
+      "position": { "x": 1700, "y": 200 },
+      "imagePathDefault": "assets/nodes/neuron_default.png",
+      "imagePathCaptured": "assets/nodes/neuron_captured.png",
+      "imagePathLocked": "assets/nodes/locked.png"
+    },
+    {
+      "id": "p2-n1-2",
+      "name": "P2-N1-2",
+      "description": "Erste Schicht: Eingangssignal",
+      "category": "mathematik",
+      "level": 1,
+      "position": { "x": 1700, "y": 400 },
+      "imagePathDefault": "assets/nodes/neuron_default.png",
+      "imagePathCaptured": "assets/nodes/neuron_captured.png",
+      "imagePathLocked": "assets/nodes/locked.png"
+    },
+    {
+      "id": "p2-n1-3",
+      "name": "P2-N1-3",
+      "description": "Erste Schicht: Eingangssignal",
+      "category": "sprachen",
+      "level": 1,
+      "position": { "x": 1700, "y": 600 },
+      "imagePathDefault": "assets/nodes/neuron_default.png",
+      "imagePathCaptured": "assets/nodes/neuron_captured.png",
+      "imagePathLocked": "assets/nodes/locked.png"
+    },
+    {
+      "id": "p2-n1-4",
+      "name": "P2-N1-4",
+      "description": "Erste Schicht: Eingangssignal",
+      "category": "popkultur",
+      "level": 1,
+      "position": { "x": 1700, "y": 800 },
+      "imagePathDefault": "assets/nodes/neuron_default.png",
+      "imagePathCaptured": "assets/nodes/neuron_captured.png",
+      "imagePathLocked": "assets/nodes/locked.png"
+    },
+    {
+      "id": "p2-n1-5",
+      "name": "P2-N1-5",
+      "description": "Erste Schicht: Eingangssignal",
+      "category": "literatur",
+      "level": 1,
+      "position": { "x": 1700, "y": 1000 },
+      "imagePathDefault": "assets/nodes/neuron_default.png",
+      "imagePathCaptured": "assets/nodes/neuron_captured.png",
+      "imagePathLocked": "assets/nodes/locked.png"
+    },
+    {
+      "id": "ki",
+      "name": "KI",
+      "description": "Headquarter P2",
+      "category": "allgemeinwissen",
+      "level": 0,
+      "isStartNode": false,
+      "isPlayer2StartNode": true,
+      "position": { "x": 1900, "y": 600 },
+      "imagePathDefault": "assets/nodes/ki_locked.png",
+      "imagePathCaptured": "assets/nodes/ki_locked.png",
+      "imagePathLocked": "assets/nodes/ki_locked.png"
+    }
+  ],
+  "edges": [
+    { "from": "avatar", "to": "p1-n1-1"   },
+    { "from": "avatar", "to": "p1-n1-2"   },
+    { "from": "avatar", "to": "p1-n1-3"   },
+    { "from": "avatar", "to": "p1-n1-4"   },
+    { "from": "avatar", "to": "p1-n1-5"   },
+
+    { "from": "p1-n1-1", "to": "p1-n2-1"   },
+    { "from": "p1-n1-1", "to": "p1-n2-2"   },
+    { "from": "p1-n1-1", "to": "p1-n2-3"   },
+    { "from": "p1-n1-1", "to": "p1-n2-4"   },
+
+    { "from": "p1-n1-2", "to": "p1-n2-1"   },
+    { "from": "p1-n1-2", "to": "p1-n2-2"   },
+    { "from": "p1-n1-2", "to": "p1-n2-3"   },
+    { "from": "p1-n1-2", "to": "p1-n2-4"   },
+
+    { "from": "p1-n1-3", "to": "p1-n2-1"   },
+    { "from": "p1-n1-3", "to": "p1-n2-2"   },
+    { "from": "p1-n1-3", "to": "p1-n2-3"   },
+    { "from": "p1-n1-3", "to": "p1-n2-4"   },
+
+    { "from": "p1-n1-4", "to": "p1-n2-1"   },
+    { "from": "p1-n1-4", "to": "p1-n2-2"   },
+    { "from": "p1-n1-4", "to": "p1-n2-3"   },
+    { "from": "p1-n1-4", "to": "p1-n2-4"   },
+
+    { "from": "p1-n1-5", "to": "p1-n2-1"   },
+    { "from": "p1-n1-5", "to": "p1-n2-2"   },
+    { "from": "p1-n1-5", "to": "p1-n2-3"   },
+    { "from": "p1-n1-5", "to": "p1-n2-4"   },
+
+
+    { "from": "p1-n2-1", "to": "p1-n3-1"   },
+    { "from": "p1-n2-1", "to": "p1-n3-2"   },
+    { "from": "p1-n2-1", "to": "p1-n3-3"   },
+
+    { "from": "p1-n2-2", "to": "p1-n3-1"   },
+    { "from": "p1-n2-2", "to": "p1-n3-2"   },
+    { "from": "p1-n2-2", "to": "p1-n3-3"   },
+
+    { "from": "p1-n2-3", "to": "p1-n3-1"   },
+    { "from": "p1-n2-3", "to": "p1-n3-2"   },
+    { "from": "p1-n2-3", "to": "p1-n3-3"   },
+
+    { "from": "p1-n2-4", "to": "p1-n3-1"   },
+    { "from": "p1-n2-4", "to": "p1-n3-2"   },
+    { "from": "p1-n2-4", "to": "p1-n3-3"   },
+
+    { "from": "p1-n3-1", "to": "p1-n4-1"   },
+    { "from": "p1-n3-1", "to": "p1-n4-2"   },
+
+    { "from": "p1-n3-2", "to": "p1-n4-1"   },
+    { "from": "p1-n3-2", "to": "p1-n4-2"   },
+
+    { "from": "p1-n3-3", "to": "p1-n4-1"   },
+    { "from": "p1-n3-3", "to": "p1-n4-2"   },
+
+    { "from": "p1-n4-1", "to": "firewall-1"   },
+    { "from": "p1-n4-1", "to": "firewall-2"   },
+
+    { "from": "p1-n4-2", "to": "firewall-1"   },
+    { "from": "p1-n4-2", "to": "firewall-2"   },
+
+    { "from": "firewall-1", "to": "p2-n4-1"   },
+    { "from": "firewall-1", "to": "p2-n4-2"   },
+
+    { "from": "firewall-2", "to": "p2-n4-1"   },
+    { "from": "firewall-2", "to": "p2-n4-2"   },
+
+
+    { "from": "p2-n4-1", "to": "p2-n3-1"   },
+    { "from": "p2-n4-1", "to": "p2-n3-2"   },
+    { "from": "p2-n4-1", "to": "p2-n3-3"   },
+
+
+
+    { "from": "p2-n4-2", "to": "p2-n3-1"   },
+    { "from": "p2-n4-2", "to": "p2-n3-2"   },
+    { "from": "p2-n4-2", "to": "p2-n3-3"   },
+
+    { "from": "p2-n3-1", "to": "p2-n2-1"   },
+    { "from": "p2-n3-1", "to": "p2-n2-2"   },
+    { "from": "p2-n3-1", "to": "p2-n2-3"   },
+    { "from": "p2-n3-1", "to": "p2-n2-4"   },
+
+    { "from": "p2-n3-2", "to": "p2-n2-1"   },
+    { "from": "p2-n3-2", "to": "p2-n2-2"   },
+    { "from": "p2-n3-2", "to": "p2-n2-3"   },
+    { "from": "p2-n3-2", "to": "p2-n2-4"   },
+
+    { "from": "p2-n3-3", "to": "p2-n2-1"   },
+    { "from": "p2-n3-3", "to": "p2-n2-2"   },
+    { "from": "p2-n3-3", "to": "p2-n2-3"   },
+    { "from": "p2-n3-3", "to": "p2-n2-4"   },
+
+    { "from": "p2-n2-1", "to": "p2-n1-1"   },
+    { "from": "p2-n2-1", "to": "p2-n1-2"   },
+    { "from": "p2-n2-1", "to": "p2-n1-3"   },
+    { "from": "p2-n2-1", "to": "p2-n1-4"   },
+    { "from": "p2-n2-1", "to": "p2-n1-5"   },
+
+    { "from": "p2-n2-2", "to": "p2-n1-1"   },
+    { "from": "p2-n2-2", "to": "p2-n1-2"   },
+    { "from": "p2-n2-2", "to": "p2-n1-3"   },
+    { "from": "p2-n2-2", "to": "p2-n1-4"   },
+    { "from": "p2-n2-2", "to": "p2-n1-5"   },
+
+    { "from": "p2-n2-3", "to": "p2-n1-1"   },
+    { "from": "p2-n2-3", "to": "p2-n1-2"   },
+    { "from": "p2-n2-3", "to": "p2-n1-3"   },
+    { "from": "p2-n2-3", "to": "p2-n1-4"   },
+    { "from": "p2-n2-3", "to": "p2-n1-5"   },
+
+    { "from": "p2-n2-4", "to": "p2-n1-1"   },
+    { "from": "p2-n2-4", "to": "p2-n1-2"   },
+    { "from": "p2-n2-4", "to": "p2-n1-3"   },
+    { "from": "p2-n2-4", "to": "p2-n1-4"   },
+    { "from": "p2-n2-4", "to": "p2-n1-5"   },
+
+    { "from": "p2-n1-1", "to": "ki" },
+    { "from": "p2-n1-2", "to": "ki"},
+    { "from": "p2-n1-3", "to": "ki" },
+    { "from": "p2-n1-4", "to": "ki"},
+    { "from": "p2-n1-5", "to": "ki"}
+  ]
+}
