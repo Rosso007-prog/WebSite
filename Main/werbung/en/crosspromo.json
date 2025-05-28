@@ -1,23 +1,143 @@
 {
-    "version": 2,
-    "apps": [
-        {
-            "title": "FotoSafe-Sorglos",
-            "description": "Schütze deine Erinnerungen mit FotoSafe-Sorglos! Organisiere Fotos sicher in Ordnern, mit PIN-Schutz und Mehrsprachigkeit. Jetzt herunterladen!",
-            "imageUrl": "https://rosso007-prog.github.io/WebSite/Main/werbung/images/Fotosafe.png",
-            "url": "https://apps.apple.com/de/app/fotosafe-sorglos/id6740139435"
-        },
-        {
-            "title": "NeuroByte",
-            "description": "Weltneuheit! Entdecke das neuronale Netzwerk, knacke Knotenpunkte und schütze sie vor KI-Angriffen! PowerUps, visuelle Effekte & ein taktisches Quizsystem erwarten dich!",
-            "imageUrl": "https://rosso007-prog.github.io/WebSite/Main/werbung/images/neurobyte.png",
-            "url": "https://your-appstore-link.com/timer"
-        },
-        {
-            "title": "Sorglos Wachsen",
-            "description": "Plane deine Woche wie ein Profi!",
-            "imageUrl": "https://rosso007-prog.github.io/WebSite/Main/werbung/images/mealprep.png",
-            "url": "https://apps.apple.com/de/app/sorglos-wachsen/id6739536384"
-        }
-    ]
+  "version": 2,
+  "apps": [
+    {
+      "title": "NeuroByte",
+      "description": "World premiere! Discover the neural network, crack nodes, and protect them from AI attacks! Power-ups, visual effects, and a tactical quiz system await you!",
+      "images": [
+        "assets/werbung/en/images/neurobyte/1.png",
+        "assets/werbung/en/images/neurobyte/2.png",
+        "assets/werbung/en/images/neurobyte/3.png",
+        "assets/werbung/en/images/neurobyte/4.png",
+        "assets/werbung/en/images/neurobyte/5.png",
+        "assets/werbung/en/images/neurobyte/6.png",
+        "assets/werbung/en/images/neurobyte/7.png",
+        "assets/werbung/en/images/neurobyte/8.png",
+        "assets/werbung/en/images/neurobyte/9.png"
+      ],
+      "url": "https://apps.apple.com/de/app/neurobyte/id6744259967",
+      "isNew": true
+    },
+    {
+      "title": "FotoSafe – Worry-Free",
+      "description": "Protect your memories with FotoSafe – Worry-Free! Organize your photos securely in folders with PIN protection and multilingual support. Download now!",
+      "images": [
+        "assets/werbung/en/images/fotosafe/1.png",
+        "assets/werbung/en/images/fotosafe/2.png"
+      ],
+      "url": "https://apps.apple.com/en/app/fotosafe-sorglos/id6740139435",
+      "isNew": true
+    },
+    {
+      "title": "IdeaSpark – One Idea per Day",
+      "description": "Your daily source of inspiration.\n\nIdeaSpark helps you capture one idea each day – whether it's a thought, a vision, or a spontaneous insight. Build your personal idea archive and foster your creativity with a simple routine.",
+      "images": [
+        "assets/werbung/en/images/ideaSpark/1.png",
+        "assets/werbung/en/images/ideaSpark/2.png",
+        "assets/werbung/en/images/ideaSpark/3.png",
+        "assets/werbung/en/images/ideaSpark/4.png",
+        "assets/werbung/en/images/ideaSpark/5.png"
+      ],
+      "url": "https://apps.apple.com/en/app/ideaspark-eine-idee-pro-tag/id6743702294",
+      "isNew": true
+    },
+    {
+      "title": "Memory Pro",
+      "description": "Discover exciting memory exercises! Train your brain playfully – anytime, anywhere!",
+      "images": [
+        "assets/werbung/en/images/gedaechtnisProfi/1.png",
+        "assets/werbung/en/images/gedaechtnisProfi/2.png",
+        "assets/werbung/en/images/gedaechtnisProfi/3.png",
+        "assets/werbung/en/images/gedaechtnisProfi/4.png",
+        "assets/werbung/en/images/gedaechtnisProfi/5.png",
+        "assets/werbung/en/images/gedaechtnisProfi/6.png",
+        "assets/werbung/en/images/gedaechtnisProfi/7.png",
+        "assets/werbung/en/images/gedaechtnisProfi/8.png"
+      ],
+      "url": "https://apps.apple.com/en/app/ged%C3%A4chtnis-profi/id6740916047",
+      "isNew": true
+    },
+    {
+      "title": "Accounting Worry-Free",
+      "description": "Accounting Worry-Free – The simple solution for quick, professional client management, quotes, projects, and invoices!",
+      "images": [
+        "assets/werbung/en/images/buchhaltung/1.png",
+        "assets/werbung/en/images/buchhaltung/2.png",
+        "assets/werbung/en/images/buchhaltung/3.png",
+        "assets/werbung/en/images/buchhaltung/4.png",
+        "assets/werbung/en/images/buchhaltung/5.png",
+        "assets/werbung/en/images/buchhaltung/6.png",
+        "assets/werbung/en/images/buchhaltung/7.png",
+        "assets/werbung/en/images/buchhaltung/8.png",
+        "assets/werbung/en/images/buchhaltung/9.png",
+        "assets/werbung/en/images/buchhaltung/10.png",
+        "assets/werbung/en/images/buchhaltung/11.png",
+        "assets/werbung/en/images/buchhaltung/12.png",
+        "assets/werbung/en/images/buchhaltung/13.png",
+        "assets/werbung/en/images/buchhaltung/14.png",
+        "assets/werbung/en/images/buchhaltung/15.png",
+        "assets/werbung/en/images/buchhaltung/16.png"
+      ],
+      "url": "https://apps.apple.com/en/app/sorglos-wachsen/id6739536384",
+      "isNew": false
+    },
+    {
+      "title": "SpeedCheck Pro – Speedtest",
+      "description": "Test your internet speed in seconds! Get precise results for download, upload, and ping. Download SpeedCheck Pro now!",
+      "images": [
+        "assets/werbung/en/images/speedcheck/1.png",
+        "assets/werbung/en/images/speedcheck/2.png",
+        "assets/werbung/en/images/speedcheck/3.png",
+        "assets/werbung/en/images/speedcheck/4.png",
+        "assets/werbung/en/images/speedcheck/5.png",
+        "assets/werbung/en/images/speedcheck/6.png",
+        "assets/werbung/en/images/speedcheck/7.png"
+      ],
+      "url": "https://apps.apple.com/en/app/speedcheck-pro-speedtest/id6739985969",
+      "isNew": false
+    },
+    {
+      "title": "Growing Worry-Free",
+      "description": "Track your child's growth with scientifically validated ideal values, vaccination reminders, doctor appointment tracking, and create creative photo collages!",
+      "images": [
+        "assets/werbung/en/images/sorglosWachsen/1.png",
+        "assets/werbung/en/images/sorglosWachsen/2.png",
+        "assets/werbung/en/images/sorglosWachsen/3.png",
+        "assets/werbung/en/images/sorglosWachsen/4.png",
+        "assets/werbung/en/images/sorglosWachsen/5.png",
+        "assets/werbung/en/images/sorglosWachsen/6.png",
+        "assets/werbung/en/images/sorglosWachsen/7.png",
+        "assets/werbung/en/images/sorglosWachsen/8.png",
+        "assets/werbung/en/images/sorglosWachsen/9.png"
+      ],
+      "url": "https://apps.apple.com/en/app/sorglos-wachsen/id6739536384",
+      "isNew": false
+    },
+    {
+      "title": "Anything2ERP",
+      "description": "Control your ESP32 device easily and efficiently! The ESP32 Bluetooth Controller app offers you an intuitive way to communicate with your ESP32 – through voice commands, text inputs, or Bluetooth messages.",
+      "images": [
+        "assets/werbung/en/images/anything2erp/1.png",
+        "assets/werbung/en/images/anything2erp/2.png",
+        "assets/werbung/en/images/anything2erp/3.png",
+        "assets/werbung/en/images/anything2erp/4.png"
+      ],
+      "url": "https://apps.apple.com/en/app/anything2erp/id6740336978",
+      "isNew": false
+    },
+    {
+      "title": "Mein Einhorn – Sorglos",
+      "description": "Kümmere dich um dein magisches Einhorn! Füttere, spiele und halte es glücklich.  Erlebe interaktive Animationen, Minispiele & smarte Erinnerungen!",
+      "images": [
+        "assets/werbung/en/images/mein_einhorn/1.png",
+        "assets/werbung/en/images/mein_einhorn/2.png",
+        "assets/werbung/en/images/mein_einhorn/3.png",
+        "assets/werbung/en/images/mein_einhorn/4.png",
+        "assets/werbung/en/images/mein_einhorn/5.png",
+        "assets/werbung/en/images/mein_einhorn/6.png"
+      ],
+      "url": "https://apps.apple.com/en/app/mein-einhorn/id6739771279",
+      "isNew": true
+    }
+  ]
 }

@@ -1,0 +1,143 @@
+{
+  "version": 2,
+  "apps": [
+    {
+      "title": "NeuroByte",
+      "description": "¡Novedad mundial! Descubre la red neuronal, desbloquea nodos y protégelos contra ataques de IA. ¡Te esperan potenciadores, efectos visuales y un sistema de cuestionarios tácticos!",
+      "images": [
+        "assets/werbung/es/images/neurobyte/1.png",
+        "assets/werbung/es/images/neurobyte/2.png",
+        "assets/werbung/es/images/neurobyte/3.png",
+        "assets/werbung/es/images/neurobyte/4.png",
+        "assets/werbung/es/images/neurobyte/5.png",
+        "assets/werbung/es/images/neurobyte/6.png",
+        "assets/werbung/es/images/neurobyte/7.png",
+        "assets/werbung/es/images/neurobyte/8.png",
+        "assets/werbung/es/images/neurobyte/9.png"
+      ],
+      "url": "https://apps.apple.com/de/app/neurobyte/id6744259967",
+      "isNew": true
+    },
+    {
+      "title": "FotoSafe-Sorglos",
+      "description": "¡Protege tus recuerdos con FotoSafe-Sorglos! Organiza fotos de forma segura en carpetas, con protección por PIN y compatibilidad multilingüe. ¡Descárgala ahora!",
+      "images": [
+        "assets/werbung/es/images/fotosafe/1.png",
+        "assets/werbung/es/images/fotosafe/2.png"
+      ],
+      "url": "https://apps.apple.com/es/app/fotosafe-sorglos/id6740139435",
+      "isNew": true
+    },
+    {
+      "title": "IdeaSpark – Una idea al día",
+      "description": "Tu fuente diaria de inspiración.\n\nIdeaSpark te ayuda a capturar una idea al día, ya sea un pensamiento, una visión o una inspiración espontánea. Crea tu propio archivo de ideas y fomenta tu creatividad con una sencilla rutina.",
+      "images": [
+        "assets/werbung/es/images/ideaSpark/1.png",
+        "assets/werbung/es/images/ideaSpark/2.png",
+        "assets/werbung/es/images/ideaSpark/3.png",
+        "assets/werbung/es/images/ideaSpark/4.png",
+        "assets/werbung/es/images/ideaSpark/5.png"
+      ],
+      "url": "https://apps.apple.com/es/app/ideaspark-eine-idee-pro-tag/id6743702294",
+      "isNew": true
+    },
+    {
+      "title": "Entrenador de Memoria",
+      "description": "¡Descubre ejercicios de memoria emocionantes! Entrena tu cerebro de manera divertida — en cualquier momento y lugar.",
+      "images": [
+        "assets/werbung/es/images/gedaechtnisProfi/1.png",
+        "assets/werbung/es/images/gedaechtnisProfi/2.png",
+        "assets/werbung/es/images/gedaechtnisProfi/3.png",
+        "assets/werbung/es/images/gedaechtnisProfi/4.png",
+        "assets/werbung/es/images/gedaechtnisProfi/5.png",
+        "assets/werbung/es/images/gedaechtnisProfi/6.png",
+        "assets/werbung/es/images/gedaechtnisProfi/7.png",
+        "assets/werbung/es/images/gedaechtnisProfi/8.png"
+      ],
+      "url": "https://apps.apple.com/es/app/ged%C3%A4chtnis-profi/id6740916047",
+      "isNew": true
+    },
+    {
+      "title": "Contabilidad Sencilla",
+      "description": "Contabilidad-Sencilla: ¡La solución fácil para una gestión profesional de clientes, presupuestos, proyectos y facturación!",
+      "images": [
+        "assets/werbung/es/images/buchhaltung/1.png",
+        "assets/werbung/es/images/buchhaltung/2.png",
+        "assets/werbung/es/images/buchhaltung/3.png",
+        "assets/werbung/es/images/buchhaltung/4.png",
+        "assets/werbung/es/images/buchhaltung/5.png",
+        "assets/werbung/es/images/buchhaltung/6.png",
+        "assets/werbung/es/images/buchhaltung/7.png",
+        "assets/werbung/es/images/buchhaltung/8.png",
+        "assets/werbung/es/images/buchhaltung/9.png",
+        "assets/werbung/es/images/buchhaltung/10.png",
+        "assets/werbung/es/images/buchhaltung/11.png",
+        "assets/werbung/es/images/buchhaltung/12.png",
+        "assets/werbung/es/images/buchhaltung/13.png",
+        "assets/werbung/es/images/buchhaltung/14.png",
+        "assets/werbung/es/images/buchhaltung/15.png",
+        "assets/werbung/es/images/buchhaltung/16.png"
+      ],
+      "url": "https://apps.apple.com/es/app/sorglos-wachsen/id6739536384",
+      "isNew": false
+    },
+    {
+      "title": "SpeedCheck Pro – Test de Velocidad",
+      "description": "¡Prueba la velocidad de tu internet en segundos! Obtén resultados precisos de descarga, carga y ping. ¡Descarga SpeedCheck Pro ahora!",
+      "images": [
+        "assets/werbung/es/images/speedcheck/1.png",
+        "assets/werbung/es/images/speedcheck/2.png",
+        "assets/werbung/es/images/speedcheck/3.png",
+        "assets/werbung/es/images/speedcheck/4.png",
+        "assets/werbung/es/images/speedcheck/5.png",
+        "assets/werbung/es/images/speedcheck/6.png",
+        "assets/werbung/es/images/speedcheck/7.png"
+      ],
+      "url": "https://apps.apple.com/es/app/speedcheck-pro-speedtest/id6739985969",
+      "isNew": false
+    },
+    {
+      "title": "Crecimiento Sencillo",
+      "description": "Sigue el crecimiento de tu hijo con valores ideales científicamente validados, recordatorios de vacunas y citas médicas, ¡y crea collages de fotos creativos!",
+      "images": [
+        "assets/werbung/es/images/sorglosWachsen/1.png",
+        "assets/werbung/es/images/sorglosWachsen/2.png",
+        "assets/werbung/es/images/sorglosWachsen/3.png",
+        "assets/werbung/es/images/sorglosWachsen/4.png",
+        "assets/werbung/es/images/sorglosWachsen/5.png",
+        "assets/werbung/es/images/sorglosWachsen/6.png",
+        "assets/werbung/es/images/sorglosWachsen/7.png",
+        "assets/werbung/es/images/sorglosWachsen/8.png",
+        "assets/werbung/es/images/sorglosWachsen/9.png"
+      ],
+      "url": "https://apps.apple.com/es/app/sorglos-wachsen/id6739536384",
+      "isNew": false
+    },
+    {
+      "title": "Anything2ERP",
+      "description": "¡Controla tu dispositivo ESP32 de manera sencilla y eficiente! Comunícate a través de comandos de voz, entradas de texto o mensajes Bluetooth.",
+      "images": [
+        "assets/werbung/es/images/anything2erp/1.png",
+        "assets/werbung/es/images/anything2erp/2.png",
+        "assets/werbung/es/images/anything2erp/3.png",
+        "assets/werbung/es/images/anything2erp/4.png"
+      ],
+      "url": "https://apps.apple.com/es/app/anything2erp/id6740336978",
+      "isNew": false
+    },
+    {
+      "title": "Mi Unicornio – Sencillo",
+      "description": "¡Cuida de tu unicornio mágico! Aliméntalo, juega y mantenlo feliz. ¡Disfruta de animaciones interactivas, minijuegos y recordatorios inteligentes!",
+      "images": [
+        "assets/werbung/es/images/mein_einhorn/1.png",
+        "assets/werbung/es/images/mein_einhorn/2.png",
+        "assets/werbung/es/images/mein_einhorn/3.png",
+        "assets/werbung/es/images/mein_einhorn/4.png",
+        "assets/werbung/es/images/mein_einhorn/5.png",
+        "assets/werbung/es/images/mein_einhorn/6.png"
+      ],
+      "url": "https://apps.apple.com/es/app/mein-einhorn/id6739771279",
+      "isNew": true
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "version": 2,
+  "apps": [
+    {
+      "title": "NeuroByte",
+      "description": "全球首創！探索神經網絡、解鎖節點並保護它們免受 AI 攻擊！強化道具、視覺效果和戰術問答系統等你體驗！",
+      "images": [
+        "assets/werbung/zh_TW/images/neurobyte/1.png",
+        "assets/werbung/zh_TW/images/neurobyte/2.png",
+        "assets/werbung/zh_TW/images/neurobyte/3.png",
+        "assets/werbung/zh_TW/images/neurobyte/4.png",
+        "assets/werbung/zh_TW/images/neurobyte/5.png",
+        "assets/werbung/zh_TW/images/neurobyte/6.png",
+        "assets/werbung/zh_TW/images/neurobyte/7.png",
+        "assets/werbung/zh_TW/images/neurobyte/8.png",
+        "assets/werbung/zh_TW/images/neurobyte/9.png"
+      ],
+      "url": "https://apps.apple.com/de/app/neurobyte/id6744259967",
+      "isNew": true
+    },
+    {
+      "title": "FotoSafe-Sorglos",
+      "description": "使用 FotoSafe-Sorglos 保護你的珍貴回憶！將照片安全地分類儲存，支持 PIN 碼保護和多語言功能。立即下載！",
+      "images": [
+        "assets/werbung/zh_TW/images/fotosafe/1.png",
+        "assets/werbung/zh_TW/images/fotosafe/2.png"
+      ],
+      "url": "https://apps.apple.com/zh_TW/app/fotosafe-sorglos/id6740139435",
+      "isNew": true
+    },
+    {
+      "title": "IdeaSpark – 每日一個創意",
+      "description": "你的每日靈感來源。\n\nIdeaSpark 幫助你每天記錄一個想法 — 無論是靈光一閃、遠大願景還是即興靈感。建立屬於你的創意檔案庫，並通過簡單的日常習慣激發創造力。",
+      "images": [
+        "assets/werbung/zh_TW/images/ideaSpark/1.png",
+        "assets/werbung/zh_TW/images/ideaSpark/2.png",
+        "assets/werbung/zh_TW/images/ideaSpark/3.png",
+        "assets/werbung/zh_TW/images/ideaSpark/4.png",
+        "assets/werbung/zh_TW/images/ideaSpark/5.png"
+      ],
+      "url": "https://apps.apple.com/zh_TW/app/ideaspark-eine-idee-pro-tag/id6743702294",
+      "isNew": true
+    },
+    {
+      "title": "記憶大師",
+      "description": "探索令人興奮的記憶練習！隨時隨地有趣地訓練你的大腦。",
+      "images": [
+        "assets/werbung/zh_TW/images/gedaechtnisProfi/1.png",
+        "assets/werbung/zh_TW/images/gedaechtnisProfi/2.png",
+        "assets/werbung/zh_TW/images/gedaechtnisProfi/3.png",
+        "assets/werbung/zh_TW/images/gedaechtnisProfi/4.png",
+        "assets/werbung/zh_TW/images/gedaechtnisProfi/5.png",
+        "assets/werbung/zh_TW/images/gedaechtnisProfi/6.png",
+        "assets/werbung/zh_TW/images/gedaechtnisProfi/7.png",
+        "assets/werbung/zh_TW/images/gedaechtnisProfi/8.png"
+      ],
+      "url": "https://apps.apple.com/zh_TW/app/ged%C3%A4chtnis-profi/id6740916047",
+      "isNew": true
+    },
+    {
+      "title": "輕鬆會計",
+      "description": "輕鬆會計 — 快速且專業地管理客戶、報價、專案與發票的簡單解決方案！",
+      "images": [
+        "assets/werbung/zh_TW/images/buchhaltung/1.png",
+        "assets/werbung/zh_TW/images/buchhaltung/2.png",
+        "assets/werbung/zh_TW/images/buchhaltung/3.png",
+        "assets/werbung/zh_TW/images/buchhaltung/4.png",
+        "assets/werbung/zh_TW/images/buchhaltung/5.png",
+        "assets/werbung/zh_TW/images/buchhaltung/6.png",
+        "assets/werbung/zh_TW/images/buchhaltung/7.png",
+        "assets/werbung/zh_TW/images/buchhaltung/8.png",
+        "assets/werbung/zh_TW/images/buchhaltung/9.png",
+        "assets/werbung/zh_TW/images/buchhaltung/10.png",
+        "assets/werbung/zh_TW/images/buchhaltung/11.png",
+        "assets/werbung/zh_TW/images/buchhaltung/12.png",
+        "assets/werbung/zh_TW/images/buchhaltung/13.png",
+        "assets/werbung/zh_TW/images/buchhaltung/14.png",
+        "assets/werbung/zh_TW/images/buchhaltung/15.png",
+        "assets/werbung/zh_TW/images/buchhaltung/16.png"
+      ],
+      "url": "https://apps.apple.com/zh_TW/app/sorglos-wachsen/id6739536384",
+      "isNew": false
+    },
+    {
+      "title": "SpeedCheck Pro – 速度測試",
+      "description": "在幾秒鐘內測試你的網絡速度！獲得精確的下載、上傳和延遲數據。立即下載 SpeedCheck Pro！",
+      "images": [
+        "assets/werbung/zh_TW/images/speedcheck/1.png",
+        "assets/werbung/zh_TW/images/speedcheck/2.png",
+        "assets/werbung/zh_TW/images/speedcheck/3.png",
+        "assets/werbung/zh_TW/images/speedcheck/4.png",
+        "assets/werbung/zh_TW/images/speedcheck/5.png",
+        "assets/werbung/zh_TW/images/speedcheck/6.png",
+        "assets/werbung/zh_TW/images/speedcheck/7.png"
+      ],
+      "url": "https://apps.apple.com/zh_TW/app/speedcheck-pro-speedtest/id6739985969",
+      "isNew": false
+    },
+    {
+      "title": "安心成長",
+      "description": "根據科學標準追蹤孩子的成長，設置疫苗接種與醫生預約提醒，並創建創意照片拼貼！",
+      "images": [
+        "assets/werbung/zh_TW/images/sorglosWachsen/1.png",
+        "assets/werbung/zh_TW/images/sorglosWachsen/2.png",
+        "assets/werbung/zh_TW/images/sorglosWachsen/3.png",
+        "assets/werbung/zh_TW/images/sorglosWachsen/4.png",
+        "assets/werbung/zh_TW/images/sorglosWachsen/5.png",
+        "assets/werbung/zh_TW/images/sorglosWachsen/6.png",
+        "assets/werbung/zh_TW/images/sorglosWachsen/7.png",
+        "assets/werbung/zh_TW/images/sorglosWachsen/8.png",
+        "assets/werbung/zh_TW/images/sorglosWachsen/9.png"
+      ],
+      "url": "https://apps.apple.com/zh_TW/app/sorglos-wachsen/id6739536384",
+      "isNew": false
+    },
+    {
+      "title": "Anything2ERP",
+      "description": "輕鬆高效地控制你的 ESP32 裝置！通過語音指令、文字輸入或藍牙訊息進行通信。",
+      "images": [
+        "assets/werbung/zh_TW/images/anything2erp/1.png",
+        "assets/werbung/zh_TW/images/anything2erp/2.png",
+        "assets/werbung/zh_TW/images/anything2erp/3.png",
+        "assets/werbung/zh_TW/images/anything2erp/4.png"
+      ],
+      "url": "https://apps.apple.com/zh_TW/app/anything2erp/id6740336978",
+      "isNew": false
+    },
+    {
+      "title": "我的獨角獸 – 安心版",
+      "description": "照顧你的魔法獨角獸！餵食、遊玩並保持牠的快樂。體驗互動動畫、迷你遊戲和智慧提醒！",
+      "images": [
+        "assets/werbung/zh_TW/images/mein_einhorn/1.png",
+        "assets/werbung/zh_TW/images/mein_einhorn/2.png",
+        "assets/werbung/zh_TW/images/mein_einhorn/3.png",
+        "assets/werbung/zh_TW/images/mein_einhorn/4.png",
+        "assets/werbung/zh_TW/images/mein_einhorn/5.png",
+        "assets/werbung/zh_TW/images/mein_einhorn/6.png"
+      ],
+      "url": "https://apps.apple.com/zh_TW/app/mein-einhorn/id6739771279",
+      "isNew": true
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "version": 2,
+  "apps": [
+    {
+      "title": "NeuroByte",
+      "description": "विश्व में पहली बार! न्यूरल नेटवर्क की खोज करें, नोड्स को अनलॉक करें और उन्हें एआई हमलों से बचाएं। पावरअप्स, दृश्य प्रभाव और एक रणनीतिक क्विज़ प्रणाली आपका इंतजार कर रहे हैं!",
+      "images": [
+        "assets/werbung/hi/images/neurobyte/1.png",
+        "assets/werbung/hi/images/neurobyte/2.png",
+        "assets/werbung/hi/images/neurobyte/3.png",
+        "assets/werbung/hi/images/neurobyte/4.png",
+        "assets/werbung/hi/images/neurobyte/5.png",
+        "assets/werbung/hi/images/neurobyte/6.png",
+        "assets/werbung/hi/images/neurobyte/7.png",
+        "assets/werbung/hi/images/neurobyte/8.png",
+        "assets/werbung/hi/images/neurobyte/9.png"
+      ],
+      "url": "https://apps.apple.com/de/app/neurobyte/id6744259967",
+      "isNew": true
+    },
+    {
+      "title": "FotoSafe-Sorglos",
+      "description": "अपने यादों को FotoSafe-Sorglos से सुरक्षित रखें! फ़ोल्डरों में सुरक्षित रूप से फ़ोटो व्यवस्थित करें, पिन सुरक्षा और बहुभाषी समर्थन के साथ। अभी डाउनलोड करें!",
+      "images": [
+        "assets/werbung/hi/images/fotosafe/1.png",
+        "assets/werbung/hi/images/fotosafe/2.png"
+      ],
+      "url": "https://apps.apple.com/hi/app/fotosafe-sorglos/id6740139435",
+      "isNew": true
+    },
+    {
+      "title": "IdeaSpark – प्रतिदिन एक विचार",
+      "description": "आपकी दैनिक प्रेरणा का स्रोत।\n\nIdeaSpark आपकी मदद करता है हर दिन एक विचार को पकड़ने में — चाहे वह एक सोच हो, एक दृष्टि या एक आकस्मिक प्रेरणा। एक सरल दिनचर्या के साथ अपना व्यक्तिगत विचार संग्रह बनाएं।",
+      "images": [
+        "assets/werbung/hi/images/ideaSpark/1.png",
+        "assets/werbung/hi/images/ideaSpark/2.png",
+        "assets/werbung/hi/images/ideaSpark/3.png",
+        "assets/werbung/hi/images/ideaSpark/4.png",
+        "assets/werbung/hi/images/ideaSpark/5.png"
+      ],
+      "url": "https://apps.apple.com/hi/app/ideaspark-eine-idee-pro-tag/id6743702294",
+      "isNew": true
+    },
+    {
+      "title": "स्मृति विशेषज्ञ",
+      "description": "रोमांचक स्मृति अभ्यासों की खोज करें! कभी भी और कहीं भी मजेदार तरीके से अपने दिमाग का व्यायाम करें।",
+      "images": [
+        "assets/werbung/hi/images/gedaechtnisProfi/1.png",
+        "assets/werbung/hi/images/gedaechtnisProfi/2.png",
+        "assets/werbung/hi/images/gedaechtnisProfi/3.png",
+        "assets/werbung/hi/images/gedaechtnisProfi/4.png",
+        "assets/werbung/hi/images/gedaechtnisProfi/5.png",
+        "assets/werbung/hi/images/gedaechtnisProfi/6.png",
+        "assets/werbung/hi/images/gedaechtnisProfi/7.png",
+        "assets/werbung/hi/images/gedaechtnisProfi/8.png"
+      ],
+      "url": "https://apps.apple.com/hi/app/ged%C3%A4chtnis-profi/id6740916047",
+      "isNew": true
+    },
+    {
+      "title": "सरल लेखांकन",
+      "description": "सरल लेखांकन — ग्राहकों का प्रबंधन, कोटेशन, परियोजनाओं और चालानों के लिए आसान और पेशेवर समाधान!",
+      "images": [
+        "assets/werbung/hi/images/buchhaltung/1.png",
+        "assets/werbung/hi/images/buchhaltung/2.png",
+        "assets/werbung/hi/images/buchhaltung/3.png",
+        "assets/werbung/hi/images/buchhaltung/4.png",
+        "assets/werbung/hi/images/buchhaltung/5.png",
+        "assets/werbung/hi/images/buchhaltung/6.png",
+        "assets/werbung/hi/images/buchhaltung/7.png",
+        "assets/werbung/hi/images/buchhaltung/8.png",
+        "assets/werbung/hi/images/buchhaltung/9.png",
+        "assets/werbung/hi/images/buchhaltung/10.png",
+        "assets/werbung/hi/images/buchhaltung/11.png",
+        "assets/werbung/hi/images/buchhaltung/12.png",
+        "assets/werbung/hi/images/buchhaltung/13.png",
+        "assets/werbung/hi/images/buchhaltung/14.png",
+        "assets/werbung/hi/images/buchhaltung/15.png",
+        "assets/werbung/hi/images/buchhaltung/16.png"
+      ],
+      "url": "https://apps.apple.com/hi/app/sorglos-wachsen/id6739536384",
+      "isNew": false
+    },
+    {
+      "title": "SpeedCheck Pro – गति परीक्षण",
+      "description": "अपने इंटरनेट की गति को कुछ ही सेकंडों में जांचें! डाउनलोड, अपलोड और पिंग के लिए सटीक परिणाम पाएं। अभी SpeedCheck Pro डाउनलोड करें!",
+      "images": [
+        "assets/werbung/hi/images/speedcheck/1.png",
+        "assets/werbung/hi/images/speedcheck/2.png",
+        "assets/werbung/hi/images/speedcheck/3.png",
+        "assets/werbung/hi/images/speedcheck/4.png",
+        "assets/werbung/hi/images/speedcheck/5.png",
+        "assets/werbung/hi/images/speedcheck/6.png",
+        "assets/werbung/hi/images/speedcheck/7.png"
+      ],
+      "url": "https://apps.apple.com/hi/app/speedcheck-pro-speedtest/id6739985969",
+      "isNew": false
+    },
+    {
+      "title": "निश्चिंत विकास",
+      "description": "अपने बच्चे के विकास को वैज्ञानिक रूप से सिद्ध आदर्श मानकों के साथ ट्रैक करें, टीकाकरण और डॉक्टर अपॉइंटमेंट के रिमाइंडर पाएं और रचनात्मक फोटो कोलाज बनाएं!",
+      "images": [
+        "assets/werbung/hi/images/sorglosWachsen/1.png",
+        "assets/werbung/hi/images/sorglosWachsen/2.png",
+        "assets/werbung/hi/images/sorglosWachsen/3.png",
+        "assets/werbung/hi/images/sorglosWachsen/4.png",
+        "assets/werbung/hi/images/sorglosWachsen/5.png",
+        "assets/werbung/hi/images/sorglosWachsen/6.png",
+        "assets/werbung/hi/images/sorglosWachsen/7.png",
+        "assets/werbung/hi/images/sorglosWachsen/8.png",
+        "assets/werbung/hi/images/sorglosWachsen/9.png"
+      ],
+      "url": "https://apps.apple.com/hi/app/sorglos-wachsen/id6739536384",
+      "isNew": false
+    },
+    {
+      "title": "Anything2ERP",
+      "description": "अपने ESP32 डिवाइस को सरल और कुशलता से नियंत्रित करें! वॉयस कमांड, टेक्स्ट इनपुट या ब्लूटूथ संदेशों के माध्यम से संचार करें।",
+      "images": [
+        "assets/werbung/hi/images/anything2erp/1.png",
+        "assets/werbung/hi/images/anything2erp/2.png",
+        "assets/werbung/hi/images/anything2erp/3.png",
+        "assets/werbung/hi/images/anything2erp/4.png"
+      ],
+      "url": "https://apps.apple.com/hi/app/anything2erp/id6740336978",
+      "isNew": false
+    },
+    {
+      "title": "मेरा यूनिकॉर्न – निश्चिंत",
+      "description": "अपने जादुई यूनिकॉर्न की देखभाल करें! उसे खिलाएं, खेलें और खुश रखें। इंटरैक्टिव एनिमेशन, मिनी-गेम्स और स्मार्ट रिमाइंडर का आनंद लें!",
+      "images": [
+        "assets/werbung/hi/images/mein_einhorn/1.png",
+        "assets/werbung/hi/images/mein_einhorn/2.png",
+        "assets/werbung/hi/images/mein_einhorn/3.png",
+        "assets/werbung/hi/images/mein_einhorn/4.png",
+        "assets/werbung/hi/images/mein_einhorn/5.png",
+        "assets/werbung/hi/images/mein_einhorn/6.png"
+      ],
+      "url": "https://apps.apple.com/hi/app/mein-einhorn/id6739771279",
+      "isNew": true
+    }
+  ]
+}
