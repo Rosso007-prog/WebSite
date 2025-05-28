@@ -3,6 +3,7 @@
   "apps": [
     {
       "title": "NeuroByte",
+      "imageFolder": "neurobyte",
       "description": "全球首創！探索神經網絡、解鎖節點並保護它們免受 AI 攻擊！強化道具、視覺效果和戰術問答系統等你體驗！",
       "images": [
         "assets/werbung/zh_TW/images/neurobyte/1.png",
@@ -20,6 +21,7 @@
     },
     {
       "title": "FotoSafe-Sorglos",
+      "imageFolder": "fotosafe",
       "description": "使用 FotoSafe-Sorglos 保護你的珍貴回憶！將照片安全地分類儲存，支持 PIN 碼保護和多語言功能。立即下載！",
       "images": [
         "assets/werbung/zh_TW/images/fotosafe/1.png",
@@ -30,6 +32,7 @@
     },
     {
       "title": "IdeaSpark – 每日一個創意",
+      "imageFolder": "ideaSpark",
       "description": "你的每日靈感來源。\n\nIdeaSpark 幫助你每天記錄一個想法 — 無論是靈光一閃、遠大願景還是即興靈感。建立屬於你的創意檔案庫，並通過簡單的日常習慣激發創造力。",
       "images": [
         "assets/werbung/zh_TW/images/ideaSpark/1.png",
@@ -43,6 +46,7 @@
     },
     {
       "title": "記憶大師",
+      "imageFolder": "gedaechtnisProfi",
       "description": "探索令人興奮的記憶練習！隨時隨地有趣地訓練你的大腦。",
       "images": [
         "assets/werbung/zh_TW/images/gedaechtnisProfi/1.png",
@@ -59,6 +63,7 @@
     },
     {
       "title": "輕鬆會計",
+      "imageFolder": "buchaltung",
       "description": "輕鬆會計 — 快速且專業地管理客戶、報價、專案與發票的簡單解決方案！",
       "images": [
         "assets/werbung/zh_TW/images/buchhaltung/1.png",
@@ -83,6 +88,7 @@
     },
     {
       "title": "SpeedCheck Pro – 速度測試",
+      "imageFolder": "speedcheck",
       "description": "在幾秒鐘內測試你的網絡速度！獲得精確的下載、上傳和延遲數據。立即下載 SpeedCheck Pro！",
       "images": [
         "assets/werbung/zh_TW/images/speedcheck/1.png",
@@ -98,6 +104,7 @@
     },
     {
       "title": "安心成長",
+      "imageFolder": "sorglosWachsen",
       "description": "根據科學標準追蹤孩子的成長，設置疫苗接種與醫生預約提醒，並創建創意照片拼貼！",
       "images": [
         "assets/werbung/zh_TW/images/sorglosWachsen/1.png",
@@ -115,6 +122,7 @@
     },
     {
       "title": "Anything2ERP",
+      "imageFolder": "anything2erp",
       "description": "輕鬆高效地控制你的 ESP32 裝置！通過語音指令、文字輸入或藍牙訊息進行通信。",
       "images": [
         "assets/werbung/zh_TW/images/anything2erp/1.png",
@@ -127,6 +135,7 @@
     },
     {
       "title": "我的獨角獸 – 安心版",
+      "imageFolder": "mein_einhorn"
       "description": "照顧你的魔法獨角獸！餵食、遊玩並保持牠的快樂。體驗互動動畫、迷你遊戲和智慧提醒！",
       "images": [
         "assets/werbung/zh_TW/images/mein_einhorn/1.png",

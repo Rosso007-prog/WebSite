@@ -3,6 +3,7 @@
   "apps": [
     {
       "title": "NeuroByte",
+      "imageFolder": "neurobyte",
       "description": "Première mondiale ! Découvrez le réseau neuronal, débloquez des nœuds et protégez-les contre les attaques d'IA. Des power-ups, des effets visuels et un système de quiz tactique vous attendent !",
       "images": [
         "assets/werbung/fr/images/neurobyte/1.png",
@@ -20,6 +21,7 @@
     },
     {
       "title": "FotoSafe-Sorglos",
+      "imageFolder": "fotosafe",
       "description": "Protégez vos souvenirs avec FotoSafe-Sorglos ! Organisez vos photos en toute sécurité dans des dossiers avec protection par code PIN et multilinguisme. Téléchargez-la dès maintenant !",
       "images": [
         "assets/werbung/fr/images/fotosafe/1.png",
@@ -30,6 +32,7 @@
     },
     {
       "title": "IdeaSpark – Une idée par jour",
+      "imageFolder": "ideaSpark",
       "description": "Votre source quotidienne d'inspiration.\n\nIdeaSpark vous aide à capturer une idée chaque jour, qu'il s'agisse d'une pensée, d'une vision ou d'une inspiration spontanée. Construisez votre propre archive d'idées et stimulez votre créativité avec une routine simple.",
       "images": [
         "assets/werbung/fr/images/ideaSpark/1.png",
@@ -43,6 +46,7 @@
     },
     {
       "title": "Maître de la Mémoire",
+      "imageFolder": "gedaechtnisProfi",
       "description": "Découvrez des exercices de mémoire passionnants ! Entraînez votre cerveau de manière ludique — à tout moment et partout.",
       "images": [
         "assets/werbung/fr/images/gedaechtnisProfi/1.png",
@@ -59,6 +63,7 @@
     },
     {
       "title": "Comptabilité Facile",
+      "imageFolder": "buchaltung",
       "description": "Comptabilité Facile : la solution simple pour une gestion professionnelle des clients, devis, projets et factures !",
       "images": [
         "assets/werbung/fr/images/buchhaltung/1.png",
@@ -83,6 +88,7 @@
     },
     {
       "title": "SpeedCheck Pro – Test de Vitesse",
+      "imageFolder": "speedcheck"
       "description": "Testez votre vitesse Internet en quelques secondes ! Obtenez des résultats précis pour le téléchargement, l'upload et le ping. Téléchargez SpeedCheck Pro maintenant !",
       "images": [
         "assets/werbung/fr/images/speedcheck/1.png",
@@ -98,6 +104,7 @@
     },
     {
       "title": "Grandir Sereinement",
+      "imageFolder": "sorglosWachsen",
       "description": "Suivez la croissance de votre enfant avec des valeurs de référence scientifiques, des rappels pour les vaccins et les rendez-vous médicaux, et créez des collages photos créatifs !",
       "images": [
         "assets/werbung/fr/images/sorglosWachsen/1.png",
@@ -115,6 +122,7 @@
     },
     {
       "title": "Anything2ERP",
+      "imageFolder": "anything2erp",
       "description": "Contrôlez facilement et efficacement votre appareil ESP32 ! Communiquez via commandes vocales, saisies de texte ou messages Bluetooth.",
       "images": [
         "assets/werbung/fr/images/anything2erp/1.png",
@@ -127,6 +135,7 @@
     },
     {
       "title": "Mon Licorne – Serein",
+      "imageFolder": "mein_einhorn",
       "description": "Prenez soin de votre licorne magique ! Nourrissez-la, jouez avec elle et rendez-la heureuse. Profitez d'animations interactives, de mini-jeux et de rappels intelligents !",
       "images": [
         "assets/werbung/fr/images/mein_einhorn/1.png",

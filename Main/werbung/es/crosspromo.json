@@ -3,6 +3,7 @@
   "apps": [
     {
       "title": "NeuroByte",
+      "imageFolder": "neurobyte",
       "description": "¡Novedad mundial! Descubre la red neuronal, desbloquea nodos y protégelos contra ataques de IA. ¡Te esperan potenciadores, efectos visuales y un sistema de cuestionarios tácticos!",
       "images": [
         "assets/werbung/es/images/neurobyte/1.png",
@@ -20,6 +21,7 @@
     },
     {
       "title": "FotoSafe-Sorglos",
+      "imageFolder": "fotosafe",
       "description": "¡Protege tus recuerdos con FotoSafe-Sorglos! Organiza fotos de forma segura en carpetas, con protección por PIN y compatibilidad multilingüe. ¡Descárgala ahora!",
       "images": [
         "assets/werbung/es/images/fotosafe/1.png",
@@ -30,6 +32,7 @@
     },
     {
       "title": "IdeaSpark – Una idea al día",
+      "imageFolder": "ideaSpark",
       "description": "Tu fuente diaria de inspiración.\n\nIdeaSpark te ayuda a capturar una idea al día, ya sea un pensamiento, una visión o una inspiración espontánea. Crea tu propio archivo de ideas y fomenta tu creatividad con una sencilla rutina.",
       "images": [
         "assets/werbung/es/images/ideaSpark/1.png",
@@ -43,6 +46,7 @@
     },
     {
       "title": "Entrenador de Memoria",
+      "imageFolder": "gedaechtnisProfi",
       "description": "¡Descubre ejercicios de memoria emocionantes! Entrena tu cerebro de manera divertida — en cualquier momento y lugar.",
       "images": [
         "assets/werbung/es/images/gedaechtnisProfi/1.png",
@@ -59,6 +63,7 @@
     },
     {
       "title": "Contabilidad Sencilla",
+      "imageFolder": "buchaltung",
       "description": "Contabilidad-Sencilla: ¡La solución fácil para una gestión profesional de clientes, presupuestos, proyectos y facturación!",
       "images": [
         "assets/werbung/es/images/buchhaltung/1.png",
@@ -83,6 +88,7 @@
     },
     {
       "title": "SpeedCheck Pro – Test de Velocidad",
+      "imageFolder": "speedcheck",
       "description": "¡Prueba la velocidad de tu internet en segundos! Obtén resultados precisos de descarga, carga y ping. ¡Descarga SpeedCheck Pro ahora!",
       "images": [
         "assets/werbung/es/images/speedcheck/1.png",
@@ -98,6 +104,7 @@
     },
     {
       "title": "Crecimiento Sencillo",
+      "imageFolder": "sorglosWachsen",
       "description": "Sigue el crecimiento de tu hijo con valores ideales científicamente validados, recordatorios de vacunas y citas médicas, ¡y crea collages de fotos creativos!",
       "images": [
         "assets/werbung/es/images/sorglosWachsen/1.png",
@@ -115,6 +122,7 @@
     },
     {
       "title": "Anything2ERP",
+      "imageFolder": "anything2erp",
       "description": "¡Controla tu dispositivo ESP32 de manera sencilla y eficiente! Comunícate a través de comandos de voz, entradas de texto o mensajes Bluetooth.",
       "images": [
         "assets/werbung/es/images/anything2erp/1.png",
@@ -127,6 +135,7 @@
     },
     {
       "title": "Mi Unicornio – Sencillo",
+      "imageFolder": "mein_einhorn",
       "description": "¡Cuida de tu unicornio mágico! Aliméntalo, juega y mantenlo feliz. ¡Disfruta de animaciones interactivas, minijuegos y recordatorios inteligentes!",
       "images": [
         "assets/werbung/es/images/mein_einhorn/1.png",

@@ -3,6 +3,7 @@
   "apps": [
     {
       "title": "NeuroByte",
+      "imageFolder": "neurobyte",
       "description": "World premiere! Discover the neural network, crack nodes, and protect them from AI attacks! Power-ups, visual effects, and a tactical quiz system await you!",
       "images": [
         "assets/werbung/en/images/neurobyte/1.png",
@@ -20,6 +21,7 @@
     },
     {
       "title": "FotoSafe – Worry-Free",
+      "imageFolder": "fotosafe",
       "description": "Protect your memories with FotoSafe – Worry-Free! Organize your photos securely in folders with PIN protection and multilingual support. Download now!",
       "images": [
         "assets/werbung/en/images/fotosafe/1.png",
@@ -30,6 +32,7 @@
     },
     {
       "title": "IdeaSpark – One Idea per Day",
+      "imageFolder": "ideaSpark",
       "description": "Your daily source of inspiration.\n\nIdeaSpark helps you capture one idea each day – whether it's a thought, a vision, or a spontaneous insight. Build your personal idea archive and foster your creativity with a simple routine.",
       "images": [
         "assets/werbung/en/images/ideaSpark/1.png",
@@ -43,6 +46,7 @@
     },
     {
       "title": "Memory Pro",
+      "imageFolder": "gedaechtnisProfi",
       "description": "Discover exciting memory exercises! Train your brain playfully – anytime, anywhere!",
       "images": [
         "assets/werbung/en/images/gedaechtnisProfi/1.png",
@@ -59,6 +63,7 @@
     },
     {
       "title": "Accounting Worry-Free",
+      "imageFolder": "buchaltung",
       "description": "Accounting Worry-Free – The simple solution for quick, professional client management, quotes, projects, and invoices!",
       "images": [
         "assets/werbung/en/images/buchhaltung/1.png",
@@ -83,6 +88,7 @@
     },
     {
       "title": "SpeedCheck Pro – Speedtest",
+      "imageFolder": "speedcheck",
       "description": "Test your internet speed in seconds! Get precise results for download, upload, and ping. Download SpeedCheck Pro now!",
       "images": [
         "assets/werbung/en/images/speedcheck/1.png",
@@ -98,6 +104,7 @@
     },
     {
       "title": "Growing Worry-Free",
+      "imageFolder": "sorglosWachsen",
       "description": "Track your child's growth with scientifically validated ideal values, vaccination reminders, doctor appointment tracking, and create creative photo collages!",
       "images": [
         "assets/werbung/en/images/sorglosWachsen/1.png",
@@ -115,6 +122,7 @@
     },
     {
       "title": "Anything2ERP",
+      "imageFolder": "anything2erp",
       "description": "Control your ESP32 device easily and efficiently! The ESP32 Bluetooth Controller app offers you an intuitive way to communicate with your ESP32 – through voice commands, text inputs, or Bluetooth messages.",
       "images": [
         "assets/werbung/en/images/anything2erp/1.png",
@@ -127,6 +135,7 @@
     },
     {
       "title": "Mein Einhorn – Sorglos",
+      "imageFolder": "mein_einhorn",
       "description": "Kümmere dich um dein magisches Einhorn! Füttere, spiele und halte es glücklich.  Erlebe interaktive Animationen, Minispiele & smarte Erinnerungen!",
       "images": [
         "assets/werbung/en/images/mein_einhorn/1.png",

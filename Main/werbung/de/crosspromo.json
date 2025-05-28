@@ -3,6 +3,7 @@
   "apps": [
     {
       "title": "NeuroByte",
+      "imageFolder": "neurobyte",
       "description": "Weltneuheit! Entdecke das neuronale Netzwerk, knacke Knotenpunkte und schütze sie vor KI-Angriffen! PowerUps, visuelle Effekte & ein taktisches Quizsystem erwarten dich!",
       "images": [
         "assets/werbung/de/images/neurobyte/1.png",
@@ -20,6 +21,7 @@
     },
     {
       "title": "FotoSafe-Sorglos",
+      "imageFolder": "fotosafe",
       "description": "Schütze deine Erinnerungen mit FotoSafe-Sorglos! Organisiere Fotos sicher in Ordnern, mit PIN-Schutz und Mehrsprachigkeit. Jetzt herunterladen!",
       "images": [
         "assets/werbung/de/images/fotosafe/1.png",
@@ -30,6 +32,7 @@
     },
     {
       "title": "IdeaSpark – Eine Idee pro Tag",
+      "imageFolder": "ideaSpark",
       "description": "Deine tägliche Inspirationsquelle.\n\nIdeaSpark hilft dir, jeden Tag eine Idee festzuhalten – sei es ein Gedanke, eine Vision oder ein spontaner Einfall. Baue dein persönliches Ideenarchiv auf und fördere deine Kreativität mit einer einfachen Routine.",
       "images": [
         "assets/werbung/de/images/ideaSpark/1.png",
@@ -43,6 +46,7 @@
     },
     {
       "title": "Gedächtnis Profi",
+      "imageFolder": "gedaechtnisProfi",
       "description": "Entdecke spannende Gedächtnisübungen! Trainiere dein Gehirn spielerisch – jederzeit und überall!",
       "images": [
         "assets/werbung/de/images/gedaechtnisProfi/1.png",
@@ -59,6 +63,7 @@
     },
     {
       "title": "Buchhaltung Sorglos",
+      "imageFolder": "buchaltung",
       "description": "Buchhaltung-Sorglos – Die einfache Lösung für schnelle, professionelle Kundenverwaltung, Angebote, Projekte und Rechnungen!",
       "images": [
         "assets/werbung/de/images/buchhaltung/1.png",
@@ -83,6 +88,7 @@
     },
     {
       "title": "SpeedCheck Pro – Speedtest",
+      "imageFolder": "speedcheck",
       "description": "Teste deine Internetgeschwindigkeit in Sekunden! Erhalte präzise Ergebnisse für Download, Upload und Ping. Lade jetzt SpeedCheck Pro!",
       "images": [
         "assets/werbung/de/images/speedcheck/1.png",
@@ -98,6 +104,7 @@
     },
     {
       "title": "Sorglos Wachsen",
+      "imageFolder": "sorglosWachsen",
       "description": "Verfolge das Wachstum deines Kindes mit wissenschaftlich fundierten Idealwerten, Erinnerungsfunktionen für Impfungen und Arztbesuche, und erstelle kreative Fotocollagen!",
       "images": [
         "assets/werbung/de/images/sorglosWachsen/1.png",
@@ -115,6 +122,7 @@
     },
     {
       "title": "Anything2ERP",
+      "imageFolder": "anything2erp",
       "description": "Steuere dein ESP32-Gerät einfach und effizient! Mit der ESP32 Bluetooth Controller App kannst du dein ESP32-Gerät auf völlig neue Weise steuern. Diese App bietet dir eine einfache und intuitive Möglichkeit, mit deinem ESP32 zu kommunizieren – sei es über Sprachbefehle, Texteingaben oder Bluetooth-Nachrichten.",
       "images": [
         "assets/werbung/de/images/anything2erp/1.png",
@@ -127,6 +135,7 @@
     },
     {
       "title": "Mein Einhorn – Sorglos",
+      "imageFolder": "mein_einhorn",
       "description": "Kümmere dich um dein magisches Einhorn! Füttere, spiele und halte es glücklich.  Erlebe interaktive Animationen, Minispiele & smarte Erinnerungen!",
       "images": [
         "assets/werbung/de/images/mein_einhorn/1.png",
