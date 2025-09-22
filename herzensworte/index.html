@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internet Speed Test - Sorglos App</title>
+
+    <!-- Einbindung von styles.css aus dem Root-Verzeichnis -->
+    <link rel="stylesheet" href="../Main/styles.css">
+</head>
+<body>
+
+    <!-- Menü wird über JavaScript aus dem Root-Verzeichnis geladen -->
+    <div id="menu"></div>
+
+    <div class="container">
+        <h1>Internet Speed Test - Sorglos</h1>
+        <img src="https://rosso007-prog.github.io/WebSite/SpeedTest-Sorglos/AppIcon150x150.png" alt="Speed Test Icon">
+        <h2>Teste deine Internetgeschwindigkeit in Sekunden</h2>
+        <p>Mit der Internet Speed Test - Sorglos App kannst du deine Internetgeschwindigkeit einfach und schnell messen. Die App liefert dir präzise Informationen über deinen Download-, Upload- und Ping-Wert.</p>
+        <h2>Hauptfunktionen:</h2>
+        <ul>
+            <li><strong>Schnelle Geschwindigkeitstests:</strong> Miss die Geschwindigkeit deines Internets in Echtzeit.</li>
+            <li><strong>Download- und Upload-Werte:</strong> Präzise Ergebnisse für Datenübertragungsraten.</li>
+            <li><strong>Verlaufsdaten:</strong> Speichere und analysiere deine Geschwindigkeitsergebnisse.</li>
+            <li><strong>Modernes Design:</strong> Benutzerfreundliche Oberfläche mit intuitiver Bedienung.</li>
+        </ul>
+        <p>Bleib informiert über deine Internetverbindung und optimiere deine Netzwerkeinstellungen mit unserer benutzerfreundlichen App.</p>
+        
+        <a href="https://apps.apple.com/de/app/speed-test-sorglos/id6739985969" class="download-button">App herunterladen</a>
+        <p><a href="Datenschutz/Datenschutz.html">Datenschutzerklärung</a></p>
+    </div>
+
+    <footer>
+        &copy; 2025 Sorglos. Alle Rechte vorbehalten.
+    </footer>
+
+    <!-- Menü aus dem Root-Verzeichnis über JavaScript laden -->
+    <script>
+        fetch('../Main/menu.html')
+            .then(response => response.text())
+            .then(data => document.getElementById('menu').innerHTML = data);
+    </script>
+
+</body>
+</html>
