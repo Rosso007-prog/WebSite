@@ -11,12 +11,12 @@
       "id": "q_tomato_5",
       "title": "Fresh Tomatoes",
       "summary": "Harvest five juicy tomatoes. A perfect warm-up!",
-      "description": "Plant tomatoes into free slots and **water regularly**. Higher greenhouse levels speed up growth.",
+      "description": "Plant tomatoes in free slots and water **regularly**. With higher greenhouse level your crops grow faster.",
       "steps": [
-        "Make sure you have a free slot",
+        "Ensure at least one free slot",
         "Plant tomato seeds",
         "Wait until growth reaches 100%",
-        "Harvest (auto-counts toward the quest)"
+        "Harvest (counts automatically towards the quest)"
       ],
       "requirements": [
         { "seedId": "tomato", "amount": 5, "source": "either" }
@@ -24,48 +24,44 @@
       "rewards": { "coins": 60, "crystals": 0, "xp": 20 },
       "timeLimitHours": 72,
       "difficulty": "easy",
-      "tags": ["starter", "harvest"],
+      "tags": ["Beginner", "Harvest"],
       "icon": "🍅",
-      "banner": "https://images.unsplash.com/photo-1567306226416-28f0efdc88ce",
+      "banner": "https://rosso007-prog.github.io/WebSite/growzilla/Data/Bundles/bilder/tomato.jpg",
       "faq": [
-        { "q": "Does storage count?", "a": "Yes, because the source is *either*. Harvest or storage both count." },
+        { "q": "Does storage count?", "a": "Yes, because the source is *either*. Harvest or storage—both count." },
         { "q": "How to speed up?", "a": "Upgrade your greenhouse or use fast-growing seeds." }
       ],
       "links": [
         { "title": "Tomato tips", "url": "https://en.wikipedia.org/wiki/Tomato" }
       ],
-      "ui": {
-        "accentColor": "#E74C3C"
-      }
+      "ui": { "accentColor": "#E74C3C" }
     },
     {
       "id": "q_herbs_pack",
-      "title": "Herb Package",
-      "summary": "Assemble a small bundle of herbs.",
-      "description": "Grow **basil** and harvest on time. Herbs are quick – great for farming coins.",
+      "title": "Herb Pack",
+      "summary": "Assemble a small herb pack.",
+      "description": "Grow **basil** and harvest in time. Herbs are quick—great to farm coins.",
       "steps": [
         "Check for a free slot",
         "Plant basil",
         "Let it grow and harvest",
-        "Complete and claim your reward"
+        "Complete and claim your rewards"
       ],
       "requirements": [
         { "seedId": "basil", "amount": 3, "source": "either" }
       ],
       "rewards": { "coins": 120, "crystals": 1, "xp": 40 },
       "difficulty": "easy",
-      "tags": ["herbs", "fast"],
+      "tags": ["Herbs", "Quick"],
       "icon": "🌿",
-      "banner": "https://images.unsplash.com/photo-1464226184884-fa280b87c399",
+      "banner": "https://rosso007-prog.github.io/WebSite/growzilla/Data/Bundles/bilder/basil.jpg",
       "faq": [
-        { "q": "Do I need empty storage?", "a": "No, harvested units go into storage; the quest only checks the amount." }
+        { "q": "Do I need storage slots?", "a": "No—harvested units go into storage; the quest only checks amounts." }
       ],
       "links": [
         { "title": "Basil basics", "url": "https://en.wikipedia.org/wiki/Basil" }
       ],
-      "ui": {
-        "accentColor": "#27AE60"
-      }
+      "ui": { "accentColor": "#27AE60" }
     }
   ]
 }

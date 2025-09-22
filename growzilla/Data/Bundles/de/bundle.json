@@ -26,7 +26,7 @@
       "difficulty": "easy",
       "tags": ["Einsteiger", "Ernte"],
       "icon": "🍅",
-      "banner": "https://images.unsplash.com/photo-1567306226416-28f0efdc88ce",
+      "banner": "https://rosso007-prog.github.io/WebSite/growzilla/Data/Bundles/bilder/tomato.jpg",
       "faq": [
         { "q": "Zählt Lagerbestand?", "a": "Ja, weil die Quelle *either* ist. Ernte oder Lager – beides zählt." },
         { "q": "Wie beschleunige ich?", "a": "Upgrade dein Gewächshaus oder nutze schnell wachsende Samen." }
@@ -34,9 +34,7 @@
       "links": [
         { "title": "Tipps für Tomaten", "url": "https://de.wikipedia.org/wiki/Tomate" }
       ],
-      "ui": {
-        "accentColor": "#E74C3C"
-      }
+      "ui": { "accentColor": "#E74C3C" }
     },
     {
       "id": "q_herbs_pack",
@@ -56,16 +54,14 @@
       "difficulty": "easy",
       "tags": ["Kräuter", "Schnell"],
       "icon": "🌿",
-      "banner": "https://images.unsplash.com/photo-1464226184884-fa280b87c399",
+      "banner": "https://rosso007-prog.github.io/WebSite/growzilla/Data/Bundles/bilder/basil.jpg",
       "faq": [
         { "q": "Brauche ich Lagerplätze?", "a": "Nein, geerntete Einheiten gehen ins Lager – die Aufgabe prüft nur die Menge." }
       ],
       "links": [
         { "title": "Basilikum Basics", "url": "https://de.wikipedia.org/wiki/Basilikum" }
       ],
-      "ui": {
-        "accentColor": "#27AE60"
-      }
+      "ui": { "accentColor": "#27AE60" }
     }
   ]
 }
