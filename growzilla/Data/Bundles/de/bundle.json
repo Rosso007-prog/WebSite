@@ -26,7 +26,7 @@
       "difficulty": "easy",
       "tags": ["Einsteiger", "Ernte"],
       "icon": "🍅",
-      "banner": "https://rosso007-prog.github.io/WebSite/growzilla/Data/Bundles/bilder/tomato.jpg",
+      "banner": "https://rosso007-prog.github.io/WebSite/growzilla/Data/Bundles/bilder/tomato.png",
       "faq": [
         { "q": "Zählt Lagerbestand?", "a": "Ja, weil die Quelle *either* ist. Ernte oder Lager – beides zählt." },
         { "q": "Wie beschleunige ich?", "a": "Upgrade dein Gewächshaus oder nutze schnell wachsende Samen." }
@@ -54,7 +54,7 @@
       "difficulty": "easy",
       "tags": ["Kräuter", "Schnell"],
       "icon": "🌿",
-      "banner": "https://rosso007-prog.github.io/WebSite/growzilla/Data/Bundles/bilder/basil.jpg",
+      "banner": "https://rosso007-prog.github.io/WebSite/growzilla/Data/Bundles/bilder/basil.png",
       "faq": [
         { "q": "Brauche ich Lagerplätze?", "a": "Nein, geerntete Einheiten gehen ins Lager – die Aufgabe prüft nur die Menge." }
       ],

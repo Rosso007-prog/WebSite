@@ -26,7 +26,7 @@
       "difficulty": "easy",
       "tags": ["Beginner", "Harvest"],
       "icon": "🍅",
-      "banner": "https://rosso007-prog.github.io/WebSite/growzilla/Data/Bundles/bilder/tomato.jpg",
+      "banner": "https://rosso007-prog.github.io/WebSite/growzilla/Data/Bundles/bilder/tomato.png",
       "faq": [
         { "q": "Does storage count?", "a": "Yes, because the source is *either*. Harvest or storage—both count." },
         { "q": "How to speed up?", "a": "Upgrade your greenhouse or use fast-growing seeds." }
@@ -54,7 +54,7 @@
       "difficulty": "easy",
       "tags": ["Herbs", "Quick"],
       "icon": "🌿",
-      "banner": "https://rosso007-prog.github.io/WebSite/growzilla/Data/Bundles/bilder/basil.jpg",
+      "banner": "https://rosso007-prog.github.io/WebSite/growzilla/Data/Bundles/bilder/basil.png",
       "faq": [
         { "q": "Do I need storage slots?", "a": "No—harvested units go into storage; the quest only checks amounts." }
       ],
