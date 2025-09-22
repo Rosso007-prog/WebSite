@@ -1,4 +1,0 @@
-[
-  {"id":"srv-q1001","title":"Frische Tomaten","requiredProducts":{"tomato":5},"coinReward":60},
-  {"id":"srv-q1002","title":"Kräuterpaket","requiredProducts":{"basil":3,"mint":2},"coinReward":120}
-]

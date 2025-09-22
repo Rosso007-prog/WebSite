@@ -1,0 +1,28 @@
+{
+  "bundleId": "2025-09-22A",
+  "maxActiveQuests": 3,
+  "timeLimitHours": 72,                 // optional: globale Zeit für alle Quests dieses Bundles
+  "seeds": [
+    { "id": "tomato", "name": "Tomate",    "coinPrice": 15, "growSeconds": 30, "yieldAmount": 3, "baseValue": 5 },
+    { "id": "basil",  "name": "Basilikum", "coinPrice": 10, "growSeconds": 20, "yieldAmount": 2, "baseValue": 4 }
+  ],
+  "quests": [
+    {
+      "id": "q_tomato_5",
+      "title": "Frische Tomaten",
+      "requirements": [
+        { "seedId": "tomato", "amount": 5, "source": "either" }   // either | harvest | storage
+      ],
+      "rewards": { "coins": 60, "crystals": 0, "xp": 20 },
+      "timeLimitHours": 72                                       // optional: überschreibt global
+    },
+    {
+      "id": "q_herbs_pack",
+      "title": "Kräuterpaket",
+      "requirements": [
+        { "seedId": "basil", "amount": 3, "source": "either" }
+      ],
+      "rewards": { "coins": 120, "crystals": 1, "xp": 40 }
+    }
+  ]
+}
