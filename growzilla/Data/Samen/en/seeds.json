@@ -1,0 +1,18 @@
+[
+  {
+    "id": "tomato",
+    "name": "Tomato",
+    "coinPrice": 15,
+    "growSeconds": 30,
+    "yieldAmount": 3,
+    "baseValue": 5
+  },
+  {
+    "id": "basil",
+    "name": "Basil",
+    "coinPrice": 10,
+    "growSeconds": 20,
+    "yieldAmount": 2,
+    "baseValue": 4
+  }
+]
