@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anything2ERP - Smarte ERP-Integration</title>
+
+    <!-- Einbindung von styles.css -->
+    <link rel="stylesheet" href="../Main/styles.css">
+</head>
+<body>
+
+    <div id="menu"></div>
+
+    <div class="container">
+        <h1>Anything2ERP</h1>
+        <img src="https://rosso007-prog.github.io/WebSite/Anything2ERP/AppIcon150x150.png" alt="Anything2ERP Logo">
+        <p class="app-description">
+            **Anything2ERP** verbindet Sprachsteuerung, Bluetooth-Kommunikation und Datenbank-Integration mit deinem ERP-System.
+        </p>
+        <div class="features-container">
+            <h2 class="features-title">Hauptfunktionen</h2>
+            <ul class="features-list">
+                <li>📡 <strong>Bluetooth (BLE)</strong> – Steuerung und Kommunikation mit Geräten wie ESP32</li>
+                <li>🗣 <strong>Sprachsteuerung</strong> – Befehle per Spracheingabe senden (STT & TTS)</li>
+                <li>📊 <strong>Datenbank</strong> – Speicherung und Verwaltung von ERP-Daten</li>
+                <li> ⚙ <strong>Individuelle Einstellungen</strong> – Anpassbare Verbindungen & Gerätekonfiguration</li>
+                <li>🌍 <strong>Mehrsprachigkeit</strong> – Unterstützung verschiedener Sprachen</li>
+            </ul>
+        </div>
+
+        <a href="https://apps.apple.com/de/app/anything2erp/id6740336978" class="download-button">Jetzt herunterladen</a>
+        <p><a href="../Main/Datenschutz1.html">Datenschutzerklärung</a></p>
+    </div>
+
+    <footer>
+        &copy; 2025 Sorglos. Alle Rechte vorbehalten.
+    </footer>
+
+    <script>
+        fetch('../Main/menu.html')
+            .then(response => response.text())
+            .then(data => document.getElementById('menu').innerHTML = data);
+    </script>
+
+</body>
+</html>
