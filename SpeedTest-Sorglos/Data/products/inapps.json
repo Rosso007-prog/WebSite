@@ -1,6 +1,14 @@
 [
     {
-        "id": "com.sorglos.speedtest.adfree",
+        "id": "com.sorglos.speedtest.lifetime",
         "icon": "https://rosso007-prog.github.io/WebSite/SpeedTest-Sorglos/Data/products/icons/adfree.png"
     }
+    "id": "com.sorglos.speedtest.yearly",
+    "icon": "https://rosso007-prog.github.io/WebSite/SpeedTest-Sorglos/Data/products/icons/adfree.png"
+}
+"id": "com.sorglos.speedtest.monthly",
+"icon": "https://rosso007-prog.github.io/WebSite/SpeedTest-Sorglos/Data/products/icons/adfree.png"
+}
+    
 ]
+
