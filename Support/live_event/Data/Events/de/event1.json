@@ -1,0 +1,12 @@
+{
+  "lang": "de",
+  "id": "harvest-week",
+  "title": "Erntewoche",
+  "subtitle": "Doppelte XP beim Pflegen",
+  "start": "2025-09-25T00:00:00Z",
+  "end": "2025-09-30T23:59:59Z",
+  "cta_text": "Mehr erfahren",
+  "cta_url": "https://rosso007-prog.github.io/WebSite/growzilla/index.html",
+  "badge": "Bonus",
+  "image": "https://rosso007-prog.github.io/WebSite/growzilla/AppIcon150x150.png"
+}

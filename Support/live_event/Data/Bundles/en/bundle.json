@@ -1,0 +1,67 @@
+{
+  "bundleId": "2025-09-22A",
+  "maxActiveQuests": 3,
+  "timeLimitHours": 72,
+  "seeds": [
+    { "id": "tomato", "name": "Tomato", "coinPrice": 15, "growSeconds": 30, "yieldAmount": 3, "baseValue": 5, "emoji": "🍅" },
+    { "id": "basil",  "name": "Basil",  "coinPrice": 10, "growSeconds": 20, "yieldAmount": 2, "baseValue": 4, "emoji": "🌿" }
+  ],
+  "quests": [
+    {
+      "id": "q_tomato_5",
+      "title": "Fresh Tomatoes",
+      "summary": "Harvest five juicy tomatoes. A perfect warm-up!",
+      "description": "Plant tomatoes in free slots and water **regularly**. With higher greenhouse level your crops grow faster.",
+      "steps": [
+        "Ensure at least one free slot",
+        "Plant tomato seeds",
+        "Wait until growth reaches 100%",
+        "Harvest (counts automatically towards the quest)"
+      ],
+      "requirements": [
+        { "seedId": "tomato", "amount": 5, "source": "either" }
+      ],
+      "rewards": { "coins": 60, "crystals": 0, "xp": 20 },
+      "timeLimitHours": 72,
+      "difficulty": "easy",
+      "tags": ["Beginner", "Harvest"],
+      "icon": "🍅",
+      "banner": "https://rosso007-prog.github.io/WebSite/growzilla/Data/Bundles/bilder/tomato.png",
+      "faq": [
+        { "q": "Does storage count?", "a": "Yes, because the source is *either*. Harvest or storage—both count." },
+        { "q": "How to speed up?", "a": "Upgrade your greenhouse or use fast-growing seeds." }
+      ],
+      "links": [
+        { "title": "Tomato tips", "url": "https://en.wikipedia.org/wiki/Tomato" }
+      ],
+      "ui": { "accentColor": "#E74C3C" }
+    },
+    {
+      "id": "q_herbs_pack",
+      "title": "Herb Pack",
+      "summary": "Assemble a small herb pack.",
+      "description": "Grow **basil** and harvest in time. Herbs are quick—great to farm coins.",
+      "steps": [
+        "Check for a free slot",
+        "Plant basil",
+        "Let it grow and harvest",
+        "Complete and claim your rewards"
+      ],
+      "requirements": [
+        { "seedId": "basil", "amount": 3, "source": "either" }
+      ],
+      "rewards": { "coins": 120, "crystals": 1, "xp": 40 },
+      "difficulty": "easy",
+      "tags": ["Herbs", "Quick"],
+      "icon": "🌿",
+      "banner": "https://rosso007-prog.github.io/WebSite/growzilla/Data/Bundles/bilder/basil.png",
+      "faq": [
+        { "q": "Do I need storage slots?", "a": "No—harvested units go into storage; the quest only checks amounts." }
+      ],
+      "links": [
+        { "title": "Basil basics", "url": "https://en.wikipedia.org/wiki/Basil" }
+      ],
+      "ui": { "accentColor": "#27AE60" }
+    }
+  ]
+}

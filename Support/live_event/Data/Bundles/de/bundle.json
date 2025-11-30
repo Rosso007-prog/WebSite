@@ -1,0 +1,67 @@
+{
+  "bundleId": "2025-09-22A",
+  "maxActiveQuests": 3,
+  "timeLimitHours": 72,
+  "seeds": [
+    { "id": "tomato", "name": "Tomate", "coinPrice": 15, "growSeconds": 30, "yieldAmount": 3, "baseValue": 5, "emoji": "🍅" },
+    { "id": "basil",  "name": "Basilikum", "coinPrice": 10, "growSeconds": 20, "yieldAmount": 2, "baseValue": 4, "emoji": "🌿" }
+  ],
+  "quests": [
+    {
+      "id": "q_tomato_5",
+      "title": "Frische Tomaten",
+      "summary": "Ernte fünf saftige Tomaten. Perfekt zum Warmwerden!",
+      "description": "Pflanze Tomaten in freie Slots und gieße **regelmäßig**. Mit einem besseren Gewächshaus-Level wächst deine Ernte schneller.",
+      "steps": [
+        "Mindestens einen freien Slot sicherstellen",
+        "Tomaten-Samen pflanzen",
+        "Warten bis 100% Wachstum",
+        "Ernten (zählt automatisch zur Aufgabe)"
+      ],
+      "requirements": [
+        { "seedId": "tomato", "amount": 5, "source": "either" }
+      ],
+      "rewards": { "coins": 60, "crystals": 0, "xp": 20 },
+      "timeLimitHours": 72,
+      "difficulty": "easy",
+      "tags": ["Einsteiger", "Ernte"],
+      "icon": "🍅",
+      "banner": "https://rosso007-prog.github.io/WebSite/growzilla/Data/Bundles/bilder/tomato.png",
+      "faq": [
+        { "q": "Zählt Lagerbestand?", "a": "Ja, weil die Quelle *either* ist. Ernte oder Lager – beides zählt." },
+        { "q": "Wie beschleunige ich?", "a": "Upgrade dein Gewächshaus oder nutze schnell wachsende Samen." }
+      ],
+      "links": [
+        { "title": "Tipps für Tomaten", "url": "https://de.wikipedia.org/wiki/Tomate" }
+      ],
+      "ui": { "accentColor": "#E74C3C" }
+    },
+    {
+      "id": "q_herbs_pack",
+      "title": "Kräuterpaket",
+      "summary": "Stelle ein kleines Kräuterpaket zusammen.",
+      "description": "Baue **Basilikum** an und ernte es rechtzeitig. Kräuter sind schnell – ideal, um Münzen zu farmen.",
+      "steps": [
+        "Freien Slot prüfen",
+        "Basilikum pflanzen",
+        "Wachsen lassen und ernten",
+        "Abschließen und Belohnung einsacken"
+      ],
+      "requirements": [
+        { "seedId": "basil", "amount": 3, "source": "either" }
+      ],
+      "rewards": { "coins": 120, "crystals": 1, "xp": 40 },
+      "difficulty": "easy",
+      "tags": ["Kräuter", "Schnell"],
+      "icon": "🌿",
+      "banner": "https://rosso007-prog.github.io/WebSite/growzilla/Data/Bundles/bilder/basil.png",
+      "faq": [
+        { "q": "Brauche ich Lagerplätze?", "a": "Nein, geerntete Einheiten gehen ins Lager – die Aufgabe prüft nur die Menge." }
+      ],
+      "links": [
+        { "title": "Basilikum Basics", "url": "https://de.wikipedia.org/wiki/Basilikum" }
+      ],
+      "ui": { "accentColor": "#27AE60" }
+    }
+  ]
+}

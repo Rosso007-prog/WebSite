@@ -1,0 +1,12 @@
+{
+  "lang": "de",
+  "id": "harvest-week",
+  "title": "Live Event",
+  "subtitle": "Lass dir das Live Event nicht entgehen XP",
+  "start": "2025-09-25T00:00:00Z",
+  "end": "2025-09-30T23:59:59Z",
+  "cta_text": "Mehr erfahren",
+  "cta_url": "https://rosso007-prog.github.io/WebSite/index.html",
+  "badge": "Bonus",
+  "image": "https://rosso007-prog.github.io/WebSite/AppIcon150x150.png"
+}
